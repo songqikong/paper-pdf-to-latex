@@ -31,16 +31,38 @@ Use "Formula-enhanced workflow" with visual formula extraction
 ### Document with Existing BibTeX
 Use "Reference mapping workflow" to preserve citation keys
 
+## Output Organization Convention
+
+**CRITICAL**: Every decompiled paper must be saved in its own named subfolder to avoid overwriting previous results.
+
+Given a PDF file `<name>.pdf` (e.g., `scpnet.pdf`), use `<name>` (without extension) as the folder name:
+
+```
+extracted_<name>/          # raw extraction output (JSON + figure images)
+output/<name>/             # final LaTeX output
+  ├── main.tex             # intermediate LaTeX with [N] citations
+  ├── main_final.tex       # final LaTeX with \cite{key} citations
+  ├── references.bib       # BibTeX bibliography
+  └── figures/             # figure images copied from extraction
+```
+
+**Example** — for `scpnet.pdf`:
+- Extraction goes to: `extracted_scpnet/`
+- LaTeX output goes to: `output/scpnet/`
+
+Never use generic names like `extracted/` or `output/` directly, as they will be overwritten by subsequent conversions.
+
 ## Basic extraction workflow
 
 For simple documents with straightforward layout:
 
 ### Workflow
-1. **MANDATORY - READ ENTIRE FILE**: Read [`docs/01-extraction.md`](docs/01-extraction.md) (~500 lines) completely from start to finish. **NEVER set any range limits when reading this file.** This document contains critical extraction parameters and troubleshooting guidance.
-2. Run extraction script: `python scripts/extract_pdf.py <input.pdf> -o output/`
-3. Review extracted content in `output/extracted_content.json`
-4. Use LLM to convert structured content to LaTeX (see conversion templates below)
-5. Assemble final document using templates in `assets/latex_template/`
+1. **MANDATORY - READ ENTIRE FILE**: Read [`docs/01-extraction.md`](docs/01-extraction.md) (~390 lines) completely from start to finish. **NEVER set any range limits when reading this file.** This document contains critical extraction parameters and troubleshooting guidance.
+2. Determine `<name>` from the PDF filename (strip the `.pdf` extension).
+3. Run extraction script: `python scripts/extract_pdf.py <input.pdf> -o extracted_<name>/`
+4. Review extracted content in `extracted_<name>/extracted_content.json`
+5. Use LLM to convert structured content to LaTeX (see conversion templates below)
+6. Save output to `output/<name>/` using templates in `assets/latex_template/`
 
 ## Full conversion workflow
 
@@ -48,13 +70,15 @@ For academic papers with complex layouts, formulas, and references:
 
 ### Workflow
 1. **MANDATORY - READ ENTIRE FILE**: Read [`docs/01-extraction.md`](docs/01-extraction.md) completely for extraction parameters.
-2. **MANDATORY - READ ENTIRE FILE**: Read [`docs/02-conversion.md`](docs/02-conversion.md) (~400 lines) for LLM conversion strategies and prompt templates.
-3. Extract PDF content: `python scripts/extract_pdf.py paper.pdf -o extracted/`
-4. Convert formulas if needed: `python scripts/convert_formula.py extracted/formulas.json`
-5. Generate BibTeX from references: `python scripts/convert_references.py extracted/extracted_content.json -o references.bib`
-6. Use LLM to convert main content following chunking strategy in docs/02-conversion.md
-7. Assemble and post-process following [`docs/03-post-processing.md`](docs/03-post-processing.md)
-8. Convert citation numbers to \cite{} commands: `python scripts/convert_references.py extracted/extracted_content.json -t main.tex --output-tex final.tex -b references.bib`
+2. **MANDATORY - READ ENTIRE FILE**: Read [`docs/02-conversion.md`](docs/02-conversion.md) (~410 lines) for LLM conversion strategies and prompt templates.
+3. Determine `<name>` from the PDF filename (strip the `.pdf` extension). Create output dirs: `mkdir -p extracted_<name> output/<name>`
+4. Extract PDF content: `python scripts/extract_pdf.py paper.pdf -o extracted_<name>/`
+5. Convert formulas if needed: `python scripts/convert_formula.py extracted_<name>/formulas.json`
+6. Generate BibTeX from references: `python scripts/convert_references.py extracted_<name>/extracted_content.json -o extracted_<name>/references.bib`
+7. Use LLM to convert main content following chunking strategy in `docs/02-conversion.md`; write output to `output/<name>/main.tex`
+8. Assemble and post-process following [`docs/03-post-processing.md`](docs/03-post-processing.md)
+9. Convert citation numbers to \cite{} commands: `python scripts/convert_references.py extracted_<name>/extracted_content.json -t output/<name>/main.tex --output-tex output/<name>/main_final.tex -b extracted_<name>/references.bib`
+10. Copy figures and bib into output folder: `cp extracted_<name>/references.bib output/<name>/ && cp -r extracted_<name>/figures output/<name>/`
 
 ## Formula-enhanced workflow
 
@@ -62,10 +86,11 @@ For documents with complex mathematical formulas requiring visual extraction:
 
 ### Workflow
 1. Complete steps 1-2 from Full conversion workflow
-2. Extract with formula images: `python scripts/extract_pdf.py paper.pdf -o extracted/ --extract-formula-images`
-3. **Use LLM vision capability**: Feed formula images to GPT-4V/Claude 3 for recognition
-4. Cross-reference with formula text extraction for accuracy
-5. Continue with steps 5-8 from Full conversion workflow
+2. Determine `<name>` and create dirs (step 3 above)
+3. Extract with formula images: `python scripts/extract_pdf.py paper.pdf -o extracted_<name>/ --extract-formula-images`
+4. **Use LLM vision capability**: Feed formula images to GPT-4V/Claude 3 for recognition
+5. Cross-reference with formula text extraction for accuracy
+6. Continue with steps 6-10 from Full conversion workflow
 
 ## Reference mapping workflow
 
@@ -73,9 +98,10 @@ When you have an existing BibTeX file and want to preserve citation keys:
 
 ### Workflow
 1. Complete steps 1-2 from Full conversion workflow
-2. Extract PDF content: `python scripts/extract_pdf.py paper.pdf -o extracted/`
-3. Use existing BibTeX: `python scripts/convert_references.py extracted/extracted_content.json -b existing.bib -t main.tex --output-tex final.tex`
-4. This maps [1], [2] citations to their corresponding BibTeX keys automatically
+2. Determine `<name>` and create dirs (step 3 above)
+3. Extract PDF content: `python scripts/extract_pdf.py paper.pdf -o extracted_<name>/`
+4. Use existing BibTeX: `python scripts/convert_references.py extracted_<name>/extracted_content.json -b existing.bib -t output/<name>/main.tex --output-tex output/<name>/main_final.tex`
+5. This maps [1], [2] citations to their corresponding BibTeX keys automatically
 
 ## Quick conversion templates
 
@@ -134,8 +160,9 @@ output/
 │   ├── fig_1_1.png          # Page 1, image 1
 │   ├── fig_2_1.png
 │   └── ...
-├── formulas.json            # Extracted formulas (if --extract-formula-images)
-│   ├── formula_1.png
+├── formulas.json            # Formula metadata (text, bounding boxes, types)
+├── formulas/                # Formula region images (only with --extract-formula-images)
+│   ├── formula_5_3.png
 │   └── ...
 └── tables.json              # Table data in structured format
 ```
@@ -176,6 +203,9 @@ Maintain semantic structure over visual fidelity:
 - Preserve list structures (itemize, enumerate)
 - Maintain table of contents structure
 
+### Principle: Output Organization
+Each decompiled paper must go into its own named subfolder (see "Output Organization Convention" above). Never write to generic paths like `extracted/` or `output/` — always use `extracted_<name>/` and `output/<name>/` derived from the PDF filename.
+
 ### Principle: Citation Handling
 Citation conversion is two-stage:
 1. Keep [1], [2] markers in initial conversion
@@ -204,6 +234,11 @@ pip install -r requirements.txt
 # - numpy - Array operations for table detection
 ```
 
+## Reference Material
+
+Additional LaTeX syntax reference for common academic paper elements:
+- [`references/latex_guide.md`](references/latex_guide.md)
+
 ## Troubleshooting
 
 ### Issue: Garbled text extraction
@@ -224,7 +259,17 @@ pip install -r requirements.txt
 
 ## Version History
 
-### v1.0.0 (Current)
+### v1.2.0 (Current)
+- Added "Output Organization Convention": each paper gets its own `extracted_<name>/` + `output/<name>/` folder
+- Added "Principle: Output Organization" to Critical Principles
+- Updated all workflow commands to use `<name>`-based paths
+
+### v1.1.0
+- Fixed formulas output structure (formulas.json is metadata file; formula images go in formulas/ directory)
+- Added references/latex_guide.md to documentation
+- Corrected doc line count estimates
+
+### v1.0.0
 - Restructured documentation following docx skill patterns
 - Added comprehensive workflow decision tree
 - Separated detailed guides into docs/ directory

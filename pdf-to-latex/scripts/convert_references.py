@@ -349,7 +349,7 @@ class ReferenceConverter:
             re.MULTILINE
         )
         
-        matches = entry_pattern.findall(entry_pattern, content)
+        matches = entry_pattern.findall(content)
         bib_keys = [key for _, key in matches]
         
         # 假设BibTeX中的顺序对应PDF中的引用顺序

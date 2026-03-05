@@ -8,6 +8,9 @@ pdfplumber>=0.10.0
 # 图像处理
 pillow>=10.0.0
 
+# 数组操作（表格检测）
+numpy>=1.24.0
+
 # 建议安装 (可选)
 # mathpix: 公式识别 (需要API密钥)
 # llama-cpp-python: 本地大模型推理
