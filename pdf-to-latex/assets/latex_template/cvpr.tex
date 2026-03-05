@@ -1,0 +1,116 @@
+%!TEX program = pdflatex
+% CVPR/ICCV Conference Paper Template
+% 适用于CVPR、ICCV、ECCV等计算机视觉会议
+
+% 正确加载 IEEEtran 模板（CVPR官方使用）
+\documentclass[10pt,twocolumn,letterpaper]{IEEEtran}
+
+% 编码设置
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% 特殊字符支持
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+
+% 图表支持
+\usepackage{graphicx}
+\usepackage[width=\linewidth]{figures/fig1.png}
+\usepackage{subfig}
+\usepackage{float}
+\usepackage{booktabs}
+
+% 表格
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{url}
+
+% 算法/代码
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage[plain]{algorithm2e}
+
+% 参考文献
+\usepackage{cite}
+
+% 超链接
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+
+% PDF元数据
+\hypersetup{
+    pdftitle={Paper Title},
+    pdfauthor={Author Name},
+    pdfkeywords={computer vision, deep learning, neural network},
+}
+
+% 自定义命令
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\sign}{sign}
+\providecommand{\IEEEauthorrefmark}[1]{$^{\ #1}$}
+
+% 定理环境
+\newtheorem{mydef}{Definition}
+\newtheorem{mylemma}{Lemma}
+\newtheorem{mythm}{Theorem}
+
+% 页面设置
+\input{settings.tex}
+
+% Title
+\title{Your Paper Title Here}
+
+% Author
+\author{
+    \IEEEauthorblockN{Author Name$^{\dagger\ddagger}$}
+    \IEEEauthorblockA{\textit{Institution Name}\\
+        \textit{City, Country}\\
+        email@example.com}
+    \IEEEauthorblockN{Co-Author Name$^{\dagger}$}
+    \IEEEauthorblockA{\textit{Another Institution}\\
+        \textit{City, Country}\\
+        coauthor@example.com}
+    \thanks{$^{\dagger}$First affiliation. $^{‡}$Second affiliation. This work was supported by ...}
+}
+
+% 会议信息（CVPR不需要手动添加，会自动生成）
+\conferenceinfo{CVPR}{2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Your abstract goes here. It should summarize the main contributions of your paper in a concise manner. CVPR abstracts are typically limited to 200 words. Include the problem statement, your approach, and the main results.
+\end{abstract}
+
+\begin{IEEEkeywords}
+computer vision, deep learning, neural networks, object detection, image segmentation
+\end{IEEEkeywords}
+
+\input{intro.tex}
+
+\input{related.tex}
+
+\input{method.tex}
+
+\input{experiments.tex}
+
+\input{conclusion.tex}
+
+\section*{Acknowledgment}
+This work was supported by ...
+
+% References
+\bibliographystyle{ieeeettr}
+\bibliography{references}
+
+% 附录（可选）
+\appendix
+\section{Supplementary Material}
+\label{sec:supp}
+Additional theoretical proofs, more experimental results, or implementation details can be included here.
+
+\end{document}

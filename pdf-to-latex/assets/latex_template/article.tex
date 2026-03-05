@@ -1,0 +1,171 @@
+%!TEX program = pdflatex
+% 通用学术论文LaTeX模板
+% 适用于大多数会议和期刊
+
+\documentclass[12pt,a4paper]{article}
+
+% 编码设置
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% 页面设置
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\setstretch{1.5}
+
+% 数学支持
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+% 图表支持
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{booktabs}
+
+% 表格增强
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{colortbl}
+
+% 代码环境
+\usepackage{listings}
+\usepackage{verbatim}
+
+% 参考文献
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+
+% 超链接
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+
+% 定理环境
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}
+\newtheorem lemma{Lemma}
+\newtheorem definition{Definition}
+\newtheorem proposition{Proposition}
+\newtheorem corollary{Corollary}
+\newtheorem proof{Proof}
+
+% 页眉页脚
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{\leftmark}
+
+% 自定义命令
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\E}{\mathbb{E}}
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\argmin}{argmin}
+
+% Title
+\title{Your Paper Title Here}
+\author{Author Name$^1$, Co-Author Name$^2$ \\
+$^1$Department of Computer Science, University Name \\
+$^2$Another Institution \\
+\{author1, author2\}@example.com}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Your abstract goes here. It should summarize the main contributions of your paper in a concise manner. Keep it between 150-300 words for a typical conference paper.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:introduction}
+
+Introduce the problem and motivation here. Explain why this work is important and what gap it fills in the literature.
+
+\subsection{Contributions}
+
+Summarize your main contributions:
+
+\begin{itemize}
+    \item First contribution
+    \item Second contribution
+    \item Third contribution
+\end{itemize}
+
+\section{Related Work}
+\label{sec:related}
+
+Discuss related work here. Compare and contrast your approach with existing methods.
+
+\section{Methodology}
+\label{sec:method}
+
+Explain your methodology in detail.
+
+\subsection{Background}
+
+Provide necessary background information.
+
+\subsection{Proposed Approach}
+
+Describe your proposed approach in detail.
+
+\subsection{Theoretical Analysis}
+
+Provide theoretical analysis if applicable.
+
+\section{Experiments}
+\label{sec:experiments}
+
+Describe your experimental setup and results.
+
+\subsection{Datasets}
+
+Describe the datasets used in your experiments.
+
+\subsection{Baselines}
+
+List the baseline methods you compare against.
+
+\subsection{Results}
+
+Present your experimental results.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Example table}
+    \label{tab:example}
+    \begin{tabular}{lcc}
+        \toprule
+        Method & Accuracy & F1-Score \\
+        \midrule
+        Baseline 1 & 85.2 & 0.85 \\
+        Baseline 2 & 87.1 & 0.87 \\
+        Ours & \textbf{89.5} & \textbf{0.89} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/fig1.png}
+    \caption{Example figure}
+    \label{fig:example}
+\end{figure}
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+Summarize your work and discuss future directions.
+
+\section{Acknowledgments}
+\label{sec:acks}
+
+Thank collaborators and funding agencies.
+
+% References
+\bibliography{references}
+
+\end{document}

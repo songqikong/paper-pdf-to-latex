@@ -1,0 +1,13 @@
+# PDF转LaTeX技能依赖
+# 安装命令: pip install -r requirements.txt
+
+# PDF处理
+pymupdf>=1.23.0
+pdfplumber>=0.10.0
+
+# 图像处理
+pillow>=10.0.0
+
+# 建议安装 (可选)
+# mathpix: 公式识别 (需要API密钥)
+# llama-cpp-python: 本地大模型推理

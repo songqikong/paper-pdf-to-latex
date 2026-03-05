@@ -1,0 +1,158 @@
+%!TEX program = pdflatex
+% IEEE Conference Paper Template
+% 适用于IEEE会议论文
+
+\documentclass[conference]{IEEEtran}
+
+% 编码设置
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% 数学支持
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{etoolbox}
+
+% 图表支持
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{float}
+\usepackage{booktabs}
+
+% 表格
+\usepackage{tabularx}
+\usepackage{colortbl}
+
+% 代码环境
+\usepackage{listings}
+
+% 参考文献
+\usepackage{cite}
+
+% 超链接
+\usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}
+
+% PDF元数据
+\hypersetup{
+    pdftitle={Paper Title},
+    pdfauthor={Author Name},
+    pdfkeywords={keyword1, keyword2, keyword3},
+}
+
+% 自定义命令
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\argmin}{argmin}
+\providecommand{\IEEEauthorrefmark}[1]{$^{\ #1}$}
+
+% Title
+\title{Your Paper Title Here}
+
+\author{
+    \IEEEauthorblockN{Author Name}
+    \IEEEauthorblockA{
+        Department of Computer Science\\
+        University Name\\
+        City, Country\\
+        email@example.com
+    }
+    \and
+    \IEEEauthorblockN{Co-Author Name}
+    \IEEEauthorblockA{
+        Another Institution\\
+        City, Country\\
+        coauthor@example.com
+    }
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Your abstract goes here. It should summarize the main contributions of your paper in a concise manner. IEEE abstracts are typically limited to 150 words.
+\end{abstract}
+
+\begin{IEEEkeywords}
+keyword1, keyword2, keyword3, keyword4
+\end{IEEEkeywords}
+
+\section{Introduction}
+\label{sec:introduction}
+
+Introduce the problem and motivation here. Explain why this work is important and what gap it fills in the literature.
+
+\section{Related Work}
+\label{sec:related}
+
+Discuss related work here. Compare and contrast your approach with existing methods.
+
+\section{Methodology}
+\label{sec:method}
+
+Explain your methodology in detail.
+
+\subsection{Background}
+
+Provide necessary background information.
+
+\subsection{Proposed Approach}
+
+Describe your proposed approach in detail.
+
+\section{Experiments}
+\label{sec:experiments}
+
+Describe your experimental setup and results.
+
+\subsection{Datasets}
+
+Describe the datasets used in your experiments.
+
+\subsection{Results}
+
+Present your experimental results.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Example table}
+    \label{tab:example}
+    \begin{tabular}{lcc}
+        \toprule
+        Method & Accuracy & F1-Score \\
+        \midrule
+        Baseline 1 & 85.2 & 0.85 \\
+        Baseline 2 & 87.1 & 0.87 \\
+        Ours & \textbf{89.5} & \textbf{0.89} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\linewidth]{figures/fig1.png}
+    \caption{Example figure}
+    \label{fig:example}
+\end{figure}
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+Summarize your work and discuss future directions.
+
+\section*{Acknowledgment}
+
+Thank collaborators and funding agencies.
+
+% References
+\begin{thebibliography}{1}
+
+    \bibitem{ref1}
+    Author, ``Title of the paper,'' in \emph{Proceedings of the Conference Name}, Year, pp. XX--XX.
+
+    \bibitem{ref2}
+    Author and Co-Author, ``Title of another paper,'' \emph{Journal Name}, vol. X, no. X, pp. XX--XX, Year.
+
+\end{thebibliography}
+
+\end{document}
