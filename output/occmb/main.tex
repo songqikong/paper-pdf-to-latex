@@ -1,0 +1,407 @@
+%!TEX program = pdflatex
+% OccMamba: Semantic Occupancy Prediction with State Space Models
+% Decompiled from PDF using pdf-to-latex skill
+
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{cite}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\usepackage{xcolor}
+\usepackage{geometry}
+\geometry{letterpaper, margin=0.75in}
+
+\newcommand{\methodname}{\textsc{OccMamba}}
+
+\hypersetup{
+    pdftitle={OccMamba: Semantic Occupancy Prediction with State Space Models},
+    pdfauthor={Heng Li et al.},
+}
+
+% ─────────────────────────────────────────────────────────────────────────────
+%  BATCH 1: Title, Authors, Abstract
+% ─────────────────────────────────────────────────────────────────────────────
+
+\title{OccMamba: Semantic Occupancy Prediction with State Space Models}
+
+\author{
+  Heng Li$^{1}$,\quad
+  Yuenan Hou$^{2*}$,\quad
+  Xiaohan Xing$^{3}$,\quad
+  Yuexin Ma$^{4}$,\quad
+  Xiao Sun$^{2}$,\quad
+  Yanyong Zhang$^{1,5*}$\\[4pt]
+  $^{1}$ University of Science and Technology of China\\
+  $^{2}$ Shanghai AI Laboratory\quad
+  $^{3}$ Stanford University\quad
+  $^{4}$ ShanghaiTech University\\
+  $^{5}$ Institute of Artificial Intelligence, Hefei Comprehensive National Science Center\\[2pt]
+  \texttt{li\_heng@mail.ustc.edu.cn,\ houyuenan@pjlab.org.cn,\ xhxing@stanford.edu}\\
+  \texttt{mayuexin@shanghaitech.edu.cn,\ sunxiao@pjlab.org.cn,\ yanyongz@ustc.edu.cn}\\[2pt]
+  \small{$*$The corresponding authors.}
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Training deep learning models for semantic occupancy prediction is challenging due to factors such as a large number of occupancy cells, severe occlusion, limited visual cues, complicated driving scenarios, etc. Recent methods often adopt transformer-based architectures given their strong capability in learning input-conditioned weights and long-range relationships. However, transformer-based networks are notorious for their quadratic computation complexity, seriously undermining their efficacy and deployment in semantic occupancy prediction. Inspired by the global modeling and linear computation complexity of the Mamba architecture, we present the first Mamba-based network for semantic occupancy prediction, termed \methodname{}. Specifically, we first design the hierarchical Mamba module and local context processor to better aggregate global and local contextual information, respectively. Besides, to relieve the inherent domain gap between the linguistic and 3D domains, we present a simple yet effective 3D-to-1D reordering scheme, i.e., height-prioritized 2D Hilbert expansion. It can maximally retain the spatial structure of 3D voxels as well as facilitate the processing of Mamba blocks. Endowed with the aforementioned designs, our \methodname{} is capable of directly and efficiently processing large volumes of dense scene grids, achieving state-of-the-art performance across three prevalent occupancy prediction benchmarks, including OpenOccupancy, SemanticKITTI, and SemanticPOSS. Notably, on OpenOccupancy, our \methodname{} outperforms the previous state-of-the-art Co-Occ by 5.1\% IoU and 4.3\% mIoU, respectively. Our implementation is open-sourced and available at: \url{https://github.com/USTCLH/OccMamba}.
+\end{abstract}
+
+% ─────────────────────────────────────────────────────────────────────────────
+%  BATCH 2: Introduction
+% ─────────────────────────────────────────────────────────────────────────────
+
+\section{Introduction}
+
+Semantic occupancy prediction is becoming an indispensable component in autonomous driving, augmented reality, robotics, etc., which estimates the occupancy and categorical labels of the surrounding environment [36]. It faces many challenges, such as the enormous number of occupancy grids, severe occlusion, limited visual clues as well as complex driving scenarios [53].
+
+Recent attempts, such as MonoScene [4] and JS3C-Net [49], have made progress in addressing these challenges, but limitations remain due to their reliance on uni-modal inputs. Multi-modal approaches, such as FusionOcc [51] and M-CONet [45], offer improvements, yet they struggle to capture global information due to the inherent deficiency of CNN architectures. Despite the success of transformer-based models [20,40,52], they suffer from high computational complexity, particularly when processing a large number of voxel grids.
+
+Mamba [9], which is an important variant of state space models, emerges as a promising next-generation structure for replacing the transformer architecture. In semantic occupancy prediction, we anticipate leveraging its global modeling capabilities to better handle the complex scenarios and overcome limited visual cues, while its linear computation complexity helps manage the enormous number of occupancy grids efficiently. However, it is primarily designed for language modeling, with 1D input data, whereas the input data for semantic occupancy prediction is 3D voxels. The use of dense voxels in large scenes makes the deployment of Mamba even more challenging. When converting 3D data into a 1D format, the inherent spatial relationships between adjacent voxels in the 3D space are missing, causing neighboring voxels to become far apart in the 1D sequence. This spatial separation undermines Mamba's ability to effectively understand local and global scene contexts, hampering the prediction performance. To address this issue, developing an effective reordering strategy is crucial to preserving spatial proximity in the transformation from 3D to 1D. Several attempts have been made to achieve this, for instance, Point Mamba [21] rearranges the point clouds according to the 3D Hilbert curve [12] and concatenates the features of the reordered points. While these advancements have shown potential in the point cloud classification and segmentation field, the exploration of Mamba-based architectures is still in its infancy in outdoor semantic occupancy prediction tasks.
+
+In this work, we present the first Mamba-based network for semantic occupancy prediction, which we refer to as \methodname{}. Owing to the global modeling and linear computation complexity of Mamba, our \methodname{} can efficiently process a large number of voxel grids given limited computation resources, as shown in Fig.~\ref{fig:teaser}(a)-(b). To effectively utilize the global and local information hidden in the input voxel grids, we design the hierarchical Mamba module and local context processor. To facilitate the processing of Mamba blocks as well as preserve the spatial structure of the 3D input data, we present a simple yet effective 3D-to-1D reordering policy, i.e., height-prioritized 2D Hilbert expansion. The designed policy sufficiently utilizes the categorical clues in the height information as well as the spatial prior in the XY plane. In this way, \methodname{} effectively exploits LiDAR and camera cues, enabling effective fusion and processing of voxel features extracted from these sources without compression. This uncompressed voxel feature processing method, combined with Mamba's global modeling capabilities, enhances \methodname{} with the occlusion reasoning capability, particularly in complex driving scenarios. We perform extensive experiments on three semantic occupancy prediction benchmarks, i.e., OpenOccupancy [45], SemanticKITTI [1] and SemanticPOSS [33]. Our \methodname{} consistently outperforms state-of-the-art algorithms in all benchmarks. It is noteworthy that on OpenOccupancy, partly shown in Fig.~\ref{fig:teaser}(c), our \methodname{} surpasses the previous state-of-the-art Co-Occ [31] by 5.1\% IoU and 4.3\% mIoU, respectively.
+
+The contributions are summarized as follows:
+\begin{itemize}
+  \item To our knowledge, we design the first Mamba-based network for outdoor semantic occupancy prediction. It possesses global modeling capability with linear computation complexity, which is crucial to the processing of a large number of voxel grids. We design the hierarchical Mamba module and local context processor to better aggregate global and local contextual information, respectively.
+  \item To facilitate the processing of Mamba blocks as well as maximally retain the original spatial structure of 3d voxels, we design a simple yet effective reordering policy that projects the point clouds into 1D sequences.
+  \item Our \methodname{} achieves the best performance on three popular semantic occupancy prediction benchmarks.
+\end{itemize}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{figures/fig_2_1.jpeg}
+  \caption{(a) Challenges in semantic occupancy prediction, (b) comparison in GPU memory consumption, and (c) performance comparison on OpenOccupancy validation set. Our \methodname{} demonstrates high efficiency in handling a large number of voxel grids, outperforming all other semantic occupancy predictors, such as Co-Occ [31] and M-CONet [45].}
+  \label{fig:teaser}
+\end{figure}
+
+% ─────────────────────────────────────────────────────────────────────────────
+%  BATCH 3: Related Work
+% ─────────────────────────────────────────────────────────────────────────────
+
+\section{Related Work}
+
+\textbf{Semantic occupancy prediction.}
+The objective of semantic occupancy prediction is to estimate the occupancy and semantic labels of 3D spaces using various types of input signals [13,36]. Given that LiDAR and RGB-D camera can provide accurate spatial measurement, many studies relied on such detailed geometric data like LiDAR points [34,35,48,49] and RGB-D images [5,8,15,16]. Meanwhile, image-based methods, increasingly popular due to camera accessibility, such as MonoScene [4] and TPVFormer [14], estimate occupancy of the environment using RGB images. However, inaccurate depth estimation in RGB images results in lower performance than LiDAR-based models. In response, multi-modal fusion combining both modalities has attracted significant attention. CONet [45] and Co-Occ [31] demonstrate the advantages of combining modalities, enhancing precision and reliability. Furthermore, recent methods have shifted from CNNs to integrating transformers, as seen in OccFormer's dual-path transformer [52] and OccNet's cascade refinement [40] reduce the transformer's computational demands.
+
+\textbf{Multi-modal fusion.}
+Multi-modal fusion aims to make the strength of different input modalities, thus making more accurate and robust perception [7,15,17,18,25,27,43]. For instance, AICNet [15] integrates RGB and depth data using anisotropic convolutional networks to enhance the accuracy and completeness of semantic occupancy prediction. PointPainting [42] performs semantic segmentation on RGB images and attaches semantic probabilities to LiDAR points, thereby enriching the point cloud with rich semantic information. For semantic occupancy prediction, images and point clouds are two prevalent input signals. Recent trends in the occupancy prediction field favour the multi-modal fusion as it utilizes the strength of both signals.
+
+\textbf{State space models.}
+The transformer [41] has reshaped the computer vision field but suffers from the quadratic computation complexity [22]. To relieve this, more efficient operators like linear attention [44], flash attention [6] have been proposed. State Space Models (SSMs) such as Mamba [9], S4 [10], and S4nd [30] are gaining prominence, with Mamba being notable for integrating selective mechanisms, which can effectively capture long-range dependencies and process large-scale data in linear time. This innovation has extended into computer vision domain through variants like VMamba [26], which includes a cross-scan module, and Vision Mamba [55], which utilizes a bidirectional SSM. In point cloud processing, PointMamba [21] improves the global modeling of point clouds by rearranging input patches based on 3D Hilbert curve, while Point Mamba [24] employs an octree-based ordering for efficient spatial relationship capture. They demonstrate Mamba's proficiency in processing large scale 3D data. Building on these advancements, we attempt to design a Mamba-based network tailored for semantic occupancy prediction.
+
+% ─────────────────────────────────────────────────────────────────────────────
+%  BATCH 4: Methodology
+% ─────────────────────────────────────────────────────────────────────────────
+
+\section{Methodology}
+
+To efficiently and effectively process a large number of voxel grids in semantic occupancy prediction, we propose to take Mamba [9] as the basic building block that enjoys the benefit of both global modeling and linear computation complexity. To facilitate the processing of Mamba blocks, we design a simple yet effective reordering scheme, dubbed height-prioritized 2D Hilbert expansion, along with OccMamba Encoder. In the following sections, we first provide a brief review of state space models and Mamba in Sec.~\ref{sec:prelim}. Then, we present the framework overview of \methodname{} in Sec.~\ref{sec:framework}. Thereafter, we provide a detailed explanation of the reordering scheme, the hierarchical Mamba module and local context processor in Sec.~\ref{sec:encoder}. Eventually, the training objective is presented in Sec.~\ref{sec:loss}.
+
+\subsection{Preliminaries}
+\label{sec:prelim}
+
+\textbf{State space models.}
+Before introducing the Mamba module, we first have a brief review of the state space models (SSMs). SSMs are inspired by the control theory and maps the system input to the system output through the hidden state. This approach allows for effectively handling sequences of information. When the input is discrete, the mathematical representation of SSMs is given as follows:
+\begin{align}
+  h_k &= A h_{k-1} + B x_k, \label{eq:ssm1} \\
+  y_k &= C h_k, \label{eq:ssm2}
+\end{align}
+where $k$ is the sequence number, $A, B, C$ are matrices that represent the discretized parameters of the model, which involve the sampling step $\Delta$. The $x_k$, $y_k$, and $h_k$ denote the input, output, and hidden state of the system, respectively. As an improvement, Structured State Space Sequence Models (S4) [10] optimizes traditional SSMs by introducing structured matrices, which allow the system dynamics, involving matrices $A$, $B$, and $C$, to be parameterized in a way that significantly improves computational efficiency and scalability for large sequences. By leveraging these structured matrices, S4 achieves reduced computational complexity without sacrificing accuracy.
+
+\textbf{Mamba Module.}
+Mamba introduces an adaptation to the S4 models [10], where it makes the matrices $B$ and $C$, as well as the sampling size $\Delta$, dependent on the input. This dependency arises from incorporating the sequence length and batch size of the input, enabling dynamic adjustments of these matrices for each input token. By this way, Mamba allows $B$ and $C$ to dynamically influence the state transition conditioned on the input, enhancing the model's content-awareness. Additionally, Mamba incorporates optimizations for the scan operation and a hardware-aware algorithm, enabling efficient parallel computation.
+
+\subsection{Framework Overview}
+\label{sec:framework}
+
+Figure~\ref{fig:framework} depicts the pipeline of our \methodname{}, which is built upon M-CONet [45].
+
+\textbf{Multi-modal visual encoders.}
+Taking both point cloud and multi-view images as input, \methodname{} processes each modality with respective visual encoder. Specifically, for the LiDAR branch, we first voxelize the input point clouds $P$ [54] and then employ sparse-convolution-based LiDAR encoder $E_L$ [50] to generate LiDAR voxel features $V_L \in \mathbb{R}^{B \times W_L \times H_L \times D_L \times C_L}$. For the image branch, we feed the multi-view images $I$ to ResNet-based image encoder [11] which utilizes FPN [23] to aggregate multi-scale features, and then utilize the 2D-to-3D view transformer [27] to produce image voxel features $V_C \in \mathbb{R}^{B \times W_C \times H_C \times D_C \times C_C}$. Here, $B$ is the batch size, $W_L, W_C, H_L, H_C, D_L$ and $D_C$ are the spatial dimensions of the voxel features. $C_L$ and $C_C$ are the channel dimension of these voxel features. We ensure that $V_L$ and $V_C$ are identical in the spatial dimensions. Thereafter, these voxel features are concatenated along the channel dimensions:
+\begin{equation}
+  V_F = \text{concat}(V_L, V_C). \label{eq:concat}
+\end{equation}
+
+\textbf{\methodname{} encoder.}
+To process features extracted from the multi-modal encoders, we designed the hierarchical Mamba module and local context processor. The former includes the Mamba encoder $E_M$ and Mamba decoder $D_M$, while the latter is denoted as $P_L$. In the process, fusion voxel features $V_F$ are fed into them, which will be detailed in Sec.~\ref{sec:encoder}. The transformation can be described by
+\begin{align}
+  V_M &= D_M(E_M(V_F)), \label{eq:mamba_enc} \\
+  V_P &= P_L(V_M), \label{eq:local_proc}
+\end{align}
+where $V_M$ and $V_P$ retain the same size as $V_F$.
+
+\textbf{Occupancy head.}
+We feed the processed features of \methodname{} Encoder, i.e., $V_P$, to the coarse-to-fine module $F_{c \to f}$ [45], which interpolates the dimensions to match the size of the ground truth, and then employ a MLP to predict the category of each voxel grid. The process is presented in the following equation:
+\begin{equation}
+  O_\text{occ} = \text{MLP}(F_{c \to f}(V_P)). \label{eq:head}
+\end{equation}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{figures/fig_4_1.jpeg}
+  \caption{Schematic overview of our \methodname{}. Given surround-view images and LiDAR point clouds, we first employ the 2D encoder and 3D encoder to process them, obtaining camera features and LiDAR voxel features, respectively. View transformer is utilized to project camera features to camera voxel features. The camera and LiDAR voxel features are then fused and sent to the hierarchical Mamba module, where the proposed height-prioritized 2D Hilbert expansion reordering is used to maximally utilize the spatial clues of voxels. Besides, local context processor is designed to divide the Mamba features into multiple windows along the XY plane, further enhancing the local semantic information. Eventually, the Mamba features are fed to the occupancy head, producing semantic occupancy predictions.}
+  \label{fig:framework}
+\end{figure}
+
+\subsection{OccMamba Encoder with Height-Prioritized Reordering}
+\label{sec:encoder}
+
+Semantic occupancy prediction is challenging due to the high dimensionality and density of voxel grids, often involving millions of voxels. Previous methods [14,28] resort to projection techniques but suffer from information loss. In contrast, Mamba's linear computational complexity enables direct processing of large voxel features, avoiding the limitations of deformable attention and convolution, such as the need for keypoint selection or limited receptive fields.
+
+\textbf{Height-prioritized reordering scheme.}
+Before feeding 3D voxel features into the Mamba block, it's necessary to reorder them into 1D sequences. A poor reordering strategy can disrupt the intrinsic spatial relationships between adjacent voxels in the 3D space, especially when dealing with a large number of voxel grids, thereby impacting Mamba's performance. Inspired by the Hilbert curve [12], we propose a height-prioritized 2D Hilbert expansion, tailored to the flat spatial structure typical of semantic occupancy prediction tasks, where height information provides valuable categorical clues, as it often correlates with object categories, reveals terrain features, and distinguishes different spatial regions in the scene. Specifically, we divide the ``xyz'' coordinates into the ``xy'' plane and a ``z'' dimension. Starting on the xy-plane at $z=0$, the process extends vertically along the z-axis, creating vertical sequences. These sequences are then ordered and interconnected following the 2D Hilbert curve on the xy plane, forming the height-prioritized 2D Hilbert expansion, as illustrated in Fig.~\ref{fig:reorder}(d). For comparison, Fig.~\ref{fig:reorder}(a)-(c) illustrate the results of reordering according to the `xyz' sequence, the `zxy' sequence, and the 3D Hilbert curve, respectively. Our reordering strategy prioritizes z-axis spatial information while maintaining strong spatial proximity in the xy plane. By this way, we can better leverage Mamba's contextual modeling.
+
+As a result, with the spatial size $W$, $H$, $D$ and 1D data length $L$, the input $V \in \mathbb{R}^{B \times W \times H \times D \times C}$ and the output $V' \in \mathbb{R}^{B \times L \times C}$ in the above reordering scheme $R_{3D \to 1D}$ and $R_{1D \to 3D}$ can be expressed as:
+\begin{equation}
+  V = R_{1D \to 3D}(V') = R_{1D \to 3D}(R_{3D \to 1D}(V)). \label{eq:reorder}
+\end{equation}
+
+\textbf{Hierarchical Mamba module.}
+To effectively utilize the contextual information across spatial resolutions, we introduce the hierarchical Mamba module, which includes an encoder and decoder. The encoder comprises multiple groups, each with two Mamba blocks and a downsampling operation between groups for multi-scale voxel features. Correspondingly, the Mamba decoder mirrors this structure, utilizing paired Mamba blocks and upsampling operations. The upsampling incorporates skip connection from the corresponding layer in the Mamba encoder, ensuring consistency in feature dimensions across scales. Crucially, the reordering scheme is applied both before and after each Mamba blocks group, maintaining voxel representation during both downsampling and upsampling phases.
+
+As to a single Mamba block, it consists of Layer-Norm (LN), linear layers, 1D convolution, Silu activation, Selective SSM, and residual connections. Given an input $V \in \mathbb{R}^{B \times L \times C}$, where $B$, $L$ and $C$ denote the batch size, the length of 1D data, and the feature dimension, respectively, the output $V' \in \mathbb{R}^{B \times L \times C}$ can be computed as below:
+\begin{align}
+  V'_1 &= \text{LN}(V), \label{eq:mamba_ln} \\
+  V'_2 &= \text{SelectiveSSM}(\text{Silu}(\text{Conv1d}(\text{Linear}(V'_1)))), \label{eq:mamba_ssm} \\
+  V'   &= \text{Linear}(V'_2 \odot \text{Silu}(\text{Linear}(V'_1))), \label{eq:mamba_out}
+\end{align}
+where $\odot$ represents the dot product. For convenience, we denote Eq.~(\ref{eq:mamba_ln})--Eq.~(\ref{eq:mamba_out}) as $M$. Then, given the input $V \in \mathbb{R}^{B \times W \times H \times D \times C}$ and output $V' \in \mathbb{R}^{B \times W \times H \times D \times C}$, the computation for a single Mamba block with our reordering scheme $R_{3D \to 1D}$ and $R_{1D \to 3D}$ can be represented as
+\begin{equation}
+  V' = R_{1D \to 3D}\!\left(M(R_{3D \to 1D}(V))\right). \label{eq:single_mamba}
+\end{equation}
+
+\textbf{Local context processor.}
+Although the hierarchical Mamba module has improved the network's ability to process multi-scale global information, handling more local information can further enhance the accuracy of semantic occupancy prediction. To this end, we design a lightweight local context processor. It divides the Mamba features $V_M \in \mathbb{R}^{B \times W \times H \times D \times C}$ along the XY plane into patches $\mathcal{V} = \{V_{s_i, w_i} \mid s \in S, w \in W\}$, using a list of window sizes $W = \{w_i\}$ and a corresponding list of sliding strides $S = \{s_i\}$ to scan the plane. For each item $V_{p,q} \in \mathcal{V}$, we have the following equations:
+\begin{equation}
+  V_{p,q} = V_M[:,\ p\!\cdot\!s_i : p\!\cdot\!s_i\!+\!w_i,\ q\!\cdot\!s_i : q\!\cdot\!s_i\!+\!w_i,\ :,\ :],
+  \label{eq:lcp_window}
+\end{equation}
+\[
+  p = 0,1,\ldots,\left\lfloor\frac{W - w_i}{s_i}\right\rfloor,\quad
+  q = 0,1,\ldots,\left\lfloor\frac{H - w_i}{s_i}\right\rfloor.
+\]
+
+Next, we reorder $V_{p,q} \in \mathbb{R}^{B \times w_i \times w_i \times D \times C}$ to $\mathbb{R}^{B \times L \times C}$, and then stack $\mathcal{V}_{s_i, w_i}$ to $\mathbb{R}^{(B \times N) \times L \times C}$. Each $\mathcal{V}_{s_i, w_i}$ is processed by the dedicated two-layer Mamba blocks, and the outputs are reshaped to $\mathcal{V}'_{s_i, w_i} = \{V'_{p,q} \in \mathbb{R}^{B \times w_i \times w_i \times D \times C}\}$. Finally, $\mathcal{V}' = \{\mathcal{V}'_{s_i, w_i}\}$ patches are reassembled into the original spatial size and concatenated along the channel dimension to produce $V'_L \in \mathbb{R}^{B \times W \times H \times D \times C'}$. A 3D convolution with a kernel size of $1 \times 1 \times 1$ is then applied along the channel dimension to reduce it, resulting in $V_L \in \mathbb{R}^{B \times W \times H \times D \times C}$.
+\begin{align}
+  V'_{s_i,w_i} &= \text{Reshape}(M(\text{Stack}(\text{Reorder}(V_{s_i,w_i})))), \label{eq:lcp1} \\
+  V_L &= \text{Conv3d}(\text{Reassemble Patches}(V')). \label{eq:lcp2}
+\end{align}
+Endowed with the hierarchical Mamba module and local context processor, our \methodname{} utilizes both global and local information from dense scene grids, thereby capturing broad context while preserving local details.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{figures/fig_5_1.jpeg}
+  \caption{Comparison between different reordering schemes. (a) XYZ sequence, (b) ZXY sequence, (c) 3D Hilbert curve, and (d) our height-prioritized 2D Hilbert expansion. Small cubes of varying colors, ranging from red to purple, represent different voxels. The corresponding colored edges indicate the adjacency of voxels that become neighbors after reordering. In each sub-figure, its top half represents the isometric view, and the bottom half represents the top view. Our method maximizes z-axis proximity while also striving to preserve xy-axis proximity.}
+  \label{fig:reorder}
+\end{figure}
+
+\subsection{Training Objective}
+\label{sec:loss}
+
+Our ultimate training objective is composed of five terms, including the cross-entropy loss $\mathcal{L}_{CE}$, the lovász-softmax loss $\mathcal{L}_{iou}$ [2], the geometric and semantic affinity loss $\mathcal{L}_{geo}$ and $\mathcal{L}_{sem}$ [4], and the depth supervision loss $\mathcal{L}_{depth}$ [19]. These terms are crucial for optimizing our model's performance in various aspects: $\mathcal{L}_{CE}$ ensures accurate classification, $\mathcal{L}_{iou}$ enhances semantic segmentation, $\mathcal{L}_{geo}$ improves spatial alignment, $\mathcal{L}_{sem}$ refines semantic understanding, and $\mathcal{L}_{depth}$ guides depth estimation and spatial relationships. The ultimate training objective is presented as follows:
+\begin{equation}
+  \mathcal{L} = \mathcal{L}_{CE} + \lambda_1 \mathcal{L}_{iou} + \lambda_2 \mathcal{L}_{geo} + \lambda_3 \mathcal{L}_{sem} + \lambda_4 \mathcal{L}_{depth},
+  \label{eq:total_loss}
+\end{equation}
+where $\lambda_1 \sim \lambda_4$ are the loss coefficients to balance the effect of each loss item on the final performance. They are all empirically set to 1.
+
+% ─────────────────────────────────────────────────────────────────────────────
+%  BATCH 5: Experiments
+% ─────────────────────────────────────────────────────────────────────────────
+
+\section{Experiments}
+
+\subsection{Experimental Setup}
+
+\textbf{Benchmarks.}
+We conduct experiments on OpenOccupancy [45], SemanticKITTI [1] and SemanticPOSS [33]. OpenOccupancy is built upon the nuScenes dataset [3], inheriting the data format of nuScenes. It comprises 700 training sequences and 150 validation sequences, with annotations for 17 classes. The occupancy annotations are represented in a $512 \times 512 \times 40$ voxel grid, with each voxel sized at 0.2 meters. Notably, each frame in OpenOccupancy has a data range four times larger than the other datasets, imposing a heavier computational burden. In SemanticKITTI, sequences 00--10 (excluding 08), 08, and 11--21 are allocated for training, validation, and testing, respectively. For the occupancy annotations, a $256 \times 256 \times 32$ grid is used, with voxels measuring 0.2 meters each. After pre-processing, a total of 19 classes are utilized for training and evaluation. SemanticPOSS, which closely resembles SemanticKITTI, employs sequences 00--05 and 02 as training and validation sets, respectively, with annotations for 11 classes.
+
+\textbf{Evaluation metrics.}
+We adopt the official evaluation metrics, i.e., Intersection-over-Union (IoU) and mean Intersection-over-Union (mIoU).
+
+\textbf{Implementation details.}
+We use ResNet-50 [11] as the image backbone. Both the Mamba Encoder and Mamba Decoder in the hierarchical Mamba module consist of four groups and each group contains two Mamba blocks. The local context processor utilizes window sizes of $[3, 5, 7]$, with two Mamba blocks implemented. For the OpenOccupancy dataset, we maintain identical setting to M-CONet [45]: for each frame, we utilize six surround view camera images as input, coupled with a fusion of ten frames of LiDAR points spanning the range of $[-51.2\text{m}, 51.2\text{m}]$ along the X and Y axes, and $[-2.0\text{m}, 6.0\text{m}]$ along the Z axis. Within the Mamba block, experiments are conducted with mamba feature dimension set to 128 and 384, respectively. On the SemanticKITTI dataset, our inputs consist of forward-facing stereo camera images alongside a single-frame LiDAR points, with their spatial extents defined as $[0\text{m}, -25.6\text{m}, -2\text{m}, 51.2\text{m}, 25.6\text{m}, 4.4\text{m}]$. We set the mamba feature dimension to 128 and employ Test Time Augmentation (TTA) to boost the performance. We utilize the AdamW optimizer with a base learning rate of $5 \times 10^{-4}$ and a weight decay of 0.01. The learning rate schedule follows a Cosine Annealing policy, combined with a linear warmup over the first 500 iterations, starting from one-third of the base learning rate, and gradually decreasing to a minimum ratio of $10^{-3}$. We set the number of training epochs to 20.
+
+\subsection{Experimental Results}
+
+\textbf{OpenOccupancy.}
+As shown in Table~\ref{tab:openocc}, we compare \methodname{} on OpenOccupancy with v0.0 annotation to previous methods which use the settings of camera-only [4,5,14,15], LiDAR-only [35,49], and multi-modal fusion [31,45]. Our \methodname{} achieves the best performance. Particularly, OccMamba-384 outperforms Co-Occ [31] by 5.1\% in IoU and 4.3\% in mIoU, respectively. Additionally, OccMamba-128 also surpasses Co-Occ by 4.1\% in IoU and 3.3\% in mIoU. These results underscore the efficacy of our approach in handling large-scale scenarios.
+
+\textbf{SemanticKITTI \& SemanticPOSS.}
+As evident from Table~\ref{tab:kitti} and Table~\ref{tab:poss}, our OccMamba-128 still outperforms the second-best method, i.e., Co-Occ [31], by 0.2\% mIoU in SemanticKITTI test set. Note that we do not compare our \methodname{} with SCPNet [48] and Occfiner [37] as they employ tricks such as label rectification, knowledge distillation or multi-frame concatenation. Strong performance is also observed on SemanticPOSS validation set. The consistent improvements on both benchmarks demonstrate the generalizability of \methodname{}.
+
+\begin{table*}[htbp]
+\centering
+\caption{Quantitative comparisons on OpenOccupancy validation set with v0.0 annotations. C, D, L denote camera, depth and LiDAR, respectively. OccMamba-384 means \methodname{} with mamba feature dimension being 384. The best and second-best are in \textbf{bold} and \underline{underlined}, respectively.}
+\label{tab:openocc}
+\small
+\begin{tabular}{llcccccccccccccccccc}
+\toprule
+Method & Modality & IoU & mIoU & barrier & bicycle & bus & car & const.v. & motorcycle & pedestrian & traffic & trailer & truck & drive & flat & sidewalk & terrain & manmade & vegetation \\
+\midrule
+MonoScene [4]       & C   & 18.4 & 6.9  & 7.1  & 3.9  & 9.3  & 7.2  & 5.6  & 3.0  & 5.9  & 4.4  & 4.9  & 4.2  & 14.9 & 6.3  & 7.9  & 7.4  & 10.0 & 7.6 \\
+TPVFormer [14]      & C   & 15.3 & 7.8  & 9.3  & 4.1  & 11.3 & 10.1 & 5.2  & 4.3  & 5.9  & 5.3  & 6.8  & 6.5  & 13.6 & 9.0  & 8.3  & 8.0  & 9.2  & 8.2 \\
+SparseOcc [39]      & C   & 21.8 & 14.1 & 16.1 & 9.3  & 15.1 & 18.6 & 7.3  & 9.4  & 11.2 & 9.4  & 7.2  & 13.0 & 31.8 & 21.7 & 20.7 & 18.8 & 6.1  & 10.6 \\
+3DSketch [5]        & C\&D & 25.6 & 10.7 & 12.0 & 5.1  & 10.7 & 12.4 & 6.5  & 4.0  & 5.0  & 6.3  & 8.0  & 7.2  & 21.8 & 14.8 & 13.0 & 11.8 & 12.0 & 21.2 \\
+AICNet [15]         & C\&D & 23.8 & 10.6 & 11.5 & 4.0  & 11.8 & 12.3 & 5.1  & 3.8  & 6.2  & 6.0  & 8.2  & 7.5  & 24.1 & 13.0 & 12.8 & 11.5 & 11.6 & 20.2 \\
+LMSCNet [35]        & L   & 27.3 & 11.5 & 12.4 & 4.2  & 12.8 & 12.1 & 6.2  & 4.7  & 6.2  & 6.3  & 8.8  & 7.2  & 24.2 & 12.3 & 16.6 & 14.1 & 13.9 & 22.2 \\
+JS3C-Net [49]       & L   & 30.2 & 12.5 & 14.2 & 3.4  & 13.6 & 12.0 & 7.2  & 4.3  & 7.3  & 6.8  & 9.2  & 9.1  & 27.9 & 15.3 & 14.9 & 16.2 & 14.0 & 24.9 \\
+M-CONet [45]        & C\&L & 29.5 & 20.1 & 23.3 & 13.3 & 21.2 & 24.3 & 15.3 & 15.9 & 18.0 & 13.3 & 15.3 & 20.7 & 33.2 & 21.0 & 22.5 & 21.5 & 19.6 & 23.2 \\
+Co-Occ [31]         & C\&L & 30.6 & 21.9 & 26.5 & 16.8 & 22.3 & 27.0 & 10.1 & 20.9 & 20.7 & 14.5 & 16.4 & 21.6 & 36.9 & 23.5 & 5.5  & 23.7 & 20.5 & 23.5 \\
+\midrule
+OccMamba-128 (ours) & C\&L & \textbf{34.7} & \underline{25.2} & \underline{29.1} & \underline{19.1} & \underline{25.5} & \underline{28.5} & \textbf{18.1} & \underline{24.7} & \underline{23.4} & \underline{19.8} & \underline{19.3} & \underline{24.5} & \textbf{37.0} & \underline{25.4} & \underline{25.4} & \underline{25.4} & \underline{28.1} & \underline{29.9} \\
+OccMamba-384 (ours) & C\&L & \textbf{35.7} & \textbf{26.2} & \textbf{30.2} & \textbf{20.5} & \textbf{26.5} & \textbf{29.5} & \underline{18.8} & \textbf{26.0} & \textbf{23.7} & \textbf{19.9} & \textbf{20.6} & \textbf{25.4} & \underline{38.4} & \textbf{26.5} & \textbf{27.0} & \textbf{26.6} & \textbf{28.9} & \textbf{30.5} \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table}[htbp]
+\centering
+\caption{Performance on SemanticKITTI test set. The best and second-best are in \textbf{bold} and \underline{underlined}, respectively.}
+\label{tab:kitti}
+\begin{tabular}{llc}
+\toprule
+Method & Input Modality & mIoU \\
+\midrule
+MonoScene [4]       & C   & 11.1 \\
+SurroundOcc [46]    & C   & 11.9 \\
+OccFormer [52]      & C   & 12.3 \\
+RenderOcc [32]      & C   & 12.8 \\
+LMSCNet [35]        & L   & 17.0 \\
+JS3C-Net [49]       & L   & 23.8 \\
+SSC-RS [29]         & L   & 24.2 \\
+Co-Occ [31]         & C\&L & \underline{24.4} \\
+M-CONet [45]        & C\&L & 20.4 \\
+\midrule
+\textbf{OccMamba-128 (ours)} & C\&L & \textbf{24.6} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Comparisons on SemanticPOSS validation set. The best is in bold, and the second-best is underlined.}
+\label{tab:poss}
+\begin{tabular}{llc}
+\toprule
+Method & Input Modality & mIoU \\
+\midrule
+SSCNet [38]         & L   & 15.2 \\
+LMSCNet [35]        & L   & 16.5 \\
+MotionSC [47]       & L   & 17.6 \\
+JS3C-Net [49]       & L   & \underline{22.7} \\
+\midrule
+\textbf{OccMamba-128 (ours)} & L & \textbf{23.4} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{figures/fig_7_1.jpeg}
+  \caption{Visual comparison between \methodname{} and M-CONet. From top to bottom: ground-truth, predictions of M-CONet and \methodname{}. Our \methodname{} makes preciser predictions than M-CONet especially in regions highlighted by red ellipses.}
+  \label{fig:qual}
+\end{figure}
+
+% ─────────────────────────────────────────────────────────────────────────────
+%  BATCH 6: Ablation Studies
+% ─────────────────────────────────────────────────────────────────────────────
+
+\subsection{Ablation Studies}
+
+\begin{table}[htbp]
+\centering
+\caption{Ablation on the hierarchical Mamba module, local context processor, and reordering scheme.}
+\label{tab:ablation}
+\begin{tabular}{cccc}
+\toprule
+Hierarchical Mamba & Local Context & Reordering & mIoU \\
+\midrule
+                   &               & XYZ seq.   & 24.5 \\
+                   &               & ZXY seq.   & 24.8 \\
+\checkmark         &               &            & 24.7 \\
+\checkmark         & \checkmark    &            & 25.0 \\
+\checkmark         & \checkmark    & Height-2D Hilbert & \textbf{25.2} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ─────────────────────────────────────────────────────────────────────────────
+%  BATCH 7: Conclusion
+% ─────────────────────────────────────────────────────────────────────────────
+
+\section{Conclusion}
+
+In this work, we propose \methodname{}, the first Mamba-based network for semantic occupancy prediction. \methodname{} introduces the hierarchical Mamba module and local context processor for effective global and local feature aggregation, along with the height-prioritized 2D Hilbert expansion for efficient 3D-to-1D reordering. Experiments on OpenOccupancy, SemanticKITTI, and SemanticPOSS demonstrate that \methodname{} achieves state-of-the-art performance while maintaining linear computational complexity with respect to the number of voxel grids. Notably, it outperforms the previous state-of-the-art Co-Occ on OpenOccupancy by 5.1\% IoU and 4.3\% mIoU.
+
+\section*{Acknowledgements}
+
+This work was supported by the National Natural Science Foundation of China (No. 62332016) and the Key Research Program of Frontier Sciences, CAS (No. ZDBS-LY-JSC001).
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\appendix
+
+\section{Appendix}
+
+\subsection{More Training Details}
+
+In our experiment, we utilize the AdamW optimizer with a base learning rate of $5 \times 10^{-4}$ and a weight decay of 0.01 to ensure effective optimization while maintaining regularization. As to the image backbone ResNet-50, which is pretrained by torchvision, we scale its learning rate by a factor of 0.1. The learning rate schedule follows a Cosine Annealing policy, combined with a linear warmup over the first 500 iterations, starting from one-third of the base learning rate, and gradually decreasing to a minimum ratio of $10^{-3}$. For training, we set the number of epochs to 20.
+
+\subsection{More Reordering Schemes}
+
+In addition to the Hilbert curve, other space-filling curves, such as the Z-order, are also widely used. Therefore, we conduct comparative experiments to evaluate the performance of the Z-order. As presented in Table~\ref{tab:reorder_full}, it is evident that our OccMamba-128 with height-prioritized 2D Hilbert expansion outperforms the Z-curve variant in semantic occupancy prediction. In theory, the Hilbert curve effectively preserves the spatial proximity when mapped to a 1D sequences due to its recursive, space-filling path. In contrast, the Z-order curve employs a simple interleaving of bits, which makes it more likely that adjacent points are separated by greater distances in the 1D sequences.
+
+\begin{table}[htbp]
+\centering
+\caption{Performance on more reordering schemes.}
+\label{tab:reorder_full}
+\begin{tabular}{lc}
+\toprule
+Reordering Schemes & mIoU \\
+\midrule
+3D Z-order & 24.6 \\
+3D Hilbert & 24.8 \\
+Height-prioritized 2D Z-order expansion & 25.0 \\
+\textbf{Height-prioritized 2D Hilbert expansion} & \textbf{25.2} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Ablation on Training Loss}
+
+We conduct an ablation study on the training objectives mentioned in Sec.~\ref{sec:loss}. The results, as shown in Table~\ref{tab:loss_ablation}, indicate that all the training objectives contribute significantly to the ultimate performance. In particular, the inclusion of $\mathcal{L}_{iou}$ and $\mathcal{L}_{CE}$ yield significant performance enhancements, as evidenced by the increase in mIoU, highlighting their critical role in our \methodname{}.
+
+\begin{table}[htbp]
+\centering
+\caption{Ablation study on the effect of each training loss.}
+\label{tab:loss_ablation}
+\begin{tabular}{ccccccc}
+\toprule
+$\mathcal{L}_{CE}$ & $\mathcal{L}_{iou}$ & $\mathcal{L}_{depth}$ & $\mathcal{L}_{geo}$ & $\mathcal{L}_{sem}$ & mIoU \\
+\midrule
+\checkmark & & & & & 19.2 \\
+\checkmark & \checkmark & & & & 19.5 \\
+\checkmark & \checkmark & \checkmark & & & 19.9 \\
+\checkmark & \checkmark & \checkmark & \checkmark & & 21.7 \\
+\checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \textbf{22.9} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}

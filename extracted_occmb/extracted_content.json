@@ -1,0 +1,2457 @@
+{
+  "metadata": {
+    "title": "",
+    "author": "",
+    "subject": "",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.25",
+    "page_count": 13
+  },
+  "images": [
+    {
+      "image_id": 1,
+      "page": 2,
+      "index": 0,
+      "filename": "fig_2_1.jpeg",
+      "path": "extracted_occmb/figures/fig_2_1.jpeg",
+      "width": 782,
+      "height": 415
+    },
+    {
+      "image_id": 2,
+      "page": 2,
+      "index": 1,
+      "filename": "fig_2_2.jpeg",
+      "path": "extracted_occmb/figures/fig_2_2.jpeg",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "image_id": 3,
+      "page": 2,
+      "index": 2,
+      "filename": "fig_2_3.jpeg",
+      "path": "extracted_occmb/figures/fig_2_3.jpeg",
+      "width": 782,
+      "height": 415
+    },
+    {
+      "image_id": 4,
+      "page": 2,
+      "index": 3,
+      "filename": "fig_2_4.jpeg",
+      "path": "extracted_occmb/figures/fig_2_4.jpeg",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "image_id": 5,
+      "page": 2,
+      "index": 4,
+      "filename": "fig_2_5.jpeg",
+      "path": "extracted_occmb/figures/fig_2_5.jpeg",
+      "width": 808,
+      "height": 427
+    },
+    {
+      "image_id": 6,
+      "page": 4,
+      "index": 0,
+      "filename": "fig_4_1.jpeg",
+      "path": "extracted_occmb/figures/fig_4_1.jpeg",
+      "width": 184,
+      "height": 105
+    },
+    {
+      "image_id": 7,
+      "page": 4,
+      "index": 1,
+      "filename": "fig_4_2.jpeg",
+      "path": "extracted_occmb/figures/fig_4_2.jpeg",
+      "width": 184,
+      "height": 105
+    },
+    {
+      "image_id": 8,
+      "page": 4,
+      "index": 2,
+      "filename": "fig_4_3.jpeg",
+      "path": "extracted_occmb/figures/fig_4_3.jpeg",
+      "width": 184,
+      "height": 105
+    },
+    {
+      "image_id": 9,
+      "page": 4,
+      "index": 3,
+      "filename": "fig_4_4.jpeg",
+      "path": "extracted_occmb/figures/fig_4_4.jpeg",
+      "width": 184,
+      "height": 105
+    },
+    {
+      "image_id": 10,
+      "page": 4,
+      "index": 4,
+      "filename": "fig_4_5.jpeg",
+      "path": "extracted_occmb/figures/fig_4_5.jpeg",
+      "width": 184,
+      "height": 105
+    },
+    {
+      "image_id": 11,
+      "page": 4,
+      "index": 5,
+      "filename": "fig_4_6.jpeg",
+      "path": "extracted_occmb/figures/fig_4_6.jpeg",
+      "width": 184,
+      "height": 105
+    },
+    {
+      "image_id": 12,
+      "page": 4,
+      "index": 6,
+      "filename": "fig_4_7.jpeg",
+      "path": "extracted_occmb/figures/fig_4_7.jpeg",
+      "width": 432,
+      "height": 198
+    },
+    {
+      "image_id": 13,
+      "page": 4,
+      "index": 7,
+      "filename": "fig_4_8.jpeg",
+      "path": "extracted_occmb/figures/fig_4_8.jpeg",
+      "width": 226,
+      "height": 206
+    },
+    {
+      "image_id": 14,
+      "page": 4,
+      "index": 8,
+      "filename": "fig_4_9.jpeg",
+      "path": "extracted_occmb/figures/fig_4_9.jpeg",
+      "width": 282,
+      "height": 98
+    },
+    {
+      "image_id": 15,
+      "page": 4,
+      "index": 9,
+      "filename": "fig_4_10.jpeg",
+      "path": "extracted_occmb/figures/fig_4_10.jpeg",
+      "width": 271,
+      "height": 90
+    },
+    {
+      "image_id": 16,
+      "page": 4,
+      "index": 10,
+      "filename": "fig_4_11.jpeg",
+      "path": "extracted_occmb/figures/fig_4_11.jpeg",
+      "width": 268,
+      "height": 88
+    },
+    {
+      "image_id": 17,
+      "page": 4,
+      "index": 11,
+      "filename": "fig_4_12.jpeg",
+      "path": "extracted_occmb/figures/fig_4_12.jpeg",
+      "width": 431,
+      "height": 226
+    },
+    {
+      "image_id": 18,
+      "page": 5,
+      "index": 0,
+      "filename": "fig_5_1.jpeg",
+      "path": "extracted_occmb/figures/fig_5_1.jpeg",
+      "width": 390,
+      "height": 251
+    },
+    {
+      "image_id": 19,
+      "page": 5,
+      "index": 1,
+      "filename": "fig_5_2.jpeg",
+      "path": "extracted_occmb/figures/fig_5_2.jpeg",
+      "width": 393,
+      "height": 252
+    },
+    {
+      "image_id": 20,
+      "page": 5,
+      "index": 2,
+      "filename": "fig_5_3.jpeg",
+      "path": "extracted_occmb/figures/fig_5_3.jpeg",
+      "width": 411,
+      "height": 267
+    },
+    {
+      "image_id": 21,
+      "page": 5,
+      "index": 3,
+      "filename": "fig_5_4.jpeg",
+      "path": "extracted_occmb/figures/fig_5_4.jpeg",
+      "width": 409,
+      "height": 304
+    },
+    {
+      "image_id": 22,
+      "page": 5,
+      "index": 4,
+      "filename": "fig_5_5.jpeg",
+      "path": "extracted_occmb/figures/fig_5_5.jpeg",
+      "width": 398,
+      "height": 303
+    },
+    {
+      "image_id": 23,
+      "page": 5,
+      "index": 5,
+      "filename": "fig_5_6.jpeg",
+      "path": "extracted_occmb/figures/fig_5_6.jpeg",
+      "width": 396,
+      "height": 304
+    },
+    {
+      "image_id": 24,
+      "page": 5,
+      "index": 6,
+      "filename": "fig_5_7.jpeg",
+      "path": "extracted_occmb/figures/fig_5_7.jpeg",
+      "width": 404,
+      "height": 304
+    },
+    {
+      "image_id": 25,
+      "page": 5,
+      "index": 7,
+      "filename": "fig_5_8.jpeg",
+      "path": "extracted_occmb/figures/fig_5_8.jpeg",
+      "width": 391,
+      "height": 253
+    },
+    {
+      "image_id": 26,
+      "page": 7,
+      "index": 0,
+      "filename": "fig_7_1.jpeg",
+      "path": "extracted_occmb/figures/fig_7_1.jpeg",
+      "width": 2262,
+      "height": 806
+    },
+    {
+      "image_id": 27,
+      "page": 7,
+      "index": 1,
+      "filename": "fig_7_2.jpeg",
+      "path": "extracted_occmb/figures/fig_7_2.jpeg",
+      "width": 2262,
+      "height": 402
+    },
+    {
+      "image_id": 28,
+      "page": 12,
+      "index": 0,
+      "filename": "fig_12_1.jpeg",
+      "path": "extracted_occmb/figures/fig_12_1.jpeg",
+      "width": 469,
+      "height": 270
+    },
+    {
+      "image_id": 29,
+      "page": 12,
+      "index": 1,
+      "filename": "fig_12_2.jpeg",
+      "path": "extracted_occmb/figures/fig_12_2.jpeg",
+      "width": 471,
+      "height": 270
+    },
+    {
+      "image_id": 30,
+      "page": 12,
+      "index": 2,
+      "filename": "fig_12_3.jpeg",
+      "path": "extracted_occmb/figures/fig_12_3.jpeg",
+      "width": 462,
+      "height": 270
+    }
+  ],
+  "tables": [
+    {
+      "page": 2,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "~𝟏𝟎𝟔𝐕𝐨𝐱𝐞𝐥𝐬 Deformable Transformer OccMamba OccMamba(ours)\n25\nCo-Occ",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "Deformable Transformer OccMamba",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "OccMamba(ours)\n25\nCo-Occ",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "ba\n40"
+        ],
+        [
+          "~𝟏𝟎𝟔 𝐕𝐨𝐱𝐞𝐥𝐬 )G(yromeM Deformable Transformer OccMamba 30 25 OOM! 25 20 20 Co-Occ 15 M-CONet 15 OccMamba )%(UoIm ~𝟏𝟎𝟔 𝐕𝐨𝐱𝐞𝐥𝐬 OccMamba OccMamba )G(yromeM Deformable Transformer OccMamba 30 25 OOM! 25 20 20 Co-Occ 15 M-CONet 15 OccMamba )%(UoIm 25 OOM! )G (y 20 )% 20 M-C O O c N cM et amba OccMam r o m 15 (U 15 SparseOcc e M 10 o Im AICNet LMSC-N J e S t 3C-Net\nUPG 10 JS3C-Net 10 5 MonoScenes LMSC-Net UPG 10 JS3C-Net 10 5 MonoScenes LMSC-Net U P 5 10 TPVFormer 3DSketch G MonoScenes\n0 5 TPVFormer 2(cid:2869)(cid:2872) 2(cid:2869)(cid:2873) 2(cid:2869)(cid:2874) 2(cid:2869)(cid:2875) 2(cid:2869)(cid:2876) 2(cid:2869)(cid:2877) 2(cid:2870)(cid:2868) 2(cid:2870)(cid:2869)≈10(cid:2874) 0 5 TPVFormer 2(cid:2869)(cid:2872) 2(cid:2869)(cid:2873) 2(cid:2869)(cid:2874) 2(cid:2869)(cid:2875) 2(cid:2869)(cid:2876) 2(cid:2869)(cid:2877) 2(cid:2870)(cid:2868) 2(cid:2870)(cid:2869)≈10(cid:2874) 0 5 214 215 216 217 218 219 220 221≈106 15 20 25 30 35\n0 The number of voxels RGB LiDAR Fusion 0 The number of voxels RGB LiDAR Fusion The number of voxels IoU(%)\n(a)Alargenumberofvoxelgrids (b)GPUmemoryconsumption (c)Performancecomparison\nFigure1.(a)Challengesinsemanticoccupancyprediction,(b)comparisoninGPUmemoryconsumption,and(c)performancecompari\nonOpenOccupancyvalidationset.OurOccMambademonstrateshighefficiencyinhandlingalargenumberofvoxelgrids,outperform\nallothersemanticoccupancypredictors,suchasCo-Occ[31]andM-CONet[45].\ncial to preserving spatial proximity in the transformation workforoutdoorsemanticoccupancyprediction. Itp\nfrom3Dto1D.Severalattemptshavebeenmadetoachieve sessesglobalmodelingcapabilitywithlinearcomputat\nthis, for instance, Point Mamba [21] rearranges the point complexity, which is crucial to the processing of a la",
+          "Deformable Transformer OccMamba 30 Deformable Transformer OccMamba 25 OOM!\n)G(yromeM 25 OOM! 25 )G(yromeM 25 OOM! 20\n20 20 )%(UoIm 20 )%(UoIm 15\n15 15 15 10\n10 10\nUPG 10 5 UPG 5 5\n0 5 2(cid:2869)(cid:2872) 2(cid:2869)(cid:2873) 2(cid:2869)(cid:2874) 2(cid:2869)(cid:2875) 2(cid:2869)(cid:2876) 2(cid:2869)(cid:2877) 2(cid:2870)(cid:2868) 2(cid:2870)(cid:2869)≈10(cid:2874) 0 2(cid:2869)(cid:2872) 2(cid:2869)(cid:2873) 2(cid:2869)(cid:2874) 2(cid:2869)(cid:2875) 2(cid:2869)(cid:2876) 2(cid:2869)(cid:2877) 2(cid:2870)(cid:2868) 2(cid:2870)(cid:2869)≈10(cid:2874) 0 214 215 216 217 218 219 220 221≈10\n0 The number of voxels The number of voxels The number of voxels",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "3",
+          null,
+          "0",
+          "",
+          "",
+          "M-CONet",
+          "OccMa",
+          "mbOaccMam",
+          "ba"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          ")%2\n(U2",
+          null,
+          "20\n5\n0",
+          "",
+          "Occ\nSparseOcc",
+          "MamObaccMam",
+          "ba\nCo-Occ",
+          "Co-Occ",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "o\nI",
+          null,
+          "15",
+          "OccM",
+          "amba",
+          "M-CJOSN3\nLMSC-Net",
+          "eCtM-N-CeOtNet",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "m1",
+          null,
+          "5\n10\nT",
+          "OccMamba",
+          "AICNet",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "PVFormer",
+          "JS33DC",
+          "S-NkeetJtSc3hC-Net",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "1\nMono",
+          null,
+          "0\nScMenoensoSce\n5 TPV",
+          "nes LMSMC\nFormTPerVForme",
+          "o-NnLeoMtSScCen-Neset\nr",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "02 1 4\n2(cid:2869) (cid:2872) 2(cid:2869)",
+          "(cid:2872)2(cid:2869)2(cid:2873) 15 2(cid:2869)(cid:2873)",
+          "2(cid:2869)(cid:2874)21 6\n2 (cid:2869)(cid:2874)2",
+          "(cid:2869)(cid:2875)22 1 (cid:2869) 7 (cid:2875)2(cid:2869)(cid:2876)",
+          "22(cid:2869) 1 (cid:2876)2 8 (cid:2869)(cid:2877)",
+          "2(cid:2869)2(cid:2877)2 1 (cid:2870) 9 (cid:2868)",
+          "22(cid:2870)(cid:2868)(cid:2870)2(cid:2869) 2 ≈ 0 21(cid:2870)0(cid:2869)",
+          "(cid:2874)2≈ 2 1 1 0≈(cid:2874) 10",
+          "6",
+          "",
+          "5\n15 20 25 30 35",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "row_count": 9
+    },
+    {
+      "page": 4,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          ""
+        ]
+      ],
+      "row_count": 3
+    },
+    {
+      "page": 4,
+      "table_idx": 2,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "row_count": 3
+    },
+    {
+      "page": 5,
+      "table_idx": 1,
+      "method": "pdfplumber",
+      "data": [
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "weivpoT",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "row_count": 2
+    },
+    {
+      "page": 6,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "Input\nModality",
+          "IoU mIoU"
+        ],
+        [
+          "C\nC\nC\nC&D\nC&D\nL\nL\nC&L\nC&L",
+          "18.4 6.9\n15.3 7.8\n21.8 14.1\n25.6 10.7\n23.8 10.6\n27.3 11.5\n30.2 12.5\n29.5 20.1\n30.6 21.9"
+        ],
+        [
+          "C&L\nC&L",
+          "34.7 25.2\n35.7 26.2"
+        ]
+      ],
+      "row_count": 3
+    },
+    {
+      "page": 8,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "CNN",
+          "Hierarchical\nMamba\nModule",
+          "Local\nContext\nProcessor"
+        ],
+        [
+          "✓",
+          "✓\n✓",
+          "✓"
+        ]
+      ],
+      "row_count": 2
+    },
+    {
+      "page": 8,
+      "table_idx": 2,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "MemoryUsage(GiB)\nTraining Inference",
+          null,
+          "Inference\nTime(ms)"
+        ],
+        [
+          "37.3",
+          "12.1",
+          "416.0"
+        ],
+        [
+          "37.7\n23.1",
+          "9.2\n6.8",
+          "448.3\n269.3"
+        ]
+      ],
+      "row_count": 3
+    },
+    {
+      "page": 12,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "ulariza- easLi\nis pre- impro\nafactor gains\nAnneal-\nthe first\nearning\nf1e−3.\nhis ex-\ntimiza- (a)\nation to Figure\nM",
+          null,
+          "DARneverseen.B\nves mIoU by 0.4\naslabelnoisereduc\nw/oLCP (\n5.Reconstructionres",
+          null,
+          null,
+          "yusing\n%(Table\nes.\nb)wLC\nultsofdi",
+          null,
+          "newlabels(v0.1),o\n. 9), demonstratin\nP (c)labe\nstantoccupancy(abo",
+          null,
+          "urLCP\ng more\nl\nut40m).\n2m"
+        ],
+        [
+          null,
+          "M",
+          "ethod",
+          "Label",
+          "I",
+          "oU",
+          "m",
+          "IoU",
+          "RayIoU@0.",
+          "2m"
+        ],
+        [
+          null,
+          "w/oLCP",
+          null,
+          "v0.0",
+          "33.7",
+          null,
+          "25.0",
+          null,
+          "24.2",
+          null
+        ],
+        [
+          null,
+          "wLCP",
+          null,
+          "v0.0",
+          "34.7",
+          null,
+          "25.2",
+          null,
+          "24.7",
+          null
+        ],
+        [
+          null,
+          "w/oLCP",
+          null,
+          "v0.1",
+          "34.2",
+          null,
+          "25.8",
+          null,
+          "26.5",
+          null
+        ],
+        [
+          null,
+          "wLCP",
+          null,
+          "v0.1",
+          "34.9",
+          null,
+          "26.2",
+          null,
+          "27.0",
+          null
+        ]
+      ],
+      "row_count": 6
+    }
+  ],
+  "formulas": [
+    {
+      "page": 1,
+      "line": 11,
+      "text": "sualcues,complicateddrivingscenarios,etc. Recentmeth- ical labels of the surrounding environment [36]. It faces"
+    },
+    {
+      "page": 1,
+      "line": 14,
+      "text": "long-rangerelationships. However,transformer-basednet- ascomplexdrivingscenarios[53]."
+    },
+    {
+      "page": 1,
+      "line": 15,
+      "text": "works are notorious for their quadratic computation com- Recent attempts, such as MonoScene [4] and JS3C-"
+    },
+    {
+      "page": 1,
+      "line": 16,
+      "text": "plexity, seriously undermining their efficacy and deploy- Net [49], have made progress in addressing these chal-"
+    },
+    {
+      "page": 1,
+      "line": 19,
+      "text": "Mamba architecture, we present the first Mamba-based sionOcc [51] and M-CONet [45], offer improvements, yet"
+    },
+    {
+      "page": 1,
+      "line": 22,
+      "text": "Mamba module and local context processor to better ag- oftransformer-basedmodels[20,40,52], theysufferfrom"
+    },
+    {
+      "page": 1,
+      "line": 25,
+      "text": "the linguistic and 3D domains, we present a simple yet ef- Mamba[9],whichisanimportantvariantofstatespace"
+    },
+    {
+      "page": 1,
+      "line": 42,
+      "text": "tionofChina(No. 62332016)andtheKeyResearchProgramofFrontier"
+    },
+    {
+      "page": 1,
+      "line": 44,
+      "text": "Sciences,CAS(No.ZDBS-LY-JSC001)."
+    },
+    {
+      "page": 1,
+      "line": 49,
+      "text": "]VC.sc["
+    },
+    {
+      "page": 2,
+      "line": 0,
+      "text": "~𝟏𝟎𝟔 𝐕𝐨𝐱𝐞𝐥𝐬 )G(yromeM"
+    },
+    {
+      "page": 2,
+      "line": 4,
+      "text": "0 5 TPVFormer 2(cid:2869)(cid:2872) 2(cid:2869)(cid:2873) 2(cid:2869)(cid:2874) 2(cid:2869)(cid:2875) 2(cid:2869)(cid:2876) 2(cid:2869)(cid:2877) 2(cid:2870)(cid:2868) 2(cid:2870)(cid:2869)≈10(cid:2874)"
+    },
+    {
+      "page": 2,
+      "line": 6,
+      "text": ")%(UoIm ~𝟏𝟎𝟔 𝐕𝐨𝐱𝐞𝐥𝐬 OccMamba OccMamba )G(yromeM"
+    },
+    {
+      "page": 2,
+      "line": 10,
+      "text": "0 5 TPVFormer 2(cid:2869)(cid:2872) 2(cid:2869)(cid:2873) 2(cid:2869)(cid:2874) 2(cid:2869)(cid:2875) 2(cid:2869)(cid:2876) 2(cid:2869)(cid:2877) 2(cid:2870)(cid:2868) 2(cid:2870)(cid:2869)≈10(cid:2874)"
+    },
+    {
+      "page": 2,
+      "line": 12,
+      "text": ")%(UoIm"
+    },
+    {
+      "page": 2,
+      "line": 15,
+      "text": "OccMamba(ours)"
+    },
+    {
+      "page": 2,
+      "line": 16,
+      "text": "25 OOM! Co-Occ )G (y 20 )% 20 M-C O O c N cM et amba OccMamba r o m 15 (U 15 SparseOcc e M 10 o Im AICNet LMSC-N J e S t 3C-Net"
+    },
+    {
+      "page": 2,
+      "line": 19,
+      "text": "The number of voxels IoU(%)"
+    },
+    {
+      "page": 2,
+      "line": 20,
+      "text": "(a)Alargenumberofvoxelgrids (b)GPUmemoryconsumption (c)Performancecomparison"
+    },
+    {
+      "page": 2,
+      "line": 21,
+      "text": "Figure1.(a)Challengesinsemanticoccupancyprediction,(b)comparisoninGPUmemoryconsumption,and(c)performancecomparison"
+    },
+    {
+      "page": 2,
+      "line": 23,
+      "text": "allothersemanticoccupancypredictors,suchasCo-Occ[31]andM-CONet[45]."
+    },
+    {
+      "page": 2,
+      "line": 26,
+      "text": "this, for instance, Point Mamba [21] rearranges the point complexity, which is crucial to the processing of a large"
+    },
+    {
+      "page": 2,
+      "line": 27,
+      "text": "cloudsaccordingtothe3DHilbertcurve[12]andconcate- numberofvoxelgrids.WedesignthehierarchicalMamba"
+    },
+    {
+      "page": 2,
+      "line": 38,
+      "text": "computation resources, as shown in Fig. 1(a)-(b). To ef-"
+    },
+    {
+      "page": 2,
+      "line": 42,
+      "text": "cessing of Mamba blocks as well as preserve the spatial signals [13, 36]. Given that LiDAR and RGB-D camera"
+    },
+    {
+      "page": 2,
+      "line": 44,
+      "text": "fective 3D-to-1D reordering policy, i.e., height-prioritized liedonsuchdetailedgeometricdatalikeLiDARpoints[34,"
+    },
+    {
+      "page": 2,
+      "line": 45,
+      "text": "2D Hilbert expansion. The designed policy sufficiently 35,48,49]andRGB-Dimages[5,8,15,16]. Meanwhile,"
+    },
+    {
+      "page": 2,
+      "line": 47,
+      "text": "well as the spatial prior in the XY plane. In this way, accessibility,suchasMonoScene[4]andTPVFormer[14],"
+    },
+    {
+      "page": 2,
+      "line": 52,
+      "text": "withMamba’sglobalmodelingcapabilities,enhancesOcc- has attracted significant attention. CONet [45] and Co-"
+    },
+    {
+      "page": 2,
+      "line": 53,
+      "text": "Mambawiththeocclusionreasoningcapability,particularly Occ[31]demonstratetheadvantagesofcombiningmodal-"
+    },
+    {
+      "page": 2,
+      "line": 56,
+      "text": "i.e.,OpenOccupancy[45],SemanticKITTI[1]andSeman- formers,asseeninOccFormer’sdual-pathtransformer[52]"
+    },
+    {
+      "page": 2,
+      "line": 57,
+      "text": "ticPOSS [33]. Our OccMamba consistently outperforms and OccNet’s cascade refinement [40] reduce the trans-"
+    },
+    {
+      "page": 2,
+      "line": 59,
+      "text": "worthythatonOpenOccupancy, partlyshowninFig.1(c), Multi-modalfusion. Multi-modalfusionaimstomakethe"
+    },
+    {
+      "page": 2,
+      "line": 61,
+      "text": "Occ[31]by5.1%IoUand4.3%mIoU,respectively. curateandrobustperception[7,15,17,18,25,27,43]. For"
+    },
+    {
+      "page": 2,
+      "line": 62,
+      "text": "Thecontributionsaresummarizedasfollows: instance,AICNet[15]integratesRGBanddepthdatausing"
+    },
+    {
+      "page": 3,
+      "line": 1,
+      "text": "Painting[42]performssemanticsegmentationonRGBim-"
+    },
+    {
+      "page": 3,
+      "line": 2,
+      "text": "ages and attaches semantic probabilities to LiDAR points, h k =Ah k−1 +Bx k , (1)"
+    },
+    {
+      "page": 3,
+      "line": 4,
+      "text": "y =Ch , (2)"
+    },
+    {
+      "page": 3,
+      "line": 14,
+      "text": "State space models. The transformer [41] has reshaped"
+    },
+    {
+      "page": 3,
+      "line": 18,
+      "text": "computation complexity [22]. To relieve this, more effi-"
+    },
+    {
+      "page": 3,
+      "line": 19,
+      "text": "quenceModels(S4)[10]optimizetraditionalSSMsbyin-"
+    },
+    {
+      "page": 3,
+      "line": 20,
+      "text": "cientoperatorslikelinearattention[44],flashattention[6]"
+    },
+    {
+      "page": 3,
+      "line": 22,
+      "text": "have been proposed. State Space Models (SSMs) such as"
+    },
+    {
+      "page": 3,
+      "line": 24,
+      "text": "Mamba[9],S4[10],andS4nd[30]aregainingprominence,"
+    },
+    {
+      "page": 3,
+      "line": 34,
+      "text": "variants like VMamba [26], which includes a cross-scan"
+    },
+    {
+      "page": 3,
+      "line": 35,
+      "text": "S4 models [10], where it makes the matrices B and C,"
+    },
+    {
+      "page": 3,
+      "line": 36,
+      "text": "module, and Vision Mamba [55], which utilizes a bidirec-"
+    },
+    {
+      "page": 3,
+      "line": 38,
+      "text": "tional SSM. In point cloud processing, PointMamba [21]"
+    },
+    {
+      "page": 3,
+      "line": 44,
+      "text": "Mamba[24]employsanoctree-basedorderingforefficient"
+    },
+    {
+      "page": 3,
+      "line": 57,
+      "text": "voxel grids in semantic occupancy prediction, we propose builtuponM-CONet[45]."
+    },
+    {
+      "page": 3,
+      "line": 58,
+      "text": "to take Mamba [9] as the basic building block that enjoys Multi-modal visual encoders. Taking both point cloud"
+    },
+    {
+      "page": 3,
+      "line": 62,
+      "text": "height-prioritized 2D Hilbert expansion, along with Occ- P [54] and then employ sparse-convolution-based LiDAR"
+    },
+    {
+      "page": 3,
+      "line": 63,
+      "text": "MambaEncoder. Inthefollowingsections,wefirstprovide encoderE [50]togenerateLiDARvoxelfeaturesV ∈"
+    },
+    {
+      "page": 3,
+      "line": 66,
+      "text": "Then,wepresenttheframeworkoverviewofOccMambain multi-view images I to ResNet-based image encoder [11]"
+    },
+    {
+      "page": 3,
+      "line": 67,
+      "text": "Sec. 3.2. Thereafter, we provide a detailed explanation of which utilizes FPN [23] to aggregate multi-scale features,"
+    },
+    {
+      "page": 3,
+      "line": 68,
+      "text": "thereorderingscheme,thehierarchicalMambamoduleand andthenutilizethe2D-to-3Dviewtransformer[27]topro-"
+    },
+    {
+      "page": 3,
+      "line": 71,
+      "text": "∈ RB×WC×HC×DC×CC."
+    },
+    {
+      "page": 3,
+      "line": 80,
+      "text": "els (SSMs). SSMs are inspired by the control theory and channeldimensions:"
+    },
+    {
+      "page": 3,
+      "line": 82,
+      "text": "V =concat(V ,V ). (3)"
+    },
+    {
+      "page": 4,
+      "line": 58,
+      "text": "x N (Sk N L ip Con"
+    },
+    {
+      "page": 4,
+      "line": 60,
+      "text": "eR D 3 o t D 1 nection)"
+    },
+    {
+      "page": 4,
+      "line": 61,
+      "text": ")elp m a sn"
+    },
+    {
+      "page": 4,
+      "line": 63,
+      "text": "Mamba Blocks ( Semantic Occupancy"
+    },
+    {
+      "page": 4,
+      "line": 77,
+      "text": "inSec.3.3. Thetransformationcanbedescribedby performance. Inspired by the Hilbert curve [12], we pro-"
+    },
+    {
+      "page": 4,
+      "line": 79,
+      "text": "V =D (E (V )), (4)"
+    },
+    {
+      "page": 4,
+      "line": 82,
+      "text": "V =P (V ), (5)"
+    },
+    {
+      "page": 4,
+      "line": 89,
+      "text": "F [45],whichinterpolatesthedimensionstomatchthe ”xyz”coordinatesintothe”xy”planeanda”z”dimension."
+    },
+    {
+      "page": 4,
+      "line": 90,
+      "text": "c→f"
+    },
+    {
+      "page": 4,
+      "line": 94,
+      "text": "O =MLP(F (V )). (6) the 2D Hilbert curve on the xy plane, forming the height-"
+    },
+    {
+      "page": 4,
+      "line": 95,
+      "text": "occ c→f P"
+    },
+    {
+      "page": 4,
+      "line": 96,
+      "text": "prioritized2DHilbertexpansion,asillustratedinFig.3(d)."
+    },
+    {
+      "page": 4,
+      "line": 97,
+      "text": "For comparison, Fig. 3(a)-(c) illustrate the results of re-"
+    },
+    {
+      "page": 4,
+      "line": 104,
+      "text": "volvingmillionsofvoxels.Previousmethods[14,28]resort way,wecanbetterleverageMamba’scontextualmodeling."
+    },
+    {
+      "page": 4,
+      "line": 106,
+      "text": "contrast,Mamba’slinearcomputationalcomplexityenables length L, the input V ∈ RB×W×H×D×C and the output"
+    },
+    {
+      "page": 4,
+      "line": 107,
+      "text": "directprocessingoflargevoxelfeatures,avoidingthelimi- V′ ∈ RB×L×C in the above reordering scheme R"
+    },
+    {
+      "page": 4,
+      "line": 108,
+      "text": "3D→1D"
+    },
+    {
+      "page": 4,
+      "line": 110,
+      "text": "1D→3D"
+    },
+    {
+      "page": 4,
+      "line": 111,
+      "text": "needforkeypointselectionorlimitedreceptivefields. V=R (V′)=R (R (V)) (7)"
+    },
+    {
+      "page": 4,
+      "line": 112,
+      "text": "1D→3D 1D→3D 3D→1D"
+    },
+    {
+      "page": 5,
+      "line": 2,
+      "text": "(d)Height-prioritized"
+    },
+    {
+      "page": 5,
+      "line": 3,
+      "text": "(a)XYZsequence (b)ZXYsequence (c)3DHilbertcurve"
+    },
+    {
+      "page": 5,
+      "line": 5,
+      "text": "Figure3. Comparisonbetweendifferentreorderingschemes. (a)XYZsequence, (b)ZXYsequence, (c)3DHilbertcurve, and(d)our"
+    },
+    {
+      "page": 5,
+      "line": 13,
+      "text": "each with two Mamba blocks and a downsampling oper- V ∈ RB×W×H×D×C along the XY plane into patches"
+    },
+    {
+      "page": 5,
+      "line": 15,
+      "text": "ation between groups for multi-scale voxel features. Cor- V = {V |s ∈ S,w ∈ W}, using a list of window"
+    },
+    {
+      "page": 5,
+      "line": 19,
+      "text": "utilizingpairedMambablocksandupsamplingoperations. S = {s }toscantheplane. ForeachitemV ∈ V ,"
+    },
+    {
+      "page": 5,
+      "line": 23,
+      "text": "V =V [:,p·s :p·s +w ,q·s :q·s +w ,:,:],"
+    },
+    {
+      "page": 5,
+      "line": 25,
+      "text": "(cid:22) (cid:23) (cid:22) (cid:23)"
+    },
+    {
+      "page": 5,
+      "line": 29,
+      "text": "ingbothdownsamplingandupsamplingphases. (12)"
+    },
+    {
+      "page": 5,
+      "line": 31,
+      "text": "Norm(LN), linear layers, 1D convolution, Silu activation, Next,wereorderV p,q ∈RB×wi×wi×D×CtoRB×L×C,"
+    },
+    {
+      "page": 5,
+      "line": 32,
+      "text": "Selective SSM, and residual connections. Given an input and then stack V si,wi to R(B×N)×L×C. Each V si,wi"
+    },
+    {
+      "page": 5,
+      "line": 33,
+      "text": "V∈RB×L×C,whereB,LandCdenotethebatchsize,the is processed by the dedicated two-layer Mamba blocks,"
+    },
+    {
+      "page": 5,
+      "line": 34,
+      "text": "lengthof1Ddata, andthefeaturedimension, respectively, and the outputs are reshaped to V′ si,wi = {V′ p,q ∈"
+    },
+    {
+      "page": 5,
+      "line": 35,
+      "text": "theoutputV′ ∈RB×L×C canbecomputedasbelow: RB×wi×wi×D×C}. Finally, V′ = {V′ si,wi } patches are"
+    },
+    {
+      "page": 5,
+      "line": 37,
+      "text": "V 1 ′ =LN(V), (8) nated along the channel dimension to produce V′ L ∈"
+    },
+    {
+      "page": 5,
+      "line": 38,
+      "text": "V′ =SelectiveSSM(Silu(Conv1d(Linear(V′)))), (9) RB×W×H×D×C′. A3Dconvolutionwithakernelsizeof"
+    },
+    {
+      "page": 5,
+      "line": 40,
+      "text": "V′ =Linear(V′ ⊙Silu(Linear(V′))), (10) 1×1×1 is then applied along the channel dimension to"
+    },
+    {
+      "page": 5,
+      "line": 41,
+      "text": "2 1 reduceit,resultinginV ∈RB×W×H×D×C."
+    },
+    {
+      "page": 5,
+      "line": 43,
+      "text": "where ⊙ represents the dot product. For convenience, we V′ =Reshape(M(Stack(Reorder(V )))) (13)"
+    },
+    {
+      "page": 5,
+      "line": 44,
+      "text": "denote Eq. (8)-Eq. (10) as M. Then, Given the input"
+    },
+    {
+      "page": 5,
+      "line": 46,
+      "text": "V ∈ RB×W×H×D×C and output V′ ∈ RB×W×H×D×C, V L =Conv3d(Reassemble Patches(V′)) (14)"
+    },
+    {
+      "page": 5,
+      "line": 50,
+      "text": "3D→1D 1D→3D context processor, our OccMamba utilizes both global and"
+    },
+    {
+      "page": 5,
+      "line": 51,
+      "text": "V′ =R (cid:0) M(R (V)) (cid:1) (11) localinformationfromdensescenegrids,therebycapturing"
+    },
+    {
+      "page": 5,
+      "line": 52,
+      "text": "1D→3D 3D→1D broadcontextwhilepreservinglocaldetails.Thisintegrated"
+    },
+    {
+      "page": 6,
+      "line": 11,
+      "text": "MonoScene[4] C 18.4 6.9 7.1 3.9 9.3 7.2 5.6 3.0 5.9 4.4 4.9 4.2 14.9 6.3 7.9 7.4 10.0 7.6"
+    },
+    {
+      "page": 6,
+      "line": 12,
+      "text": "TPVFormer[14] C 15.3 7.8 9.3 4.1 11.3 10.1 5.2 4.3 5.9 5.3 6.8 6.5 13.6 9.0 8.3 8.0 9.2 8.2"
+    },
+    {
+      "page": 6,
+      "line": 13,
+      "text": "SparseOcc[39] C 21.8 14.1 16.1 9.3 15.1 18.6 7.3 9.4 11.2 9.4 7.2 13.0 31.8 21.7 20.7 18.8 6.1 10.6"
+    },
+    {
+      "page": 6,
+      "line": 14,
+      "text": "3DSketch[5] C&D 25.6 10.7 12.0 5.1 10.7 12.4 6.5 4.0 5.0 6.3 8.0 7.2 21.8 14.8 13.0 11.8 12.0 21.2"
+    },
+    {
+      "page": 6,
+      "line": 15,
+      "text": "AICNet[15] C&D 23.8 10.6 11.5 4.0 11.8 12.3 5.1 3.8 6.2 6.0 8.2 7.5 24.1 13.0 12.8 11.5 11.6 20.2"
+    },
+    {
+      "page": 6,
+      "line": 16,
+      "text": "LMSCNet[35] L 27.3 11.5 12.4 4.2 12.8 12.1 6.2 4.7 6.2 6.3 8.8 7.2 24.2 12.3 16.6 14.1 13.9 22.2"
+    },
+    {
+      "page": 6,
+      "line": 17,
+      "text": "JS3C-Net[49] L 30.2 12.5 14.2 3.4 13.6 12.0 7.2 4.3 7.3 6.8 9.2 9.1 27.9 15.3 14.9 16.2 14.0 24.9"
+    },
+    {
+      "page": 6,
+      "line": 18,
+      "text": "M-CONet[45] C&L 29.5 20.1 23.3 13.3 21.2 24.3 15.3 15.9 18.0 13.3 15.3 20.7 33.2 21.0 22.5 21.5 19.6 23.2"
+    },
+    {
+      "page": 6,
+      "line": 19,
+      "text": "Co-Occ[31] C&L 30.6 21.9 26.5 16.8 22.3 27.0 10.1 20.9 20.7 14.5 16.4 21.6 36.9 23.5 5.5 23.7 20.5 23.5"
+    },
+    {
+      "page": 6,
+      "line": 20,
+      "text": "OccMamba-128(ours) C&L 34.7 25.2 29.1 19.1 25.5 28.5 18.1 24.7 23.4 19.8 19.3 24.5 37.0 25.4 25.4 25.4 28.1 29.9"
+    },
+    {
+      "page": 6,
+      "line": 21,
+      "text": "OccMamba-384(ours) C&L 35.7 26.2 30.2 20.5 26.5 29.5 18.8 26.0 23.7 19.9 20.6 25.4 38.4 26.5 27.0 26.6 28.9 30.5"
+    },
+    {
+      "page": 6,
+      "line": 27,
+      "text": "MonoScene[4] C 11.1 sem"
+    },
+    {
+      "page": 6,
+      "line": 29,
+      "text": "SurroundOcc[46] C 11.9 depth"
+    },
+    {
+      "page": 6,
+      "line": 31,
+      "text": "OccFormer[52] C 12.3"
+    },
+    {
+      "page": 6,
+      "line": 32,
+      "text": "RenderOcc[32] C 12.8 L=L +λ L +λ L +λ L +λ L , (15)"
+    },
+    {
+      "page": 6,
+      "line": 34,
+      "text": "LMSCNet[35] L 17.0"
+    },
+    {
+      "page": 6,
+      "line": 35,
+      "text": "JS3C-Net[49] L 23.8 whereλ ∼λ arethelosscoefficientstobalancetheeffect"
+    },
+    {
+      "page": 6,
+      "line": 37,
+      "text": "SSC-RS[29] L 24.2 of each loss item on the final performance. They are all"
+    },
+    {
+      "page": 6,
+      "line": 38,
+      "text": "Co-Occ[31] C&L 24.4"
+    },
+    {
+      "page": 6,
+      "line": 40,
+      "text": "M-CONet[45] C&L 20.4"
+    },
+    {
+      "page": 6,
+      "line": 41,
+      "text": "OccMamba-128(ours) C&L 24.6 4.Experiments"
+    },
+    {
+      "page": 6,
+      "line": 45,
+      "text": "pancy [45], SemanticKITTI [1] and SemanticPOSS [33]."
+    },
+    {
+      "page": 6,
+      "line": 46,
+      "text": "Input OpenOccupancyisbuiltuponthenuScenesdataset[3],in-"
+    },
+    {
+      "page": 6,
+      "line": 49,
+      "text": "SSCNet[38] L 15.2 ing sequences and 150 validation sequences, with annota-"
+    },
+    {
+      "page": 6,
+      "line": 50,
+      "text": "LMSCNet[35] L 16.5 tionsfor17classes. Theoccupancyannotationsarerepre-"
+    },
+    {
+      "page": 6,
+      "line": 51,
+      "text": "MotionSC[47] L 17.6 sentedina512×512×40voxelgrid,witheachvoxelsized"
+    },
+    {
+      "page": 6,
+      "line": 52,
+      "text": "JS3C-Net[49] L 22.7 at0.2meters.Notably,eachframeinOpenOccupancyhasa"
+    },
+    {
+      "page": 6,
+      "line": 53,
+      "text": "OccMamba-128(ours) L 23.4 datarangefourtimeslargerthantheotherdatasets,impos-"
+    },
+    {
+      "page": 6,
+      "line": 55,
+      "text": "Table3. ComparisonsonSemanticPOSSvalidationset. Thebest quences 00-10 (excluding 08), 08, and 11-21 are allocated"
+    },
+    {
+      "page": 6,
+      "line": 64,
+      "text": "lossL [2], thegeometricandsemanticaffinitylossL sets,respectively,withannotationsfor11classes."
+    },
+    {
+      "page": 6,
+      "line": 66,
+      "text": "and L [4], and the depth supervision loss L [19]. Evaluation metrics. We adopt the official evaluation"
+    },
+    {
+      "page": 6,
+      "line": 68,
+      "text": "Thesetermsarecrucialforoptimizingourmodel’sperfor- metrics, i.e., Intersection-over-Union (IoU) and mean"
+    },
+    {
+      "page": 6,
+      "line": 69,
+      "text": "mance in various aspects: L ensures accurate classifica- Intersection-over-Union(mIoU)."
+    },
+    {
+      "page": 7,
+      "line": 8,
+      "text": "Implementation details. We use ResNet-50 [11] as the 4.2.Experimentalresults"
+    },
+    {
+      "page": 7,
+      "line": 14,
+      "text": "ousmethodswhichusethesettingsofcamera-only[4,5,14,"
+    },
+    {
+      "page": 7,
+      "line": 15,
+      "text": "calcontextprocessorutilizeswindowsizesof[3,5,7],with"
+    },
+    {
+      "page": 7,
+      "line": 16,
+      "text": "15],LiDAR-only[35,49],andmulti-modalfusion[31,45]."
+    },
+    {
+      "page": 7,
+      "line": 19,
+      "text": "dataset,wemaintainidenticalsettingtoM-CONet[45]: for"
+    },
+    {
+      "page": 7,
+      "line": 20,
+      "text": "larly, OccMamba-384 outperforms Co-Occ [31] by 5.1%"
+    },
+    {
+      "page": 7,
+      "line": 25,
+      "text": "points spanning the range of [-51.2m, 51.2m] along the X"
+    },
+    {
+      "page": 7,
+      "line": 27,
+      "text": "and Y axes, and [-2.0m, 6.0m] along the Z axis. Within"
+    },
+    {
+      "page": 7,
+      "line": 34,
+      "text": "best method, i.e., Co-Occ [31], by 0.2% mIoU in Se-"
+    },
+    {
+      "page": 7,
+      "line": 37,
+      "text": "DAR points, with their spatial extents defined as [0m, -"
+    },
+    {
+      "page": 7,
+      "line": 38,
+      "text": "OccMamba with SCPNet [48] and Occfiner [37] as they"
+    },
+    {
+      "page": 7,
+      "line": 39,
+      "text": "25.6m,-2m,51.2m,25.6m,4.4m]. Wesetthemambafea-"
+    },
+    {
+      "page": 7,
+      "line": 43,
+      "text": "tion (TTA) to boost the performance. The used augmen-"
+    },
+    {
+      "page": 7,
+      "line": 47,
+      "text": "augmented inputs (including the original input) are sent to"
+    },
+    {
+      "page": 7,
+      "line": 53,
+      "text": "producesmoreaccuratepredictionsthanM-CONet[45]on"
+    },
+    {
+      "page": 8,
+      "line": 5,
+      "text": "3DHilbert 24.8 MonoScene[4] ✓ 11.1"
+    },
+    {
+      "page": 8,
+      "line": 6,
+      "text": "Height-prioritized2DHilbertexpansion 25.2 MonoScene[4] ✓ 11.7"
+    },
+    {
+      "page": 8,
+      "line": 7,
+      "text": "MonoScene[4] ✓ ✓ 11.9"
+    },
+    {
+      "page": 8,
+      "line": 11,
+      "text": "Mamba Context MemoryUsage(GiB) Inference"
+    },
+    {
+      "page": 8,
+      "line": 13,
+      "text": "Method CNN Module Processor mIoU Training Inference Time(ms)"
+    },
+    {
+      "page": 8,
+      "line": 14,
+      "text": "M-CONet[45] ✓ 20.1 M-CONet[45] 37.3 12.1 416.0 20.1"
+    },
+    {
+      "page": 8,
+      "line": 65,
+      "text": "from M-CONet [45] with our hierarchical Mamba module In this paper, we present the first Mamba-based network,"
+    },
+    {
+      "page": 8,
+      "line": 78,
+      "text": "to the MonoScene[4] framework. Specifically, we replace As an innovative approach in this field, our OccMamba"
+    },
+    {
+      "page": 9,
+      "line": 2,
+      "text": "[1] Jens Behley, Martin Garbade, Andres Milioto, Jan Quen-"
+    },
+    {
+      "page": 9,
+      "line": 3,
+      "text": "[15] Jie Li, Kai Han, Peng Wang, Yu Liu, and Xia Yuan."
+    },
+    {
+      "page": 9,
+      "line": 13,
+      "text": "[16] Siqi Li, Changqing Zou, Yipeng Li, Xibin Zhao, and Yue"
+    },
+    {
+      "page": 9,
+      "line": 14,
+      "text": "[2] Maxim Berman, Amal Rannen Triki, and Matthew B"
+    },
+    {
+      "page": 9,
+      "line": 22,
+      "text": "[3] HolgerCaesar,VarunBankiti,AlexHLang,SourabhVora,"
+    },
+    {
+      "page": 9,
+      "line": 23,
+      "text": "[17] XinLi,BotianShi,YuenanHou,XingjiaoWu,TianlongMa,"
+    },
+    {
+      "page": 9,
+      "line": 33,
+      "text": "[18] Xin Li, Tao Ma, Yuenan Hou, Botian Shi, Yuchen Yang,"
+    },
+    {
+      "page": 9,
+      "line": 34,
+      "text": "[4] Anh-QuanCaoandRaoulDeCharette.Monoscene:Monoc-"
+    },
+    {
+      "page": 9,
+      "line": 42,
+      "text": "[5] XiaokangChen,Kwan-YeeLin,ChenQian,GangZeng,and"
+    },
+    {
+      "page": 9,
+      "line": 45,
+      "text": "tion via semi-supervised structure prior. In Proceedings of [19] Yinhao Li, Zheng Ge, Guanyi Yu, Jinrong Yang, Zengran"
+    },
+    {
+      "page": 9,
+      "line": 49,
+      "text": "[6] TriDao, DanFu, StefanoErmon, AtriRudra, andChristo-"
+    },
+    {
+      "page": 9,
+      "line": 50,
+      "text": "pherRe´. Flashattention:Fastandmemory-efficientexactat- [20] Yiming Li, Zhiding Yu, Christopher Choy, Chaowei Xiao,"
+    },
+    {
+      "page": 9,
+      "line": 54,
+      "text": "[7] JingGao,PengLi,ZhikuiChen,andJianingZhang. Asur-"
+    },
+    {
+      "page": 9,
+      "line": 57,
+      "text": "Computation,32(5):829–864,2020. 2 recognition,pages9087–9098,2023. 1"
+    },
+    {
+      "page": 9,
+      "line": 58,
+      "text": "[8] Martin Garbade, Yueh-Tung Chen, Johann Sawatzky, and [21] DingkangLiang,XinZhou,XinyuWang,XingkuiZhu,Wei"
+    },
+    {
+      "page": 9,
+      "line": 62,
+      "text": "2 [22] TianyangLin,YuxinWang,XiangyangLiu,andXipengQiu."
+    },
+    {
+      "page": 9,
+      "line": 63,
+      "text": "[9] Albert Gu and Tri Dao. Mamba: Linear-time sequence Asurveyoftransformers. AIopen,3:111–132,2022. 3"
+    },
+    {
+      "page": 9,
+      "line": 64,
+      "text": "modeling with selective state spaces. arXiv preprint [23] Tsung-Yi Lin, Piotr Dolla´r, Ross Girshick, Kaiming He,"
+    },
+    {
+      "page": 9,
+      "line": 66,
+      "text": "[10] Albert Gu, Karan Goel, and Christopher Re´. Efficiently mid networks for object detection. In Proceedings of the"
+    },
+    {
+      "page": 9,
+      "line": 69,
+      "text": "[11] KaimingHe,XiangyuZhang,ShaoqingRen,andJianSun. [24] Jiuming Liu, Ruiji Yu, Yian Wang, Yu Zheng, Tianchen"
+    },
+    {
+      "page": 9,
+      "line": 73,
+      "text": "[12] David Hilbert. Dritter Band: Analysis· Grundlagen der arXiv:2403.06467,2024. 3"
+    },
+    {
+      "page": 9,
+      "line": 74,
+      "text": "Mathematik· Physik Verschiedenes: Nebst Einer Lebens- [25] Youquan Liu, Runnan Chen, Xin Li, Lingdong Kong,"
+    },
+    {
+      "page": 9,
+      "line": 76,
+      "text": "[13] YuenanHou,XiaoshuiHuang,ShixiangTang,TongHe,and Ma, Yikang Li, et al. Uniseg: A unified multi-modal li-"
+    },
+    {
+      "page": 9,
+      "line": 78,
+      "text": "tasks:asurvey. Vicinagearth,1(1):6,2024. 2 ProceedingsoftheIEEE/CVFInternationalConferenceon"
+    },
+    {
+      "page": 9,
+      "line": 79,
+      "text": "[14] Yuanhui Huang, Wenzhao Zheng, Yunpeng Zhang, Jie ComputerVision,pages21662–21673,2023. 2"
+    },
+    {
+      "page": 9,
+      "line": 80,
+      "text": "Zhou, and Jiwen Lu. Tri-perspective view for vision- [26] YueLiu, YunjieTian, YuzhongZhao, HongtianYu, Lingxi"
+    },
+    {
+      "page": 10,
+      "line": 2,
+      "text": "[27] Zhijian Liu, Haotian Tang, Alexander Amini, Xinyu Yang, [39] PinTang,ZhongdaoWang,GuoqingWang,JilaiZheng,Xi-"
+    },
+    {
+      "page": 10,
+      "line": 6,
+      "text": "andautomation(ICRA),pages2774–2781.IEEE,2023.2,3 Conference on Computer Vision and Pattern Recognition,"
+    },
+    {
+      "page": 10,
+      "line": 7,
+      "text": "[28] QihangMa, XinTan, YanyunQu, LizhuangMa, Zhizhong pages15035–15044,2024. 6,1"
+    },
+    {
+      "page": 10,
+      "line": 8,
+      "text": "Zhang,andYuanXie.Cotr:Compactoccupancytransformer [40] Wenwen Tong, Chonghao Sima, Tai Wang, Li Chen, Silei"
+    },
+    {
+      "page": 10,
+      "line": 11,
+      "text": "Recognition(CVPR),pages19936–19945,2024. 4 InternationalConferenceonComputerVision,pages8406–"
+    },
+    {
+      "page": 10,
+      "line": 13,
+      "text": "[29] JianbiaoMei, YuYang, MengmengWang, TianxinHuang,"
+    },
+    {
+      "page": 10,
+      "line": 14,
+      "text": "XuemengYang,andYongLiu. Ssc-rs: Elevatelidarseman- [41] AshishVaswani,NoamShazeer,NikiParmar,JakobUszko-"
+    },
+    {
+      "page": 10,
+      "line": 17,
+      "text": "telligentRobotsandSystems(IROS),pages1–8.IEEE,2023. informationprocessingsystems,30,2017. 3"
+    },
+    {
+      "page": 10,
+      "line": 18,
+      "text": "6,2 [42] SourabhVora,AlexHLang,BassamHelou,andOscarBei-"
+    },
+    {
+      "page": 10,
+      "line": 20,
+      "text": "[30] EricNguyen,KaranGoel,AlbertGu,GordonDowns,Preey"
+    },
+    {
+      "page": 10,
+      "line": 27,
+      "text": "[43] HaiyangWang,HaoTang,ShaoshuaiShi,AoxueLi,Zhen-"
+    },
+    {
+      "page": 10,
+      "line": 30,
+      "text": "[31] JingyiPan,ZipengWang,andLinWang. Co-occ:Coupling"
+    },
+    {
+      "page": 10,
+      "line": 37,
+      "text": "[44] SinongWang,BelindaZLi,MadianKhabsa,HanFang,and"
+    },
+    {
+      "page": 10,
+      "line": 38,
+      "text": "[32] Mingjie Pan, Jiaming Liu, Renrui Zhang, Peixiang Huang,"
+    },
+    {
+      "page": 10,
+      "line": 43,
+      "text": "[45] Xiaofeng Wang, Zheng Zhu, Wenbo Xu, Yunpeng Zhang,"
+    },
+    {
+      "page": 10,
+      "line": 46,
+      "text": "[33] YanchengPan, BiaoGao, JilinMei, SiboGeng, Chengkun"
+    },
+    {
+      "page": 10,
+      "line": 52,
+      "text": "IntelligentVehiclesSymposium(IV),pages687–693.IEEE,"
+    },
+    {
+      "page": 10,
+      "line": 55,
+      "text": "[46] Yi Wei, Linqing Zhao, Wenzhao Zheng, Zheng Zhu, Jie"
+    },
+    {
+      "page": 10,
+      "line": 56,
+      "text": "[34] ChristophBRist,DavidEmmerichs,MarkusEnzweiler,and"
+    },
+    {
+      "page": 10,
+      "line": 62,
+      "text": "onpatternanalysisandmachineintelligence,44(10):7205–"
+    },
+    {
+      "page": 10,
+      "line": 65,
+      "text": "[47] Joey Wilson, Jingyu Song, Yuewei Fu, Arthur Zhang, An-"
+    },
+    {
+      "page": 10,
+      "line": 66,
+      "text": "[35] LuisRoldao,RaouldeCharette,andAnneVerroust-Blondet. drew Capodieci, Paramsothy Jayakumar, Kira Barton, and"
+    },
+    {
+      "page": 10,
+      "line": 68,
+      "text": "In2020InternationalConferenceon3DVision(3DV),pages time semantic mapping in dynamic environments. IEEE"
+    },
+    {
+      "page": 10,
+      "line": 69,
+      "text": "111–119.IEEE,2020. 2,6,7 RoboticsandAutomationLetters,7(3):8439–8446,2022. 6"
+    },
+    {
+      "page": 10,
+      "line": 70,
+      "text": "[36] Luis Roldao, Raoul De Charette, and Anne Verroust- [48] Zhaoyang Xia, Youquan Liu, Xin Li, Xinge Zhu, Yuexin"
+    },
+    {
+      "page": 10,
+      "line": 72,
+      "text": "tionalJournalofComputerVision,130(8):1978–2005,2022. manticscenecompletiononpointcloud. InProceedingsof"
+    },
+    {
+      "page": 10,
+      "line": 74,
+      "text": "[37] HaoShi,SongWang,JiamingZhang,XiaotingYin,Zhong- recognition,pages17642–17651,2023. 2,7"
+    },
+    {
+      "page": 10,
+      "line": 75,
+      "text": "dao Wang, Zhijian Zhao, Guangming Wang, Jianke Zhu, [49] Xu Yan, Jiantao Gao, Jie Li, Ruimao Zhang, Zhen Li, Rui"
+    },
+    {
+      "page": 10,
+      "line": 79,
+      "text": "[38] ShuranSong,FisherYu,AndyZeng,AngelXChang,Mano- ArtificialIntelligence,pages3101–3109,2021. 1,2,6,7"
+    },
+    {
+      "page": 10,
+      "line": 80,
+      "text": "lis Savva, and Thomas Funkhouser. Semantic scene com- [50] YanYan,YuxingMao,andBoLi. Second:Sparselyembed-"
+    },
+    {
+      "page": 10,
+      "line": 81,
+      "text": "pletion from a single depth image. In Proceedings of the dedconvolutionaldetection. Sensors,18(10):3337,2018. 3"
+    },
+    {
+      "page": 11,
+      "line": 0,
+      "text": "[51] ShuoZhang,YupengZhai,JilinMei,andYuHu.Fusionocc:"
+    },
+    {
+      "page": 11,
+      "line": 3,
+      "text": "[52] Yunpeng Zhang, Zheng Zhu, and Dalong Du. Occformer:"
+    },
+    {
+      "page": 11,
+      "line": 8,
+      "text": "[53] Yanan Zhang, Jinqing Zhang, Zengran Wang, Junhao Xu,"
+    },
+    {
+      "page": 11,
+      "line": 12,
+      "text": "[54] YinZhouandOncelTuzel. Voxelnet: End-to-endlearning"
+    },
+    {
+      "page": 11,
+      "line": 16,
+      "text": "[55] LianghuiZhu,BenchengLiao,QianZhang,XinlongWang,"
+    },
+    {
+      "page": 12,
+      "line": 3,
+      "text": "geometriccoherence(Fig.5(a,b))."
+    },
+    {
+      "page": 12,
+      "line": 6,
+      "text": "Inourexperiment,weutilizetheAdamWoptimizerwitha (v0.0), derived from static LiDAR, suffer from incomplete"
+    },
+    {
+      "page": 12,
+      "line": 7,
+      "text": "base learning rate of 5e−4 and a weight decay of 0.01 to annotationsfordynamicobjects(Fig.5(c))andoccludedar-"
+    },
+    {
+      "page": 12,
+      "line": 8,
+      "text": "ensureeffectiveoptimizationwhilemaintainingregulariza- easLiDARneverseen.Byusingnewlabels(v0.1),ourLCP"
+    },
+    {
+      "page": 12,
+      "line": 9,
+      "text": "tion. As to the image backbone ResNet-50, which is pre- improves mIoU by 0.4%(Table. 9), demonstrating more"
+    },
+    {
+      "page": 12,
+      "line": 16,
+      "text": "perimental setup reflects our focus on balancing optimiza- (a)w/oLCP (b)wLCP (c)label"
+    },
+    {
+      "page": 12,
+      "line": 17,
+      "text": "tion efficiency, model stability, and rigorous evaluation to Figure5.Reconstructionresultsofdistantoccupancy(about40m)."
+    },
+    {
+      "page": 12,
+      "line": 62,
+      "text": "(LCP)"
+    },
+    {
+      "page": 12,
+      "line": 68,
+      "text": "ofoccludedregions.InTable.9,LCPimprovesIoU(denser"
+    },
+    {
+      "page": 12,
+      "line": 70,
+      "text": "occupancy)andRayIoU(fromSparseOcc[39],surfaceac-"
+    },
+    {
+      "page": 12,
+      "line": 72,
+      "text": "curacy, excluding occlusions) by 1.0% and 0.6% in v0.0"
+    },
+    {
+      "page": 13,
+      "line": 17,
+      "text": "MonoScene[4] C 11.1 54.727.124.8 5.7 14.418.83.3 0.5 0.7 4.4 14.9 2.4 19.51.01.40.411.1 3.3 2.1"
+    },
+    {
+      "page": 13,
+      "line": 18,
+      "text": "SurroundOcc[46] C 11.9 56.928.330.2 6.8 15.220.61.4 1.6 1.2 4.4 14.9 3.4 19.31.42.00.111.3 3.9 2.4"
+    },
+    {
+      "page": 13,
+      "line": 19,
+      "text": "OccFormer[52] C 12.3 55.930.331.5 6.5 15.721.61.2 1.5 1.7 3.2 16.8 3.9 21.32.21.10.211.9 3.8 3.7"
+    },
+    {
+      "page": 13,
+      "line": 20,
+      "text": "RenderOcc[32] C 12.8 57.228.416.1 0.9 18.224.96.0 0.4 0.3 3.7 26.2 4.9 3.6 1.93.10.0 9.1 6.2 3.4"
+    },
+    {
+      "page": 13,
+      "line": 21,
+      "text": "LMSCNet[35] L 17.0 64.033.124.9 3.2 38.729.52.5 0.0 0.0 0.1 40.519.030.80.00.00.020.515.7 0.5"
+    },
+    {
+      "page": 13,
+      "line": 22,
+      "text": "JS3C-Net[49] L 23.8 64.039.034.214.739.433.27.214.08.112.243.519.339.87.95.20.030.117.915.1"
+    },
+    {
+      "page": 13,
+      "line": 23,
+      "text": "SSC-RS[29] L 24.2 73.144.438.617.444.636.45.310.15.111.244.126.041.94.72.40.930.815.0 7.2"
+    },
+    {
+      "page": 13,
+      "line": 24,
+      "text": "Co-Occ[31] C&L 24.4 72.043.542.510.235.140.06.4 4.4 3.3 8.8 41.230.840.81.63.30.432.726.620.7"
+    },
+    {
+      "page": 13,
+      "line": 25,
+      "text": "M-CONet[45] C&L 20.4 60.636.129.013.038.433.84.7 3.0 2.2 5.9 41.520.535.10.82.30.626.018.715.7"
+    },
+    {
+      "page": 13,
+      "line": 26,
+      "text": "OccMamba-128(ours) C&L 24.6 68.741.035.9 9.1 40.834.88.8 8.8 6.5 8.9 44.928.740.64.22.60.632.027.023.3"
+    }
+  ],
+  "references": [
+    {
+      "number": "1",
+      "text": "Jens Behley, Martin Garbade, Andres Milioto, Jan Quen-"
+    },
+    {
+      "number": "15",
+      "text": "Jie Li, Kai Han, Peng Wang, Yu Liu, and Xia Yuan. zel, Sven Behnke, Cyrill Stachniss, and Jurgen Gall. Se- Anisotropic convolutional networks for 3d semantic scene mantickitti: A dataset for semantic scene understanding of completion. In Proceedings of the IEEE/CVF Conference lidar sequences. In Proceedings of the IEEE/CVF inter- on Computer Vision and Pattern Recognition, pages 3351– nationalconferenceoncomputervision, pages9297–9307, 3359,2020. 2,6,7 2019. 2,6"
+    },
+    {
+      "number": "16",
+      "text": "Siqi Li, Changqing Zou, Yipeng Li, Xibin Zhao, and Yue"
+    },
+    {
+      "number": "2",
+      "text": "Maxim Berman, Amal Rannen Triki, and Matthew B Gao. Attention-based multi-modal fusion network for se- Blaschko. The lova´sz-softmax loss: A tractable surrogate manticscenecompletion. InProceedingsoftheAAAICon- fortheoptimizationoftheintersection-over-unionmeasure ferenceonArtificialIntelligence,pages11402–11409,2020. inneuralnetworks. InCVPR,pages4413–4421,2018. 6 2"
+    },
+    {
+      "number": "3",
+      "text": "HolgerCaesar,VarunBankiti,AlexHLang,SourabhVora,"
+    },
+    {
+      "number": "17",
+      "text": "XinLi,BotianShi,YuenanHou,XingjiaoWu,TianlongMa, VeniceErinLiong,QiangXu,AnushKrishnan,YuPan,Gi- YikangLi,andLiangHe.Homogeneousmulti-modalfeature ancarlo Baldan, and Oscar Beijbom. nuscenes: A multi- fusionandinteractionfor3dobjectdetection. InEuropean modal dataset for autonomous driving. In Proceedings of Conference on Computer Vision, pages 691–707. Springer, the IEEE/CVF conference on computer vision and pattern 2022. 2 recognition,pages11621–11631,2020. 6"
+    },
+    {
+      "number": "18",
+      "text": "Xin Li, Tao Ma, Yuenan Hou, Botian Shi, Yuchen Yang,"
+    },
+    {
+      "number": "4",
+      "text": "Anh-QuanCaoandRaoulDeCharette.Monoscene:Monoc- YouquanLiu,XingjiaoWu,QinChen,YikangLi,YuQiao, ular 3d semantic scene completion. In Proceedings of et al. Logonet: Towards accurate 3d object detection theIEEE/CVFConferenceonComputerVisionandPattern withlocal-to-globalcross-modalfusion. InProceedingsof Recognition,pages3991–4001,2022. 1,2,6,7,8 theIEEE/CVFConferenceonComputerVisionandPattern"
+    },
+    {
+      "number": "5",
+      "text": "XiaokangChen,Kwan-YeeLin,ChenQian,GangZeng,and Recognition,pages17524–17534,2023. 2 Hongsheng Li. 3d sketch-aware semantic scene comple- tion via semi-supervised structure prior. In Proceedings of"
+    },
+    {
+      "number": "19",
+      "text": "Yinhao Li, Zheng Ge, Guanyi Yu, Jinrong Yang, Zengran theIEEE/CVFConferenceonComputerVisionandPattern Wang,YukangShi,JianjianSun,andZemingLi. Bevdepth: Recognition,pages4193–4202,2020. 2,6,7 Acquisitionofreliabledepthformulti-view3dobjectdetec- tion. InAAAI,pages1477–1485,2023. 6"
+    },
+    {
+      "number": "6",
+      "text": "TriDao, DanFu, StefanoErmon, AtriRudra, andChristo- pherRe´. Flashattention:Fastandmemory-efficientexactat-"
+    },
+    {
+      "number": "20",
+      "text": "Yiming Li, Zhiding Yu, Christopher Choy, Chaowei Xiao, tentionwithio-awareness. AdvancesinNeuralInformation JoseMAlvarez,SanjaFidler,ChenFeng,andAnimaAnand- ProcessingSystems,35:16344–16359,2022. 3 kumar. Voxformer: Sparse voxel transformer for camera- based 3d semantic scene completion. In Proceedings of"
+    },
+    {
+      "number": "7",
+      "text": "JingGao,PengLi,ZhikuiChen,andJianingZhang. Asur- the IEEE/CVF conference on computer vision and pattern vey on deep learning for multimodal data fusion. Neural Computation,32(5):829–864,2020. 2 recognition,pages9087–9098,2023. 1"
+    },
+    {
+      "number": "8",
+      "text": "Martin Garbade, Yueh-Tung Chen, Johann Sawatzky, and"
+    },
+    {
+      "number": "21",
+      "text": "DingkangLiang,XinZhou,XinyuWang,XingkuiZhu,Wei JuergenGall. Twostream3dsemanticscenecompletion. In Xu, Zhikang Zou, Xiaoqing Ye, and Xiang Bai. Point- ProceedingsoftheIEEE/CVFConferenceonComputerVi- mamba:Asimplestatespacemodelforpointcloudanalysis. sionandPatternRecognitionWorkshops, pages0–0, 2019. arXivpreprintarXiv:2402.10739,2024. 2,3 2"
+    },
+    {
+      "number": "22",
+      "text": "TianyangLin,YuxinWang,XiangyangLiu,andXipengQiu."
+    },
+    {
+      "number": "9",
+      "text": "Albert Gu and Tri Dao. Mamba: Linear-time sequence Asurveyoftransformers. AIopen,3:111–132,2022. 3 modeling with selective state spaces. arXiv preprint"
+    },
+    {
+      "number": "23",
+      "text": "Tsung-Yi Lin, Piotr Dolla´r, Ross Girshick, Kaiming He, arXiv:2312.00752,2023. 1,3 Bharath Hariharan, and Serge Belongie. Feature pyra-"
+    },
+    {
+      "number": "10",
+      "text": "Albert Gu, Karan Goel, and Christopher Re´. Efficiently mid networks for object detection. In Proceedings of the modelinglongsequenceswithstructuredstatespaces. arXiv IEEE conference on computer vision and pattern recogni- preprintarXiv:2111.00396,2021. 3 tion,pages2117–2125,2017. 3"
+    },
+    {
+      "number": "11",
+      "text": "KaimingHe,XiangyuZhang,ShaoqingRen,andJianSun."
+    },
+    {
+      "number": "24",
+      "text": "Jiuming Liu, Ruiji Yu, Yian Wang, Yu Zheng, Tianchen Deep residual learning for image recognition. In Proceed- Deng, Weicai Ye, and Hesheng Wang. Point mamba: ingsoftheIEEEconferenceoncomputervisionandpattern A novel point cloud backbone based on state space recognition,pages770–778,2016. 3,7 model with octree-based ordering strategy. arXiv preprint"
+    },
+    {
+      "number": "12",
+      "text": "David Hilbert. Dritter Band: Analysis· Grundlagen der arXiv:2403.06467,2024. 3 Mathematik· Physik Verschiedenes: Nebst Einer Lebens-"
+    },
+    {
+      "number": "25",
+      "text": "Youquan Liu, Runnan Chen, Xin Li, Lingdong Kong, geschichte. Springer-Verlag,2013. 2,4 YuchenYang,ZhaoyangXia,YeqiBai,XingeZhu,Yuexin"
+    },
+    {
+      "number": "13",
+      "text": "YuenanHou,XiaoshuiHuang,ShixiangTang,TongHe,and Ma, Yikang Li, et al. Uniseg: A unified multi-modal li- WanliOuyang.Advancesin3dpre-traininganddownstream dar segmentation network and the openpcseg codebase. In tasks:asurvey. Vicinagearth,1(1):6,2024. 2 ProceedingsoftheIEEE/CVFInternationalConferenceon"
+    },
+    {
+      "number": "14",
+      "text": "Yuanhui Huang, Wenzhao Zheng, Yunpeng Zhang, Jie ComputerVision,pages21662–21673,2023. 2 Zhou, and Jiwen Lu. Tri-perspective view for vision-"
+    },
+    {
+      "number": "26",
+      "text": "YueLiu, YunjieTian, YuzhongZhao, HongtianYu, Lingxi based3dsemanticoccupancyprediction. InProceedingsof Xie,YaoweiWang,QixiangYe,andYunfanLiu. Vmamba: Visualstatespacemodel. arXivpreprintarXiv:2401.10166, IEEE conference on computer vision and pattern recogni- 2024. 3 tion,pages1746–1754,2017. 6"
+    },
+    {
+      "number": "27",
+      "text": "Zhijian Liu, Haotian Tang, Alexander Amini, Xinyu Yang,"
+    },
+    {
+      "number": "39",
+      "text": "PinTang,ZhongdaoWang,GuoqingWang,JilaiZheng,Xi- HuiziMao,DanielaLRus,andSongHan.Bevfusion:Multi- angxuanRen, BailanFeng, andChaoMa. Sparseocc: Re- taskmulti-sensorfusionwithunifiedbird’s-eyeviewrepre- thinkingsparselatentrepresentationforvision-basedseman- sentation.In2023IEEEinternationalconferenceonrobotics ticoccupancyprediction. InProceedingsoftheIEEE/CVF andautomation(ICRA),pages2774–2781.IEEE,2023.2,3 Conference on Computer Vision and Pattern Recognition,"
+    },
+    {
+      "number": "28",
+      "text": "QihangMa, XinTan, YanyunQu, LizhuangMa, Zhizhong pages15035–15044,2024. 6,1 Zhang,andYuanXie.Cotr:Compactoccupancytransformer"
+    },
+    {
+      "number": "40",
+      "text": "Wenwen Tong, Chonghao Sima, Tai Wang, Li Chen, Silei forvision-based3doccupancyprediction. InProceedingsof Wu,HanmingDeng,YiGu,LeweiLu,PingLuo,DahuaLin, theIEEE/CVFConferenceonComputerVisionandPattern etal. Sceneasoccupancy. InProceedingsoftheIEEE/CVF Recognition(CVPR),pages19936–19945,2024. 4 InternationalConferenceonComputerVision,pages8406– 8415,2023. 1,2"
+    },
+    {
+      "number": "29",
+      "text": "JianbiaoMei, YuYang, MengmengWang, TianxinHuang, XuemengYang,andYongLiu. Ssc-rs: Elevatelidarseman-"
+    },
+    {
+      "number": "41",
+      "text": "AshishVaswani,NoamShazeer,NikiParmar,JakobUszko- ticscenecompletionwithrepresentationseparationandbev reit,LlionJones,AidanNGomez,ŁukaszKaiser,andIllia fusion. In2023IEEE/RSJInternationalConferenceonIn- Polosukhin. Attentionisallyouneed. Advancesinneural telligentRobotsandSystems(IROS),pages1–8.IEEE,2023. informationprocessingsystems,30,2017. 3 6,2"
+    },
+    {
+      "number": "42",
+      "text": "SourabhVora,AlexHLang,BassamHelou,andOscarBei- jbom. Pointpainting: Sequential fusion for 3d object de-"
+    },
+    {
+      "number": "30",
+      "text": "EricNguyen,KaranGoel,AlbertGu,GordonDowns,Preey tection. In Proceedings of the IEEE/CVF conference on Shah,TriDao,StephenBaccus,andChristopherRe´. S4nd: computervisionandpatternrecognition,pages4604–4612, Modeling images and videos as multidimensional signals 2020. 3 withstatespaces.Advancesinneuralinformationprocessing"
+    },
+    {
+      "number": "43",
+      "text": "HaiyangWang,HaoTang,ShaoshuaiShi,AoxueLi,Zhen- systems,35:2846–2861,2022. 3 guoLi,BerntSchiele,andLiweiWang.Unitr:Aunifiedand"
+    },
+    {
+      "number": "31",
+      "text": "JingyiPan,ZipengWang,andLinWang. Co-occ:Coupling efficientmulti-modaltransformerforbird’s-eye-viewrepre- explicitfeaturefusionwithvolumerenderingregularization sentation. In Proceedings of the IEEE/CVF International for multi-modal 3d semantic occupancy prediction. IEEE ConferenceonComputerVision,pages6792–6802,2023. 2 RoboticsandAutomationLetters,2024. 2,6,7"
+    },
+    {
+      "number": "44",
+      "text": "SinongWang,BelindaZLi,MadianKhabsa,HanFang,and"
+    },
+    {
+      "number": "32",
+      "text": "Mingjie Pan, Jiaming Liu, Renrui Zhang, Peixiang Huang, HaoMa. Linformer: Self-attentionwithlinearcomplexity. Xiaoqi Li, Li Liu, and Shanghang Zhang. Renderocc: arXivpreprintarXiv:2006.04768,2020. 3 Vision-centric 3d occupancy prediction with 2d rendering"
+    },
+    {
+      "number": "45",
+      "text": "Xiaofeng Wang, Zheng Zhu, Wenbo Xu, Yunpeng Zhang, supervision. arXivpreprintarXiv:2309.09502,2023. 6,2 Yi Wei, Xu Chi, Yun Ye, Dalong Du, Jiwen Lu, and Xin-"
+    },
+    {
+      "number": "33",
+      "text": "YanchengPan, BiaoGao, JilinMei, SiboGeng, Chengkun gangWang. Openoccupancy: Alargescalebenchmarkfor Li,andHuijingZhao. Semanticposs: Apointclouddataset surroundingsemanticoccupancyperception.InProceedings with large quantity of dynamic instances. In 2020 IEEE oftheIEEE/CVFInternationalConferenceonComputerVi- IntelligentVehiclesSymposium(IV),pages687–693.IEEE, sion,pages17850–17859,2023. 1,2,3,4,6,7,8 2020. 2,6"
+    },
+    {
+      "number": "46",
+      "text": "Yi Wei, Linqing Zhao, Wenzhao Zheng, Zheng Zhu, Jie"
+    },
+    {
+      "number": "34",
+      "text": "ChristophBRist,DavidEmmerichs,MarkusEnzweiler,and Zhou,andJiwenLu. Surroundocc: Multi-camera3doccu- Dariu M Gavrila. Semantic scene completion using local pancy prediction for autonomous driving. In Proceedings deep implicit functions on lidar data. IEEE transactions oftheIEEE/CVFInternationalConferenceonComputerVi- onpatternanalysisandmachineintelligence,44(10):7205– sion,pages21729–21740,2023. 6,2 7218,2021. 2"
+    },
+    {
+      "number": "47",
+      "text": "Joey Wilson, Jingyu Song, Yuewei Fu, Arthur Zhang, An-"
+    },
+    {
+      "number": "35",
+      "text": "LuisRoldao,RaouldeCharette,andAnneVerroust-Blondet. drew Capodieci, Paramsothy Jayakumar, Kira Barton, and Lmscnet: Lightweight multiscale 3d semantic completion. Maani Ghaffari. Motionsc: Data set and network for real- In2020InternationalConferenceon3DVision(3DV),pages time semantic mapping in dynamic environments. IEEE 111–119.IEEE,2020. 2,6,7 RoboticsandAutomationLetters,7(3):8439–8446,2022. 6"
+    },
+    {
+      "number": "36",
+      "text": "Luis Roldao, Raoul De Charette, and Anne Verroust-"
+    },
+    {
+      "number": "48",
+      "text": "Zhaoyang Xia, Youquan Liu, Xin Li, Xinge Zhu, Yuexin Blondet. 3dsemanticscenecompletion: Asurvey. Interna- Ma, Yikang Li, Yuenan Hou, and Yu Qiao. Scpnet: Se- tionalJournalofComputerVision,130(8):1978–2005,2022. manticscenecompletiononpointcloud. InProceedingsof 1,2 the IEEE/CVF conference on computer vision and pattern"
+    },
+    {
+      "number": "37",
+      "text": "HaoShi,SongWang,JiamingZhang,XiaotingYin,Zhong- recognition,pages17642–17651,2023. 2,7 dao Wang, Zhijian Zhao, Guangming Wang, Jianke Zhu,"
+    },
+    {
+      "number": "49",
+      "text": "Xu Yan, Jiantao Gao, Jie Li, Ruimao Zhang, Zhen Li, Rui KailunYang,andKaiweiWang. Occfiner: Offboardoccu- Huang,andShuguangCui. Sparsesinglesweeplidarpoint pancy refinement with hybrid propagation. arXiv preprint cloudsegmentationvialearningcontextualshapepriorsfrom arXiv:2403.08504,2024. 7 scenecompletion.InProceedingsoftheAAAIConferenceon"
+    },
+    {
+      "number": "38",
+      "text": "ShuranSong,FisherYu,AndyZeng,AngelXChang,Mano- ArtificialIntelligence,pages3101–3109,2021. 1,2,6,7 lis Savva, and Thomas Funkhouser. Semantic scene com-"
+    },
+    {
+      "number": "50",
+      "text": "YanYan,YuxingMao,andBoLi. Second:Sparselyembed- pletion from a single depth image. In Proceedings of the dedconvolutionaldetection. Sensors,18(10):3337,2018. 3"
+    },
+    {
+      "number": "51",
+      "text": "ShuoZhang,YupengZhai,JilinMei,andYuHu.Fusionocc: Multi-modal fusion for 3d occupancy prediction. In ACM Multimedia2024,2024. 1"
+    },
+    {
+      "number": "52",
+      "text": "Yunpeng Zhang, Zheng Zhu, and Dalong Du. Occformer: Dual-path transformer for vision-based 3d semantic occu- pancy prediction. In Proceedings of the IEEE/CVF Inter- nationalConferenceonComputerVision,pages9433–9443, 2023. 1,2,6"
+    },
+    {
+      "number": "53",
+      "text": "Yanan Zhang, Jinqing Zhang, Zengran Wang, Junhao Xu, and Di Huang. Vision-based 3d occupancy prediction in autonomousdriving: areviewandoutlook. arXivpreprint arXiv:2405.02595,2024. 1"
+    },
+    {
+      "number": "54",
+      "text": "YinZhouandOncelTuzel. Voxelnet: End-to-endlearning forpointcloudbased3dobjectdetection. InProceedingsof theIEEEconferenceoncomputervisionandpatternrecog- nition,pages4490–4499,2018. 3"
+    },
+    {
+      "number": "4",
+      "text": "C 11.1 54.727.124.8 5.7 14.418.83.3 0.5 0.7 4.4 14.9 2.4 19.51.01.40.411.1 3.3 2.1 SurroundOcc"
+    },
+    {
+      "number": "46",
+      "text": "C 11.9 56.928.330.2 6.8 15.220.61.4 1.6 1.2 4.4 14.9 3.4 19.31.42.00.111.3 3.9 2.4 OccFormer"
+    },
+    {
+      "number": "52",
+      "text": "C 12.3 55.930.331.5 6.5 15.721.61.2 1.5 1.7 3.2 16.8 3.9 21.32.21.10.211.9 3.8 3.7 RenderOcc"
+    },
+    {
+      "number": "32",
+      "text": "C 12.8 57.228.416.1 0.9 18.224.96.0 0.4 0.3 3.7 26.2 4.9 3.6 1.93.10.0 9.1 6.2 3.4 LMSCNet"
+    },
+    {
+      "number": "35",
+      "text": "L 17.0 64.033.124.9 3.2 38.729.52.5 0.0 0.0 0.1 40.519.030.80.00.00.020.515.7 0.5 JS3C-Net"
+    },
+    {
+      "number": "49",
+      "text": "L 23.8 64.039.034.214.739.433.27.214.08.112.243.519.339.87.95.20.030.117.915.1 SSC-RS"
+    },
+    {
+      "number": "29",
+      "text": "L 24.2 73.144.438.617.444.636.45.310.15.111.244.126.041.94.72.40.930.815.0 7.2 Co-Occ"
+    },
+    {
+      "number": "31",
+      "text": "C&L 24.4 72.043.542.510.235.140.06.4 4.4 3.3 8.8 41.230.840.81.63.30.432.726.620.7 M-CONet"
+    },
+    {
+      "number": "45",
+      "text": "C&L 20.4 60.636.129.013.038.433.84.7 3.0 2.2 5.9 41.520.535.10.82.30.626.018.715.7 OccMamba-128(ours) C&L 24.6 68.741.035.9 9.1 40.834.88.8 8.8 6.5 8.9 44.928.740.64.22.60.632.027.023.3 Table11.PerformanceonSemanticKITTItestset.Thebestandsecond-bestareinboldandunderlined,respectively."
+    }
+  ],
+  "citations": {
+    "36": {
+      "page": 10,
+      "context": "boticsandAutomationLetters,7(3):8439–8446,2022. 6\n[36] Luis Roldao, Raoul De Charette, and Anne Verroust"
+    },
+    "53": {
+      "page": 11,
+      "context": "renceonComputerVision,pages9433–9443,\n2023. 1,2,6\n[53] Yanan Zhang, Jinqing Zhang, Zengran Wang, Junhao"
+    },
+    "4": {
+      "page": 13,
+      "context": "ycib\ntsilcycrotom\necnef elop\nngiscfifart\nMonoScene[4] C 11.1 54.727.124.8 5.7 14.418.83.3 0.5 0.7 4.4 1"
+    },
+    "49": {
+      "page": 13,
+      "context": "0.0 0.1 40.519.030.80.00.00.020.515.7 0.5\nJS3C-Net[49] L 23.8 64.039.034.214.739.433.27.214.08.112.243.5"
+    },
+    "51": {
+      "page": 11,
+      "context": "[51] ShuoZhang,YupengZhai,JilinMei,andYuHu.Fusionocc:"
+    },
+    "45": {
+      "page": 13,
+      "context": "3.3 8.8 41.230.840.81.63.30.432.726.620.7\nM-CONet[45] C&L 20.4 60.636.129.013.038.433.84.7 3.0 2.2 5.9"
+    },
+    "20": {
+      "page": 9,
+      "context": "´. Flashattention:Fastandmemory-efficientexactat- [20] Yiming Li, Zhiding Yu, Christopher Choy, Chaowei"
+    },
+    "40": {
+      "page": 10,
+      "context": "Zhang,andYuanXie.Cotr:Compactoccupancytransformer [40] Wenwen Tong, Chonghao Sima, Tai Wang, Li Chen, Si"
+    },
+    "52": {
+      "page": 13,
+      "context": "2 4.4 14.9 3.4 19.31.42.00.111.3 3.9 2.4\nOccFormer[52] C 12.3 55.930.331.5 6.5 15.721.61.2 1.5 1.7 3.2 1"
+    },
+    "9": {
+      "page": 9,
+      "context": "TianyangLin,YuxinWang,XiangyangLiu,andXipengQiu.\n[9] Albert Gu and Tri Dao. Mamba: Linear-time sequenc"
+    },
+    "31": {
+      "page": 13,
+      "context": "0.15.111.244.126.041.94.72.40.930.815.0 7.2\nCo-Occ[31] C&L 24.4 72.043.542.510.235.140.06.4 4.4 3.3 8.8"
+    },
+    "21": {
+      "page": 9,
+      "context": "tin Garbade, Yueh-Tung Chen, Johann Sawatzky, and [21] DingkangLiang,XinZhou,XinyuWang,XingkuiZhu,Wei\nJu"
+    },
+    "12": {
+      "page": 9,
+      "context": "th octree-based ordering strategy. arXiv preprint\n[12] David Hilbert. Dritter Band: Analysis· Grundlagen"
+    },
+    "5": {
+      "page": 9,
+      "context": "for multimodal data fusion. Neural\nComputation,32(5):829–864,2020. 2 recognition,pages9087–9098,2023."
+    },
+    "8": {
+      "page": 10,
+      "context": "iao. Scpnet: Se-\ntionalJournalofComputerVision,130(8):1978–2005,2022. manticscenecompletiononpointcloud"
+    },
+    "15": {
+      "page": 9,
+      "context": "Behley, Martin Garbade, Andres Milioto, Jan Quen-\n[15] Jie Li, Kai Han, Peng Wang, Yu Liu, and Xia Yuan."
+    },
+    "16": {
+      "page": 9,
+      "context": "ision, pages9297–9307,\n3359,2020. 2,6,7\n2019. 2,6\n[16] Siqi Li, Changqing Zou, Yipeng Li, Xibin Zhao, an"
+    },
+    "14": {
+      "page": 9,
+      "context": "ProceedingsoftheIEEE/CVFInternationalConferenceon\n[14] Yuanhui Huang, Wenzhao Zheng, Yunpeng Zhang, Jie"
+    },
+    "1": {
+      "page": 9,
+      "context": "enpcseg codebase. In\ntasks:asurvey. Vicinagearth,1(1):6,2024. 2 ProceedingsoftheIEEE/CVFInternationalCo"
+    },
+    "33": {
+      "page": 10,
+      "context": "ei, Xu Chi, Yun Ye, Dalong Du, Jiwen Lu, and Xin-\n[33] YanchengPan, BiaoGao, JilinMei, SiboGeng, Chengku"
+    },
+    "7": {
+      "page": 9,
+      "context": "d 3d semantic scene completion. In Proceedings of\n[7] JingGao,PengLi,ZhikuiChen,andJianingZhang. Asur-"
+    },
+    "17": {
+      "page": 9,
+      "context": "HolgerCaesar,VarunBankiti,AlexHLang,SourabhVora,\n[17] XinLi,BotianShi,YuenanHou,XingjiaoWu,TianlongMa,"
+    },
+    "18": {
+      "page": 9,
+      "context": "tern\n2022. 2\nrecognition,pages11621–11631,2020. 6\n[18] Xin Li, Tao Ma, Yuenan Hou, Botian Shi, Yuchen Ya"
+    },
+    "25": {
+      "page": 9,
+      "context": "ematik· Physik Verschiedenes: Nebst Einer Lebens- [25] Youquan Liu, Runnan Chen, Xin Li, Lingdong Kong,"
+    },
+    "27": {
+      "page": 10,
+      "context": "tern recogni-\n2024. 3 tion,pages1746–1754,2017. 6\n[27] Zhijian Liu, Haotian Tang, Alexander Amini, Xinyu"
+    },
+    "43": {
+      "page": 10,
+      "context": "statespaces.Advancesinneuralinformationprocessing\n[43] HaiyangWang,HaoTang,ShaoshuaiShi,AoxueLi,Zhen-\nsy"
+    },
+    "42": {
+      "page": 10,
+      "context": "2023. informationprocessingsystems,30,2017. 3\n6,2 [42] SourabhVora,AlexHLang,BassamHelou,andOscarBei-\njb"
+    },
+    "41": {
+      "page": 10,
+      "context": "uemengYang,andYongLiu. Ssc-rs: Elevatelidarseman- [41] AshishVaswani,NoamShazeer,NikiParmar,JakobUszko-"
+    },
+    "22": {
+      "page": 9,
+      "context": ", 2019. arXivpreprintarXiv:2402.10739,2024. 2,3\n2 [22] TianyangLin,YuxinWang,XiangyangLiu,andXipengQiu."
+    },
+    "10": {
+      "page": 10,
+      "context": "dings of the dedconvolutionaldetection. Sensors,18(10):3337,2018. 3"
+    },
+    "44": {
+      "page": 10,
+      "context": ",2023. 2\nRoboticsandAutomationLetters,2024. 2,6,7\n[44] SinongWang,BelindaZLi,MadianKhabsa,HanFang,and\n[3"
+    },
+    "6": {
+      "page": 9,
+      "context": "dobjectdetec-\ntion. InAAAI,pages1477–1485,2023. 6\n[6] TriDao, DanFu, StefanoErmon, AtriRudra, andChrist"
+    },
+    "30": {
+      "page": 10,
+      "context": "ointpainting: Sequential fusion for 3d object de-\n[30] EricNguyen,KaranGoel,AlbertGu,GordonDowns,Preey\nt"
+    },
+    "26": {
+      "page": 9,
+      "context": "u, and Jiwen Lu. Tri-perspective view for vision- [26] YueLiu, YunjieTian, YuzhongZhao, HongtianYu, Ling"
+    },
+    "55": {
+      "page": 11,
+      "context": "ionandpatternrecog-\nnition,pages4490–4499,2018. 3\n[55] LianghuiZhu,BenchengLiao,QianZhang,XinlongWang,\nW"
+    },
+    "24": {
+      "page": 9,
+      "context": "1] KaimingHe,XiangyuZhang,ShaoqingRen,andJianSun. [24] Jiuming Liu, Ruiji Yu, Yian Wang, Yu Zheng, Tianc"
+    },
+    "54": {
+      "page": 11,
+      "context": "ndoutlook. arXivpreprint\narXiv:2405.02595,2024. 1\n[54] YinZhouandOncelTuzel. Voxelnet: End-to-endlearnin"
+    },
+    "50": {
+      "page": 10,
+      "context": "Savva, and Thomas Funkhouser. Semantic scene com- [50] YanYan,YuxingMao,andBoLi. Second:Sparselyembed-\np"
+    },
+    "11": {
+      "page": 9,
+      "context": "iv:2111.00396,2021. 3 tion,pages2117–2125,2017. 3\n[11] KaimingHe,XiangyuZhang,ShaoqingRen,andJianSun. [2"
+    },
+    "23": {
+      "page": 9,
+      "context": "eling with selective state spaces. arXiv preprint [23] Tsung-Yi Lin, Piotr Dolla´r, Ross Girshick, Kaimi"
+    },
+    "2": {
+      "page": 9,
+      "context": "Li, Changqing Zou, Yipeng Li, Xibin Zhao, and Yue\n[2] Maxim Berman, Amal Rannen Triki, and Matthew B\nGa"
+    },
+    "3": {
+      "page": 10,
+      "context": "19.IEEE,2020. 2,6,7 RoboticsandAutomationLetters,7(3):8439–8446,2022. 6\n[36] Luis Roldao, Raoul De Char"
+    },
+    "28": {
+      "page": 10,
+      "context": "rence on Computer Vision and Pattern Recognition,\n[28] QihangMa, XinTan, YanyunQu, LizhuangMa, Zhizhong"
+    },
+    "13": {
+      "page": 9,
+      "context": ",4 YuchenYang,ZhaoyangXia,YeqiBai,XingeZhu,Yuexin\n[13] YuenanHou,XiaoshuiHuang,ShixiangTang,TongHe,and M"
+    },
+    "39": {
+      "page": 12,
+      "context": "state-of-the-art\noccupancy)andRayIoU(fromSparseOcc[39],surfaceac-\nresultsonSemanticKITTItestset.\ncuracy,"
+    },
+    "35": {
+      "page": 13,
+      "context": "0.3 3.7 26.2 4.9 3.6 1.93.10.0 9.1 6.2 3.4\nLMSCNet[35] L 17.0 64.033.124.9 3.2 38.729.52.5 0.0 0.0 0.1 4"
+    },
+    "46": {
+      "page": 13,
+      "context": "4.4 14.9 2.4 19.51.01.40.411.1 3.3 2.1\nSurroundOcc[46] C 11.9 56.928.330.2 6.8 15.220.61.4 1.6 1.2 4.4 1"
+    },
+    "32": {
+      "page": 13,
+      "context": "7 3.2 16.8 3.9 21.32.21.10.211.9 3.8 3.7\nRenderOcc[32] C 12.8 57.228.416.1 0.9 18.224.96.0 0.4 0.3 3.7 2"
+    },
+    "29": {
+      "page": 13,
+      "context": "4.08.112.243.519.339.87.95.20.030.117.915.1\nSSC-RS[29] L 24.2 73.144.438.617.444.636.45.310.15.111.244.1"
+    },
+    "38": {
+      "page": 10,
+      "context": "cenecompletion.InProceedingsoftheAAAIConferenceon\n[38] ShuranSong,FisherYu,AndyZeng,AngelXChang,Mano- Ar"
+    },
+    "47": {
+      "page": 10,
+      "context": "205–\nsion,pages21729–21740,2023. 6,2\n7218,2021. 2\n[47] Joey Wilson, Jingyu Song, Yuewei Fu, Arthur Zhang"
+    },
+    "19": {
+      "page": 9,
+      "context": "emi-supervised structure prior. In Proceedings of [19] Yinhao Li, Zheng Ge, Guanyi Yu, Jinrong Yang, Zen"
+    },
+    "48": {
+      "page": 10,
+      "context": "uis Roldao, Raoul De Charette, and Anne Verroust- [48] Zhaoyang Xia, Youquan Liu, Xin Li, Xinge Zhu, Yue"
+    },
+    "37": {
+      "page": 10,
+      "context": "EEE/CVF conference on computer vision and pattern\n[37] HaoShi,SongWang,JiamingZhang,XiaotingYin,Zhong- r"
+    },
+    "34": {
+      "page": 10,
+      "context": "Wei, Linqing Zhao, Wenzhao Zheng, Zheng Zhu, Jie\n[34] ChristophBRist,DavidEmmerichs,MarkusEnzweiler,and"
+    }
+  },
+  "text_by_page": [
+    {
+      "page_num": 1,
+      "text": "OccMamba: Semantic Occupancy Prediction with State Space Models\nHengLi1,YuenanHou2*,XiaohanXing3,YuexinMa4,XiaoSun2,YanyongZhang15*\n1 UniversityofScienceandTechnologyofChina\n2 ShanghaiAILaboratory3 StanfordUniversity4 ShanghaiTechUniversity\n5 InstituteofArtificialIntelligence,HefeiComprehensiveNationalScienceCenter\nli heng@mail.ustc.edu.cn, houyuenan@pjlab.org.cn, xhxing@stanford.edu\nmayuexin@shanghaitech.edu.cn, sunxiao@pjlab.org.cn, yanyongz@ustc.edu.cn\nAbstract 1.Introduction\nTraining deep learning models for semantic occupancy Semantic occupancy prediction is becoming an indispens-\nprediction is challenging due to factors such as a large ablecomponentinautonomousdriving,augmentedreality,\nnumber of occupancy cells, severe occlusion, limited vi- robotics, etc., which estimates the occupancy and categor-\nsualcues,complicateddrivingscenarios,etc. Recentmeth- ical labels of the surrounding environment [36]. It faces\nodsoftenadopttransformer-basedarchitecturesgiventheir many challenges, such as the enormous number of occu-\nstrongcapabilityinlearninginput-conditionedweightsand pancy grids, severe occlusion, limited visual clues as well\nlong-rangerelationships. However,transformer-basednet- ascomplexdrivingscenarios[53].\nworks are notorious for their quadratic computation com- Recent attempts, such as MonoScene [4] and JS3C-\nplexity, seriously undermining their efficacy and deploy- Net [49], have made progress in addressing these chal-\nment in semantic occupancy prediction. Inspired by the lenges, but limitations remain due to their reliance on\nglobal modeling and linear computation complexity of the uni-modal inputs. Multi-modal approaches, such as Fu-\nMamba architecture, we present the first Mamba-based sionOcc [51] and M-CONet [45], offer improvements, yet\nnetwork for semantic occupancy prediction, termed Oc- theystruggletocaptureglobalinformationduetotheinher-\ncMamba. Specifically, we first design the hierarchical ent deficiency of CNN architectures. Despite the success\nMamba module and local context processor to better ag- oftransformer-basedmodels[20,40,52], theysufferfrom\ngregate global and local contextual information, respec- highcomputationalcomplexity,particularlywhenprocess-\ntively. Besides,torelievetheinherentdomaingapbetween ingalargenumberofvoxelgrids.\nthe linguistic and 3D domains, we present a simple yet ef- Mamba[9],whichisanimportantvariantofstatespace\nfective3D-to-1Dreorderingscheme,i.e.,height-prioritized models, emerges as a promising next-generation structure\n2D Hilbert expansion. It can maximally retain the spatial for replacing the transformer architecture. In semantic\nstructure of 3D voxels as well as facilitate the processing occupancy prediction, we anticipate leveraging its global\nof Mamba blocks. Endowed with the aforementioned de- modeling capabilities to better handle the complex scenar-\nsigns, ourOccMambaiscapableofdirectlyandefficiently iosandovercomelimitedvisualcues,whileitslinearcom-\nprocessing large volumes of dense scene grids, achieving putationcomplexityhelpsmanagetheenormousnumberof\nstate-of-the-art performance across three prevalent occu- occupancy grids efficiently. However, it is primarily de-\npancy prediction benchmarks, including OpenOccupancy, signedforlanguagemodeling,with1Dinputdata,whereas\nSemanticKITTI, and SemanticPOSS. Notably, on OpenOc- theinputdataforsemanticoccupancypredictionis3Dvox-\ncupancy, our OccMamba outperforms the previous state- els. Theuseofdensevoxelsinlargescenesmakesthede-\nof-the-art Co-Occ by 5.1% IoU and 4.3% mIoU, respec- ployment of Mamba even more challenging. When con-\ntively. Our implementation is open-sourced and available verting3Ddataintoa1Dformat, theinherentspatialrela-\nat: https://github.com/USTCLH/OccMamba. tionshipsbetweenadjacentvoxelsinthe3Dspacearemiss-\ning, causing neighboring voxels to become far apart in the\n1Dsequence. ThisspatialseparationunderminesMamba’s\nThisworkwassupportedbytheNationalNaturalScienceFounda- abilitytoeffectivelyunderstandlocalandglobalscenecon-\ntionofChina(No. 62332016)andtheKeyResearchProgramofFrontier\ntexts, hampering the prediction performance. To address\nSciences,CAS(No.ZDBS-LY-JSC001).\n*Thecorrespondingauthors. thisissue,developinganeffectivereorderingstrategyiscru-\n5202\nraM\n11\n]VC.sc[\n2v95890.8042:viXra"
+    },
+    {
+      "page_num": 2,
+      "text": "~𝟏𝟎𝟔 𝐕𝐨𝐱𝐞𝐥𝐬 )G(yromeM\nUPG\nDeformable Transformer OccMamba 30 25 OOM! 25 20 20 Co-Occ 15 M-CONet 15 OccMamba\n10 JS3C-Net 10 5 MonoScenes LMSC-Net\n0 5 TPVFormer 2(cid:2869)(cid:2872) 2(cid:2869)(cid:2873) 2(cid:2869)(cid:2874) 2(cid:2869)(cid:2875) 2(cid:2869)(cid:2876) 2(cid:2869)(cid:2877) 2(cid:2870)(cid:2868) 2(cid:2870)(cid:2869)≈10(cid:2874)\n0 The number of voxels RGB LiDAR Fusion\n)%(UoIm ~𝟏𝟎𝟔 𝐕𝐨𝐱𝐞𝐥𝐬 OccMamba OccMamba )G(yromeM\nUPG\nDeformable Transformer OccMamba 30 25 OOM! 25 20 20 Co-Occ 15 M-CONet 15 OccMamba\n10 JS3C-Net 10 5 MonoScenes LMSC-Net\n0 5 TPVFormer 2(cid:2869)(cid:2872) 2(cid:2869)(cid:2873) 2(cid:2869)(cid:2874) 2(cid:2869)(cid:2875) 2(cid:2869)(cid:2876) 2(cid:2869)(cid:2877) 2(cid:2870)(cid:2868) 2(cid:2870)(cid:2869)≈10(cid:2874)\n0 The number of voxels RGB LiDAR Fusion\n)%(UoIm\n~𝟏𝟎𝟔𝐕𝐨𝐱𝐞𝐥𝐬 Deformable Transformer OccMamba\n25\nOccMamba(ours)\n25 OOM! Co-Occ )G (y 20 )% 20 M-C O O c N cM et amba OccMamba r o m 15 (U 15 SparseOcc e M 10 o Im AICNet LMSC-N J e S t 3C-Net\nU P 5 10 TPVFormer 3DSketch G MonoScenes\n0 5 214 215 216 217 218 219 220 221≈106 15 20 25 30 35 40\nThe number of voxels IoU(%)\n(a)Alargenumberofvoxelgrids (b)GPUmemoryconsumption (c)Performancecomparison\nFigure1.(a)Challengesinsemanticoccupancyprediction,(b)comparisoninGPUmemoryconsumption,and(c)performancecomparison\nonOpenOccupancyvalidationset.OurOccMambademonstrateshighefficiencyinhandlingalargenumberofvoxelgrids,outperforming\nallothersemanticoccupancypredictors,suchasCo-Occ[31]andM-CONet[45].\ncial to preserving spatial proximity in the transformation workforoutdoorsemanticoccupancyprediction. Itpos-\nfrom3Dto1D.Severalattemptshavebeenmadetoachieve sessesglobalmodelingcapabilitywithlinearcomputation\nthis, for instance, Point Mamba [21] rearranges the point complexity, which is crucial to the processing of a large\ncloudsaccordingtothe3DHilbertcurve[12]andconcate- numberofvoxelgrids.WedesignthehierarchicalMamba\nnates the features of the reordered points. While these ad- module and local context processor to better aggregate\nvancementshaveshownpotentialinthepointcloudclassi- globalandlocalcontextualinformation,respectively.\nficationandsegmentationfield,theexplorationofMamba- • To facilitate the processing of Mamba blocks as well as\nbasedarchitecturesisstillinitsinfancyinoutdoorsemantic maximallyretaintheoriginalspatialstructureof3dvox-\noccupancypredictiontasks. els,wedesignasimpleyeteffectivereorderingpolicythat\nInthiswork,wepresentthefirstMamba-basednetwork projectsthepointcloudsinto1Dsequences.\nforsemanticoccupancyprediction,whichwerefertoasOc- • Our OccMamba achieves the best performance on three\ncMamba. Owing to the global modeling and linear com- popularsemanticoccupancypredictionbenchmarks.\nputation complexity of Mamba, our OccMamba can effi-\ncientlyprocessalargenumberofvoxelgridsgivenlimited 2.Relatedwork\ncomputation resources, as shown in Fig. 1(a)-(b). To ef-\nfectively utilize the global and local information hidden in Semanticoccupancyprediction. Theobjectiveofseman-\nthe input voxel grids, we design the hierarchical Mamba tic occupancy prediction is to estimate the occupancy and\nmodule and local context processor. To facilitate the pro- semantic labels of 3D spaces using various types of input\ncessing of Mamba blocks as well as preserve the spatial signals [13, 36]. Given that LiDAR and RGB-D camera\nstructure of the 3D input data, we present a simple yet ef- canprovideaccuratespatialmeasurement,manystudiesre-\nfective 3D-to-1D reordering policy, i.e., height-prioritized liedonsuchdetailedgeometricdatalikeLiDARpoints[34,\n2D Hilbert expansion. The designed policy sufficiently 35,48,49]andRGB-Dimages[5,8,15,16]. Meanwhile,\nutilizes the categorical clues in the height information as image-based methods, increasingly popular due to camera\nwell as the spatial prior in the XY plane. In this way, accessibility,suchasMonoScene[4]andTPVFormer[14],\nOccMamba effectively exploits LiDAR and camera cues, estimateoccupancyoftheenvironmentusingRGBimages.\nenabling effective fusion and processing of voxel features However, inaccurate depth estimation in RGB images re-\nextracted from these sources without compression. This sults in lower performance than LiDAR-based models. In\nuncompressed voxel feature processing method, combined response, multi-modal fusion combining both modalities\nwithMamba’sglobalmodelingcapabilities,enhancesOcc- has attracted significant attention. CONet [45] and Co-\nMambawiththeocclusionreasoningcapability,particularly Occ[31]demonstratetheadvantagesofcombiningmodal-\nincomplexdrivingscenarios.Weperformextensiveexperi- ities, enhancing precision and reliability. Furthermore, re-\nmentsonthreesemanticoccupancypredictionbenchmarks, centmethodshaveshiftedfromCNNstointegratingtrans-\ni.e.,OpenOccupancy[45],SemanticKITTI[1]andSeman- formers,asseeninOccFormer’sdual-pathtransformer[52]\nticPOSS [33]. Our OccMamba consistently outperforms and OccNet’s cascade refinement [40] reduce the trans-\nstate-of-the-art algorithms in all benchmarks. It is note- former’scomputationaldemands.\nworthythatonOpenOccupancy, partlyshowninFig.1(c), Multi-modalfusion. Multi-modalfusionaimstomakethe\nour OccMamba surpasses the previous state-of-the-art Co- strengthofdifferentinputmodalities,thusmakingmoreac-\nOcc[31]by5.1%IoUand4.3%mIoU,respectively. curateandrobustperception[7,15,17,18,25,27,43]. For\nThecontributionsaresummarizedasfollows: instance,AICNet[15]integratesRGBanddepthdatausing\n• Toourknowledge,wedesignthefirstMamba-basednet- anisotropicconvolutionalnetworkstoenhancetheaccuracy"
+    },
+    {
+      "page_num": 3,
+      "text": "andcompletenessofsemanticoccupancyprediction. Point-\nPainting[42]performssemanticsegmentationonRGBim-\nages and attaches semantic probabilities to LiDAR points, h k =Ah k−1 +Bx k , (1)\ntherebyenrichingthepointcloudwithrichsemanticinfor-\ny =Ch , (2)\nk k\nmation. For semantic occupancy prediction, images and\npointcloudsaretwoprevalentinputsignals. Recenttrends\nwherekisthesequencenumber,A,B,C arematricesthat\nintheoccupancypredictionfieldfavourthemulti-modalfu-\nrepresent the discretized parameters of the model, which\nsionasitutilizesthestrengthofbothsignals.\ninvolve the sampling step ∆. The x , y , and h denote\nk k k\nState space models. The transformer [41] has reshaped\nthe input, output, and hidden state of the system, respec-\nthe computer vision field but suffers from the quadratic\ntively. As an improvement, Structured State Space Se-\ncomputation complexity [22]. To relieve this, more effi-\nquenceModels(S4)[10]optimizetraditionalSSMsbyin-\ncientoperatorslikelinearattention[44],flashattention[6]\ntroducing structured matrices, which allow the system dy-\nhave been proposed. State Space Models (SSMs) such as\nnamics, involving matrices A, B, and C, to be parameter-\nMamba[9],S4[10],andS4nd[30]aregainingprominence,\nizedinawaythatsignificantlyimprovescomputationalef-\nwithMambabeingnotableforintegratingselectivemecha-\nficiency and scalability for large sequences. By leverag-\nnisms,whichcaneffectivelycapturelong-rangedependen-\ningthesestructuredmatrices, S4achievesreducedcompu-\nciesandprocesslarge-scaledatainlineartime. Thisinno-\ntationalcomplexitywithoutsacrificingaccuracy.\nvation has extended into computer vision domain through\nMamba Module. Mamba introduces an adaptation to the\nvariants like VMamba [26], which includes a cross-scan\nS4 models [10], where it makes the matrices B and C,\nmodule, and Vision Mamba [55], which utilizes a bidirec-\nas well as the sampling size ∆, dependent on the input.\ntional SSM. In point cloud processing, PointMamba [21]\nThis dependency arises from incorporating the sequence\nimprovestheglobalmodelingofpointcloudsbyrearrang-\nlengthandbatchsizeoftheinput,enablingdynamicadjust-\ning input patches based on 3D Hilbert curve, while Point\nmentsofthesematricesforeachinputtoken. Bythisway,\nMamba[24]employsanoctree-basedorderingforefficient\nMambaallowsB andC todynamicallyinfluencethestate\nspatial relationship capture. They demonstrate Mamba’s\ntransition conditioned on the input, enhancing the model’s\nproficiencyinprocessinglargescale3Ddata. Buildingon\ncontent-awareness. Additionally, Mamba incorporates op-\ntheseadvancements, weattempttodesignaMamba-based\ntimizationsforthescanoperationandahardware-awareal-\nnetworktailoredforsemanticoccupancyprediction.\ngorithm,enablingefficientparallelcomputation.\n3.Methodology\n3.2.Frameworkoverview\nTo efficiently and effectively process a large number of Figure 2 depicts the pipeline of our OccMamba, which is\nvoxel grids in semantic occupancy prediction, we propose builtuponM-CONet[45].\nto take Mamba [9] as the basic building block that enjoys Multi-modal visual encoders. Taking both point cloud\nthebenefitofbothglobalmodelingandlinearcomputation andmulti-viewimagesasinput,OccMambaprocesseseach\ncomplexity. To facilitate theprocessing of Mamba blocks, modality with respective visual encoder. Specifically, for\nwedesignasimpleyeteffectivereorderingscheme,dubbed theLiDARbranch,wefirstvoxelizetheinputpointclouds\nheight-prioritized 2D Hilbert expansion, along with Occ- P [54] and then employ sparse-convolution-based LiDAR\nMambaEncoder. Inthefollowingsections,wefirstprovide encoderE [50]togenerateLiDARvoxelfeaturesV ∈\nL L\nabriefreviewofstatespacemodelsandMambainSec.3.1. RB×WL×HL×DL×CL. For the image branch, we feed the\nThen,wepresenttheframeworkoverviewofOccMambain multi-view images I to ResNet-based image encoder [11]\nSec. 3.2. Thereafter, we provide a detailed explanation of which utilizes FPN [23] to aggregate multi-scale features,\nthereorderingscheme,thehierarchicalMambamoduleand andthenutilizethe2D-to-3Dviewtransformer[27]topro-\nlocalcontextprocessorinSec.3.3. Eventually,thetraining duce image voxel features V\nC\n∈ RB×WC×HC×DC×CC.\nobjectiveispresentedinSec.3.4. Here, B is the batch size, W , W , H , H , D and D\nL C L C L C\narethespatialdimensionsofthevoxelfeatures. C andC\n3.1.Preliminaries L C\nare the channel dimension of these voxel features. We en-\nStatespacemodels. BeforeintroducingtheMambamod- surethatV andV areidenticalinthespatialdimensions.\nL C\nule, we first have a brief review of the state space mod- Thereafter,thesevoxelfeaturesareconcatenatedalongthe\nels (SSMs). SSMs are inspired by the control theory and channeldimensions:\nmapsthesysteminputtothesystemoutputthroughthehid-\nV =concat(V ,V ). (3)\nden state. This approach allows for effectively handling F L C\nsequences of information. When the input is discrete, the OccMamba encoder. To process features extracted from\nmathematicalrepresentationofSSMsisgivenasfollows: the multi-modal encoders, we designed the hierarchical"
+    },
+    {
+      "page_num": 4,
+      "text": "r\nr e m OccMamba Encoder\ne d o c\nn E\nr o fsn\na\nC\nV\na\no\nm\nx\ne\ne\nr\nl\na\nMamba Mamba\nD rT Features Blocks Blocks\n2 w\nSurround-view Images e iV F V u o s x io e n l M Bl a o m ck b s a M Bl a o m ck b s a M Bl a o m ck b s a\nFeatures Mamba Mamba\nr e Blocks Blocks\nd\no LiDAR\nc n E Voxel Hierarchical Mamba Module Local Context Processor\nD Features\n3\nLiDAR Points\nOccupancy Head\n3D Voxel Grids 2D H H ei i g l h b t e - r p t r E 3 io D x r p i t a t i o n ze s 1 i d 1 o D n D R S e e o q r\n…\nu … d e e n r c i e n s g\nN L r\nr\na\na\ne\ne\nn\nn\ni\ni\nL\nL\nd 1 v n o C S\nS\ni\ni\nl\nl\nu\nu\nev itceleS\nMa\nM S S\nmba Block\nra en iL\nx N (Sk N L ip Con\ng n ired ro\neR D 3 o t D 1 nection)\n)elp m a sn\nw o D / elp m a sp U\nMamba Blocks ( Semantic Occupancy\nFigure2. SchematicoverviewofourOccMamba. Givensurround-viewimagesandLiDARpointclouds,wefirstemploythe2Dencoder\nand3Dencodertoprocessthem,obtainingcamerafeaturesandLiDARvoxelfeatures,respectively.Viewtransformerisutilizedtoproject\ncamerafeaturestocameravoxelfeatures.ThecameraandLiDARvoxelfeaturesarethenfusedandsenttothehierarchicalMambamodule,\nwheretheproposedheight-prioritized2DHilbertexpansionreorderingisusedtomaximallyutilizethespatialcluesofvoxels. Besides,\nlocalcontextprocessorisdesignedtodividetheMambafeaturesintomultiplewindowsalongtheXYplane,furtherenhancingthelocal\nsemanticinformation.Eventually,theMambafeaturesarefedtotheoccupancyhead,producingsemanticoccupancypredictions.\nMambamoduleandlocalcontextprocessor. Theformerin- reordertheminto1Dsequences. Apoorreorderingstrategy\ncludestheMambaencoderE andMambadecoderD , candisrupttheintrinsicspatialrelationshipsbetweenadja-\nM M\nwhile the latter is denoted as P . In the process, fusion cent voxels in the 3D space, especially when dealing with\nL\nvoxelfeaturesV arefedintothem,whichwillbedetailed alargenumberofvoxelgrids,therebyimpactingMamba’s\nF\ninSec.3.3. Thetransformationcanbedescribedby performance. Inspired by the Hilbert curve [12], we pro-\npose a height-prioritized 2D Hilbert expansion, tailored to\nV =D (E (V )), (4)\nM M M F\ntheflatspatialstructuretypicalofsemanticoccupancypre-\nV =P (V ), (5)\nP L M diction tasks, where height information provides valuable\nwhereV andV retainsthesamesizeasV . categorical clues, as it often correlates with object cate-\nM P F\nOccupancy head. We feed the processed features of Oc- gories, reveals terrain features, and distinguishes different\ncMamba Encoder, i.e., V , to the coarse-to-fine module spatial regions in the scene. Specifically, we divide the\nP\nF [45],whichinterpolatesthedimensionstomatchthe ”xyz”coordinatesintothe”xy”planeanda”z”dimension.\nc→f\nsizeofthegroundtruth,andthenemployaMLPtopredict Starting on the xy-plane at z=0, the process extends verti-\nthecategoryofeachvoxelgrid. Theprocessispresentedin cally along the z-axis, creating vertical sequences. These\nthefollowingequation: sequences are then ordered and interconnected following\nO =MLP(F (V )). (6) the 2D Hilbert curve on the xy plane, forming the height-\nocc c→f P\nprioritized2DHilbertexpansion,asillustratedinFig.3(d).\nFor comparison, Fig. 3(a)-(c) illustrate the results of re-\n3.3.OccMambaencoderwithheight-prioritizedre-\nordering according to the ’xyz’ sequence, the ’zxy’ se-\nordering\nquence, and the 3D Hilbert curve, respectively. Our re-\nSemantic occupancy prediction is challenging due to the orderingstrategyprioritizesz-axisspatialinformationwhile\nhigh dimensionality and density of voxel grids, often in- maintainingstrongspatialproximityinthexyplane.Bythis\nvolvingmillionsofvoxels.Previousmethods[14,28]resort way,wecanbetterleverageMamba’scontextualmodeling.\ntoprojectiontechniquesbutsufferfrominformationloss.In Asaresult, withthespatialsizeW, H, D and1Ddata\ncontrast,Mamba’slinearcomputationalcomplexityenables length L, the input V ∈ RB×W×H×D×C and the output\ndirectprocessingoflargevoxelfeatures,avoidingthelimi- V′ ∈ RB×L×C in the above reordering scheme R\n3D→1D\ntationsofdeformableattentionandconvolution,suchasthe andR canbeexpressedas:\n1D→3D\nneedforkeypointselectionorlimitedreceptivefields. V=R (V′)=R (R (V)) (7)\n1D→3D 1D→3D 3D→1D\nHeight-prioritized reordering scheme. Before feeding\n3D voxel features into the Mamba block, it’s necessary to Hierarchical mamba module. To effectively utilize the"
+    },
+    {
+      "page_num": 5,
+      "text": "weivcirtemosI\nweivpoT\n(d)Height-prioritized\n(a)XYZsequence (b)ZXYsequence (c)3DHilbertcurve\n2DHilbertexpansion\nFigure3. Comparisonbetweendifferentreorderingschemes. (a)XYZsequence, (b)ZXYsequence, (c)3DHilbertcurve, and(d)our\nheight-prioritized 2D Hilbert expansion. Small cubes of varying colors, ranging from red to purple, represent different voxels. The\ncorresponding colored edges indicate the adjacency of voxels that become neighbors after reordering. In each sub-figure, its top half\nrepresentstheisometricview,andthebottomhalfrepresentsthetopview. Ourmethodmaximizesz-axisproximitywhilealsostrivingto\npreservexy-axisproximity.\ncontextualinformationacrossspatialresolutions,weintro- formationcanfurtherenhancetheaccuracyofsemanticoc-\nducethehierarchicalMambamodule,whichincludesanen- cupancy prediction. To this end, we design a lightweight\ncoderanddecoder.Theencodercomprisesmultiplegroups, local context processor. It divides the Mamba features\neach with two Mamba blocks and a downsampling oper- V ∈ RB×W×H×D×C along the XY plane into patches\nM\nation between groups for multi-scale voxel features. Cor- V = {V |s ∈ S,w ∈ W}, using a list of window\nsi,wi i i\nrespondingly, the Mamba decoder mirrors this structure, sizesW = {w }andacorrespondinglistofslidingstrides\ni\nutilizingpairedMambablocksandupsamplingoperations. S = {s }toscantheplane. ForeachitemV ∈ V ,\ni p,q si,wi\nTheupsamplingincorporatesskipconnectionfromthecor- wehavethefollowingequations:\nresponding layer in the Mamba encoder, ensuring consis-\nV =V [:,p·s :p·s +w ,q·s :q·s +w ,:,:],\ntency in feature dimensions across scales. Crucially, the p,q M i i i i i i\n(cid:22) (cid:23) (cid:22) (cid:23)\nreordering scheme is applied both before and after each p=0,1,... W −w i ,q =0,1,... H −w i .\nMambablocksgroup,maintainingvoxelrepresentationdur- s s\ni i\ningbothdownsamplingandupsamplingphases. (12)\nAs to a single Mamba block, it consists of Layer-\nNorm(LN), linear layers, 1D convolution, Silu activation, Next,wereorderV p,q ∈RB×wi×wi×D×CtoRB×L×C,\nSelective SSM, and residual connections. Given an input and then stack V si,wi to R(B×N)×L×C. Each V si,wi\nV∈RB×L×C,whereB,LandCdenotethebatchsize,the is processed by the dedicated two-layer Mamba blocks,\nlengthof1Ddata, andthefeaturedimension, respectively, and the outputs are reshaped to V′ si,wi = {V′ p,q ∈\ntheoutputV′ ∈RB×L×C canbecomputedasbelow: RB×wi×wi×D×C}. Finally, V′ = {V′ si,wi } patches are\nreassembled into the original spatial size and concate-\nV 1 ′ =LN(V), (8) nated along the channel dimension to produce V′ L ∈\nV′ =SelectiveSSM(Silu(Conv1d(Linear(V′)))), (9) RB×W×H×D×C′. A3Dconvolutionwithakernelsizeof\n2 1\nV′ =Linear(V′ ⊙Silu(Linear(V′))), (10) 1×1×1 is then applied along the channel dimension to\n2 1 reduceit,resultinginV ∈RB×W×H×D×C.\nL\nwhere ⊙ represents the dot product. For convenience, we V′ =Reshape(M(Stack(Reorder(V )))) (13)\ndenote Eq. (8)-Eq. (10) as M. Then, Given the input\nsi,wi si,wi\nV ∈ RB×W×H×D×C and output V′ ∈ RB×W×H×D×C, V L =Conv3d(Reassemble Patches(V′)) (14)\nthecomputationforasingleMambablockwithourreorder-\nEndowedwiththehierarchicalMambamoduleandlocal\ningschemeR andR canberepresentedas\n3D→1D 1D→3D context processor, our OccMamba utilizes both global and\nV′ =R (cid:0) M(R (V)) (cid:1) (11) localinformationfromdensescenegrids,therebycapturing\n1D→3D 3D→1D broadcontextwhilepreservinglocaldetails.Thisintegrated\nLocal context processor. Although the hierarchical approachenhancesspatialunderstandingandmitigatespo-\nMambamodulehasimprovedthenetwork’sabilitytopro- tentialperformancedegradationwithlargedatavolumes,by\ncessmulti-scaleglobalinformation,handlingmorelocalin- effectivelybalancingglobalawarenesswithlocalprecision."
+    },
+    {
+      "page_num": 6,
+      "text": "Input\nMethod Modality IoU mIoU\nreirrab elcycib\nsub rac\n.hev.tsnoc elcycrotom nairtsedep enoccfifart\nreliart kcurt\n.frusevird tafl\nrehto\nklawedis\nniarret\nedamnam noitategev\nMonoScene[4] C 18.4 6.9 7.1 3.9 9.3 7.2 5.6 3.0 5.9 4.4 4.9 4.2 14.9 6.3 7.9 7.4 10.0 7.6\nTPVFormer[14] C 15.3 7.8 9.3 4.1 11.3 10.1 5.2 4.3 5.9 5.3 6.8 6.5 13.6 9.0 8.3 8.0 9.2 8.2\nSparseOcc[39] C 21.8 14.1 16.1 9.3 15.1 18.6 7.3 9.4 11.2 9.4 7.2 13.0 31.8 21.7 20.7 18.8 6.1 10.6\n3DSketch[5] C&D 25.6 10.7 12.0 5.1 10.7 12.4 6.5 4.0 5.0 6.3 8.0 7.2 21.8 14.8 13.0 11.8 12.0 21.2\nAICNet[15] C&D 23.8 10.6 11.5 4.0 11.8 12.3 5.1 3.8 6.2 6.0 8.2 7.5 24.1 13.0 12.8 11.5 11.6 20.2\nLMSCNet[35] L 27.3 11.5 12.4 4.2 12.8 12.1 6.2 4.7 6.2 6.3 8.8 7.2 24.2 12.3 16.6 14.1 13.9 22.2\nJS3C-Net[49] L 30.2 12.5 14.2 3.4 13.6 12.0 7.2 4.3 7.3 6.8 9.2 9.1 27.9 15.3 14.9 16.2 14.0 24.9\nM-CONet[45] C&L 29.5 20.1 23.3 13.3 21.2 24.3 15.3 15.9 18.0 13.3 15.3 20.7 33.2 21.0 22.5 21.5 19.6 23.2\nCo-Occ[31] C&L 30.6 21.9 26.5 16.8 22.3 27.0 10.1 20.9 20.7 14.5 16.4 21.6 36.9 23.5 5.5 23.7 20.5 23.5\nOccMamba-128(ours) C&L 34.7 25.2 29.1 19.1 25.5 28.5 18.1 24.7 23.4 19.8 19.3 24.5 37.0 25.4 25.4 25.4 28.1 29.9\nOccMamba-384(ours) C&L 35.7 26.2 30.2 20.5 26.5 29.5 18.8 26.0 23.7 19.9 20.6 25.4 38.4 26.5 27.0 26.6 28.9 30.5\nTable1. QuantitativecomparisonsonOpenOccupancyvalidationsetwithv0.0annotations. C,D,Ldenotecamera,depthandLiDAR,\nrespectively. OccMamba-384 means OccMamba with mamba feature dimension being 384. The best and second-best are in bold and\nunderlined,respectively.\nMethod InputModality mIoU tion, L iou enhances semantic segmentation, L geo improves\nspatialalignment,L refinessemanticunderstanding,and\nMonoScene[4] C 11.1 sem\nL guidesdepthestimationandspatialrelationships.The\nSurroundOcc[46] C 11.9 depth\nultimatetrainingobjectiveispresentedasfollows:\nOccFormer[52] C 12.3\nRenderOcc[32] C 12.8 L=L +λ L +λ L +λ L +λ L , (15)\nCE 1 iou 2 geo 3 sem 4 depth\nLMSCNet[35] L 17.0\nJS3C-Net[49] L 23.8 whereλ ∼λ arethelosscoefficientstobalancetheeffect\n1 4\nSSC-RS[29] L 24.2 of each loss item on the final performance. They are all\nCo-Occ[31] C&L 24.4\nempiricallysetto1.\nM-CONet[45] C&L 20.4\nOccMamba-128(ours) C&L 24.6 4.Experiments\n4.1.Experimentalsetup\nTable 2. Performance on SemanticKITTI test set. The best and\nsecond-bestareinboldandunderlined,respectively. Benchmarks. We conduct experiments on OpenOccu-\npancy [45], SemanticKITTI [1] and SemanticPOSS [33].\nInput OpenOccupancyisbuiltuponthenuScenesdataset[3],in-\nMethod Modality mIoU\nheritingthedataformatofnuScenes.Itcomprises700train-\nSSCNet[38] L 15.2 ing sequences and 150 validation sequences, with annota-\nLMSCNet[35] L 16.5 tionsfor17classes. Theoccupancyannotationsarerepre-\nMotionSC[47] L 17.6 sentedina512×512×40voxelgrid,witheachvoxelsized\nJS3C-Net[49] L 22.7 at0.2meters.Notably,eachframeinOpenOccupancyhasa\nOccMamba-128(ours) L 23.4 datarangefourtimeslargerthantheotherdatasets,impos-\ningaheaviercomputationalburden. InSemanticKITTI,se-\nTable3. ComparisonsonSemanticPOSSvalidationset. Thebest quences 00-10 (excluding 08), 08, and 11-21 are allocated\nisinbold,andthesecond-bestisunderlined. for training, validation, and testing, respectively. For the\noccupancy annotations, a 256×256×32 grid is used, with\nvoxelsmeasuring0.2meterseach. Afterpre-processing, a\n3.4.Trainingobjective\ntotal of 19 classes are utilized for training and evaluation.\nOur ultimate training objective is composed of five terms, SemanticPOSS, which closely resembles SemanticKITTI,\nincluding the cross-entropy loss L , the lovasz-softmax employssequences00-05and02astrainingandvalidation\nCE\nlossL [2], thegeometricandsemanticaffinitylossL sets,respectively,withannotationsfor11classes.\niou geo\nand L [4], and the depth supervision loss L [19]. Evaluation metrics. We adopt the official evaluation\nsem depth\nThesetermsarecrucialforoptimizingourmodel’sperfor- metrics, i.e., Intersection-over-Union (IoU) and mean\nmance in various aspects: L ensures accurate classifica- Intersection-over-Union(mIoU).\nCE"
+    },
+    {
+      "page_num": 7,
+      "text": "hturT\ndnuorG\nteNOC-M\nabmaMccO\nBarrier Bicycle Bus Car ConstructionVehicle Motorcycle Pedestrian TrafficCone\nTrailer Truck DriveableSurface OtherFlat Sidewalk Terrain Manmade Vegetation\nFigure4. VisualcomparisonbetweenOccMambaandM-CONet. Fromtoptobottom: ground-truth,predictionsofM-CONetandOcc-\nMamba.OurOccMambamakespreciserpredictionsthanM-CONetespeciallyinregionshighlightedbyredellipses.\nImplementation details. We use ResNet-50 [11] as the 4.2.Experimentalresults\nimage backbone. Both the Mamba Encoder and Mamba\nOpenOccupancy. AsshowninTable1,wecompareOcc-\nDecoderinthehierarchicalmambamoduleconsistoffour\nMamba on OpenOccupancy with v0.0 annotation to previ-\ngroupsandeachgroupcontainstwoMambablocks.Thelo-\nousmethodswhichusethesettingsofcamera-only[4,5,14,\ncalcontextprocessorutilizeswindowsizesof[3,5,7],with\n15],LiDAR-only[35,49],andmulti-modalfusion[31,45].\ntwoMambablocksimplemented. FortheOpenOccupancy\nOur OccMamba achieves the best performance. Particu-\ndataset,wemaintainidenticalsettingtoM-CONet[45]: for\nlarly, OccMamba-384 outperforms Co-Occ [31] by 5.1%\neach frame, we utilize six surround view camera images\nin IoU and 4.3% in mIoU, respectively. Additionally,\nas input, coupled with a fusion of ten frames of LiDAR\nOccMamba-128alsosurpassesCo-Occby4.1%inIoUand\npoints spanning the range of [-51.2m, 51.2m] along the X\n3.3%inmIoU.Theseresultsunderscoretheefficacyofour\nand Y axes, and [-2.0m, 6.0m] along the Z axis. Within\napproachinhandlinglarge-scalescenarios.\ntheMambablock,experimentsareconductedwithmamba\nSemanticKITTI & SemanticPOSS. As evident from Ta-\nfeature dimension set to 128 and 384, respectively. On\nble 2, our OccMamba-128 still outperforms the second-\nthe SemanticKITTI dataset, our inputs consist of forward-\nbest method, i.e., Co-Occ [31], by 0.2% mIoU in Se-\nfacing stereo camera images alongside a single-frame Li-\nmanticKITTI test set. Note that we do not compare our\nDAR points, with their spatial extents defined as [0m, -\nOccMamba with SCPNet [48] and Occfiner [37] as they\n25.6m,-2m,51.2m,25.6m,4.4m]. Wesetthemambafea-\nemploy tricks such as label rectification, knowledge distil-\nture dimension to 128 and employ Test Time Augmenta-\nlation or multi-frame concatenation. Strong performance\ntion (TTA) to boost the performance. The used augmen-\nis also observed in SemanticPOSS, as shown in Table 3.\ntations include the flipping of the X and Y axes, and four\nTheseresultssufficientlydemonstratethesuperiorityofour\naugmented inputs (including the original input) are sent to\napproach. Thedetailedclasswiseperformanceisputinthe\nthe model. Finally, for the SemanticPOSS, we exclusively\nsupplementarymaterial.\nleveragesingle-frameLiDARpointslikeSemanticKITTI.\nVisual comparisons. From Fig. 4, our OccMamba-384\nproducesmoreaccuratepredictionsthanM-CONet[45]on\nOpenOccupancy validation set. Our OccMamba not only"
+    },
+    {
+      "page_num": 8,
+      "text": "ReorderingSchemes mIoU Hierarchical Local\nMamba Context\nXYZsequence 24.5\nMethod CNN Module Processor mIoU\nZXYsequence 24.7\n3DHilbert 24.8 MonoScene[4] ✓ 11.1\nHeight-prioritized2DHilbertexpansion 25.2 MonoScene[4] ✓ 11.7\nMonoScene[4] ✓ ✓ 11.9\nTable4.Ablationstudyondifferentreorderingschemes.\nTable6.AblationstudyonMonoSceneframework.\nHierarchical Local\nMamba Context MemoryUsage(GiB) Inference\nMethod mIoU\nMethod CNN Module Processor mIoU Training Inference Time(ms)\nM-CONet[45] ✓ 20.1 M-CONet[45] 37.3 12.1 416.0 20.1\nOccMamba-128 ✓ 25.0 OccMamba-384 37.7 9.2 448.3 26.2\nOccMamba-128 ✓ ✓ 25.2 OccMamba-128 23.1 6.8 269.3 25.2\nOccMamba-384 ✓ ✓ 26.2\nTable7.Comparisonofmemoryusageandinferencetime.\nTable5.AblationstudyonOccMambaEncoder.\nstrategyunchanged. AsshowninTable6, ourOccMamba\nprovides a more detailed representation of object shapes\nencodercanimprovetheperformanceofMonoScenefrom\nandsemantics,butalsoperformspreciserpredictionsonoc-\n11.1%mIoUto11.9%mIoUonSemanticKITTIvalset.\ncludedobjectsandsurfaces.\nMemory usage and inference time. In Table 7, we\n4.3.Ablationstudy presentacomparativeanalysisofmemoryusageandinfer-\nence time between OccMamba and M-CONet during both\nThe reported results are on the OpenOccupancy validation\ntraining and inference phases. The networks are trained\nsetwithv0.0annotationsunlessotherwisespecified.\non 8 A40 GPUs and perform inference on a single RTX\nReordering schemes. To accelerate the training process,\n4090 GPU.When the mamba feature dimension is set to\nwesetthemambafeaturedimensionto128andthencom-\n384,OccMambashowssimilarmemoryusagetoM-CONet\npare our method with three alternative methods: ordering\nduring training but reduces inference memory usage by\nby XYZ sequence, ordering by ZXY sequence, and order-\nabout 24%. When the mamba feature dimension is low-\ning using the 3D Hilbert curve. As shown in Table 4, our\nered to 128, the memory savings are more pronounced,\nmethodachievesthehighestmIoUof25.2%. Additionally,\nwith a reduction of approximately 38% during training\nit is apparent that reordering schemes that prioritize the z-\nand 44% during inference compared to M-CONet. Addi-\naxisoutperformtheothermethods. Thiscouldbeattributed\ntionally, OccMamba-128 significantly improves inference\ntothefactthatinsemanticoccupancyprediction,theoverall\nspeed,takingabout35%ofthetimerequiredbyM-CONet,\nshapeofthescenestypicallymanifestsasaflattenedcuboid.\nwhichhighlightsitsefficiencyinresource-constrainedsce-\nTherefore, reordering schemes that prioritize the z-axis al-\nnarios. Intermsofperformance, OccMamba-384achieves\nlowMambatobettercapturespatialproximityinformation,\nthe highest mIoU, while OccMamba-128 configurations\nleadingtoimprovedpredictionperformance.\nalsosurpassM-CONetinperformance,providingabalance\nOccMambaencoder.Consistentwithprevioussettings,we\nbetweenefficiencyandaccuracy.\nconduct ablation studies on mamba feature dimension and\ntwomoduleswithinourOccMambaencoder. Asshownin\n5.Conclusion\nTable 5, by replacing the CNN-based occupancy encoder\nfrom M-CONet [45] with our hierarchical Mamba module In this paper, we present the first Mamba-based network,\nusing a mamba feature dimension of 128, the mIoU im- termedOccMamba,forsemanticoccupancyprediction. To\nproves from 20.1% to 25.0%. The incorporation of our facilitate the processing of Mamba blocks and maximally\nlocal context processor further enhances the performance, retain the 3D spatial relationship, we design a novel\nreordering scheme and OccMamba encoder. Endowed\nachieving 25.2% mIoU. When the Mamba feature dimen-\nwith these designs, our OccMamba is capable of directly\nsionisincreasedfrom128to384,themIoUimprovesfur-\nand efficiently processing large volumes of dense scene\nther,reaching26.2%.\ngrids, surpassing the previous state-of-the-art algorithms\nGeneralization. WeapplyourhierarchicalMambamodule\non three prevalent occupancy prediction benchmarks.\nto the MonoScene[4] framework. Specifically, we replace As an innovative approach in this field, our OccMamba\nthe3Dvoxeldecoderinthisframeworkwithourimplemen- providesaneffectivemeansforhandlinglarge-scalevoxels\ntation, using a mamba feature dimension of 128, and train directly, and we believe it will inspire new advancements.\non25%oftheSemanticKITTItrainingsetwiththetraining"
+    },
+    {
+      "page_num": 9,
+      "text": "References the IEEE/CVF conference on computer vision and pattern\nrecognition,pages9223–9232,2023. 2,4,6,7\n[1] Jens Behley, Martin Garbade, Andres Milioto, Jan Quen-\n[15] Jie Li, Kai Han, Peng Wang, Yu Liu, and Xia Yuan.\nzel, Sven Behnke, Cyrill Stachniss, and Jurgen Gall. Se-\nAnisotropic convolutional networks for 3d semantic scene\nmantickitti: A dataset for semantic scene understanding of\ncompletion. In Proceedings of the IEEE/CVF Conference\nlidar sequences. In Proceedings of the IEEE/CVF inter-\non Computer Vision and Pattern Recognition, pages 3351–\nnationalconferenceoncomputervision, pages9297–9307,\n3359,2020. 2,6,7\n2019. 2,6\n[16] Siqi Li, Changqing Zou, Yipeng Li, Xibin Zhao, and Yue\n[2] Maxim Berman, Amal Rannen Triki, and Matthew B\nGao. Attention-based multi-modal fusion network for se-\nBlaschko. The lova´sz-softmax loss: A tractable surrogate\nmanticscenecompletion. InProceedingsoftheAAAICon-\nfortheoptimizationoftheintersection-over-unionmeasure\nferenceonArtificialIntelligence,pages11402–11409,2020.\ninneuralnetworks. InCVPR,pages4413–4421,2018. 6\n2\n[3] HolgerCaesar,VarunBankiti,AlexHLang,SourabhVora,\n[17] XinLi,BotianShi,YuenanHou,XingjiaoWu,TianlongMa,\nVeniceErinLiong,QiangXu,AnushKrishnan,YuPan,Gi-\nYikangLi,andLiangHe.Homogeneousmulti-modalfeature\nancarlo Baldan, and Oscar Beijbom. nuscenes: A multi-\nfusionandinteractionfor3dobjectdetection. InEuropean\nmodal dataset for autonomous driving. In Proceedings of\nConference on Computer Vision, pages 691–707. Springer,\nthe IEEE/CVF conference on computer vision and pattern\n2022. 2\nrecognition,pages11621–11631,2020. 6\n[18] Xin Li, Tao Ma, Yuenan Hou, Botian Shi, Yuchen Yang,\n[4] Anh-QuanCaoandRaoulDeCharette.Monoscene:Monoc-\nYouquanLiu,XingjiaoWu,QinChen,YikangLi,YuQiao,\nular 3d semantic scene completion. In Proceedings of\net al. Logonet: Towards accurate 3d object detection\ntheIEEE/CVFConferenceonComputerVisionandPattern\nwithlocal-to-globalcross-modalfusion. InProceedingsof\nRecognition,pages3991–4001,2022. 1,2,6,7,8\ntheIEEE/CVFConferenceonComputerVisionandPattern\n[5] XiaokangChen,Kwan-YeeLin,ChenQian,GangZeng,and\nRecognition,pages17524–17534,2023. 2\nHongsheng Li. 3d sketch-aware semantic scene comple-\ntion via semi-supervised structure prior. In Proceedings of [19] Yinhao Li, Zheng Ge, Guanyi Yu, Jinrong Yang, Zengran\ntheIEEE/CVFConferenceonComputerVisionandPattern Wang,YukangShi,JianjianSun,andZemingLi. Bevdepth:\nRecognition,pages4193–4202,2020. 2,6,7 Acquisitionofreliabledepthformulti-view3dobjectdetec-\ntion. InAAAI,pages1477–1485,2023. 6\n[6] TriDao, DanFu, StefanoErmon, AtriRudra, andChristo-\npherRe´. Flashattention:Fastandmemory-efficientexactat- [20] Yiming Li, Zhiding Yu, Christopher Choy, Chaowei Xiao,\ntentionwithio-awareness. AdvancesinNeuralInformation JoseMAlvarez,SanjaFidler,ChenFeng,andAnimaAnand-\nProcessingSystems,35:16344–16359,2022. 3 kumar. Voxformer: Sparse voxel transformer for camera-\nbased 3d semantic scene completion. In Proceedings of\n[7] JingGao,PengLi,ZhikuiChen,andJianingZhang. Asur-\nthe IEEE/CVF conference on computer vision and pattern\nvey on deep learning for multimodal data fusion. Neural\nComputation,32(5):829–864,2020. 2 recognition,pages9087–9098,2023. 1\n[8] Martin Garbade, Yueh-Tung Chen, Johann Sawatzky, and [21] DingkangLiang,XinZhou,XinyuWang,XingkuiZhu,Wei\nJuergenGall. Twostream3dsemanticscenecompletion. In Xu, Zhikang Zou, Xiaoqing Ye, and Xiang Bai. Point-\nProceedingsoftheIEEE/CVFConferenceonComputerVi- mamba:Asimplestatespacemodelforpointcloudanalysis.\nsionandPatternRecognitionWorkshops, pages0–0, 2019. arXivpreprintarXiv:2402.10739,2024. 2,3\n2 [22] TianyangLin,YuxinWang,XiangyangLiu,andXipengQiu.\n[9] Albert Gu and Tri Dao. Mamba: Linear-time sequence Asurveyoftransformers. AIopen,3:111–132,2022. 3\nmodeling with selective state spaces. arXiv preprint [23] Tsung-Yi Lin, Piotr Dolla´r, Ross Girshick, Kaiming He,\narXiv:2312.00752,2023. 1,3 Bharath Hariharan, and Serge Belongie. Feature pyra-\n[10] Albert Gu, Karan Goel, and Christopher Re´. Efficiently mid networks for object detection. In Proceedings of the\nmodelinglongsequenceswithstructuredstatespaces. arXiv IEEE conference on computer vision and pattern recogni-\npreprintarXiv:2111.00396,2021. 3 tion,pages2117–2125,2017. 3\n[11] KaimingHe,XiangyuZhang,ShaoqingRen,andJianSun. [24] Jiuming Liu, Ruiji Yu, Yian Wang, Yu Zheng, Tianchen\nDeep residual learning for image recognition. In Proceed- Deng, Weicai Ye, and Hesheng Wang. Point mamba:\ningsoftheIEEEconferenceoncomputervisionandpattern A novel point cloud backbone based on state space\nrecognition,pages770–778,2016. 3,7 model with octree-based ordering strategy. arXiv preprint\n[12] David Hilbert. Dritter Band: Analysis· Grundlagen der arXiv:2403.06467,2024. 3\nMathematik· Physik Verschiedenes: Nebst Einer Lebens- [25] Youquan Liu, Runnan Chen, Xin Li, Lingdong Kong,\ngeschichte. Springer-Verlag,2013. 2,4 YuchenYang,ZhaoyangXia,YeqiBai,XingeZhu,Yuexin\n[13] YuenanHou,XiaoshuiHuang,ShixiangTang,TongHe,and Ma, Yikang Li, et al. Uniseg: A unified multi-modal li-\nWanliOuyang.Advancesin3dpre-traininganddownstream dar segmentation network and the openpcseg codebase. In\ntasks:asurvey. Vicinagearth,1(1):6,2024. 2 ProceedingsoftheIEEE/CVFInternationalConferenceon\n[14] Yuanhui Huang, Wenzhao Zheng, Yunpeng Zhang, Jie ComputerVision,pages21662–21673,2023. 2\nZhou, and Jiwen Lu. Tri-perspective view for vision- [26] YueLiu, YunjieTian, YuzhongZhao, HongtianYu, Lingxi\nbased3dsemanticoccupancyprediction. InProceedingsof Xie,YaoweiWang,QixiangYe,andYunfanLiu. Vmamba:"
+    },
+    {
+      "page_num": 10,
+      "text": "Visualstatespacemodel. arXivpreprintarXiv:2401.10166, IEEE conference on computer vision and pattern recogni-\n2024. 3 tion,pages1746–1754,2017. 6\n[27] Zhijian Liu, Haotian Tang, Alexander Amini, Xinyu Yang, [39] PinTang,ZhongdaoWang,GuoqingWang,JilaiZheng,Xi-\nHuiziMao,DanielaLRus,andSongHan.Bevfusion:Multi- angxuanRen, BailanFeng, andChaoMa. Sparseocc: Re-\ntaskmulti-sensorfusionwithunifiedbird’s-eyeviewrepre- thinkingsparselatentrepresentationforvision-basedseman-\nsentation.In2023IEEEinternationalconferenceonrobotics ticoccupancyprediction. InProceedingsoftheIEEE/CVF\nandautomation(ICRA),pages2774–2781.IEEE,2023.2,3 Conference on Computer Vision and Pattern Recognition,\n[28] QihangMa, XinTan, YanyunQu, LizhuangMa, Zhizhong pages15035–15044,2024. 6,1\nZhang,andYuanXie.Cotr:Compactoccupancytransformer [40] Wenwen Tong, Chonghao Sima, Tai Wang, Li Chen, Silei\nforvision-based3doccupancyprediction. InProceedingsof Wu,HanmingDeng,YiGu,LeweiLu,PingLuo,DahuaLin,\ntheIEEE/CVFConferenceonComputerVisionandPattern etal. Sceneasoccupancy. InProceedingsoftheIEEE/CVF\nRecognition(CVPR),pages19936–19945,2024. 4 InternationalConferenceonComputerVision,pages8406–\n8415,2023. 1,2\n[29] JianbiaoMei, YuYang, MengmengWang, TianxinHuang,\nXuemengYang,andYongLiu. Ssc-rs: Elevatelidarseman- [41] AshishVaswani,NoamShazeer,NikiParmar,JakobUszko-\nticscenecompletionwithrepresentationseparationandbev reit,LlionJones,AidanNGomez,ŁukaszKaiser,andIllia\nfusion. In2023IEEE/RSJInternationalConferenceonIn- Polosukhin. Attentionisallyouneed. Advancesinneural\ntelligentRobotsandSystems(IROS),pages1–8.IEEE,2023. informationprocessingsystems,30,2017. 3\n6,2 [42] SourabhVora,AlexHLang,BassamHelou,andOscarBei-\njbom. Pointpainting: Sequential fusion for 3d object de-\n[30] EricNguyen,KaranGoel,AlbertGu,GordonDowns,Preey\ntection. In Proceedings of the IEEE/CVF conference on\nShah,TriDao,StephenBaccus,andChristopherRe´. S4nd:\ncomputervisionandpatternrecognition,pages4604–4612,\nModeling images and videos as multidimensional signals\n2020. 3\nwithstatespaces.Advancesinneuralinformationprocessing\n[43] HaiyangWang,HaoTang,ShaoshuaiShi,AoxueLi,Zhen-\nsystems,35:2846–2861,2022. 3\nguoLi,BerntSchiele,andLiweiWang.Unitr:Aunifiedand\n[31] JingyiPan,ZipengWang,andLinWang. Co-occ:Coupling\nefficientmulti-modaltransformerforbird’s-eye-viewrepre-\nexplicitfeaturefusionwithvolumerenderingregularization\nsentation. In Proceedings of the IEEE/CVF International\nfor multi-modal 3d semantic occupancy prediction. IEEE\nConferenceonComputerVision,pages6792–6802,2023. 2\nRoboticsandAutomationLetters,2024. 2,6,7\n[44] SinongWang,BelindaZLi,MadianKhabsa,HanFang,and\n[32] Mingjie Pan, Jiaming Liu, Renrui Zhang, Peixiang Huang,\nHaoMa. Linformer: Self-attentionwithlinearcomplexity.\nXiaoqi Li, Li Liu, and Shanghang Zhang. Renderocc:\narXivpreprintarXiv:2006.04768,2020. 3\nVision-centric 3d occupancy prediction with 2d rendering\n[45] Xiaofeng Wang, Zheng Zhu, Wenbo Xu, Yunpeng Zhang,\nsupervision. arXivpreprintarXiv:2309.09502,2023. 6,2\nYi Wei, Xu Chi, Yun Ye, Dalong Du, Jiwen Lu, and Xin-\n[33] YanchengPan, BiaoGao, JilinMei, SiboGeng, Chengkun\ngangWang. Openoccupancy: Alargescalebenchmarkfor\nLi,andHuijingZhao. Semanticposs: Apointclouddataset\nsurroundingsemanticoccupancyperception.InProceedings\nwith large quantity of dynamic instances. In 2020 IEEE\noftheIEEE/CVFInternationalConferenceonComputerVi-\nIntelligentVehiclesSymposium(IV),pages687–693.IEEE,\nsion,pages17850–17859,2023. 1,2,3,4,6,7,8\n2020. 2,6\n[46] Yi Wei, Linqing Zhao, Wenzhao Zheng, Zheng Zhu, Jie\n[34] ChristophBRist,DavidEmmerichs,MarkusEnzweiler,and\nZhou,andJiwenLu. Surroundocc: Multi-camera3doccu-\nDariu M Gavrila. Semantic scene completion using local\npancy prediction for autonomous driving. In Proceedings\ndeep implicit functions on lidar data. IEEE transactions\noftheIEEE/CVFInternationalConferenceonComputerVi-\nonpatternanalysisandmachineintelligence,44(10):7205–\nsion,pages21729–21740,2023. 6,2\n7218,2021. 2\n[47] Joey Wilson, Jingyu Song, Yuewei Fu, Arthur Zhang, An-\n[35] LuisRoldao,RaouldeCharette,andAnneVerroust-Blondet. drew Capodieci, Paramsothy Jayakumar, Kira Barton, and\nLmscnet: Lightweight multiscale 3d semantic completion. Maani Ghaffari. Motionsc: Data set and network for real-\nIn2020InternationalConferenceon3DVision(3DV),pages time semantic mapping in dynamic environments. IEEE\n111–119.IEEE,2020. 2,6,7 RoboticsandAutomationLetters,7(3):8439–8446,2022. 6\n[36] Luis Roldao, Raoul De Charette, and Anne Verroust- [48] Zhaoyang Xia, Youquan Liu, Xin Li, Xinge Zhu, Yuexin\nBlondet. 3dsemanticscenecompletion: Asurvey. Interna- Ma, Yikang Li, Yuenan Hou, and Yu Qiao. Scpnet: Se-\ntionalJournalofComputerVision,130(8):1978–2005,2022. manticscenecompletiononpointcloud. InProceedingsof\n1,2 the IEEE/CVF conference on computer vision and pattern\n[37] HaoShi,SongWang,JiamingZhang,XiaotingYin,Zhong- recognition,pages17642–17651,2023. 2,7\ndao Wang, Zhijian Zhao, Guangming Wang, Jianke Zhu, [49] Xu Yan, Jiantao Gao, Jie Li, Ruimao Zhang, Zhen Li, Rui\nKailunYang,andKaiweiWang. Occfiner: Offboardoccu- Huang,andShuguangCui. Sparsesinglesweeplidarpoint\npancy refinement with hybrid propagation. arXiv preprint cloudsegmentationvialearningcontextualshapepriorsfrom\narXiv:2403.08504,2024. 7 scenecompletion.InProceedingsoftheAAAIConferenceon\n[38] ShuranSong,FisherYu,AndyZeng,AngelXChang,Mano- ArtificialIntelligence,pages3101–3109,2021. 1,2,6,7\nlis Savva, and Thomas Funkhouser. Semantic scene com- [50] YanYan,YuxingMao,andBoLi. Second:Sparselyembed-\npletion from a single depth image. In Proceedings of the dedconvolutionaldetection. Sensors,18(10):3337,2018. 3"
+    },
+    {
+      "page_num": 11,
+      "text": "[51] ShuoZhang,YupengZhai,JilinMei,andYuHu.Fusionocc:\nMulti-modal fusion for 3d occupancy prediction. In ACM\nMultimedia2024,2024. 1\n[52] Yunpeng Zhang, Zheng Zhu, and Dalong Du. Occformer:\nDual-path transformer for vision-based 3d semantic occu-\npancy prediction. In Proceedings of the IEEE/CVF Inter-\nnationalConferenceonComputerVision,pages9433–9443,\n2023. 1,2,6\n[53] Yanan Zhang, Jinqing Zhang, Zengran Wang, Junhao Xu,\nand Di Huang. Vision-based 3d occupancy prediction in\nautonomousdriving: areviewandoutlook. arXivpreprint\narXiv:2405.02595,2024. 1\n[54] YinZhouandOncelTuzel. Voxelnet: End-to-endlearning\nforpointcloudbased3dobjectdetection. InProceedingsof\ntheIEEEconferenceoncomputervisionandpatternrecog-\nnition,pages4490–4499,2018. 3\n[55] LianghuiZhu,BenchengLiao,QianZhang,XinlongWang,\nWenyuLiu,andXinggangWang. Visionmamba: Efficient\nvisualrepresentationlearningwithbidirectionalstatespace\nmodel. arXivpreprintarXiv:2401.09417,2024. 3"
+    },
+    {
+      "page_num": 12,
+      "text": "OccMamba: Semantic Occupancy Prediction with State Space Models\nSupplementary Material\n6.Appendixsection labels, respectively, validating its effectiveness in refining\ngeometriccoherence(Fig.5(a,b)).\n6.1.Moretrainingdetails\nLabel Quality Impact. The old OpenOccupancy labels\nInourexperiment,weutilizetheAdamWoptimizerwitha (v0.0), derived from static LiDAR, suffer from incomplete\nbase learning rate of 5e−4 and a weight decay of 0.01 to annotationsfordynamicobjects(Fig.5(c))andoccludedar-\nensureeffectiveoptimizationwhilemaintainingregulariza- easLiDARneverseen.Byusingnewlabels(v0.1),ourLCP\ntion. As to the image backbone ResNet-50, which is pre- improves mIoU by 0.4%(Table. 9), demonstrating more\ntrainedbytorchvision,wescaleitslearningratebyafactor gainsaslabelnoisereduces.\nof0.1. ThelearningrateschedulefollowsaCosineAnneal-\ning policy, combined with a linear warmup over the first\n500 iterations, starting from one-third of the base learning\nrate,andgraduallydecreasingtoaminimumratioof1e−3.\nFor training, we set the number of epochs to 20. This ex-\nperimental setup reflects our focus on balancing optimiza- (a)w/oLCP (b)wLCP (c)label\ntion efficiency, model stability, and rigorous evaluation to Figure5.Reconstructionresultsofdistantoccupancy(about40m).\nachievereliableandreproducibleresults.\nMethod Label IoU mIoU RayIoU@0.2m\n6.2.Morereorderingschemes w/oLCP v0.0 33.7 25.0 24.2\nwLCP v0.0 34.7 25.2 24.7\nIn addition to the Hilbert curve, other space-filling curves,\nw/oLCP v0.1 34.2 25.8 26.5\nsuch as the Z-order, are also widely used. Therefore, we\nwLCP v0.1 34.9 26.2 27.0\nconductcomparativeexperiments,followingtheprocedures\noutlined in Sec. 4.1 and Sec. 4.3 on the OpenOccupancy Table9.MoreresultsofOccMamba-128.\nvalidation set with v0.0 annotations to evaluate the perfor- 6.4.Ablationontrainingloss\nmance of the Z-order. As presented in Table 8, it is ev-\nWe conduct an ablation study on the training objectives\nident that our OccMamba-128 with height-prioritized 2D\nmentioned in Sec. 3.4. Specifically, we carry out experi-\nHilbert expansion outperforms the Z-curve variant in se-\nments on the OpenOccupancy dataset, following the pro-\nmantic occupancy prediction. In theory, the Hilbert curve\ncedures outlined in Sec. 4.1. To facilitate training, we use\neffectivelypreservesthespatialproximitywhenmappedto\nonly20%ofthetrainingset, withthemodelconfiguredas\na 1D sequences due to its recursive, space-filling path. In\nOccMamba-128.Theresults,asshowninTable10,indicate\ncontrast, the Z-order curve employs a simple interleaving\nthatallthetrainingobjectivescontributesignificantlytothe\nofbits,whichmakesitmorelikelythatadjacentpointsare\nultimate performance. In particular, the inclusion of L\niou\nseparatedbygreaterdistancesinthe1Dsequences. Conse-\nandL yieldsignificantperformanceenhancements,asev-\nCE\nquently,theHilbertcurvegenerallyofferssuperiorlocality\nidencedbytheincreaseinmIoU,highlightingtheircritical\npreservationinmultipledimensions.\nroleinourOccMamba.\nReorderingSchemes mIoU\nL L L L L mIoU\nCE iou depth geo sem\n3DZ-order 24.6 ✓ 19.2\n3DHilbert 24.8 ✓ ✓ 19.5\nHeight-prioritized2DZ-orderexpansion 25.0 ✓ ✓ ✓ 19.9\nHeight-prioritized2DHilbertexpansion 25.2 ✓ ✓ ✓ ✓ 21.7\nTable8.Performanceonmorereorderingschemes. ✓ ✓ ✓ ✓ ✓ 22.9\n6.3. More ablations on local context processor Table10.Ablationstudyontheeffectofeachtrainingloss.\n(LCP)\n6.5.Moreexperimentalresults\nMetric Specificity. OpenOccupancy’s mIoU does not use\nDuetospaceconstraints,weputthedetailedclass-wiseper-\ntechniqueslikevisualmasks,causingambiguousevaluation\nformanceontheSemanticKITTIdatasetinthissection. As\nofoccludedregions.InTable.9,LCPimprovesIoU(denser\nshowninTable11,ourOccMambaachievesstate-of-the-art\noccupancy)andRayIoU(fromSparseOcc[39],surfaceac-\nresultsonSemanticKITTItestset.\ncuracy, excluding occlusions) by 1.0% and 0.6% in v0.0"
+    },
+    {
+      "page_num": 13,
+      "text": "Input\nMethod Modality mIoU\ndaor\nklawedis gnikrap\ndnuorgrehto\ngnidliub\nrac\nkcurt\nelcycib\nelcycrotom\nelcihevrehto\nnoitategev\nknurt\nniarret nosrep tsilcycib\ntsilcycrotom\necnef elop\nngiscfifart\nMonoScene[4] C 11.1 54.727.124.8 5.7 14.418.83.3 0.5 0.7 4.4 14.9 2.4 19.51.01.40.411.1 3.3 2.1\nSurroundOcc[46] C 11.9 56.928.330.2 6.8 15.220.61.4 1.6 1.2 4.4 14.9 3.4 19.31.42.00.111.3 3.9 2.4\nOccFormer[52] C 12.3 55.930.331.5 6.5 15.721.61.2 1.5 1.7 3.2 16.8 3.9 21.32.21.10.211.9 3.8 3.7\nRenderOcc[32] C 12.8 57.228.416.1 0.9 18.224.96.0 0.4 0.3 3.7 26.2 4.9 3.6 1.93.10.0 9.1 6.2 3.4\nLMSCNet[35] L 17.0 64.033.124.9 3.2 38.729.52.5 0.0 0.0 0.1 40.519.030.80.00.00.020.515.7 0.5\nJS3C-Net[49] L 23.8 64.039.034.214.739.433.27.214.08.112.243.519.339.87.95.20.030.117.915.1\nSSC-RS[29] L 24.2 73.144.438.617.444.636.45.310.15.111.244.126.041.94.72.40.930.815.0 7.2\nCo-Occ[31] C&L 24.4 72.043.542.510.235.140.06.4 4.4 3.3 8.8 41.230.840.81.63.30.432.726.620.7\nM-CONet[45] C&L 20.4 60.636.129.013.038.433.84.7 3.0 2.2 5.9 41.520.535.10.82.30.626.018.715.7\nOccMamba-128(ours) C&L 24.6 68.741.035.9 9.1 40.834.88.8 8.8 6.5 8.9 44.928.740.64.22.60.632.027.023.3\nTable11.PerformanceonSemanticKITTItestset.Thebestandsecond-bestareinboldandunderlined,respectively."
+    }
+  ],
+  "text_by_sections": {
+    "abstract": "Training deep learning models for semantic occupancy Semantic occupancy prediction is becoming an indispens-\nprediction is challenging due to factors such as a large ablecomponentinautonomousdriving,augmentedreality,\nnumber of occupancy cells, severe occlusion, limited vi- robotics, etc., which estimates the occupancy and categor-\nsualcues,complicateddrivingscenarios,etc. Recentmeth- ical labels of the surrounding environment [36]. It faces\nodsoftenadopttransformer-basedarchitecturesgiventheir many challenges, such as the enormous number of occu-\nstrongcapabilityinlearninginput-conditionedweightsand pancy grids, severe occlusion, limited visual clues as well\nlong-rangerelationships. However,transformer-basednet- ascomplexdrivingscenarios[53].\nworks are notorious for their quadratic computation com- Recent attempts, such as MonoScene [4] and JS3C-\nplexity, seriously undermining their efficacy and deploy- Net [49], have made progress in addressing these chal-\nment in semantic occupancy prediction. Inspired by the lenges, but limitations remain due to their reliance on\nglobal modeling and linear computation complexity of the uni-modal inputs. Multi-modal approaches, such as Fu-\nMamba architecture, we present the first Mamba-based sionOcc [51] and M-CONet [45], offer improvements, yet\nnetwork for semantic occupancy prediction, termed Oc- theystruggletocaptureglobalinformationduetotheinher-\ncMamba. Specifically, we first design the hierarchical ent deficiency of CNN architectures. Despite the success\nMamba module and local context processor to better ag- oftransformer-basedmodels[20,40,52], theysufferfrom\ngregate global and local contextual information, respec- highcomputationalcomplexity,particularlywhenprocess-\ntively. Besides,torelievetheinherentdomaingapbetween ingalargenumberofvoxelgrids.\nthe linguistic and 3D domains, we present a simple yet ef- Mamba[9],whichisanimportantvariantofstatespace\nfective3D-to-1Dreorderingscheme,i.e.,height-prioritized models, emerges as a promising next-generation structure\n2D Hilbert expansion. It can maximally retain the spatial for replacing the transformer architecture. In semantic\nstructure of 3D voxels as well as facilitate the processing occupancy prediction, we anticipate leveraging its global\nof Mamba blocks. Endowed with the aforementioned de- modeling capabilities to better handle the complex scenar-\nsigns, ourOccMambaiscapableofdirectlyandefficiently iosandovercomelimitedvisualcues,whileitslinearcom-\nprocessing large volumes of dense scene grids, achieving putationcomplexityhelpsmanagetheenormousnumberof\nstate-of-the-art performance across three prevalent occu- occupancy grids efficiently. However, it is primarily de-\npancy prediction benchmarks, including OpenOccupancy, signedforlanguagemodeling,with1Dinputdata,whereas\nSemanticKITTI, and SemanticPOSS. Notably, on OpenOc- theinputdataforsemanticoccupancypredictionis3Dvox-\ncupancy, our OccMamba outperforms the previous state- els. Theuseofdensevoxelsinlargescenesmakesthede-\nof-the-art Co-Occ by 5.1% IoU and 4.3% mIoU, respec- ployment of Mamba even more challenging. When con-\ntively. Our implementation is open-sourced and available verting3Ddataintoa1Dformat, theinherentspatialrela-\nat: https://github.com/USTCLH/OccMamba. tionshipsbetweenadjacentvoxelsinthe3Dspacearemiss-\ning, causing neighboring voxels to become far apart in the\n1Dsequence. ThisspatialseparationunderminesMamba’s\nThisworkwassupportedbytheNationalNaturalScienceFounda- abilitytoeffectivelyunderstandlocalandglobalscenecon-\ntionofChina(No. 62332016)andtheKeyResearchProgramofFrontier\ntexts, hampering the prediction performance. To address\nSciences,CAS(No.ZDBS-LY-JSC001).\n*Thecorrespondingauthors. thisissue,developinganeffectivereorderingstrategyiscru-\n5202\nraM\n11\n]VC.sc[\n2v95890.8042:viXra\n~𝟏𝟎𝟔 𝐕𝐨𝐱𝐞𝐥𝐬 )G(yromeM\nUPG\nDeformable Transformer OccMamba 30 25 OOM! 25 20 20 Co-Occ 15 M-CONet 15 OccMamba\n10 JS3C-Net 10 5 MonoScenes LMSC-Net\n0 5 TPVFormer 2(cid:2869)(cid:2872) 2(cid:2869)(cid:2873) 2(cid:2869)(cid:2874) 2(cid:2869)(cid:2875) 2(cid:2869)(cid:2876) 2(cid:2869)(cid:2877) 2(cid:2870)(cid:2868) 2(cid:2870)(cid:2869)≈10(cid:2874)\n0 The number of voxels RGB LiDAR Fusion\n)%(UoIm ~𝟏𝟎𝟔 𝐕𝐨𝐱𝐞𝐥𝐬 OccMamba OccMamba )G(yromeM\nUPG\nDeformable Transformer OccMamba 30 25 OOM! 25 20 20 Co-Occ 15 M-CONet 15 OccMamba\n10 JS3C-Net 10 5 MonoScenes LMSC-Net\n0 5 TPVFormer 2(cid:2869)(cid:2872) 2(cid:2869)(cid:2873) 2(cid:2869)(cid:2874) 2(cid:2869)(cid:2875) 2(cid:2869)(cid:2876) 2(cid:2869)(cid:2877) 2(cid:2870)(cid:2868) 2(cid:2870)(cid:2869)≈10(cid:2874)\n0 The number of voxels RGB LiDAR Fusion\n)%(UoIm\n~𝟏𝟎𝟔𝐕𝐨𝐱𝐞𝐥𝐬 Deformable Transformer OccMamba\n25\nOccMamba(ours)\n25 OOM! Co-Occ )G (y 20 )% 20 M-C O O c N cM et amba OccMamba r o m 15 (U 15 SparseOcc e M 10 o Im AICNet LMSC-N J e S t 3C-Net\nU P 5 10 TPVFormer 3DSketch G MonoScenes\n0 5 214 215 216 217 218 219 220 221≈106 15 20 25 30 35 40\nThe number of voxels IoU(%)\n(a)Alargenumberofvoxelgrids (b)GPUmemoryconsumption (c)Performancecomparison\nFigure1.(a)Challengesinsemanticoccupancyprediction,(b)comparisoninGPUmemoryconsumption,and(c)performancecomparison\nonOpenOccupancyvalidationset.OurOccMambademonstrateshighefficiencyinhandlingalargenumberofvoxelgrids,outperforming\nallothersemanticoccupancypredictors,suchasCo-Occ[31]andM-CONet[45].\ncial to preserving spatial proximity in the transformation workforoutdoorsemanticoccupancyprediction. Itpos-\nfrom3Dto1D.Severalattemptshavebeenmadetoachieve sessesglobalmodelingcapabilitywithlinearcomputation\nthis, for instance, Point Mamba [21] rearranges the point complexity, which is crucial to the processing of a large\ncloudsaccordingtothe3DHilbertcurve[12]andconcate- numberofvoxelgrids.WedesignthehierarchicalMamba\nnates the features of the reordered points. While these ad- module and local context processor to better aggregate\nvancementshaveshownpotentialinthepointcloudclassi- globalandlocalcontextualinformation,respectively.\nficationandsegmentationfield,theexplorationofMamba- • To facilitate the processing of Mamba blocks as well as\nbasedarchitecturesisstillinitsinfancyinoutdoorsemantic maximallyretaintheoriginalspatialstructureof3dvox-\noccupancypredictiontasks. els,wedesignasimpleyeteffectivereorderingpolicythat\nInthiswork,wepresentthefirstMamba-basednetwork projectsthepointcloudsinto1Dsequences.\nforsemanticoccupancyprediction,whichwerefertoasOc- • Our OccMamba achieves the best performance on three\ncMamba. Owing to the global modeling and linear com- popularsemanticoccupancypredictionbenchmarks.\nputation complexity of Mamba, our OccMamba can effi-\ncientlyprocessalargenumberofvoxelgridsgivenlimited 2.Relatedwork\ncomputation resources, as shown in Fig. 1(a)-(b). To ef-\nfectively utilize the global and local information hidden in Semanticoccupancyprediction. Theobjectiveofseman-\nthe input voxel grids, we design the hierarchical Mamba tic occupancy prediction is to estimate the occupancy and\nmodule and local context processor. To facilitate the pro- semantic labels of 3D spaces using various types of input\ncessing of Mamba blocks as well as preserve the spatial signals [13, 36]. Given that LiDAR and RGB-D camera\nstructure of the 3D input data, we present a simple yet ef- canprovideaccuratespatialmeasurement,manystudiesre-\nfective 3D-to-1D reordering policy, i.e., height-prioritized liedonsuchdetailedgeometricdatalikeLiDARpoints[34,\n2D Hilbert expansion. The designed policy sufficiently 35,48,49]andRGB-Dimages[5,8,15,16]. Meanwhile,\nutilizes the categorical clues in the height information as image-based methods, increasingly popular due to camera\nwell as the spatial prior in the XY plane. In this way, accessibility,suchasMonoScene[4]andTPVFormer[14],\nOccMamba effectively exploits LiDAR and camera cues, estimateoccupancyoftheenvironmentusingRGBimages.\nenabling effective fusion and processing of voxel features However, inaccurate depth estimation in RGB images re-\nextracted from these sources without compression. This sults in lower performance than LiDAR-based models. In\nuncompressed voxel feature processing method, combined response, multi-modal fusion combining both modalities\nwithMamba’sglobalmodelingcapabilities,enhancesOcc- has attracted significant attention. CONet [45] and Co-\nMambawiththeocclusionreasoningcapability,particularly Occ[31]demonstratetheadvantagesofcombiningmodal-\nincomplexdrivingscenarios.Weperformextensiveexperi- ities, enhancing precision and reliability. Furthermore, re-\nmentsonthreesemanticoccupancypredictionbenchmarks, centmethodshaveshiftedfromCNNstointegratingtrans-\ni.e.,OpenOccupancy[45],SemanticKITTI[1]andSeman- formers,asseeninOccFormer’sdual-pathtransformer[52]\nticPOSS [33]. Our OccMamba consistently outperforms and OccNet’s cascade refinement [40] reduce the trans-\nstate-of-the-art algorithms in all benchmarks. It is note- former’scomputationaldemands.\nworthythatonOpenOccupancy, partlyshowninFig.1(c), Multi-modalfusion. Multi-modalfusionaimstomakethe\nour OccMamba surpasses the previous state-of-the-art Co- strengthofdifferentinputmodalities,thusmakingmoreac-\nOcc[31]by5.1%IoUand4.3%mIoU,respectively. curateandrobustperception[7,15,17,18,25,27,43]. For\nThecontributionsaresummarizedasfollows: instance,AICNet[15]integratesRGBanddepthdatausing\n• Toourknowledge,wedesignthefirstMamba-basednet- anisotropicconvolutionalnetworkstoenhancetheaccuracy\nandcompletenessofsemanticoccupancyprediction. Point-\nPainting[42]performssemanticsegmentationonRGBim-\nages and attaches semantic probabilities to LiDAR points, h k =Ah k−1 +Bx k , (1)\ntherebyenrichingthepointcloudwithrichsemanticinfor-\ny =Ch , (2)\nk k\nmation. For semantic occupancy prediction, images and\npointcloudsaretwoprevalentinputsignals. Recenttrends\nwherekisthesequencenumber,A,B,C arematricesthat\nintheoccupancypredictionfieldfavourthemulti-modalfu-\nrepresent the discretized parameters of the model, which\nsionasitutilizesthestrengthofbothsignals.\ninvolve the sampling step ∆. The x , y , and h denote\nk k k\nState space models. The transformer [41] has reshaped\nthe input, output, and hidden state of the system, respec-\nthe computer vision field but suffers from the quadratic\ntively. As an improvement, Structured State Space Se-\ncomputation complexity [22]. To relieve this, more effi-\nquenceModels(S4)[10]optimizetraditionalSSMsbyin-\ncientoperatorslikelinearattention[44],flashattention[6]\ntroducing structured matrices, which allow the system dy-\nhave been proposed. State Space Models (SSMs) such as\nnamics, involving matrices A, B, and C, to be parameter-\nMamba[9],S4[10],andS4nd[30]aregainingprominence,\nizedinawaythatsignificantlyimprovescomputationalef-\nwithMambabeingnotableforintegratingselectivemecha-\nficiency and scalability for large sequences. By leverag-\nnisms,whichcaneffectivelycapturelong-rangedependen-\ningthesestructuredmatrices, S4achievesreducedcompu-\nciesandprocesslarge-scaledatainlineartime. Thisinno-\ntationalcomplexitywithoutsacrificingaccuracy.\nvation has extended into computer vision domain through\nMamba Module. Mamba introduces an adaptation to the\nvariants like VMamba [26], which includes a cross-scan\nS4 models [10], where it makes the matrices B and C,\nmodule, and Vision Mamba [55], which utilizes a bidirec-\nas well as the sampling size ∆, dependent on the input.\ntional SSM. In point cloud processing, PointMamba [21]\nThis dependency arises from incorporating the sequence\nimprovestheglobalmodelingofpointcloudsbyrearrang-\nlengthandbatchsizeoftheinput,enablingdynamicadjust-\ning input patches based on 3D Hilbert curve, while Point\nmentsofthesematricesforeachinputtoken. Bythisway,\nMamba[24]employsanoctree-basedorderingforefficient\nMambaallowsB andC todynamicallyinfluencethestate\nspatial relationship capture. They demonstrate Mamba’s\ntransition conditioned on the input, enhancing the model’s\nproficiencyinprocessinglargescale3Ddata. Buildingon\ncontent-awareness. Additionally, Mamba incorporates op-\ntheseadvancements, weattempttodesignaMamba-based\ntimizationsforthescanoperationandahardware-awareal-\nnetworktailoredforsemanticoccupancyprediction.\ngorithm,enablingefficientparallelcomputation.\n3.Methodology\n3.2.Frameworkoverview\nTo efficiently and effectively process a large number of Figure 2 depicts the pipeline of our OccMamba, which is\nvoxel grids in semantic occupancy prediction, we propose builtuponM-CONet[45].\nto take Mamba [9] as the basic building block that enjoys Multi-modal visual encoders. Taking both point cloud\nthebenefitofbothglobalmodelingandlinearcomputation andmulti-viewimagesasinput,OccMambaprocesseseach\ncomplexity. To facilitate theprocessing of Mamba blocks, modality with respective visual encoder. Specifically, for\nwedesignasimpleyeteffectivereorderingscheme,dubbed theLiDARbranch,wefirstvoxelizetheinputpointclouds\nheight-prioritized 2D Hilbert expansion, along with Occ- P [54] and then employ sparse-convolution-based LiDAR\nMambaEncoder. Inthefollowingsections,wefirstprovide encoderE [50]togenerateLiDARvoxelfeaturesV ∈\nL L\nabriefreviewofstatespacemodelsandMambainSec.3.1. RB×WL×HL×DL×CL. For the image branch, we feed the\nThen,wepresenttheframeworkoverviewofOccMambain multi-view images I to ResNet-based image encoder [11]\nSec. 3.2. Thereafter, we provide a detailed explanation of which utilizes FPN [23] to aggregate multi-scale features,\nthereorderingscheme,thehierarchicalMambamoduleand andthenutilizethe2D-to-3Dviewtransformer[27]topro-\nlocalcontextprocessorinSec.3.3. Eventually,thetraining duce image voxel features V\nC\n∈ RB×WC×HC×DC×CC.\nobjectiveispresentedinSec.3.4. Here, B is the batch size, W , W , H , H , D and D\nL C L C L C\narethespatialdimensionsofthevoxelfeatures. C andC\n3.1.Preliminaries L C\nare the channel dimension of these voxel features. We en-\nStatespacemodels. BeforeintroducingtheMambamod- surethatV andV areidenticalinthespatialdimensions.\nL C\nule, we first have a brief review of the state space mod- Thereafter,thesevoxelfeaturesareconcatenatedalongthe\nels (SSMs). SSMs are inspired by the control theory and channeldimensions:\nmapsthesysteminputtothesystemoutputthroughthehid-\nV =concat(V ,V ). (3)\nden state. This approach allows for effectively handling F L C\nsequences of information. When the input is discrete, the OccMamba encoder. To process features extracted from\nmathematicalrepresentationofSSMsisgivenasfollows: the multi-modal encoders, we designed the hierarchical\nr\nr e m OccMamba Encoder\ne d o c\nn E\nr o fsn\na\nC\nV\na\no\nm\nx\ne\ne\nr\nl\na\nMamba Mamba\nD rT Features Blocks Blocks\n2 w\nSurround-view Images e iV F V u o s x io e n l M Bl a o m ck b s a M Bl a o m ck b s a M Bl a o m ck b s a\nFeatures Mamba Mamba\nr e Blocks Blocks\nd\no LiDAR\nc n E Voxel Hierarchical Mamba Module Local Context Processor\nD Features\n3\nLiDAR Points\nOccupancy Head\n3D Voxel Grids 2D H H ei i g l h b t e - r p t r E 3 io D x r p i t a t i o n ze s 1 i d 1 o D n D R S e e o q r\n…\nu … d e e n r c i e n s g\nN L r\nr\na\na\ne\ne\nn\nn\ni\ni\nL\nL\nd 1 v n o C S\nS\ni\ni\nl\nl\nu\nu\nev itceleS\nMa\nM S S\nmba Block\nra en iL\nx N (Sk N L ip Con\ng n ired ro\neR D 3 o t D 1 nection)\n)elp m a sn\nw o D / elp m a sp U\nMamba Blocks ( Semantic Occupancy\nFigure2. SchematicoverviewofourOccMamba. Givensurround-viewimagesandLiDARpointclouds,wefirstemploythe2Dencoder\nand3Dencodertoprocessthem,obtainingcamerafeaturesandLiDARvoxelfeatures,respectively.Viewtransformerisutilizedtoproject\ncamerafeaturestocameravoxelfeatures.ThecameraandLiDARvoxelfeaturesarethenfusedandsenttothehierarchicalMambamodule,\nwheretheproposedheight-prioritized2DHilbertexpansionreorderingisusedtomaximallyutilizethespatialcluesofvoxels. Besides,\nlocalcontextprocessorisdesignedtodividetheMambafeaturesintomultiplewindowsalongtheXYplane,furtherenhancingthelocal\nsemanticinformation.Eventually,theMambafeaturesarefedtotheoccupancyhead,producingsemanticoccupancypredictions.\nMambamoduleandlocalcontextprocessor. Theformerin- reordertheminto1Dsequences. Apoorreorderingstrategy\ncludestheMambaencoderE andMambadecoderD , candisrupttheintrinsicspatialrelationshipsbetweenadja-\nM M\nwhile the latter is denoted as P . In the process, fusion cent voxels in the 3D space, especially when dealing with\nL\nvoxelfeaturesV arefedintothem,whichwillbedetailed alargenumberofvoxelgrids,therebyimpactingMamba’s\nF\ninSec.3.3. Thetransformationcanbedescribedby performance. Inspired by the Hilbert curve [12], we pro-\npose a height-prioritized 2D Hilbert expansion, tailored to\nV =D (E (V )), (4)\nM M M F\ntheflatspatialstructuretypicalofsemanticoccupancypre-\nV =P (V ), (5)\nP L M diction tasks, where height information provides valuable\nwhereV andV retainsthesamesizeasV . categorical clues, as it often correlates with object cate-\nM P F\nOccupancy head. We feed the processed features of Oc- gories, reveals terrain features, and distinguishes different\ncMamba Encoder, i.e., V , to the coarse-to-fine module spatial regions in the scene. Specifically, we divide the\nP\nF [45],whichinterpolatesthedimensionstomatchthe ”xyz”coordinatesintothe”xy”planeanda”z”dimension.\nc→f\nsizeofthegroundtruth,andthenemployaMLPtopredict Starting on the xy-plane at z=0, the process extends verti-\nthecategoryofeachvoxelgrid. Theprocessispresentedin cally along the z-axis, creating vertical sequences. These\nthefollowingequation: sequences are then ordered and interconnected following\nO =MLP(F (V )). (6) the 2D Hilbert curve on the xy plane, forming the height-\nocc c→f P\nprioritized2DHilbertexpansion,asillustratedinFig.3(d).\nFor comparison, Fig. 3(a)-(c) illustrate the results of re-\n3.3.OccMambaencoderwithheight-prioritizedre-\nordering according to the ’xyz’ sequence, the ’zxy’ se-\nordering\nquence, and the 3D Hilbert curve, respectively. Our re-\nSemantic occupancy prediction is challenging due to the orderingstrategyprioritizesz-axisspatialinformationwhile\nhigh dimensionality and density of voxel grids, often in- maintainingstrongspatialproximityinthexyplane.Bythis\nvolvingmillionsofvoxels.Previousmethods[14,28]resort way,wecanbetterleverageMamba’scontextualmodeling.\ntoprojectiontechniquesbutsufferfrominformationloss.In Asaresult, withthespatialsizeW, H, D and1Ddata\ncontrast,Mamba’slinearcomputationalcomplexityenables length L, the input V ∈ RB×W×H×D×C and the output\ndirectprocessingoflargevoxelfeatures,avoidingthelimi- V′ ∈ RB×L×C in the above reordering scheme R\n3D→1D\ntationsofdeformableattentionandconvolution,suchasthe andR canbeexpressedas:\n1D→3D\nneedforkeypointselectionorlimitedreceptivefields. V=R (V′)=R (R (V)) (7)\n1D→3D 1D→3D 3D→1D\nHeight-prioritized reordering scheme. Before feeding\n3D voxel features into the Mamba block, it’s necessary to Hierarchical mamba module. To effectively utilize the\nweivcirtemosI\nweivpoT\n(d)Height-prioritized\n(a)XYZsequence (b)ZXYsequence (c)3DHilbertcurve\n2DHilbertexpansion\nFigure3. Comparisonbetweendifferentreorderingschemes. (a)XYZsequence, (b)ZXYsequence, (c)3DHilbertcurve, and(d)our\nheight-prioritized 2D Hilbert expansion. Small cubes of varying colors, ranging from red to purple, represent different voxels. The\ncorresponding colored edges indicate the adjacency of voxels that become neighbors after reordering. In each sub-figure, its top half\nrepresentstheisometricview,andthebottomhalfrepresentsthetopview. Ourmethodmaximizesz-axisproximitywhilealsostrivingto\npreservexy-axisproximity.\ncontextualinformationacrossspatialresolutions,weintro- formationcanfurtherenhancetheaccuracyofsemanticoc-\nducethehierarchicalMambamodule,whichincludesanen- cupancy prediction. To this end, we design a lightweight\ncoderanddecoder.Theencodercomprisesmultiplegroups, local context processor. It divides the Mamba features\neach with two Mamba blocks and a downsampling oper- V ∈ RB×W×H×D×C along the XY plane into patches\nM\nation between groups for multi-scale voxel features. Cor- V = {V |s ∈ S,w ∈ W}, using a list of window\nsi,wi i i\nrespondingly, the Mamba decoder mirrors this structure, sizesW = {w }andacorrespondinglistofslidingstrides\ni\nutilizingpairedMambablocksandupsamplingoperations. S = {s }toscantheplane. ForeachitemV ∈ V ,\ni p,q si,wi\nTheupsamplingincorporatesskipconnectionfromthecor- wehavethefollowingequations:\nresponding layer in the Mamba encoder, ensuring consis-\nV =V [:,p·s :p·s +w ,q·s :q·s +w ,:,:],\ntency in feature dimensions across scales. Crucially, the p,q M i i i i i i\n(cid:22) (cid:23) (cid:22) (cid:23)\nreordering scheme is applied both before and after each p=0,1,... W −w i ,q =0,1,... H −w i .\nMambablocksgroup,maintainingvoxelrepresentationdur- s s\ni i\ningbothdownsamplingandupsamplingphases. (12)\nAs to a single Mamba block, it consists of Layer-\nNorm(LN), linear layers, 1D convolution, Silu activation, Next,wereorderV p,q ∈RB×wi×wi×D×CtoRB×L×C,\nSelective SSM, and residual connections. Given an input and then stack V si,wi to R(B×N)×L×C. Each V si,wi\nV∈RB×L×C,whereB,LandCdenotethebatchsize,the is processed by the dedicated two-layer Mamba blocks,\nlengthof1Ddata, andthefeaturedimension, respectively, and the outputs are reshaped to V′ si,wi = {V′ p,q ∈\ntheoutputV′ ∈RB×L×C canbecomputedasbelow: RB×wi×wi×D×C}. Finally, V′ = {V′ si,wi } patches are\nreassembled into the original spatial size and concate-\nV 1 ′ =LN(V), (8) nated along the channel dimension to produce V′ L ∈\nV′ =SelectiveSSM(Silu(Conv1d(Linear(V′)))), (9) RB×W×H×D×C′. A3Dconvolutionwithakernelsizeof\n2 1\nV′ =Linear(V′ ⊙Silu(Linear(V′))), (10) 1×1×1 is then applied along the channel dimension to\n2 1 reduceit,resultinginV ∈RB×W×H×D×C.\nL\nwhere ⊙ represents the dot product. For convenience, we V′ =Reshape(M(Stack(Reorder(V )))) (13)\ndenote Eq. (8)-Eq. (10) as M. Then, Given the input\nsi,wi si,wi\nV ∈ RB×W×H×D×C and output V′ ∈ RB×W×H×D×C, V L =Conv3d(Reassemble Patches(V′)) (14)\nthecomputationforasingleMambablockwithourreorder-\nEndowedwiththehierarchicalMambamoduleandlocal\ningschemeR andR canberepresentedas\n3D→1D 1D→3D context processor, our OccMamba utilizes both global and\nV′ =R (cid:0) M(R (V)) (cid:1) (11) localinformationfromdensescenegrids,therebycapturing\n1D→3D 3D→1D broadcontextwhilepreservinglocaldetails.Thisintegrated\nLocal context processor. Although the hierarchical approachenhancesspatialunderstandingandmitigatespo-\nMambamodulehasimprovedthenetwork’sabilitytopro- tentialperformancedegradationwithlargedatavolumes,by\ncessmulti-scaleglobalinformation,handlingmorelocalin- effectivelybalancingglobalawarenesswithlocalprecision.\nInput\nMethod Modality IoU mIoU\nreirrab elcycib\nsub rac\n.hev.tsnoc elcycrotom nairtsedep enoccfifart\nreliart kcurt\n.frusevird tafl\nrehto\nklawedis\nniarret\nedamnam noitategev\nMonoScene[4] C 18.4 6.9 7.1 3.9 9.3 7.2 5.6 3.0 5.9 4.4 4.9 4.2 14.9 6.3 7.9 7.4 10.0 7.6\nTPVFormer[14] C 15.3 7.8 9.3 4.1 11.3 10.1 5.2 4.3 5.9 5.3 6.8 6.5 13.6 9.0 8.3 8.0 9.2 8.2\nSparseOcc[39] C 21.8 14.1 16.1 9.3 15.1 18.6 7.3 9.4 11.2 9.4 7.2 13.0 31.8 21.7 20.7 18.8 6.1 10.6\n3DSketch[5] C&D 25.6 10.7 12.0 5.1 10.7 12.4 6.5 4.0 5.0 6.3 8.0 7.2 21.8 14.8 13.0 11.8 12.0 21.2\nAICNet[15] C&D 23.8 10.6 11.5 4.0 11.8 12.3 5.1 3.8 6.2 6.0 8.2 7.5 24.1 13.0 12.8 11.5 11.6 20.2\nLMSCNet[35] L 27.3 11.5 12.4 4.2 12.8 12.1 6.2 4.7 6.2 6.3 8.8 7.2 24.2 12.3 16.6 14.1 13.9 22.2\nJS3C-Net[49] L 30.2 12.5 14.2 3.4 13.6 12.0 7.2 4.3 7.3 6.8 9.2 9.1 27.9 15.3 14.9 16.2 14.0 24.9\nM-CONet[45] C&L 29.5 20.1 23.3 13.3 21.2 24.3 15.3 15.9 18.0 13.3 15.3 20.7 33.2 21.0 22.5 21.5 19.6 23.2\nCo-Occ[31] C&L 30.6 21.9 26.5 16.8 22.3 27.0 10.1 20.9 20.7 14.5 16.4 21.6 36.9 23.5 5.5 23.7 20.5 23.5\nOccMamba-128(ours) C&L 34.7 25.2 29.1 19.1 25.5 28.5 18.1 24.7 23.4 19.8 19.3 24.5 37.0 25.4 25.4 25.4 28.1 29.9\nOccMamba-384(ours) C&L 35.7 26.2 30.2 20.5 26.5 29.5 18.8 26.0 23.7 19.9 20.6 25.4 38.4 26.5 27.0 26.6 28.9 30.5\nTable1. QuantitativecomparisonsonOpenOccupancyvalidationsetwithv0.0annotations. C,D,Ldenotecamera,depthandLiDAR,\nrespectively. OccMamba-384 means OccMamba with mamba feature dimension being 384. The best and second-best are in bold and\nunderlined,respectively.\nMethod InputModality mIoU tion, L iou enhances semantic segmentation, L geo improves\nspatialalignment,L refinessemanticunderstanding,and\nMonoScene[4] C 11.1 sem\nL guidesdepthestimationandspatialrelationships.The\nSurroundOcc[46] C 11.9 depth\nultimatetrainingobjectiveispresentedasfollows:\nOccFormer[52] C 12.3\nRenderOcc[32] C 12.8 L=L +λ L +λ L +λ L +λ L , (15)\nCE 1 iou 2 geo 3 sem 4 depth\nLMSCNet[35] L 17.0\nJS3C-Net[49] L 23.8 whereλ ∼λ arethelosscoefficientstobalancetheeffect\n1 4\nSSC-RS[29] L 24.2 of each loss item on the final performance. They are all\nCo-Occ[31] C&L 24.4\nempiricallysetto1.\nM-CONet[45] C&L 20.4\nOccMamba-128(ours) C&L 24.6 4.Experiments\n4.1.Experimentalsetup\nTable 2. Performance on SemanticKITTI test set. The best and\nsecond-bestareinboldandunderlined,respectively. Benchmarks. We conduct experiments on OpenOccu-\npancy [45], SemanticKITTI [1] and SemanticPOSS [33].\nInput OpenOccupancyisbuiltuponthenuScenesdataset[3],in-\nMethod Modality mIoU\nheritingthedataformatofnuScenes.Itcomprises700train-\nSSCNet[38] L 15.2 ing sequences and 150 validation sequences, with annota-\nLMSCNet[35] L 16.5 tionsfor17classes. Theoccupancyannotationsarerepre-\nMotionSC[47] L 17.6 sentedina512×512×40voxelgrid,witheachvoxelsized\nJS3C-Net[49] L 22.7 at0.2meters.Notably,eachframeinOpenOccupancyhasa\nOccMamba-128(ours) L 23.4 datarangefourtimeslargerthantheotherdatasets,impos-\ningaheaviercomputationalburden. InSemanticKITTI,se-\nTable3. ComparisonsonSemanticPOSSvalidationset. Thebest quences 00-10 (excluding 08), 08, and 11-21 are allocated\nisinbold,andthesecond-bestisunderlined. for training, validation, and testing, respectively. For the\noccupancy annotations, a 256×256×32 grid is used, with\nvoxelsmeasuring0.2meterseach. Afterpre-processing, a\n3.4.Trainingobjective\ntotal of 19 classes are utilized for training and evaluation.\nOur ultimate training objective is composed of five terms, SemanticPOSS, which closely resembles SemanticKITTI,\nincluding the cross-entropy loss L , the lovasz-softmax employssequences00-05and02astrainingandvalidation\nCE\nlossL [2], thegeometricandsemanticaffinitylossL sets,respectively,withannotationsfor11classes.\niou geo\nand L [4], and the depth supervision loss L [19]. Evaluation metrics. We adopt the official evaluation\nsem depth\nThesetermsarecrucialforoptimizingourmodel’sperfor- metrics, i.e., Intersection-over-Union (IoU) and mean\nmance in various aspects: L ensures accurate classifica- Intersection-over-Union(mIoU).\nCE\nhturT\ndnuorG\nteNOC-M\nabmaMccO\nBarrier Bicycle Bus Car ConstructionVehicle Motorcycle Pedestrian TrafficCone\nTrailer Truck DriveableSurface OtherFlat Sidewalk Terrain Manmade Vegetation\nFigure4. VisualcomparisonbetweenOccMambaandM-CONet. Fromtoptobottom: ground-truth,predictionsofM-CONetandOcc-\nMamba.OurOccMambamakespreciserpredictionsthanM-CONetespeciallyinregionshighlightedbyredellipses.\nImplementation details. We use ResNet-50 [11] as the 4.2.Experimentalresults\nimage backbone. Both the Mamba Encoder and Mamba\nOpenOccupancy. AsshowninTable1,wecompareOcc-\nDecoderinthehierarchicalmambamoduleconsistoffour\nMamba on OpenOccupancy with v0.0 annotation to previ-\ngroupsandeachgroupcontainstwoMambablocks.Thelo-\nousmethodswhichusethesettingsofcamera-only[4,5,14,\ncalcontextprocessorutilizeswindowsizesof[3,5,7],with\n15],LiDAR-only[35,49],andmulti-modalfusion[31,45].\ntwoMambablocksimplemented. FortheOpenOccupancy\nOur OccMamba achieves the best performance. Particu-\ndataset,wemaintainidenticalsettingtoM-CONet[45]: for\nlarly, OccMamba-384 outperforms Co-Occ [31] by 5.1%\neach frame, we utilize six surround view camera images\nin IoU and 4.3% in mIoU, respectively. Additionally,\nas input, coupled with a fusion of ten frames of LiDAR\nOccMamba-128alsosurpassesCo-Occby4.1%inIoUand\npoints spanning the range of [-51.2m, 51.2m] along the X\n3.3%inmIoU.Theseresultsunderscoretheefficacyofour\nand Y axes, and [-2.0m, 6.0m] along the Z axis. Within\napproachinhandlinglarge-scalescenarios.\ntheMambablock,experimentsareconductedwithmamba\nSemanticKITTI & SemanticPOSS. As evident from Ta-\nfeature dimension set to 128 and 384, respectively. On\nble 2, our OccMamba-128 still outperforms the second-\nthe SemanticKITTI dataset, our inputs consist of forward-\nbest method, i.e., Co-Occ [31], by 0.2% mIoU in Se-\nfacing stereo camera images alongside a single-frame Li-\nmanticKITTI test set. Note that we do not compare our\nDAR points, with their spatial extents defined as [0m, -\nOccMamba with SCPNet [48] and Occfiner [37] as they\n25.6m,-2m,51.2m,25.6m,4.4m]. Wesetthemambafea-\nemploy tricks such as label rectification, knowledge distil-\nture dimension to 128 and employ Test Time Augmenta-\nlation or multi-frame concatenation. Strong performance\ntion (TTA) to boost the performance. The used augmen-\nis also observed in SemanticPOSS, as shown in Table 3.\ntations include the flipping of the X and Y axes, and four\nTheseresultssufficientlydemonstratethesuperiorityofour\naugmented inputs (including the original input) are sent to\napproach. Thedetailedclasswiseperformanceisputinthe\nthe model. Finally, for the SemanticPOSS, we exclusively\nsupplementarymaterial.\nleveragesingle-frameLiDARpointslikeSemanticKITTI.\nVisual comparisons. From Fig. 4, our OccMamba-384\nproducesmoreaccuratepredictionsthanM-CONet[45]on\nOpenOccupancy validation set. Our OccMamba not only\nReorderingSchemes mIoU Hierarchical Local\nMamba Context\nXYZsequence 24.5\nMethod CNN Module Processor mIoU\nZXYsequence 24.7\n3DHilbert 24.8 MonoScene[4] ✓ 11.1\nHeight-prioritized2DHilbertexpansion 25.2 MonoScene[4] ✓ 11.7\nMonoScene[4] ✓ ✓ 11.9\nTable4.Ablationstudyondifferentreorderingschemes.\nTable6.AblationstudyonMonoSceneframework.\nHierarchical Local\nMamba Context MemoryUsage(GiB) Inference\nMethod mIoU\nMethod CNN Module Processor mIoU Training Inference Time(ms)\nM-CONet[45] ✓ 20.1 M-CONet[45] 37.3 12.1 416.0 20.1\nOccMamba-128 ✓ 25.0 OccMamba-384 37.7 9.2 448.3 26.2\nOccMamba-128 ✓ ✓ 25.2 OccMamba-128 23.1 6.8 269.3 25.2\nOccMamba-384 ✓ ✓ 26.2\nTable7.Comparisonofmemoryusageandinferencetime.\nTable5.AblationstudyonOccMambaEncoder.\nstrategyunchanged. AsshowninTable6, ourOccMamba\nprovides a more detailed representation of object shapes\nencodercanimprovetheperformanceofMonoScenefrom\nandsemantics,butalsoperformspreciserpredictionsonoc-\n11.1%mIoUto11.9%mIoUonSemanticKITTIvalset.\ncludedobjectsandsurfaces.\nMemory usage and inference time. In Table 7, we\n4.3.Ablationstudy presentacomparativeanalysisofmemoryusageandinfer-\nence time between OccMamba and M-CONet during both\nThe reported results are on the OpenOccupancy validation\ntraining and inference phases. The networks are trained\nsetwithv0.0annotationsunlessotherwisespecified.\non 8 A40 GPUs and perform inference on a single RTX\nReordering schemes. To accelerate the training process,\n4090 GPU.When the mamba feature dimension is set to\nwesetthemambafeaturedimensionto128andthencom-\n384,OccMambashowssimilarmemoryusagetoM-CONet\npare our method with three alternative methods: ordering\nduring training but reduces inference memory usage by\nby XYZ sequence, ordering by ZXY sequence, and order-\nabout 24%. When the mamba feature dimension is low-\ning using the 3D Hilbert curve. As shown in Table 4, our\nered to 128, the memory savings are more pronounced,\nmethodachievesthehighestmIoUof25.2%. Additionally,\nwith a reduction of approximately 38% during training\nit is apparent that reordering schemes that prioritize the z-\nand 44% during inference compared to M-CONet. Addi-\naxisoutperformtheothermethods. Thiscouldbeattributed\ntionally, OccMamba-128 significantly improves inference\ntothefactthatinsemanticoccupancyprediction,theoverall\nspeed,takingabout35%ofthetimerequiredbyM-CONet,\nshapeofthescenestypicallymanifestsasaflattenedcuboid.\nwhichhighlightsitsefficiencyinresource-constrainedsce-\nTherefore, reordering schemes that prioritize the z-axis al-\nnarios. Intermsofperformance, OccMamba-384achieves\nlowMambatobettercapturespatialproximityinformation,\nthe highest mIoU, while OccMamba-128 configurations\nleadingtoimprovedpredictionperformance.\nalsosurpassM-CONetinperformance,providingabalance\nOccMambaencoder.Consistentwithprevioussettings,we\nbetweenefficiencyandaccuracy.\nconduct ablation studies on mamba feature dimension and\ntwomoduleswithinourOccMambaencoder. Asshownin\n5.Conclusion\nTable 5, by replacing the CNN-based occupancy encoder\nfrom M-CONet [45] with our hierarchical Mamba module In this paper, we present the first Mamba-based network,\nusing a mamba feature dimension of 128, the mIoU im- termedOccMamba,forsemanticoccupancyprediction. To\nproves from 20.1% to 25.0%. The incorporation of our facilitate the processing of Mamba blocks and maximally\nlocal context processor further enhances the performance, retain the 3D spatial relationship, we design a novel\nreordering scheme and OccMamba encoder. Endowed\nachieving 25.2% mIoU. When the Mamba feature dimen-\nwith these designs, our OccMamba is capable of directly\nsionisincreasedfrom128to384,themIoUimprovesfur-\nand efficiently processing large volumes of dense scene\nther,reaching26.2%.\ngrids, surpassing the previous state-of-the-art algorithms\nGeneralization. WeapplyourhierarchicalMambamodule\non three prevalent occupancy prediction benchmarks.\nto the MonoScene[4] framework. Specifically, we replace As an innovative approach in this field, our OccMamba\nthe3Dvoxeldecoderinthisframeworkwithourimplemen- providesaneffectivemeansforhandlinglarge-scalevoxels\ntation, using a mamba feature dimension of 128, and train directly, and we believe it will inspire new advancements.\non25%oftheSemanticKITTItrainingsetwiththetraining",
+    "references": "recognition,pages9223–9232,2023. 2,4,6,7\n[1] Jens Behley, Martin Garbade, Andres Milioto, Jan Quen-\n[15] Jie Li, Kai Han, Peng Wang, Yu Liu, and Xia Yuan.\nzel, Sven Behnke, Cyrill Stachniss, and Jurgen Gall. Se-\nAnisotropic convolutional networks for 3d semantic scene\nmantickitti: A dataset for semantic scene understanding of\ncompletion. In Proceedings of the IEEE/CVF Conference\nlidar sequences. In Proceedings of the IEEE/CVF inter-\non Computer Vision and Pattern Recognition, pages 3351–\nnationalconferenceoncomputervision, pages9297–9307,\n3359,2020. 2,6,7\n2019. 2,6\n[16] Siqi Li, Changqing Zou, Yipeng Li, Xibin Zhao, and Yue\n[2] Maxim Berman, Amal Rannen Triki, and Matthew B\nGao. Attention-based multi-modal fusion network for se-\nBlaschko. The lova´sz-softmax loss: A tractable surrogate\nmanticscenecompletion. InProceedingsoftheAAAICon-\nfortheoptimizationoftheintersection-over-unionmeasure\nferenceonArtificialIntelligence,pages11402–11409,2020.\ninneuralnetworks. InCVPR,pages4413–4421,2018. 6\n2\n[3] HolgerCaesar,VarunBankiti,AlexHLang,SourabhVora,\n[17] XinLi,BotianShi,YuenanHou,XingjiaoWu,TianlongMa,\nVeniceErinLiong,QiangXu,AnushKrishnan,YuPan,Gi-\nYikangLi,andLiangHe.Homogeneousmulti-modalfeature\nancarlo Baldan, and Oscar Beijbom. nuscenes: A multi-\nfusionandinteractionfor3dobjectdetection. InEuropean\nmodal dataset for autonomous driving. In Proceedings of\nConference on Computer Vision, pages 691–707. Springer,\nthe IEEE/CVF conference on computer vision and pattern\n2022. 2\nrecognition,pages11621–11631,2020. 6\n[18] Xin Li, Tao Ma, Yuenan Hou, Botian Shi, Yuchen Yang,\n[4] Anh-QuanCaoandRaoulDeCharette.Monoscene:Monoc-\nYouquanLiu,XingjiaoWu,QinChen,YikangLi,YuQiao,\nular 3d semantic scene completion. In Proceedings of\net al. Logonet: Towards accurate 3d object detection\ntheIEEE/CVFConferenceonComputerVisionandPattern\nwithlocal-to-globalcross-modalfusion. InProceedingsof\nRecognition,pages3991–4001,2022. 1,2,6,7,8\ntheIEEE/CVFConferenceonComputerVisionandPattern\n[5] XiaokangChen,Kwan-YeeLin,ChenQian,GangZeng,and\nRecognition,pages17524–17534,2023. 2\nHongsheng Li. 3d sketch-aware semantic scene comple-\ntion via semi-supervised structure prior. In Proceedings of [19] Yinhao Li, Zheng Ge, Guanyi Yu, Jinrong Yang, Zengran\ntheIEEE/CVFConferenceonComputerVisionandPattern Wang,YukangShi,JianjianSun,andZemingLi. Bevdepth:\nRecognition,pages4193–4202,2020. 2,6,7 Acquisitionofreliabledepthformulti-view3dobjectdetec-\ntion. InAAAI,pages1477–1485,2023. 6\n[6] TriDao, DanFu, StefanoErmon, AtriRudra, andChristo-\npherRe´. Flashattention:Fastandmemory-efficientexactat- [20] Yiming Li, Zhiding Yu, Christopher Choy, Chaowei Xiao,\ntentionwithio-awareness. AdvancesinNeuralInformation JoseMAlvarez,SanjaFidler,ChenFeng,andAnimaAnand-\nProcessingSystems,35:16344–16359,2022. 3 kumar. Voxformer: Sparse voxel transformer for camera-\nbased 3d semantic scene completion. In Proceedings of\n[7] JingGao,PengLi,ZhikuiChen,andJianingZhang. Asur-\nthe IEEE/CVF conference on computer vision and pattern\nvey on deep learning for multimodal data fusion. Neural\nComputation,32(5):829–864,2020. 2 recognition,pages9087–9098,2023. 1\n[8] Martin Garbade, Yueh-Tung Chen, Johann Sawatzky, and [21] DingkangLiang,XinZhou,XinyuWang,XingkuiZhu,Wei\nJuergenGall. Twostream3dsemanticscenecompletion. In Xu, Zhikang Zou, Xiaoqing Ye, and Xiang Bai. Point-\nProceedingsoftheIEEE/CVFConferenceonComputerVi- mamba:Asimplestatespacemodelforpointcloudanalysis.\nsionandPatternRecognitionWorkshops, pages0–0, 2019. arXivpreprintarXiv:2402.10739,2024. 2,3\n2 [22] TianyangLin,YuxinWang,XiangyangLiu,andXipengQiu.\n[9] Albert Gu and Tri Dao. Mamba: Linear-time sequence Asurveyoftransformers. AIopen,3:111–132,2022. 3\nmodeling with selective state spaces. arXiv preprint [23] Tsung-Yi Lin, Piotr Dolla´r, Ross Girshick, Kaiming He,\narXiv:2312.00752,2023. 1,3 Bharath Hariharan, and Serge Belongie. Feature pyra-\n[10] Albert Gu, Karan Goel, and Christopher Re´. Efficiently mid networks for object detection. In Proceedings of the\nmodelinglongsequenceswithstructuredstatespaces. arXiv IEEE conference on computer vision and pattern recogni-\npreprintarXiv:2111.00396,2021. 3 tion,pages2117–2125,2017. 3\n[11] KaimingHe,XiangyuZhang,ShaoqingRen,andJianSun. [24] Jiuming Liu, Ruiji Yu, Yian Wang, Yu Zheng, Tianchen\nDeep residual learning for image recognition. In Proceed- Deng, Weicai Ye, and Hesheng Wang. Point mamba:\ningsoftheIEEEconferenceoncomputervisionandpattern A novel point cloud backbone based on state space\nrecognition,pages770–778,2016. 3,7 model with octree-based ordering strategy. arXiv preprint\n[12] David Hilbert. Dritter Band: Analysis· Grundlagen der arXiv:2403.06467,2024. 3\nMathematik· Physik Verschiedenes: Nebst Einer Lebens- [25] Youquan Liu, Runnan Chen, Xin Li, Lingdong Kong,\ngeschichte. Springer-Verlag,2013. 2,4 YuchenYang,ZhaoyangXia,YeqiBai,XingeZhu,Yuexin\n[13] YuenanHou,XiaoshuiHuang,ShixiangTang,TongHe,and Ma, Yikang Li, et al. Uniseg: A unified multi-modal li-\nWanliOuyang.Advancesin3dpre-traininganddownstream dar segmentation network and the openpcseg codebase. In\ntasks:asurvey. Vicinagearth,1(1):6,2024. 2 ProceedingsoftheIEEE/CVFInternationalConferenceon\n[14] Yuanhui Huang, Wenzhao Zheng, Yunpeng Zhang, Jie ComputerVision,pages21662–21673,2023. 2\nZhou, and Jiwen Lu. Tri-perspective view for vision- [26] YueLiu, YunjieTian, YuzhongZhao, HongtianYu, Lingxi\nbased3dsemanticoccupancyprediction. InProceedingsof Xie,YaoweiWang,QixiangYe,andYunfanLiu. Vmamba:\nVisualstatespacemodel. arXivpreprintarXiv:2401.10166, IEEE conference on computer vision and pattern recogni-\n2024. 3 tion,pages1746–1754,2017. 6\n[27] Zhijian Liu, Haotian Tang, Alexander Amini, Xinyu Yang, [39] PinTang,ZhongdaoWang,GuoqingWang,JilaiZheng,Xi-\nHuiziMao,DanielaLRus,andSongHan.Bevfusion:Multi- angxuanRen, BailanFeng, andChaoMa. Sparseocc: Re-\ntaskmulti-sensorfusionwithunifiedbird’s-eyeviewrepre- thinkingsparselatentrepresentationforvision-basedseman-\nsentation.In2023IEEEinternationalconferenceonrobotics ticoccupancyprediction. InProceedingsoftheIEEE/CVF\nandautomation(ICRA),pages2774–2781.IEEE,2023.2,3 Conference on Computer Vision and Pattern Recognition,\n[28] QihangMa, XinTan, YanyunQu, LizhuangMa, Zhizhong pages15035–15044,2024. 6,1\nZhang,andYuanXie.Cotr:Compactoccupancytransformer [40] Wenwen Tong, Chonghao Sima, Tai Wang, Li Chen, Silei\nforvision-based3doccupancyprediction. InProceedingsof Wu,HanmingDeng,YiGu,LeweiLu,PingLuo,DahuaLin,\ntheIEEE/CVFConferenceonComputerVisionandPattern etal. Sceneasoccupancy. InProceedingsoftheIEEE/CVF\nRecognition(CVPR),pages19936–19945,2024. 4 InternationalConferenceonComputerVision,pages8406–\n8415,2023. 1,2\n[29] JianbiaoMei, YuYang, MengmengWang, TianxinHuang,\nXuemengYang,andYongLiu. Ssc-rs: Elevatelidarseman- [41] AshishVaswani,NoamShazeer,NikiParmar,JakobUszko-\nticscenecompletionwithrepresentationseparationandbev reit,LlionJones,AidanNGomez,ŁukaszKaiser,andIllia\nfusion. In2023IEEE/RSJInternationalConferenceonIn- Polosukhin. Attentionisallyouneed. Advancesinneural\ntelligentRobotsandSystems(IROS),pages1–8.IEEE,2023. informationprocessingsystems,30,2017. 3\n6,2 [42] SourabhVora,AlexHLang,BassamHelou,andOscarBei-\njbom. Pointpainting: Sequential fusion for 3d object de-\n[30] EricNguyen,KaranGoel,AlbertGu,GordonDowns,Preey\ntection. In Proceedings of the IEEE/CVF conference on\nShah,TriDao,StephenBaccus,andChristopherRe´. S4nd:\ncomputervisionandpatternrecognition,pages4604–4612,\nModeling images and videos as multidimensional signals\n2020. 3\nwithstatespaces.Advancesinneuralinformationprocessing\n[43] HaiyangWang,HaoTang,ShaoshuaiShi,AoxueLi,Zhen-\nsystems,35:2846–2861,2022. 3\nguoLi,BerntSchiele,andLiweiWang.Unitr:Aunifiedand\n[31] JingyiPan,ZipengWang,andLinWang. Co-occ:Coupling\nefficientmulti-modaltransformerforbird’s-eye-viewrepre-\nexplicitfeaturefusionwithvolumerenderingregularization\nsentation. In Proceedings of the IEEE/CVF International\nfor multi-modal 3d semantic occupancy prediction. IEEE\nConferenceonComputerVision,pages6792–6802,2023. 2\nRoboticsandAutomationLetters,2024. 2,6,7\n[44] SinongWang,BelindaZLi,MadianKhabsa,HanFang,and\n[32] Mingjie Pan, Jiaming Liu, Renrui Zhang, Peixiang Huang,\nHaoMa. Linformer: Self-attentionwithlinearcomplexity.\nXiaoqi Li, Li Liu, and Shanghang Zhang. Renderocc:\narXivpreprintarXiv:2006.04768,2020. 3\nVision-centric 3d occupancy prediction with 2d rendering\n[45] Xiaofeng Wang, Zheng Zhu, Wenbo Xu, Yunpeng Zhang,\nsupervision. arXivpreprintarXiv:2309.09502,2023. 6,2\nYi Wei, Xu Chi, Yun Ye, Dalong Du, Jiwen Lu, and Xin-\n[33] YanchengPan, BiaoGao, JilinMei, SiboGeng, Chengkun\ngangWang. Openoccupancy: Alargescalebenchmarkfor\nLi,andHuijingZhao. Semanticposs: Apointclouddataset\nsurroundingsemanticoccupancyperception.InProceedings\nwith large quantity of dynamic instances. In 2020 IEEE\noftheIEEE/CVFInternationalConferenceonComputerVi-\nIntelligentVehiclesSymposium(IV),pages687–693.IEEE,\nsion,pages17850–17859,2023. 1,2,3,4,6,7,8\n2020. 2,6\n[46] Yi Wei, Linqing Zhao, Wenzhao Zheng, Zheng Zhu, Jie\n[34] ChristophBRist,DavidEmmerichs,MarkusEnzweiler,and\nZhou,andJiwenLu. Surroundocc: Multi-camera3doccu-\nDariu M Gavrila. Semantic scene completion using local\npancy prediction for autonomous driving. In Proceedings\ndeep implicit functions on lidar data. IEEE transactions\noftheIEEE/CVFInternationalConferenceonComputerVi-\nonpatternanalysisandmachineintelligence,44(10):7205–\nsion,pages21729–21740,2023. 6,2\n7218,2021. 2\n[47] Joey Wilson, Jingyu Song, Yuewei Fu, Arthur Zhang, An-\n[35] LuisRoldao,RaouldeCharette,andAnneVerroust-Blondet. drew Capodieci, Paramsothy Jayakumar, Kira Barton, and\nLmscnet: Lightweight multiscale 3d semantic completion. Maani Ghaffari. Motionsc: Data set and network for real-\nIn2020InternationalConferenceon3DVision(3DV),pages time semantic mapping in dynamic environments. IEEE\n111–119.IEEE,2020. 2,6,7 RoboticsandAutomationLetters,7(3):8439–8446,2022. 6\n[36] Luis Roldao, Raoul De Charette, and Anne Verroust- [48] Zhaoyang Xia, Youquan Liu, Xin Li, Xinge Zhu, Yuexin\nBlondet. 3dsemanticscenecompletion: Asurvey. Interna- Ma, Yikang Li, Yuenan Hou, and Yu Qiao. Scpnet: Se-\ntionalJournalofComputerVision,130(8):1978–2005,2022. manticscenecompletiononpointcloud. InProceedingsof\n1,2 the IEEE/CVF conference on computer vision and pattern\n[37] HaoShi,SongWang,JiamingZhang,XiaotingYin,Zhong- recognition,pages17642–17651,2023. 2,7\ndao Wang, Zhijian Zhao, Guangming Wang, Jianke Zhu, [49] Xu Yan, Jiantao Gao, Jie Li, Ruimao Zhang, Zhen Li, Rui\nKailunYang,andKaiweiWang. Occfiner: Offboardoccu- Huang,andShuguangCui. Sparsesinglesweeplidarpoint\npancy refinement with hybrid propagation. arXiv preprint cloudsegmentationvialearningcontextualshapepriorsfrom\narXiv:2403.08504,2024. 7 scenecompletion.InProceedingsoftheAAAIConferenceon\n[38] ShuranSong,FisherYu,AndyZeng,AngelXChang,Mano- ArtificialIntelligence,pages3101–3109,2021. 1,2,6,7\nlis Savva, and Thomas Funkhouser. Semantic scene com- [50] YanYan,YuxingMao,andBoLi. Second:Sparselyembed-\npletion from a single depth image. In Proceedings of the dedconvolutionaldetection. Sensors,18(10):3337,2018. 3\n[51] ShuoZhang,YupengZhai,JilinMei,andYuHu.Fusionocc:\nMulti-modal fusion for 3d occupancy prediction. In ACM\nMultimedia2024,2024. 1\n[52] Yunpeng Zhang, Zheng Zhu, and Dalong Du. Occformer:\nDual-path transformer for vision-based 3d semantic occu-\npancy prediction. In Proceedings of the IEEE/CVF Inter-\nnationalConferenceonComputerVision,pages9433–9443,\n2023. 1,2,6\n[53] Yanan Zhang, Jinqing Zhang, Zengran Wang, Junhao Xu,\nand Di Huang. Vision-based 3d occupancy prediction in\nautonomousdriving: areviewandoutlook. arXivpreprint\narXiv:2405.02595,2024. 1\n[54] YinZhouandOncelTuzel. Voxelnet: End-to-endlearning\nforpointcloudbased3dobjectdetection. InProceedingsof\ntheIEEEconferenceoncomputervisionandpatternrecog-\nnition,pages4490–4499,2018. 3\n[55] LianghuiZhu,BenchengLiao,QianZhang,XinlongWang,\nWenyuLiu,andXinggangWang. Visionmamba: Efficient\nvisualrepresentationlearningwithbidirectionalstatespace\nmodel. arXivpreprintarXiv:2401.09417,2024. 3\nOccMamba: Semantic Occupancy Prediction with State Space Models\nSupplementary Material\n6.Appendixsection labels, respectively, validating its effectiveness in refining\ngeometriccoherence(Fig.5(a,b)).\n6.1.Moretrainingdetails\nLabel Quality Impact. The old OpenOccupancy labels\nInourexperiment,weutilizetheAdamWoptimizerwitha (v0.0), derived from static LiDAR, suffer from incomplete\nbase learning rate of 5e−4 and a weight decay of 0.01 to annotationsfordynamicobjects(Fig.5(c))andoccludedar-\nensureeffectiveoptimizationwhilemaintainingregulariza- easLiDARneverseen.Byusingnewlabels(v0.1),ourLCP\ntion. As to the image backbone ResNet-50, which is pre- improves mIoU by 0.4%(Table. 9), demonstrating more\ntrainedbytorchvision,wescaleitslearningratebyafactor gainsaslabelnoisereduces.\nof0.1. ThelearningrateschedulefollowsaCosineAnneal-\ning policy, combined with a linear warmup over the first\n500 iterations, starting from one-third of the base learning\nrate,andgraduallydecreasingtoaminimumratioof1e−3.\nFor training, we set the number of epochs to 20. This ex-\nperimental setup reflects our focus on balancing optimiza- (a)w/oLCP (b)wLCP (c)label\ntion efficiency, model stability, and rigorous evaluation to Figure5.Reconstructionresultsofdistantoccupancy(about40m).\nachievereliableandreproducibleresults.\nMethod Label IoU mIoU RayIoU@0.2m\n6.2.Morereorderingschemes w/oLCP v0.0 33.7 25.0 24.2\nwLCP v0.0 34.7 25.2 24.7\nIn addition to the Hilbert curve, other space-filling curves,\nw/oLCP v0.1 34.2 25.8 26.5\nsuch as the Z-order, are also widely used. Therefore, we\nwLCP v0.1 34.9 26.2 27.0\nconductcomparativeexperiments,followingtheprocedures\noutlined in Sec. 4.1 and Sec. 4.3 on the OpenOccupancy Table9.MoreresultsofOccMamba-128.\nvalidation set with v0.0 annotations to evaluate the perfor- 6.4.Ablationontrainingloss\nmance of the Z-order. As presented in Table 8, it is ev-\nWe conduct an ablation study on the training objectives\nident that our OccMamba-128 with height-prioritized 2D\nmentioned in Sec. 3.4. Specifically, we carry out experi-\nHilbert expansion outperforms the Z-curve variant in se-\nments on the OpenOccupancy dataset, following the pro-\nmantic occupancy prediction. In theory, the Hilbert curve\ncedures outlined in Sec. 4.1. To facilitate training, we use\neffectivelypreservesthespatialproximitywhenmappedto\nonly20%ofthetrainingset, withthemodelconfiguredas\na 1D sequences due to its recursive, space-filling path. In\nOccMamba-128.Theresults,asshowninTable10,indicate\ncontrast, the Z-order curve employs a simple interleaving\nthatallthetrainingobjectivescontributesignificantlytothe\nofbits,whichmakesitmorelikelythatadjacentpointsare\nultimate performance. In particular, the inclusion of L\niou\nseparatedbygreaterdistancesinthe1Dsequences. Conse-\nandL yieldsignificantperformanceenhancements,asev-\nCE\nquently,theHilbertcurvegenerallyofferssuperiorlocality\nidencedbytheincreaseinmIoU,highlightingtheircritical\npreservationinmultipledimensions.\nroleinourOccMamba.\nReorderingSchemes mIoU\nL L L L L mIoU\nCE iou depth geo sem\n3DZ-order 24.6 ✓ 19.2\n3DHilbert 24.8 ✓ ✓ 19.5\nHeight-prioritized2DZ-orderexpansion 25.0 ✓ ✓ ✓ 19.9\nHeight-prioritized2DHilbertexpansion 25.2 ✓ ✓ ✓ ✓ 21.7\nTable8.Performanceonmorereorderingschemes. ✓ ✓ ✓ ✓ ✓ 22.9\n6.3. More ablations on local context processor Table10.Ablationstudyontheeffectofeachtrainingloss.\n(LCP)\n6.5.Moreexperimentalresults\nMetric Specificity. OpenOccupancy’s mIoU does not use\nDuetospaceconstraints,weputthedetailedclass-wiseper-\ntechniqueslikevisualmasks,causingambiguousevaluation\nformanceontheSemanticKITTIdatasetinthissection. As\nofoccludedregions.InTable.9,LCPimprovesIoU(denser\nshowninTable11,ourOccMambaachievesstate-of-the-art\noccupancy)andRayIoU(fromSparseOcc[39],surfaceac-\nresultsonSemanticKITTItestset.\ncuracy, excluding occlusions) by 1.0% and 0.6% in v0.0\nInput\nMethod Modality mIoU\ndaor\nklawedis gnikrap\ndnuorgrehto\ngnidliub\nrac\nkcurt\nelcycib\nelcycrotom\nelcihevrehto\nnoitategev\nknurt\nniarret nosrep tsilcycib\ntsilcycrotom\necnef elop\nngiscfifart\nMonoScene[4] C 11.1 54.727.124.8 5.7 14.418.83.3 0.5 0.7 4.4 14.9 2.4 19.51.01.40.411.1 3.3 2.1\nSurroundOcc[46] C 11.9 56.928.330.2 6.8 15.220.61.4 1.6 1.2 4.4 14.9 3.4 19.31.42.00.111.3 3.9 2.4\nOccFormer[52] C 12.3 55.930.331.5 6.5 15.721.61.2 1.5 1.7 3.2 16.8 3.9 21.32.21.10.211.9 3.8 3.7\nRenderOcc[32] C 12.8 57.228.416.1 0.9 18.224.96.0 0.4 0.3 3.7 26.2 4.9 3.6 1.93.10.0 9.1 6.2 3.4\nLMSCNet[35] L 17.0 64.033.124.9 3.2 38.729.52.5 0.0 0.0 0.1 40.519.030.80.00.00.020.515.7 0.5\nJS3C-Net[49] L 23.8 64.039.034.214.739.433.27.214.08.112.243.519.339.87.95.20.030.117.915.1\nSSC-RS[29] L 24.2 73.144.438.617.444.636.45.310.15.111.244.126.041.94.72.40.930.815.0 7.2\nCo-Occ[31] C&L 24.4 72.043.542.510.235.140.06.4 4.4 3.3 8.8 41.230.840.81.63.30.432.726.620.7\nM-CONet[45] C&L 20.4 60.636.129.013.038.433.84.7 3.0 2.2 5.9 41.520.535.10.82.30.626.018.715.7\nOccMamba-128(ours) C&L 24.6 68.741.035.9 9.1 40.834.88.8 8.8 6.5 8.9 44.928.740.64.22.60.632.027.023.3\nTable11.PerformanceonSemanticKITTItestset.Thebestandsecond-bestareinboldandunderlined,respectively."
+  }
+}

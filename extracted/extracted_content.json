@@ -1,0 +1,2067 @@
+{
+  "metadata": {
+    "title": "",
+    "author": "",
+    "subject": "",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.21",
+    "page_count": 12
+  },
+  "images": [
+    {
+      "image_id": 1,
+      "page": 2,
+      "index": 0,
+      "filename": "fig_2_1.jpeg",
+      "path": "extracted/figures/fig_2_1.jpeg",
+      "width": 567,
+      "height": 387
+    },
+    {
+      "image_id": 2,
+      "page": 2,
+      "index": 1,
+      "filename": "fig_2_2.jpeg",
+      "path": "extracted/figures/fig_2_2.jpeg",
+      "width": 799,
+      "height": 554
+    },
+    {
+      "image_id": 3,
+      "page": 2,
+      "index": 2,
+      "filename": "fig_2_3.jpeg",
+      "path": "extracted/figures/fig_2_3.jpeg",
+      "width": 800,
+      "height": 553
+    },
+    {
+      "image_id": 4,
+      "page": 2,
+      "index": 3,
+      "filename": "fig_2_4.jpeg",
+      "path": "extracted/figures/fig_2_4.jpeg",
+      "width": 1526,
+      "height": 1055
+    },
+    {
+      "image_id": 5,
+      "page": 3,
+      "index": 0,
+      "filename": "fig_3_1.jpeg",
+      "path": "extracted/figures/fig_3_1.jpeg",
+      "width": 411,
+      "height": 456
+    },
+    {
+      "image_id": 6,
+      "page": 3,
+      "index": 1,
+      "filename": "fig_3_2.jpeg",
+      "path": "extracted/figures/fig_3_2.jpeg",
+      "width": 798,
+      "height": 554
+    },
+    {
+      "image_id": 7,
+      "page": 3,
+      "index": 2,
+      "filename": "fig_3_3.jpeg",
+      "path": "extracted/figures/fig_3_3.jpeg",
+      "width": 578,
+      "height": 401
+    },
+    {
+      "image_id": 8,
+      "page": 3,
+      "index": 3,
+      "filename": "fig_3_4.jpeg",
+      "path": "extracted/figures/fig_3_4.jpeg",
+      "width": 411,
+      "height": 456
+    },
+    {
+      "image_id": 9,
+      "page": 3,
+      "index": 4,
+      "filename": "fig_3_5.jpeg",
+      "path": "extracted/figures/fig_3_5.jpeg",
+      "width": 798,
+      "height": 554
+    },
+    {
+      "image_id": 10,
+      "page": 3,
+      "index": 5,
+      "filename": "fig_3_6.jpeg",
+      "path": "extracted/figures/fig_3_6.jpeg",
+      "width": 578,
+      "height": 401
+    },
+    {
+      "image_id": 11,
+      "page": 4,
+      "index": 0,
+      "filename": "fig_4_1.png",
+      "path": "extracted/figures/fig_4_1.png",
+      "width": 1145,
+      "height": 768
+    },
+    {
+      "image_id": 12,
+      "page": 4,
+      "index": 1,
+      "filename": "fig_4_2.png",
+      "path": "extracted/figures/fig_4_2.png",
+      "width": 1092,
+      "height": 743
+    },
+    {
+      "image_id": 13,
+      "page": 5,
+      "index": 0,
+      "filename": "fig_5_1.jpeg",
+      "path": "extracted/figures/fig_5_1.jpeg",
+      "width": 799,
+      "height": 554
+    },
+    {
+      "image_id": 14,
+      "page": 5,
+      "index": 1,
+      "filename": "fig_5_2.jpeg",
+      "path": "extracted/figures/fig_5_2.jpeg",
+      "width": 798,
+      "height": 554
+    },
+    {
+      "image_id": 15,
+      "page": 5,
+      "index": 2,
+      "filename": "fig_5_3.jpeg",
+      "path": "extracted/figures/fig_5_3.jpeg",
+      "width": 800,
+      "height": 556
+    },
+    {
+      "image_id": 16,
+      "page": 5,
+      "index": 3,
+      "filename": "fig_5_4.jpeg",
+      "path": "extracted/figures/fig_5_4.jpeg",
+      "width": 799,
+      "height": 555
+    },
+    {
+      "image_id": 17,
+      "page": 8,
+      "index": 0,
+      "filename": "fig_8_1.png",
+      "path": "extracted/figures/fig_8_1.png",
+      "width": 796,
+      "height": 552
+    },
+    {
+      "image_id": 18,
+      "page": 8,
+      "index": 1,
+      "filename": "fig_8_2.png",
+      "path": "extracted/figures/fig_8_2.png",
+      "width": 798,
+      "height": 553
+    },
+    {
+      "image_id": 19,
+      "page": 8,
+      "index": 2,
+      "filename": "fig_8_3.png",
+      "path": "extracted/figures/fig_8_3.png",
+      "width": 797,
+      "height": 553
+    },
+    {
+      "image_id": 20,
+      "page": 8,
+      "index": 3,
+      "filename": "fig_8_4.png",
+      "path": "extracted/figures/fig_8_4.png",
+      "width": 798,
+      "height": 553
+    },
+    {
+      "image_id": 21,
+      "page": 8,
+      "index": 4,
+      "filename": "fig_8_5.png",
+      "path": "extracted/figures/fig_8_5.png",
+      "width": 798,
+      "height": 553
+    },
+    {
+      "image_id": 22,
+      "page": 8,
+      "index": 5,
+      "filename": "fig_8_6.png",
+      "path": "extracted/figures/fig_8_6.png",
+      "width": 798,
+      "height": 553
+    },
+    {
+      "image_id": 23,
+      "page": 8,
+      "index": 6,
+      "filename": "fig_8_7.png",
+      "path": "extracted/figures/fig_8_7.png",
+      "width": 797,
+      "height": 553
+    },
+    {
+      "image_id": 24,
+      "page": 8,
+      "index": 7,
+      "filename": "fig_8_8.png",
+      "path": "extracted/figures/fig_8_8.png",
+      "width": 796,
+      "height": 553
+    },
+    {
+      "image_id": 25,
+      "page": 12,
+      "index": 0,
+      "filename": "fig_12_1.jpeg",
+      "path": "extracted/figures/fig_12_1.jpeg",
+      "width": 798,
+      "height": 554
+    },
+    {
+      "image_id": 26,
+      "page": 12,
+      "index": 1,
+      "filename": "fig_12_2.jpeg",
+      "path": "extracted/figures/fig_12_2.jpeg",
+      "width": 798,
+      "height": 554
+    },
+    {
+      "image_id": 27,
+      "page": 12,
+      "index": 2,
+      "filename": "fig_12_3.jpeg",
+      "path": "extracted/figures/fig_12_3.jpeg",
+      "width": 798,
+      "height": 553
+    },
+    {
+      "image_id": 28,
+      "page": 12,
+      "index": 3,
+      "filename": "fig_12_4.jpeg",
+      "path": "extracted/figures/fig_12_4.jpeg",
+      "width": 797,
+      "height": 553
+    },
+    {
+      "image_id": 29,
+      "page": 12,
+      "index": 4,
+      "filename": "fig_12_5.jpeg",
+      "path": "extracted/figures/fig_12_5.jpeg",
+      "width": 796,
+      "height": 553
+    },
+    {
+      "image_id": 30,
+      "page": 12,
+      "index": 5,
+      "filename": "fig_12_6.jpeg",
+      "path": "extracted/figures/fig_12_6.jpeg",
+      "width": 798,
+      "height": 553
+    },
+    {
+      "image_id": 31,
+      "page": 12,
+      "index": 6,
+      "filename": "fig_12_7.jpeg",
+      "path": "extracted/figures/fig_12_7.jpeg",
+      "width": 798,
+      "height": 553
+    },
+    {
+      "image_id": 32,
+      "page": 12,
+      "index": 7,
+      "filename": "fig_12_8.jpeg",
+      "path": "extracted/figures/fig_12_8.jpeg",
+      "width": 798,
+      "height": 553
+    },
+    {
+      "image_id": 33,
+      "page": 12,
+      "index": 8,
+      "filename": "fig_12_9.jpeg",
+      "path": "extracted/figures/fig_12_9.jpeg",
+      "width": 798,
+      "height": 554
+    },
+    {
+      "image_id": 34,
+      "page": 12,
+      "index": 9,
+      "filename": "fig_12_10.jpeg",
+      "path": "extracted/figures/fig_12_10.jpeg",
+      "width": 796,
+      "height": 550
+    },
+    {
+      "image_id": 35,
+      "page": 12,
+      "index": 10,
+      "filename": "fig_12_11.jpeg",
+      "path": "extracted/figures/fig_12_11.jpeg",
+      "width": 798,
+      "height": 553
+    },
+    {
+      "image_id": 36,
+      "page": 12,
+      "index": 11,
+      "filename": "fig_12_12.jpeg",
+      "path": "extracted/figures/fig_12_12.jpeg",
+      "width": 797,
+      "height": 553
+    },
+    {
+      "image_id": 37,
+      "page": 12,
+      "index": 12,
+      "filename": "fig_12_13.jpeg",
+      "path": "extracted/figures/fig_12_13.jpeg",
+      "width": 796,
+      "height": 553
+    },
+    {
+      "image_id": 38,
+      "page": 12,
+      "index": 13,
+      "filename": "fig_12_14.jpeg",
+      "path": "extracted/figures/fig_12_14.jpeg",
+      "width": 798,
+      "height": 553
+    },
+    {
+      "image_id": 39,
+      "page": 12,
+      "index": 14,
+      "filename": "fig_12_15.jpeg",
+      "path": "extracted/figures/fig_12_15.jpeg",
+      "width": 798,
+      "height": 553
+    },
+    {
+      "image_id": 40,
+      "page": 12,
+      "index": 15,
+      "filename": "fig_12_16.jpeg",
+      "path": "extracted/figures/fig_12_16.jpeg",
+      "width": 798,
+      "height": 553
+    }
+  ],
+  "tables": [
+    {
+      "page": 3,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          null,
+          "3D Segmentation Sub-network\nMLP\n3D Completion\nVoxelization\nSub-network\nTeacher Encoder Decoder"
+        ],
+        [
+          "𝒊+n",
+          null
+        ]
+      ],
+      "row_count": 2
+    },
+    {
+      "page": 3,
+      "table_idx": 1,
+      "method": "pdfplumber",
+      "data": [
+        [
+          ""
+        ],
+        [
+          "𝓛𝑑𝑠𝑘𝑑"
+        ]
+      ],
+      "row_count": 2
+    },
+    {
+      "page": 5,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "# L_c: completion label",
+          "(256x256x32)"
+        ],
+        [
+          "# L_s: semantic segmenta",
+          "tion label (Nx1)"
+        ],
+        [
+          "# L_p: panoptic segmenta",
+          "tion label (Nx1)"
+        ],
+        [
+          "# S_c: classes of moving",
+          "objects; u: unlabeled class"
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "for C_i in S_c:",
+          ""
+        ],
+        [
+          "# voxel position of co",
+          "mpletion label for class C_i"
+        ],
+        [
+          "P_c_i = getInd(L_c, C_",
+          "i)"
+        ],
+        [
+          "L_p_i = L_p[L_s == C_i",
+          "] # instance label of class C_i"
+        ],
+        [
+          "P_dif = []",
+          ""
+        ],
+        [
+          "if len(L_p_i) == 0:",
+          ""
+        ],
+        [
+          "P_dif = P_c_i",
+          ""
+        ],
+        [
+          "elif len(L_p_i) > 0 an",
+          "d len(P_c_i) > 0:"
+        ],
+        [
+          "# mask of voxel posit",
+          "ion bound for instance d_j"
+        ],
+        [
+          "M_c = zeros([256, 256",
+          ", 32])"
+        ],
+        [
+          "# point position of c",
+          "lass C_i"
+        ],
+        [
+          "P_i = P[L_s == C_i, :",
+          "]"
+        ],
+        [
+          "# voxel position of c",
+          "lass C_i"
+        ],
+        [
+          "P_s_i = voxelize(P_i)",
+          ""
+        ],
+        [
+          "D_i = unique(L_p_i) #",
+          "all instance ids"
+        ],
+        [
+          "for d_j in D_i:",
+          ""
+        ],
+        [
+          "# voxel position f",
+          "or instance d_j"
+        ],
+        [
+          "M_j = P_s_i[L_p_i",
+          "== d_j]"
+        ],
+        [
+          "(x_min,x_max,y_min",
+          ",y_max,z_min,z_max) = bound("
+        ],
+        [
+          "M_j)",
+          ""
+        ],
+        [
+          "M_c[x_min:x_max,y_",
+          "min:y_max,z_min:z_max] = 1000"
+        ],
+        [
+          "# voxel position for",
+          "instance label of class C_i"
+        ],
+        [
+          "P_p_i = getInd(M_c, 1",
+          "000)"
+        ],
+        [
+          "P_dif = difference(P_",
+          "c_i, P_p_i)"
+        ],
+        [
+          "if len(P_dif) > 0:",
+          ""
+        ],
+        [
+          "for p_i in range(P_di",
+          "f.shape[0]):"
+        ],
+        [
+          "L_c[P_dif[p_i,0],P_",
+          "dif[p_i,1],P_dif[p_i,2]] = u"
+        ]
+      ],
+      "row_count": 32
+    },
+    {
+      "page": 6,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "mIoU",
+          "completion"
+        ],
+        [
+          "16.1\n17.5\n17.6\n17.7\n19.5\n22.7\n23.5\n23.8\n29.5",
+          "50.0\n41.8\n56.7\n50.6\n59.4\n57.7\n58.8\n56.6\n45.6"
+        ],
+        [
+          "36.7\n47.5",
+          "56.1\n68.5"
+        ]
+      ],
+      "row_count": 3
+    },
+    {
+      "page": 7,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "mIoU",
+          "completion"
+        ],
+        [
+          "15.2\n16.5\n17.6\n22.7",
+          "53.5\n52.3\n52.7\n58.1"
+        ],
+        [
+          "26.3\n33.6",
+          "56.3\n60.7"
+        ]
+      ],
+      "row_count": 3
+    },
+    {
+      "page": 7,
+      "table_idx": 1,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "mIoU",
+          ")sm(ycnetaL",
+          "rac",
+          "elcycib",
+          "elcycrotom",
+          "kcurt",
+          "elcihev-rehto",
+          "nosrep",
+          "tsilcycib",
+          "tsilcycrotom",
+          "daor",
+          "gnikrap",
+          "klawedis",
+          "dnuorg-rehto",
+          "gnidliub",
+          "ecnef",
+          "noitategev",
+          "knurt",
+          "niarret",
+          "elop"
+        ],
+        [
+          "66.4\n69.7\n70.3\n71.2\n72.9",
+          "259\n–\n–\n76\n–",
+          "97.3\n94.5\n97.6\n97.0\n97.0",
+          "51.5\n65.4\n68.4\n67.9\n63.6",
+          "50.8\n86.8\n68.7\n69.3\n63.4",
+          "59.8\n39.2\n44.2\n53.5\n61.1",
+          "58.8\n41.1\n61.1\n60.2\n61.5",
+          "65.7\n80.7\n75.9\n75.1\n77.9",
+          "65.2\n80.4\n74.4\n73.5\n81.3",
+          "43.7\n74.3\n73.4\n50.5\n74.1",
+          "90.2\n91.3\n93.4\n91.8\n89.7",
+          "67.6\n68.8\n70.3\n70.9\n67.4",
+          "75.2\n72.5\n80.7\n77.5\n74.7",
+          "16.9\n53.5\n33.3\n41.0\n40.0",
+          "91.3\n87.9\n93.5\n92.4\n93.5",
+          "65.9\n63.2\n72.1\n69.4\n72.9",
+          "86.1\n70.2\n86.5\n86.5\n86.2",
+          "73.4\n68.5\n75.1\n73.8\n73.9",
+          "71.0\n53.7\n71.7\n71.9\n71.0",
+          "64.2\n61.5\n64.8\n64.9\n65.0"
+        ],
+        [
+          "68.9\n71.5",
+          "170",
+          "97.1\n97.5",
+          "67.6\n60.9",
+          "63.8\n56.3",
+          "50.8\n58.6",
+          "58.5\n65.9",
+          "73.7\n70.7",
+          "69.2\n71.8",
+          "48.0\n58.7",
+          "92.2\n93.6",
+          "65.0\n72.1",
+          "77.0\n80.9",
+          "32.3\n36.2",
+          "90.7\n93.3",
+          "66.5\n72.1",
+          "85.6\n86.2",
+          "72.5\n74.1",
+          "69.8\n71.6",
+          "62.4\n66.7"
+        ]
+      ],
+      "row_count": 3
+    },
+    {
+      "page": 8,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "mIoU",
+          "completion"
+        ],
+        [
+          "37.2",
+          "49.9"
+        ],
+        [
+          "40.8",
+          "52.1"
+        ]
+      ],
+      "row_count": 3
+    },
+    {
+      "page": 11,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "mIoU",
+          "completion"
+        ],
+        [
+          "35.1\n37.2\n35.3\n35.0",
+          "49.9\n49.9\n50.4\n48.8"
+        ]
+      ],
+      "row_count": 2
+    },
+    {
+      "page": 11,
+      "table_idx": 1,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "mIoU",
+          "completion"
+        ],
+        [
+          "37.2\n34.4",
+          "49.9\n48.5"
+        ]
+      ],
+      "row_count": 2
+    },
+    {
+      "page": 11,
+      "table_idx": 2,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "mIoU",
+          "completion"
+        ],
+        [
+          "37.2\n33.1",
+          "49.9\n51.0"
+        ]
+      ],
+      "row_count": 2
+    },
+    {
+      "page": 11,
+      "table_idx": 3,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "Train(h)",
+          "Inference(ms)"
+        ],
+        [
+          "34\n28",
+          "143.2\n120.6"
+        ]
+      ],
+      "row_count": 2
+    }
+  ],
+  "formulas": [
+    {
+      "page": 1,
+      "line": 8,
+      "text": "(SSC) is challenging due to the sparse and incomplete in- thesparseandincompleteinput,alargequantityofobjects"
+    },
+    {
+      "page": 1,
+      "line": 10,
+      "text": "theinherentlabelnoiseformovingobjects. Toaddressthe movingobjects(SeeFig.1(a))."
+    },
+    {
+      "page": 1,
+      "line": 12,
+      "text": "solutions:1)Redesigningthecompletionsub-network.We intheoutdoorscenecompletionfield[3,19,22,25,29,32]."
+    },
+    {
+      "page": 1,
+      "line": 13,
+      "text": "design a novel completion sub-network, which consists of Forexample, S3CNet[3]performs2Dand3Dcompletion"
+    },
+    {
+      "page": 1,
+      "line": 14,
+      "text": "severalMulti-PathBlocks(MPBs)toaggregatemulti-scale tasks jointly and achieves impressive performance on the"
+    },
+    {
+      "page": 1,
+      "line": 15,
+      "text": "features and is free from the lossy downsampling opera- SemanticKITTI leaderboard [1]. JS3C-Net [29] performs"
+    },
+    {
+      "page": 1,
+      "line": 16,
+      "text": "tions. 2) Distilling rich knowledge from the multi-frame semantic segmentation first and then feeds the segmenta-"
+    },
+    {
+      "page": 1,
+      "line": 18,
+      "text": "dubbed Dense-to-Sparse Knowledge Distillation (DSKD). finerefinementmoduleisfurtherputforwardtoimprovethe"
+    },
+    {
+      "page": 1,
+      "line": 22,
+      "text": "single-framemodel. 3)Completionlabelrectification. We tionperformanceonthesmall,distantobjectsandcrowded"
+    },
+    {
+      "page": 1,
+      "line": 26,
+      "text": "greatly improving the performance of deep models espe- erature[20]."
+    },
+    {
+      "page": 1,
+      "line": 35,
+      "text": "surpasses the competitive S3CNet [3] by 7.2 mIoU. SCP-"
+    },
+    {
+      "page": 1,
+      "line": 48,
+      "text": "versescales,wedesignMulti-PathBlocks(MPBs)withvar-"
+    },
+    {
+      "page": 1,
+      "line": 53,
+      "text": "Semanticscenecompletion(SSC)[20]aimsatinferring"
+    },
+    {
+      "page": 1,
+      "line": 61,
+      "text": "]VC.sc["
+    },
+    {
+      "page": 2,
+      "line": 0,
+      "text": "mIoU(%) SCPNet"
+    },
+    {
+      "page": 2,
+      "line": 1,
+      "text": "(36.7)"
+    },
+    {
+      "page": 2,
+      "line": 5,
+      "text": "(29.5)"
+    },
+    {
+      "page": 2,
+      "line": 6,
+      "text": "(a) JS3CNet"
+    },
+    {
+      "page": 2,
+      "line": 7,
+      "text": "25 (23.8)"
+    },
+    {
+      "page": 2,
+      "line": 10,
+      "text": "(23.5)"
+    },
+    {
+      "page": 2,
+      "line": 11,
+      "text": "(22.7)"
+    },
+    {
+      "page": 2,
+      "line": 13,
+      "text": "(17.5) (17.7) (19.5)"
+    },
+    {
+      "page": 2,
+      "line": 16,
+      "text": "(16.1)"
+    },
+    {
+      "page": 2,
+      "line": 17,
+      "text": "(17.6)"
+    },
+    {
+      "page": 2,
+      "line": 20,
+      "text": "(b) (c)"
+    },
+    {
+      "page": 2,
+      "line": 21,
+      "text": "Figure1. Left: challengesofsemanticscenecompletion,i.e.,(a)sparseandincompleteinput,varyingcompletiondifficultyforobjects"
+    },
+    {
+      "page": 2,
+      "line": 22,
+      "text": "of diverse scales and (b) long traces of dynamic objects in completion labels. Traces of cars and persons are highlighted by yellow"
+    },
+    {
+      "page": 2,
+      "line": 23,
+      "text": "ellipses. Right: (c)performancecomparisonbetweencompetitivecompletionalgorithmsandSCPNetonSemanticKITTIsemanticscene"
+    },
+    {
+      "page": 2,
+      "line": 45,
+      "text": "ousSOTAS3CNet[3]by7.2mIoU.Competitiveper-"
+    },
+    {
+      "page": 2,
+      "line": 51,
+      "text": "scene completion benchmarks, i.e., SemanticKITTI [1]"
+    },
+    {
+      "page": 2,
+      "line": 53,
+      "text": "and SemanticPOSS [16]. Our SCPNet ranks 1st on Se-"
+    },
+    {
+      "page": 2,
+      "line": 55,
+      "text": "outperforms the S3CNet [3] by 7.2 mIoU. SCPNet also pletion mainly concentrates on the indoor scenarios [5,6,"
+    },
+    {
+      "page": 2,
+      "line": 56,
+      "text": "achieves better performance than other completion algo- 15,22]. Thepointcloudinindoorscenariosisdense,small-"
+    },
+    {
+      "page": 2,
+      "line": 60,
+      "text": "ontheSemanticKITTIsemanticsegmentationtask. completionalgorithms[3,20,25,29,32].Variousalgorithms"
+    },
+    {
+      "page": 2,
+      "line": 61,
+      "text": "Ourcontributionsaresummarizedasfollows. have been proposed, for instance, LMSCNet [19] uses a"
+    },
+    {
+      "page": 2,
+      "line": 64,
+      "text": "completion backbone. S3CNet [3] performs 2D and 3D"
+    },
+    {
+      "page": 2,
+      "line": 66,
+      "text": "11-1200:00PacificTime,andourmethodistermedSCPNet. theproposeddynamicvoxelfusionmodule. JS3C-Net[29]"
+    },
+    {
+      "page": 3,
+      "line": 26,
+      "text": "attachesthecompletionnetworktothesegmentationback- cloud X ∈ RN×3, the network needs to assign a label to"
+    },
+    {
+      "page": 3,
+      "line": 28,
+      "text": "interaction module. Compared with previous completion itisemptyorbelongstoaspecificclassc∈{0,1,2,...,C−"
+    },
+    {
+      "page": 3,
+      "line": 31,
+      "text": "MPBs that aggregate multi-scale features and can achieve WedenotethevoxelwiseoutputasO∈RL×W×H×C."
+    },
+    {
+      "page": 3,
+      "line": 34,
+      "text": "Knowledgedistillation. Knowledgedistillation(KD)orig-"
+    },
+    {
+      "page": 3,
+      "line": 35,
+      "text": "inatesfromthepioneeringworkofG.Hintonetal.[8]. Its"
+    },
+    {
+      "page": 3,
+      "line": 43,
+      "text": "proposed and various forms of knowledge [21,24,27,33]"
+    },
+    {
+      "page": 3,
+      "line": 44,
+      "text": "tation sub-network is built upon Cylinder3D [35,36], with"
+    },
+    {
+      "page": 3,
+      "line": 45,
+      "text": "havebeendesigned,e.g.,intermediatefeatures[11,21],vi-"
+    },
+    {
+      "page": 3,
+      "line": 47,
+      "text": "sualattentionmaps[10,33],region-levelaffinityscores[9],"
+    },
+    {
+      "page": 3,
+      "line": 49,
+      "text": "similarityscoresofdifferentsamples[24,26],etc.Itisnote-"
+    },
+    {
+      "page": 3,
+      "line": 55,
+      "text": "ods have focused on 3D domains, e.g., PVKD [12] and"
+    },
+    {
+      "page": 3,
+      "line": 57,
+      "text": "SparseKD [31]. To our knowledge, this is the first work"
+    },
+    {
+      "page": 3,
+      "line": 60,
+      "text": "Take JS3C-Net [29] as example. The original JS3C-"
+    },
+    {
+      "page": 4,
+      "line": 9,
+      "text": "Figur k C e K o x n - k v C 3 3 x o D . k n v A Blo s c c k Re h L e U matic M o ul v ti e -P r 5 7 a - v - C C th o i o n n e v B v w B B l l l o o o c c c k k o k f (M t P h B e ) desig E O C n le o c e m c m u d p p e l i e n e t d c e t d - V o w V ox m o i e s x l e el p S l u e m tionnet- F c f d r ra c l u i a o g c m u u i d n r e lc y c ib e e . g a 4 T t n h . e lc y c ro to m h d e C e t c o hk c u rt m o m e m u p o l"
+    },
+    {
+      "page": 4,
+      "line": 12,
+      "text": "work. ItisbuiltupontheMulti-PathBlocks(MPBs)thatcontain"
+    },
+    {
+      "page": 4,
+      "line": 13,
+      "text": "3×3×3,5×5×5and7×7×7convolutionblocks(ConvBlock).In"
+    },
+    {
+      "page": 4,
+      "line": 45,
+      "text": "that,forthesegmentationpart,wetaketheCylinder3D[36]"
+    },
+    {
+      "page": 4,
+      "line": 64,
+      "text": "as S3CNet [3] and JS3C-Net [29], there are several down- scenecompletionfromthesingle-frameinputisextremely"
+    },
+    {
+      "page": 4,
+      "line": 75,
+      "text": "directlyprocesstherawvoxelfeaturesproducedbythevox- Inspired by [12], we make the single-frame model dis-"
+    },
+    {
+      "page": 5,
+      "line": 1,
+      "text": "# L_c: completion label (256x256x32)"
+    },
+    {
+      "page": 5,
+      "line": 2,
+      "text": "# L_s: semantic segmentation label (Nx1)"
+    },
+    {
+      "page": 5,
+      "line": 3,
+      "text": "# L_p: panoptic segmentation label (Nx1)"
+    },
+    {
+      "page": 5,
+      "line": 7,
+      "text": "P_c_i = getInd(L_c, C_i)"
+    },
+    {
+      "page": 5,
+      "line": 8,
+      "text": "L_p_i = L_p[L_s == C_i] # instance label of class C_i"
+    },
+    {
+      "page": 5,
+      "line": 9,
+      "text": "P_dif = []"
+    },
+    {
+      "page": 5,
+      "line": 10,
+      "text": "if len(L_p_i) == 0:"
+    },
+    {
+      "page": 5,
+      "line": 12,
+      "text": "elif len(L_p_i) > 0 and len(P_c_i) > 0:"
+    },
+    {
+      "page": 5,
+      "line": 14,
+      "text": "M_c = zeros([256, 256, 32])"
+    },
+    {
+      "page": 5,
+      "line": 16,
+      "text": "P_i = P[L_s == C_i, :]"
+    },
+    {
+      "page": 5,
+      "line": 18,
+      "text": "P_s_i = voxelize(P_i)"
+    },
+    {
+      "page": 5,
+      "line": 19,
+      "text": "D_i = unique(L_p_i) # all instance ids"
+    },
+    {
+      "page": 5,
+      "line": 21,
+      "text": "p f F o e l f i ra cc e g d t t u i i y v o r e lc y c ib n e e n a l 5 y m la . e lc y c ro to m b r i T c e e o m lk c u rt o s p o b . : v j se lc re ih h e to v - e T o e c r h t i t e s g n o sre ph , i e p n e r a . l tsilc y c ib o g o l p . n c , o g tsilc y c ro to m o c s m a e t r r d p d a o r a a l c l e n a e t g n ik ra p d b s io e p o n l k la w e d is e f r l r e a m s c b o d n r u e o h r to g -t o e n i v fi l . s i c g n id liu bn B w a g t o h ie c n e f o t o i t c n o b h m j n o ita te g e v o e h p c : a t ek n u rt s r v r e , a e c t m t i l n ia rre t i o o fi a n n k e g e lo pi d c n a t g c r nc if n f g a i r s- t a o c t m e h e f e s - - # vo # M ( M x _ x _ e j _ c v l o m [ x = i x M p e n _ _ o l P , m j s _ x i ) i p s _ n t o _ m : i i a x s o i [ x _ n t L , m i _ y a f o p _ x o _ m , n r i i y f n _ i = , m o n r = y i s _ n t i d m : a n _ a y n j x _ s c t ] , m e a z a _ x n l c m , a e i z b n _ e d , m l _ z i j _ n o m : f a z x _ c ) m l a a = x s ] s bo = C u _ n 1 i d 0 ( 00"
+    },
+    {
+      "page": 5,
+      "line": 22,
+      "text": "completionlabelsmoreaccurate. P_p_i = getInd(M_c, 1000)"
+    },
+    {
+      "page": 5,
+      "line": 23,
+      "text": "P_dif = difference(P_c_i, P_p_i)"
+    },
+    {
+      "page": 5,
+      "line": 24,
+      "text": "if len(P_dif) > 0:"
+    },
+    {
+      "page": 5,
+      "line": 25,
+      "text": "for p_i in range(P_dif.shape[0]):"
+    },
+    {
+      "page": 5,
+      "line": 27,
+      "text": "L_c[P_dif[p_i,0],P_dif[p_i,1],P_dif[p_i,2]] = u"
+    },
+    {
+      "page": 5,
+      "line": 29,
+      "text": "their indices to perform knowledge distillation. We de- getInd(A, b): get indices of b in A; bound: get bound of matrix;"
+    },
+    {
+      "page": 5,
+      "line": 30,
+      "text": "difference(A, B):differencesetofAminusB."
+    },
+    {
+      "page": 5,
+      "line": 34,
+      "text": "∈ RNm×Cf, F"
+    },
+    {
+      "page": 5,
+      "line": 36,
+      "text": "∈ RNs×Cf,"
+    },
+    {
+      "page": 5,
+      "line": 40,
+      "text": "∈ RNm×3 and I"
+    },
+    {
+      "page": 5,
+      "line": 42,
+      "text": "∈ RNs×3, respectively. N"
+    },
+    {
+      "page": 5,
+      "line": 52,
+      "text": "are sorted and I S (i,j) = I T (i,j), where i ∈ {1,...,N s } Lc t =concat[Ls t ;T t+1→t Ls t+1 ;...;T t+T−1→t Ls t+T−1 ],"
+    },
+    {
+      "page": 5,
+      "line": 53,
+      "text": "andj ∈ {1,2,3}. Wefirstcomputethepairwiserelational (3)"
+    },
+    {
+      "page": 5,
+      "line": 58,
+      "text": "t+1→t"
+    },
+    {
+      "page": 5,
+      "line": 59,
+      "text": "P (i,j)= F S (i)TF S (j) ,i,j ∈{1,...,N } (1) isthetransformationmatrixthattransformsthecoordinate"
+    },
+    {
+      "page": 5,
+      "line": 60,
+      "text": "S ∥F (i)∥ ∥F (j)∥ s from(t+1)-thframetothet-thframe, andconcat[...;...]"
+    },
+    {
+      "page": 5,
+      "line": 75,
+      "text": "KnowledgeDistillation(DSKD)lossisgivenasbelow:"
+    },
+    {
+      "page": 5,
+      "line": 78,
+      "text": "1 (cid:88)"
+    },
+    {
+      "page": 5,
+      "line": 80,
+      "text": "(cid:88)"
+    },
+    {
+      "page": 5,
+      "line": 82,
+      "text": "L dskd (P S ,P T )= N2 ∥P S (i,j)−P T (i,j)∥2 2 . of class i, we calculate the bound of each instance, form-"
+    },
+    {
+      "page": 5,
+      "line": 84,
+      "text": "(2) them to process the original voxelwise completion labels,"
+    },
+    {
+      "page": 5,
+      "line": 88,
+      "text": "Generationofcompletionlabels. Aspointedoutby[20], Thedetailedinformationofthelabelrectificationalgorithm"
+    },
+    {
+      "page": 6,
+      "line": 15,
+      "text": "SSCNet-Full[22] 16.1 50.0 24.3 0.5 0.8 1.2 4.3 0.3 0.3 0.0 51.2 27.1 30.8 6.4 34.5 19.9 35.3 18.2 29.0 13.1 6.7"
+    },
+    {
+      "page": 6,
+      "line": 16,
+      "text": "ESSCNet[34] 17.5 41.8 26.4 0.3 5.4 5.0 9.1 2.9 2.7 0.1 43.8 26.9 28.1 10.3 29.8 23.3 35.8 20.1 28.7 16.4 16.7"
+    },
+    {
+      "page": 6,
+      "line": 17,
+      "text": "LMSCNet-SS[19] 17.6 56.7 30.9 0.0 0.0 1.5 0.8 0.0 0.0 0.0 64.8 29.0 34.7 4.6 38.1 21.3 41.3 19.9 32.1 15.0 0.8"
+    },
+    {
+      "page": 6,
+      "line": 18,
+      "text": "TDS[7] 17.7 50.6 29.5 0.0 0.0 2.5 0.1 0.0 0.0 0.0 62.2 23.3 31.6 6.5 34.1 24.1 40.1 21.9 33.1 16.9 6.9"
+    },
+    {
+      "page": 6,
+      "line": 19,
+      "text": "UDNet[37] 19.5 59.4 33.9 0.8 0.4 3.8 4.4 0.5 0.3 0.3 62.0 28.2 35.1 9.1 39.5 24.4 40.9 23.2 32.3 18.8 13.1"
+    },
+    {
+      "page": 6,
+      "line": 20,
+      "text": "Local-DIFs[18] 22.7 57.7 34.8 3.6 2.4 4.4 4.8 2.5 1.1 0.0 67.9 40.1 42.9 11.4 40.4 29.0 42.2 26.5 39.1 21.3 17.5"
+    },
+    {
+      "page": 6,
+      "line": 21,
+      "text": "SSA-SC[32] 23.5 58.8 36.5 13.9 4.6 5.7 7.4 4.4 2.6 0.7 72.2 37.4 43.7 10.9 43.6 30.7 43.5 25.6 41.8 14.5 6.9"
+    },
+    {
+      "page": 6,
+      "line": 22,
+      "text": "JS3C-Net[29] 23.8 56.6 33.3 14.4 8.8 7.2 12.7 8.0 5.1 0.4 64.7 34.9 39.9 14.1 39.4 30.4 43.1 19.6 40.5 18.9 15.9"
+    },
+    {
+      "page": 6,
+      "line": 23,
+      "text": "S3CNet[3] 29.5 45.6 31.2 41.5 45.0 6.7 16.1 45.9 35.8 16.0 42.0 17.0 22.5 7.9 52.2 31.3 39.5 34.0 21.2 31.0 24.3"
+    },
+    {
+      "page": 6,
+      "line": 24,
+      "text": "SCPNet(#frame=1) 36.7 56.1 46.4 33.2 34.9 13.8 29.1 28.2 24.7 1.8 68.5 51.3 49.8 30.7 38.8 44.7 46.4 40.1 48.7 40.4 25.1"
+    },
+    {
+      "page": 6,
+      "line": 25,
+      "text": "SCPNet(#frame=4) 47.5 68.5 59.0 48.5 51.1 21.0 37.8 47.6 35.0 10.5 79.7 57.7 60.0 32.8 50.2 54.1 56.9 47.1 58.0 48.3 48.0"
+    },
+    {
+      "page": 6,
+      "line": 29,
+      "text": "ingrateissetas0.0015.WeuseAdam[14]astheoptimizer."
+    },
+    {
+      "page": 6,
+      "line": 32,
+      "text": "The overall loss function is comprised of three terms, αandβaresetas1and3,000,respectively.Wefilterpoints"
+    },
+    {
+      "page": 6,
+      "line": 33,
+      "text": "i.e., thecrossentropyloss, thelovasz-softmaxloss[2]and thatareoutsidethepointcloudrangeofthevoxelwisecom-"
+    },
+    {
+      "page": 6,
+      "line": 37,
+      "text": "L=L ce +αL lovasz +βL dskd , (4) totheonlineserver."
+    },
+    {
+      "page": 6,
+      "line": 39,
+      "text": "whereαandβarethelosscoefficientstobalancetheeffect"
+    },
+    {
+      "page": 6,
+      "line": 40,
+      "text": "edge distillation [8], FitNets [21], NST [13], PKT [17]"
+    },
+    {
+      "page": 6,
+      "line": 42,
+      "text": "andPVKD[12]asbaselinedistillationalgorithms. Vanilla"
+    },
+    {
+      "page": 6,
+      "line": 46,
+      "text": "tion models [3,29], we conduct experiments on two pop- mizethedistancebetweenstudentfeaturesandteacherfea-"
+    },
+    {
+      "page": 6,
+      "line": 48,
+      "text": "SemanticKITTI [1] and SemanticPOSS [16]. As to Se- distributionandthenforcestheconsistencyoftheprobabil-"
+    },
+    {
+      "page": 6,
+      "line": 60,
+      "text": "Evaluation metrics. Following [12,36], we adopt the methods in Table 1 and 2. On SemanticKITTI, our SCP-"
+    },
+    {
+      "page": 6,
+      "line": 61,
+      "text": "intersection-over-union(IoU)ofeachclassandmIoUofall Netsignificantlyoutperformsotherscenecompletionalgo-"
+    },
+    {
+      "page": 6,
+      "line": 63,
+      "text": "culated via: IoU i = TPi+F T P P i i +FNi , where TP i , FP i and mIoUhigherthanS3CNet[3].Onclassessuchascar,other-"
+    },
+    {
+      "page": 6,
+      "line": 70,
+      "text": "metricforthesemanticscenecompletiontask. higherthanJS3C-Net[29]. Theimpressiveperformanceon"
+    },
+    {
+      "page": 7,
+      "line": 10,
+      "text": "SSCNet-Full[22] 15.2 53.5 5.3 0.3 1.3 5.6 39.6 1.0 2.6 28.7 3.4 26.0 43.1"
+    },
+    {
+      "page": 7,
+      "line": 11,
+      "text": "LMSCNet-SS[19] 16.5 52.3 7.7 0.3 0.6 4.0 37.7 1.9 8.2 36.8 13.8 25.8 45.1"
+    },
+    {
+      "page": 7,
+      "line": 12,
+      "text": "MotionSC[25] 17.6 52.7 7.8 0.5 0.5 3.9 39.8 2.2 8.5 39.2 13.1 30.8 47.0"
+    },
+    {
+      "page": 7,
+      "line": 13,
+      "text": "JS3C-Net[29] 22.7 58.1 18.9 0.2 7.1 3.6 47.8 2.2 0.0 46.3 26.6 43.4 53.2"
+    },
+    {
+      "page": 7,
+      "line": 14,
+      "text": "SCPNet(#frame=1) 26.3 56.3 9.2 3.3 12.4 11.0 49.6 3.1 11.1 50.1 40.8 48.7 49.8"
+    },
+    {
+      "page": 7,
+      "line": 15,
+      "text": "SCPNet(#frame=4) 33.6 60.7 21.4 5.0 34.5 8.9 55.3 7.8 31.0 50.3 47.9 55.1 52.3"
+    },
+    {
+      "page": 7,
+      "line": 19,
+      "text": ")sm(ycnetaL"
+    },
+    {
+      "page": 7,
+      "line": 32,
+      "text": "SPVNAS[23] 66.4 259 97.3 51.5 50.8 59.8 58.8 65.7 65.2 43.7 90.2 67.6 75.2 16.9 91.3 65.9 86.1 73.4 71.0 64.2 66.9"
+    },
+    {
+      "page": 7,
+      "line": 33,
+      "text": "AF2S3Net[4] 69.7 – 94.5 65.4 86.8 39.2 41.1 80.7 80.4 74.3 91.3 68.8 72.5 53.5 87.9 63.2 70.2 68.5 53.7 61.5 71.0"
+    },
+    {
+      "page": 7,
+      "line": 34,
+      "text": "RPVNet[28] 70.3 – 97.6 68.4 68.7 44.2 61.1 75.9 74.4 73.4 93.4 70.3 80.7 33.3 93.5 72.1 86.5 75.1 71.7 64.8 61.4"
+    },
+    {
+      "page": 7,
+      "line": 35,
+      "text": "PVKD[12] 71.2 76 97.0 67.9 69.3 53.5 60.2 75.1 73.5 50.5 91.8 70.9 77.5 41.0 92.4 69.4 86.5 73.8 71.9 64.9 65.8"
+    },
+    {
+      "page": 7,
+      "line": 36,
+      "text": "2DPASS[30] 72.9 – 97.0 63.6 63.4 61.1 61.5 77.9 81.3 74.1 89.7 67.4 74.7 40.0 93.5 72.9 86.2 73.9 71.0 65.0 70.4"
+    },
+    {
+      "page": 7,
+      "line": 37,
+      "text": "Cylinder3D[36] 68.9 97.1 67.6 63.8 50.8 58.5 73.7 69.2 48.0 92.2 65.0 77.0 32.3 90.7 66.5 85.6 72.5 69.8 62.4 66.2"
+    },
+    {
+      "page": 7,
+      "line": 47,
+      "text": "+KD[8] 33.8"
+    },
+    {
+      "page": 7,
+      "line": 49,
+      "text": "+FitNets[21] 33.8"
+    },
+    {
+      "page": 7,
+      "line": 50,
+      "text": "between JS3C-Net [29], SCPNet (single-frame) and SCP-"
+    },
+    {
+      "page": 7,
+      "line": 51,
+      "text": "+PKT[17] 34.6"
+    },
+    {
+      "page": 7,
+      "line": 52,
+      "text": "Net (multi-frame). As can be seen from Fig. 6, our SCP-"
+    },
+    {
+      "page": 7,
+      "line": 53,
+      "text": "+PVKD[12] 36.2"
+    },
+    {
+      "page": 7,
+      "line": 54,
+      "text": "Net(single-frame)makemoreaccuratecompletionpredic-"
+    },
+    {
+      "page": 7,
+      "line": 55,
+      "text": "+NST[13] 36.3"
+    },
+    {
+      "page": 7,
+      "line": 70,
+      "text": "such as 2DPASS [30], PVKD [12] and RPVNet [28]. The proposedrectificationstrategygreatlyenhancestheperfor-"
+    },
+    {
+      "page": 7,
+      "line": 76,
+      "text": "For instance, compared with FitNets [21] which directly nessofthelabelrectificationalgorithm."
+    },
+    {
+      "page": 8,
+      "line": 3,
+      "text": "Figure6. VisualcomparisonofdifferentmethodsontheSemanticKITTIvalidationset. Fromlefttoright: predictionsofJS3C-Net[29],"
+    },
+    {
+      "page": 8,
+      "line": 4,
+      "text": "SCPNet(singleframe),SCPNet(multi-frame)andground-truth.Regionsthathavelargepredictionerrorsarehighlightedbyredellipses."
+    },
+    {
+      "page": 8,
+      "line": 23,
+      "text": "(a)Completionsub-network amineitseffect. AsreportedinTable6(c), thedownsam-"
+    },
+    {
+      "page": 8,
+      "line": 25,
+      "text": "JS3C-Net[29] 24.0 SCPNet.Specifically,thecompletionperformanceofSCP-"
+    },
+    {
+      "page": 8,
+      "line": 27,
+      "text": "(b)DSKD resultsshowthattheno-downsamplingprincipleisvitalto"
+    },
+    {
+      "page": 8,
+      "line": 31,
+      "text": "(c)Downsamplingoperation 5.Conclusion"
+    },
+    {
+      "page": 8,
+      "line": 39,
+      "text": "Net. ThedetailedperformanceisshowninTable6(a). Our"
+    },
+    {
+      "page": 8,
+      "line": 48,
+      "text": "Net with and without the proposed DSKD in Table 6 (b). Acknowledgements. This work is partially supported"
+    },
+    {
+      "page": 8,
+      "line": 49,
+      "text": "The proposed distillation method can bring 2.8 mIoU im- by the National Key R&D Program of China (No."
+    },
+    {
+      "page": 8,
+      "line": 50,
+      "text": "provementtoourSCPNet,showingthebenefitofdistilling 2022ZD0160100),and in part by Shanghai Committee of"
+    },
+    {
+      "page": 8,
+      "line": 51,
+      "text": "relation-basedknowledgefromthemulti-framemodel. ScienceandTechnology(GrantNo. 21DZ1100100)."
+    },
+    {
+      "page": 9,
+      "line": 0,
+      "text": "References [13] Zehao Huang and Naiyan Wang. Like What You Like:"
+    },
+    {
+      "page": 9,
+      "line": 2,
+      "text": "[1] Jens Behley, Martin Garbade, Andres Milioto, Jan Quen-"
+    },
+    {
+      "page": 9,
+      "line": 5,
+      "text": "[14] Diederik P Kingma and Jimmy Ba. Adam: A Method for"
+    },
+    {
+      "page": 9,
+      "line": 11,
+      "text": "[15] ShiceLiu,YuHu,YimingZeng,QiankunTang,BeibeiJin,"
+    },
+    {
+      "page": 9,
+      "line": 12,
+      "text": "[2] Maxim Berman, Amal Rannen Triki, and Matthew B."
+    },
+    {
+      "page": 9,
+      "line": 19,
+      "text": "[16] YanchengPan, BiaoGao, JilinMei, SiboGeng, Chengkun"
+    },
+    {
+      "page": 9,
+      "line": 24,
+      "text": "[3] RanCheng,ChristopherAgia,YuanRen,XinhaiLi,andLiu"
+    },
+    {
+      "page": 9,
+      "line": 29,
+      "text": "[17] NikolaosPassalisandAnastasiosTefas.LearningDeepRep-"
+    },
+    {
+      "page": 9,
+      "line": 32,
+      "text": "[4] Ran Cheng, Ryan Razani, Ehsan Taghavi, Enxu Li, and"
+    },
+    {
+      "page": 9,
+      "line": 34,
+      "text": "Bingbing Liu. (af)2-S3Net: Attentive Feature Fusion with"
+    },
+    {
+      "page": 9,
+      "line": 37,
+      "text": "[18] ChristophBRist,DavidEmmerichs,MarkusEnzweiler,and"
+    },
+    {
+      "page": 9,
+      "line": 42,
+      "text": "[5] Angela Dai, Daniel Ritchie, Martin Bokeloh, Scott Reed,"
+    },
+    {
+      "page": 9,
+      "line": 43,
+      "text": "onPatternAnalysisandMachineIntelligence,44(10):7205–"
+    },
+    {
+      "page": 9,
+      "line": 47,
+      "text": "Scans. InIEEEConferenceonComputerVisionandPattern [19] LuisRoldao,RaouldeCharette,andAnneVerroust-Blondet."
+    },
+    {
+      "page": 9,
+      "line": 49,
+      "text": "tion.InInternationalConferenceon3DVision(3DV),pages"
+    },
+    {
+      "page": 9,
+      "line": 50,
+      "text": "[6] BenFei,WeidongYang,WenmingChen,ZhijunLi,Yikang"
+    },
+    {
+      "page": 9,
+      "line": 53,
+      "text": "viewofDeepLearning-based3DPointCloudsCompletion [20] Luis Roldao, Raoul De Charette, and Anne Verroust-"
+    },
+    {
+      "page": 9,
+      "line": 57,
+      "text": "[7] Martin Garbade, Yueh-Tung Chen, Johann Sawatzky, and"
+    },
+    {
+      "page": 9,
+      "line": 58,
+      "text": "JuergenGall. TwoStream3DSemanticSceneCompletion. [21] Adriana Romero, Nicolas Ballas, Samira Ebrahimi Kahou,"
+    },
+    {
+      "page": 9,
+      "line": 61,
+      "text": "[8] GeoffreyHinton,OriolVinyals,andJeffDean.Distillingthe LearningRepresentations,2015. 3,6,7"
+    },
+    {
+      "page": 9,
+      "line": 62,
+      "text": "KnowledgeinaNeuralNetwork.Statistics,1050:9,2015.3, [22] ShuranSong,FisherYu,AndyZeng,AngelXChang,Mano-"
+    },
+    {
+      "page": 9,
+      "line": 64,
+      "text": "[9] Yuenan Hou, Zheng Ma, Chunxiao Liu, Tak-Wai Hui, and pletion from a Single Depth Image. In IEEE Conference"
+    },
+    {
+      "page": 9,
+      "line": 67,
+      "text": "puterVisionandPatternRecognition, pages12486–12495, [23] HaotianTang,ZhijianLiu,ShengyuZhao,YujunLin,JiLin,"
+    },
+    {
+      "page": 9,
+      "line": 69,
+      "text": "[10] Yuenan Hou, Zheng Ma, Chunxiao Liu, and Chen Change tectureswithSparsePoint-VoxelConvolution. InEuropean"
+    },
+    {
+      "page": 9,
+      "line": 72,
+      "text": "ComputerVision,pages1013–1021,2019. 3 [24] FredTungandGregMori.Similarity-PreservingKnowledge"
+    },
+    {
+      "page": 9,
+      "line": 73,
+      "text": "[11] Yuenan Hou, Zheng Ma, Chunxiao Liu, and Chen Change Distillation. InIEEEInternationalConferenceonComputer"
+    },
+    {
+      "page": 9,
+      "line": 75,
+      "text": "erogeneousAuxiliaryNetworks. InAssociationfortheAd- [25] Joey Wilson, Jingyu Song, Yuewei Fu, Arthur Zhang, An-"
+    },
+    {
+      "page": 9,
+      "line": 78,
+      "text": "[12] YuenanHou,XingeZhu,YuexinMa,ChenChangeLoy,and TimeSemanticMappinginDynamicEnvironments. arXiv"
+    },
+    {
+      "page": 9,
+      "line": 80,
+      "text": "DARSemanticSegmentation. InIEEEConferenceonCom- [26] XiaohanXing,YuenanHou,HangLi,YixuanYuan,Hong-"
+    },
+    {
+      "page": 10,
+      "line": 5,
+      "text": "[27] Guodong Xu, Yuenan Hou, Ziwei Liu, and Chen Change"
+    },
+    {
+      "page": 10,
+      "line": 7,
+      "text": "Loss coefficient β. We investigate the effect of the loss"
+    },
+    {
+      "page": 10,
+      "line": 12,
+      "text": "[28] JianyunXu,RuixiangZhang,JianDou,YushiZhu,JieSun,"
+    },
+    {
+      "page": 10,
+      "line": 17,
+      "text": "[29] Xu Yan, Jiantao Gao, Jie Li, Ruimao Zhang, Zhen Li, Detailed performance comparison on DSKD loss. The"
+    },
+    {
+      "page": 10,
+      "line": 26,
+      "text": "[30] XuYan,JiantaoGao,ChaodaZheng,ChaoZheng,Ruimao"
+    },
+    {
+      "page": 10,
+      "line": 31,
+      "text": "InEuropeanConferenceonComputerVision(ECCV),2022. ThedetailedperformancecomparisonofSCPNetwithand"
+    },
+    {
+      "page": 10,
+      "line": 33,
+      "text": "[31] Jihan Yang, Shaoshuai Shi, Runyu Ding, Zhe Wang, and is apparent that the completion performance drops signifi-"
+    },
+    {
+      "page": 10,
+      "line": 37,
+      "text": "[32] XuemengYang,HaoZou,XinKong,TianxinHuang,Yong operationforthecompletionsub-network."
+    },
+    {
+      "page": 10,
+      "line": 46,
+      "text": "[33] SergeyZagoruykoandNikosKomodakis. PayingMoreAt-"
+    },
+    {
+      "page": 10,
+      "line": 47,
+      "text": "der3D,is[-36.2,36.2]m,[-36.2,36.2]mand[-4,2]mfor"
+    },
+    {
+      "page": 10,
+      "line": 51,
+      "text": "rangeofthecompletionlabelsis[0, 51.2]m, [-25.6, 25.6]"
+    },
+    {
+      "page": 10,
+      "line": 53,
+      "text": "m and [-2, 4.4] m for x, y, z, respectively. The range mis-"
+    },
+    {
+      "page": 10,
+      "line": 54,
+      "text": "[34] Jiahui Zhang, Hao Zhao, Anbang Yao, Yurong Chen, Li"
+    },
+    {
+      "page": 10,
+      "line": 60,
+      "text": "[35] XingeZhu, HuiZhou, TaiWang, FangzhouHong, WeiLi, cloudrangeofthecompletionlabels."
+    },
+    {
+      "page": 10,
+      "line": 65,
+      "text": "[36] Xinge Zhu, Hui Zhou, Tai Wang, Fangzhou Hong, Yuexin sub-networkusesthevanilladenseconvolutionfordilation."
+    },
+    {
+      "page": 10,
+      "line": 68,
+      "text": "varianceoftheBatchNormalization(BN)layerswillresult"
+    },
+    {
+      "page": 10,
+      "line": 73,
+      "text": "[37] HaoZou,XuemengYang,TianxinHuang,ChujuanZhang,"
+    },
+    {
+      "page": 11,
+      "line": 0,
+      "text": "Table7.Impactofthelosscoefficientβontheperformance."
+    },
+    {
+      "page": 11,
+      "line": 1,
+      "text": "β mIoU completion"
+    },
+    {
+      "page": 11,
+      "line": 57,
+      "text": "Methods Train(h) Inference(ms) mIoU"
+    },
+    {
+      "page": 11,
+      "line": 83,
+      "text": "thing classes (e.g., cars and persons) and these instance-"
+    },
+    {
+      "page": 12,
+      "line": 3,
+      "text": "Figure7.VisualcomparisonofSCPNetwithandwithoutDSKDontheSemanticKITTI[1]validationset.Fromlefttoright:SCPNetwith-"
+    },
+    {
+      "page": 12,
+      "line": 8,
+      "text": "Figure8.VisualcomparisonofSCPNetwithandwithoutthedownsamplingoperationontheSemanticKITTI[1]validationset.Fromleft"
+    }
+  ],
+  "references": [
+    {
+      "number": "13",
+      "text": "Zehao Huang and Naiyan Wang. Like What You Like: Knowledge Distill via Neuron Selectivity Transfer. arXiv"
+    },
+    {
+      "number": "1",
+      "text": "Jens Behley, Martin Garbade, Andres Milioto, Jan Quen- preprintarXiv:1707.01219,2017. 6,7 zel, Sven Behnke, Cyrill Stachniss, and Jurgen Gall. Se-"
+    },
+    {
+      "number": "14",
+      "text": "Diederik P Kingma and Jimmy Ba. Adam: A Method for manticKITTI:ADatasetforSemanticSceneUnderstanding Stochastic Optimization. In International Conference on of Lidar Sequences. In IEEE International Conference on LearningRepresentations,2015. 6 ComputerVision,pages9297–9307,2019. 1,2,6,12"
+    },
+    {
+      "number": "15",
+      "text": "ShiceLiu,YuHu,YimingZeng,QiankunTang,BeibeiJin,"
+    },
+    {
+      "number": "2",
+      "text": "Maxim Berman, Amal Rannen Triki, and Matthew B. YinheHan,andXiaoweiLi. SeeandThink: Disentangling Blaschko.TheLovasz-SoftmaxLoss:ATractableSurrogate SemanticSceneCompletion. AdvancesinNeuralInforma- for the Optimization of the Intersection-Over-Union Mea- tionProcessingSystems,31,2018. 2 sureinNeuralNetworks. InIEEEConferenceonComputer"
+    },
+    {
+      "number": "16",
+      "text": "YanchengPan, BiaoGao, JilinMei, SiboGeng, Chengkun VisionandPatternRecognition,volume2018,pages4413– Li, and Huijing Zhao. SemanticPOSS: A Point Cloud 4421,2018. 6 DatasetwithLargeQuantityofDynamicInstances. InIEEE"
+    },
+    {
+      "number": "3",
+      "text": "RanCheng,ChristopherAgia,YuanRen,XinhaiLi,andLiu IntelligentVehiclesSymposium,pages687–693.IEEE,2020. Bingbing. S3CNet: A Sparse Semantic Scene Completion 2,6 NetworkforLiDARPointClouds. InConferenceonRobot"
+    },
+    {
+      "number": "17",
+      "text": "NikolaosPassalisandAnastasiosTefas.LearningDeepRep- Learning,pages2148–2161.PMLR,2021. 1,2,4,6 resentationswithProbabilisticKnowledgeTransfer.InEuro-"
+    },
+    {
+      "number": "4",
+      "text": "Ran Cheng, Ryan Razani, Ehsan Taghavi, Enxu Li, and peanConferenceonComputerVision,pages268–284,2018. Bingbing Liu. (af)2-S3Net: Attentive Feature Fusion with 6,7 AdaptiveFeatureSelectionforSparseSemanticSegmenta-"
+    },
+    {
+      "number": "18",
+      "text": "ChristophBRist,DavidEmmerichs,MarkusEnzweiler,and tionNetwork. InIEEEConferenceonComputerVisionand DariuMGavrila. SemanticSceneCompletionusingLocal PatternRecognition,pages12547–12556,2021. 7 DeepImplicitFunctionsonLiDARData.IEEETransactions"
+    },
+    {
+      "number": "5",
+      "text": "Angela Dai, Daniel Ritchie, Martin Bokeloh, Scott Reed, onPatternAnalysisandMachineIntelligence,44(10):7205– Ju¨rgenSturm,andMatthiasNießner. Scancomplete: Large- 7218,2021. 6 scaleSceneCompletionandSemanticSegmentationfor3D Scans. InIEEEConferenceonComputerVisionandPattern"
+    },
+    {
+      "number": "19",
+      "text": "LuisRoldao,RaouldeCharette,andAnneVerroust-Blondet. Recognition,pages4578–4587,2018. 2 LMSCNet: Lightweight Multiscale 3D Semantic Comple- tion.InInternationalConferenceon3DVision(3DV),pages"
+    },
+    {
+      "number": "6",
+      "text": "BenFei,WeidongYang,WenmingChen,ZhijunLi,Yikang 111–119.IEEE,2020. 1,2,6,7 Li,TaoMa,XingHu,andLipengMa. ComprehensiveRe- viewofDeepLearning-based3DPointCloudsCompletion"
+    },
+    {
+      "number": "20",
+      "text": "Luis Roldao, Raoul De Charette, and Anne Verroust- ProcessingandAnalysis. arXivpreprintarXiv:2203.03311, Blondet. 3d Semantic Scene Completion: A Survey. In- 2022. 2 ternationalJournalofComputerVision, pages1–28, 2022. 1,2,5"
+    },
+    {
+      "number": "7",
+      "text": "Martin Garbade, Yueh-Tung Chen, Johann Sawatzky, and JuergenGall. TwoStream3DSemanticSceneCompletion."
+    },
+    {
+      "number": "21",
+      "text": "Adriana Romero, Nicolas Ballas, Samira Ebrahimi Kahou, InIEEEConferenceonComputerVisionandPatternRecog- AntoineChassang,CarloGatta,andYoshuaBengio.FitNets: nitionWorkshops,pages0–0,2019. 6 Hints for Thin Deep Nets. In International Conference on"
+    },
+    {
+      "number": "8",
+      "text": "GeoffreyHinton,OriolVinyals,andJeffDean.Distillingthe LearningRepresentations,2015. 3,6,7 KnowledgeinaNeuralNetwork.Statistics,1050:9,2015.3,"
+    },
+    {
+      "number": "22",
+      "text": "ShuranSong,FisherYu,AndyZeng,AngelXChang,Mano- 6,7 lisSavva, andThomasFunkhouser. SemanticSceneCom-"
+    },
+    {
+      "number": "9",
+      "text": "Yuenan Hou, Zheng Ma, Chunxiao Liu, Tak-Wai Hui, and pletion from a Single Depth Image. In IEEE Conference Chen Change Loy. Inter-Region Affinity Distillation for on Computer Vision and Pattern Recognition, pages 1746– RoadMarkingSegmentation. InIEEEConferenceonCom- 1754,2017. 1,2,6,7 puterVisionandPatternRecognition, pages12486–12495,"
+    },
+    {
+      "number": "23",
+      "text": "HaotianTang,ZhijianLiu,ShengyuZhao,YujunLin,JiLin, 2020. 3 HanruiWang,andSongHan. SearchingEfficient3DArchi-"
+    },
+    {
+      "number": "10",
+      "text": "Yuenan Hou, Zheng Ma, Chunxiao Liu, and Chen Change tectureswithSparsePoint-VoxelConvolution. InEuropean Loy. Learning Lightweight Lane Detection CNNs by Self Conference on Computer Vision, pages 685–702. Springer, AttentionDistillation. InIEEEInternationalConferenceon 2020. 7 ComputerVision,pages1013–1021,2019. 3"
+    },
+    {
+      "number": "24",
+      "text": "FredTungandGregMori.Similarity-PreservingKnowledge"
+    },
+    {
+      "number": "11",
+      "text": "Yuenan Hou, Zheng Ma, Chunxiao Liu, and Chen Change Distillation. InIEEEInternationalConferenceonComputer Loy. Learning to Steer by Mimicking Features from Het- Vision,pages1365–1374,2019. 3 erogeneousAuxiliaryNetworks. InAssociationfortheAd-"
+    },
+    {
+      "number": "25",
+      "text": "Joey Wilson, Jingyu Song, Yuewei Fu, Arthur Zhang, An- vancementofArtificialIntelligence,volume33,pages8433– drew Capodieci, Paramsothy Jayakumar, Kira Barton, and 8440,2019. 3 MaaniGhaffari. MotionSC:DataSetandNetworkforReal-"
+    },
+    {
+      "number": "12",
+      "text": "YuenanHou,XingeZhu,YuexinMa,ChenChangeLoy,and TimeSemanticMappinginDynamicEnvironments. arXiv Yikang Li. Point-to-Voxel Knowledge Distillation for Li- preprintarXiv:2203.07060,2022. 1,2,7 DARSemanticSegmentation. InIEEEConferenceonCom-"
+    },
+    {
+      "number": "26",
+      "text": "XiaohanXing,YuenanHou,HangLi,YixuanYuan,Hong- puter Vision and Pattern Recognition, pages 8479–8488, sheng Li, and Max Q-H Meng. Categorical Relation- 2022. 3,4,6,7 preserving Contrastive Knowledge Distillation for Medical Table7.Impactofthelosscoefficientβontheperformance. β mIoU completion rac elcycib elcycrotom kcurt elcihev-rehto nosrep tsilcycib tsilcycrotom daor gnikrap klawedis dnuorg-rehto gnidliub ecnef noitategev knurt niarret elop ngis-cfifart 4000 35.1 49.9 49.5 25.4 28.9 47.0 40.2 15.3 16.1 5.1 70.2 58.5 51.4 11.5 33.0 30.1 40.3 31.5 49.3 37.0 27.5 3000 37.2 49.9 50.5 28.5 31.7 58.4 41.4 19.4 19.9 0.2 70.5 60.9 52.0 20.2 34.1 33.0 35.3 33.7 51.9 38.3 27.5 2000 35.3 50.4 50.0 25.8 31.3 56.4 41.6 17.2 9.8 0.0 70.0 58.0 51.3 8.3 31.7 28.7 40.7 32.7 51.6 38.1 27.9 1000 35.0 48.8 49.2 27.1 29.6 56.2 36.4 16.4 14.2 0.0 69.6 57.7 50.7 7.7 29.7 30.4 34.7 30.3 48.0 37.0 27.4 Table8.ImpactofDSKDlossontheperformance. Methods mIoU completion rac elcycib elcycrotom kcurt elcihev-rehto nosrep tsilcycib tsilcycrotom daor gnikrap klawedis dnuorg-rehto gnidliub ecnef noitategev knurt niarret elop ngis-cfifart SCPNetw/DSKD 37.2 49.9 50.5 28.5 31.7 58.4 41.4 19.4 19.9 0.2 70.5 60.9 52.0 20.2 34.1 33.0 35.3 33.7 51.9 38.3 27.5 SCPNetw/oDSKD 34.4 48.5 48.5 26.4 28.1 54.6 41.7 14.5 13.1 0.0 70.2 58.3 51.3 2.9 31.7 30.4 37.9 31.6 49.2 36.7 25.7 Table9.Impactofdownsamplingontheperformance. Methods mIoU completion rac elcycib elcycrotom kcurt elcihev-rehto nosrep tsilcycib tsilcycrotom daor gnikrap klawedis dnuorg-rehto gnidliub ecnef noitategev knurt niarret elop ngis-cfifart w/odownsampling 37.2 49.9 50.5 28.5 31.7 58.4 41.4 19.4 19.9 0.2 70.5 60.9 52.0 20.2 34.1 33.0 35.3 33.7 51.9 38.3 27.5 w/downsampling 33.1 51.0 48.7 21.3 28.9 40.3 30.3 17.6 16.0 0.0 70.7 58.8 51.3 11.5 33.6 29.4 41.2 32.3 51.5 35.9 8.9 threedifferentrandomseeds,i.e.,100,240and666. Exper- Table10.TrainingandinferencetimeusingA100. imentsonSemanticKITTIshowthattheperformancevari- Methods Train(h) Inference(ms) mIoU anceofSCPNetiswithin0.3mIoU. SCPNet 34 143.2 37.2 Apply the proposed distillation loss to other architec- JS3CNet 28 120.6 24.0 tures. We apply the DSKD loss to JS3CNet. It improves theperformanceofJS3CNetfrom24.0mIoUto26.2mIoU C.Qualitativeresults onSemanticKITTIvalset. Applylabelrectificationtoothermodels. Weapplylabel WeprovidevisualcomparisonofSCPNetwithandwith- rectificationtoJS3CNet. Experimentalresultsshowthaton out DSKD in Fig. 7. Compared with SCPNet without SemanticKITTIvalset,theproposedlabelrectificationcan DSKD,thesingle-frameSCPNetwithDSKDachievesbet- bringconsiderablegainstoJS3CNet,improvingtheperfor- tercompletionandsegmentationperformancebydistilling mancefrom24.0mIoUto26.8mIoU. denseandrelation-basedinformationfromthemulti-frame Computationalimpactoftheproposedadjustments. We teacher model. SCPNet without DSKD performs badly calculate the computational overhead of the completion on the parkingareas and smallobjects while SCPNet with sub-network and finds that it only introduces around 24.4 DSKDexhibitsmuchbettercompletionperformanceowing msoverhead. totheproposeddistillationobjective. Error bands for the results. We run the experiments And we also provide visual comparison between origi- on SemanticKITTI and SemanticPOSS datasets for three nal SCPNet and SCPNet with downsampling and upsam- times. The performance variance of SCPNet on these pling operations. As can be seen from Fig. 8, the down- benchmarksiswithin0.3mIoU. sampling and upsampling operations will cause over dila- tion and shape distortion for these objects marked by the Whypanopticlabelsareusefulinlabelrectification.The redellipses. panopticlabelsprovideinstance-levelannotationsforthose thing classes (e.g., cars and persons) and these instance- level annotations are helpful to remove the long traces of moving objects in completion labels which only provide semanticsegmentationannotationsanddonotdifferentiate eachsingleinstance. Training and inference time and a comparison with SOTA.Wesummarizedthetrainingandinferencetimebe- tween JS3CNet and our SCPNet in Table 10. Our SCP- Nethascomparabletrainingandinferencetimebutexhibits muchbettercompletionperformancethanJS3CNet. SCPNet w/o DSKD SCPNet SCPNet-4Frames Ground Truth car bicycle motorcycle building other-vehicles road parking truck bicyclist sidewalk other-ground fence vegetation trunk terrain pole traffic-sign person motorcyclist Figure7.VisualcomparisonofSCPNetwithandwithoutDSKDontheSemanticKITTI"
+    },
+    {
+      "number": "1",
+      "text": "validationset.Fromlefttoright:SCPNetwith- outtheDSKDloss,SCPNetwithDSKD,SCPNet-4Framesandground-truth.Differentcolorrepresentsdifferentclass. SCPNet + downsamping SCPNet SCPNet-4Frames Ground Truth car bicycle motorcycle building other-vehicles road parking truck bicyclist sidewalk other-ground fence vegetation trunk terrain pole traffic-sign person motorcyclist Figure8.VisualcomparisonofSCPNetwithandwithoutthedownsamplingoperationontheSemanticKITTI"
+    },
+    {
+      "number": "1",
+      "text": "validationset.Fromleft toright: SCPNetwithdownsamplingoperation,SCPNetwithoutdownsamplingoperation,SCPNet-4Framesandground-truth. Different colorrepresentsdifferentclass."
+    }
+  ],
+  "citations": {
+    "3": {
+      "page": 9,
+      "context": "atasetwithLargeQuantityofDynamicInstances. InIEEE\n[3] RanCheng,ChristopherAgia,YuanRen,XinhaiLi,andLiu"
+    },
+    "19": {
+      "page": 9,
+      "context": "Scans. InIEEEConferenceonComputerVisionandPattern [19] LuisRoldao,RaouldeCharette,andAnneVerroust-Blonde"
+    },
+    "22": {
+      "page": 9,
+      "context": "owledgeinaNeuralNetwork.Statistics,1050:9,2015.3, [22] ShuranSong,FisherYu,AndyZeng,AngelXChang,Mano-\n6,"
+    },
+    "25": {
+      "page": 9,
+      "context": "ogeneousAuxiliaryNetworks. InAssociationfortheAd- [25] Joey Wilson, Jingyu Song, Yuewei Fu, Arthur Zhang"
+    },
+    "29": {
+      "page": 10,
+      "context": "sion,pages16024–16033,October2021. 7 performance.\n[29] Xu Yan, Jiantao Gao, Jie Li, Ruimao Zhang, Zhen L"
+    },
+    "32": {
+      "page": 10,
+      "context": "the necessity of removing the lossy downsampling\n[32] XuemengYang,HaoZou,XinKong,TianxinHuang,Yong oper"
+    },
+    "1": {
+      "page": 12,
+      "context": "dwithoutthedownsamplingoperationontheSemanticKITTI[1]validationset.Fromleft\ntoright: SCPNetwithdownsamp"
+    },
+    "20": {
+      "page": 9,
+      "context": "-\nviewofDeepLearning-based3DPointCloudsCompletion [20] Luis Roldao, Raoul De Charette, and Anne Verroust"
+    },
+    "16": {
+      "page": 9,
+      "context": "sureinNeuralNetworks. InIEEEConferenceonComputer\n[16] YanchengPan, BiaoGao, JilinMei, SiboGeng, Chengku"
+    },
+    "8": {
+      "page": 9,
+      "context": "or Thin Deep Nets. In International Conference on\n[8] GeoffreyHinton,OriolVinyals,andJeffDean.Distillin"
+    },
+    "21": {
+      "page": 9,
+      "context": "JuergenGall. TwoStream3DSemanticSceneCompletion. [21] Adriana Romero, Nicolas Ballas, Samira Ebrahimi K"
+    },
+    "24": {
+      "page": 9,
+      "context": "eon 2020. 7\nComputerVision,pages1013–1021,2019. 3 [24] FredTungandGregMori.Similarity-PreservingKnowledg"
+    },
+    "27": {
+      "page": 10,
+      "context": "ages 163–173. Springer,\n2021. 3\nA.Ablationstudies\n[27] Guodong Xu, Yuenan Hou, Ziwei Liu, and Chen Chang"
+    },
+    "33": {
+      "page": 10,
+      "context": "sed by our segmentation sub-network, i.e., Cylin-\n[33] SergeyZagoruykoandNikosKomodakis. PayingMoreAt-\nd"
+    },
+    "35": {
+      "page": 10,
+      "context": "o address this problem, we directly use the point\n[35] XingeZhu, HuiZhou, TaiWang, FangzhouHong, WeiLi,"
+    },
+    "36": {
+      "page": 10,
+      "context": "partofthewholevoxelspaceisoccupied. Thecompletion\n[36] Xinge Zhu, Hui Zhou, Tai Wang, Fangzhou Hong, Yue"
+    },
+    "11": {
+      "page": 9,
+      "context": "redTungandGregMori.Similarity-PreservingKnowledge\n[11] Yuenan Hou, Zheng Ma, Chunxiao Liu, and Chen Chan"
+    },
+    "10": {
+      "page": 9,
+      "context": "t Reed,\nonPatternAnalysisandMachineIntelligence,44(10):7205–\nJu¨rgenSturm,andMatthiasNießner. Scancomple"
+    },
+    "9": {
+      "page": 9,
+      "context": "lisSavva, andThomasFunkhouser. SemanticSceneCom-\n[9] Yuenan Hou, Zheng Ma, Chunxiao Liu, Tak-Wai Hui,"
+    },
+    "26": {
+      "page": 9,
+      "context": "7\nDARSemanticSegmentation. InIEEEConferenceonCom- [26] XiaohanXing,YuenanHou,HangLi,YixuanYuan,Hong-\nput"
+    },
+    "12": {
+      "page": 9,
+      "context": "MaaniGhaffari. MotionSC:DataSetandNetworkforReal-\n[12] YuenanHou,XingeZhu,YuexinMa,ChenChangeLoy,and Tim"
+    },
+    "31": {
+      "page": 10,
+      "context": "ithoutthedownsamplingoperationisshowninTable 9.It\n[31] Jihan Yang, Shaoshuai Shi, Runyu Ding, Zhe Wang,"
+    },
+    "0": {
+      "page": 5,
+      "context": "i)\nif len(P_dif) > 0:\nfor p_i in range(P_dif.shape[0]):\nframe teacher network. Since the original voxel"
+    },
+    "2": {
+      "page": 9,
+      "context": "] ShiceLiu,YuHu,YimingZeng,QiankunTang,BeibeiJin,\n[2] Maxim Berman, Amal Rannen Triki, and Matthew B.\nY"
+    },
+    "34": {
+      "page": 10,
+      "context": "4.4] m for x, y, z, respectively. The range mis-\n[34] Jiahui Zhang, Hao Zhao, Anbang Yao, Yurong Chen,"
+    },
+    "7": {
+      "page": 9,
+      "context": "alJournalofComputerVision, pages1–28, 2022.\n1,2,5\n[7] Martin Garbade, Yueh-Tung Chen, Johann Sawatzky,"
+    },
+    "37": {
+      "page": 10,
+      "context": "ll empty voxel features to become occupied, which\n[37] HaoZou,XuemengYang,TianxinHuang,ChujuanZhang,\nbre"
+    },
+    "18": {
+      "page": 9,
+      "context": "daptiveFeatureSelectionforSparseSemanticSegmenta-\n[18] ChristophBRist,DavidEmmerichs,MarkusEnzweiler,and"
+    },
+    "14": {
+      "page": 9,
+      "context": "en Behnke, Cyrill Stachniss, and Jurgen Gall. Se-\n[14] Diederik P Kingma and Jimmy Ba. Adam: A Method fo"
+    },
+    "13": {
+      "page": 9,
+      "context": "References [13] Zehao Huang and Naiyan Wang. Like What You Like:"
+    },
+    "17": {
+      "page": 9,
+      "context": "6\nNetworkforLiDARPointClouds. InConferenceonRobot\n[17] NikolaosPassalisandAnastasiosTefas.LearningDeepRe"
+    },
+    "4": {
+      "page": 9,
+      "context": "tationswithProbabilisticKnowledgeTransfer.InEuro-\n[4] Ran Cheng, Ryan Razani, Ehsan Taghavi, Enxu Li, a"
+    },
+    "23": {
+      "page": 9,
+      "context": "terVisionandPatternRecognition, pages12486–12495, [23] HaotianTang,ZhijianLiu,ShengyuZhao,YujunLin,JiLin"
+    },
+    "28": {
+      "page": 10,
+      "context": "showninTable7,whenwechangethelosscoefficientfrom\n[28] JianyunXu,RuixiangZhang,JianDou,YushiZhu,JieSun,"
+    },
+    "30": {
+      "page": 10,
+      "context": ",8\nDetailedperformancecomparisononthedownsampling\n[30] XuYan,JiantaoGao,ChaodaZheng,ChaoZheng,Ruimao\nope"
+    },
+    "15": {
+      "page": 9,
+      "context": "5. 6\nComputerVision,pages9297–9307,2019. 1,2,6,12\n[15] ShiceLiu,YuHu,YimingZeng,QiankunTang,BeibeiJin,\n["
+    },
+    "5": {
+      "page": 9,
+      "context": "DeepImplicitFunctionsonLiDARData.IEEETransactions\n[5] Angela Dai, Daniel Ritchie, Martin Bokeloh, Scott"
+    },
+    "6": {
+      "page": 9,
+      "context": "on.InInternationalConferenceon3DVision(3DV),pages\n[6] BenFei,WeidongYang,WenmingChen,ZhijunLi,Yikang\n11"
+    }
+  },
+  "text_by_page": [
+    {
+      "page_num": 1,
+      "text": "SCPNet: Semantic Scene Completion on Point Cloud\nZhaoyangXia1,YouquanLiu1,XinLi1,XingeZhu2,YuexinMa3,\nYikangLi1,YuenanHou1†,andYuQiao1\n1ShanghaiAILaboratory2TheChineseUniversityofHongKong3ShanghaiTechUniversity\n1{houyuenan,liyikang,qiaoyu}@pjlab.org.cn\nAbstract pleteandsparseobservation,whichisacrucialcomponent\nin 3D scene understanding. Performing semantic scene\nTraining deep models for semantic scene completion completion in the outdoor scenarios is challenging due to\n(SSC) is challenging due to the sparse and incomplete in- thesparseandincompleteinput,alargequantityofobjects\nput,alargequantityofobjectsofdiversescalesaswellas ofdiversescalesaswellastheinherentlabelnoiseforthose\ntheinherentlabelnoiseformovingobjects. Toaddressthe movingobjects(SeeFig.1(a)).\nabove-mentionedproblems,weproposethefollowingthree Recent years have witnessed an explosion of methods\nsolutions:1)Redesigningthecompletionsub-network.We intheoutdoorscenecompletionfield[3,19,22,25,29,32].\ndesign a novel completion sub-network, which consists of Forexample, S3CNet[3]performs2Dand3Dcompletion\nseveralMulti-PathBlocks(MPBs)toaggregatemulti-scale tasks jointly and achieves impressive performance on the\nfeatures and is free from the lossy downsampling opera- SemanticKITTI leaderboard [1]. JS3C-Net [29] performs\ntions. 2) Distilling rich knowledge from the multi-frame semantic segmentation first and then feeds the segmenta-\nmodel. Wedesignanovelknowledgedistillationobjective, tionfeaturestothecompletionsub-network. Thecoarse-to-\ndubbed Dense-to-Sparse Knowledge Distillation (DSKD). finerefinementmoduleisfurtherputforwardtoimprovethe\nIt transfers the dense, relation-based semantic knowledge completionquality. Althoughsignificantprogresshasbeen\nfrom the multi-frame teacher to the single-frame student, achievedinthisarea,thesemethodsheavilyrelyonthevox-\nsignificantly improving the representation learning of the elwise completion labels and show unsatisfactory comple-\nsingle-framemodel. 3)Completionlabelrectification. We tionperformanceonthesmall,distantobjectsandcrowded\npropose a simple yet effective label rectification strategy, scenes. Moreover,thelongtracesofthedynamicobjectsin\nwhichusesoff-the-shelfpanopticsegmentationlabelstore- original completion labels will hamper the learning of the\nmove the traces of dynamic objects in completion labels, completionmodels,whichisoverlookedinthepreviouslit-\ngreatly improving the performance of deep models espe- erature[20].\ncially for those moving objects. Extensive experiments\nTo address the preceding problems, we propose three\nare conducted in two public SSC benchmarks, i.e., Se-\nsolutions from the aspects of the completion sub-network\nmanticKITTIandSemanticPOSS.OurSCPNetranks1ston\nredesign, distillation of multi-frame knowledge as well as\nSemanticKITTI semantic scene completion challenge and\ncompletion label rectification. Specifically, we first make\nsurpasses the competitive S3CNet [3] by 7.2 mIoU. SCP-\na comprehensive overhaul of the completion sub-network.\nNetalsooutperformspreviouscompletionalgorithmsonthe\nWeadoptthecompletion-firstprincipleandmakethecom-\nSemanticPOSSdataset. Besides,ourmethodalsoachieves\npletionmoduledirectlyprocesstherawvoxelfeatures. Be-\ncompetitive results on SemanticKITTI semantic segmenta-\nsides, we avoid the use of downsampling operations since\ntion tasks, showing that knowledge learned in the scene\nthey inevitably introduce information loss and cause se-\ncompletionisbeneficialtothesegmentationtask.\nvere misclassification for those small objects and crowded\nscenes. Toimprovethecompletionqualityonobjectsofdi-\nversescales,wedesignMulti-PathBlocks(MPBs)withvar-\n1.Introduction\nied kernel sizes, which aggregate multi-scale features and\nfullyutilizetherichcontextualinformation.\nSecond,tocombatagainstthesparseandincompletein-\nSemanticscenecompletion(SSC)[20]aimsatinferring\nput signals, we make the single-scan student model distil\nboth geometry and semantics of the scene from an incom-\nknowledgefromthemulti-frameteachermodel. However,\n†:Correspondingauthor. mimickingtheprobabilisticknowledgeofeachpoint/voxel\n3202\nraM\n31\n]VC.sc[\n1v48860.3032:viXra"
+    },
+    {
+      "page_num": 2,
+      "text": "mIoU(%) SCPNet\n(36.7)\n35\n30\nS3CNet\n(29.5)\n(a) JS3CNet\n25 (23.8)\nSSA-SC\nLocal-DIFs\n(23.5)\n(22.7)\n20 ESSCNet TS3D+DNet+SATNet UDNet\n(17.5) (17.7) (19.5)\nSSCNet-Full\nLMSCNet-SS\n(16.1)\n(17.6)\n15\n2016 2017 2018 2019 2020 2021 2022 2023\n(b) (c)\nFigure1. Left: challengesofsemanticscenecompletion,i.e.,(a)sparseandincompleteinput,varyingcompletiondifficultyforobjects\nof diverse scales and (b) long traces of dynamic objects in completion labels. Traces of cars and persons are highlighted by yellow\nellipses. Right: (c)performancecomparisonbetweencompetitivecompletionalgorithmsandSCPNetonSemanticKITTIsemanticscene\ncompletionchallenge.\nbrings marginal gains. Instead, we propose to distill the network. We unveil several key factors to building\npairwise similarity information. Considering the sparsity strongcompletionnetworks.\nand unorderness of features, we align the features using\ntheir indices and then force the consistency between the • To cope with the sparsity and incompleteness of the\npairwise similarity maps of student features and those of input, we propose to distill the dense relation-based\nteacher features, make the student benefit from the rela- knowledgefromthemulti-framemodel. Notethatwe\ntional knowledge of the teacher. The resulting Dense-to- are the first to apply knowledge distillation to the se-\nSparse Knowledge Distillation objective is termed DSKD, manticscenecompletiontask.\nwhichisspecificallydesignedforthescenecompletiontask.\n• To address the long traces of moving objects in com-\nFinally, toaddressthelongtracesofthosedynamicob-\npletionlabels,wepresentthecompletionlabelrectifi-\njects in the completion labels, we propose a simple yet\ncationstrategy.\neffective label rectification strategy. The core idea is to\nuse off-the-shelf panoptic segmentation labels to remove\n• Our SCPNet ranks 1st on SemanticKITTI semantic\nthe traces of dynamic objects in completion labels. The\nscene completion challenge, outperforming the previ-\nrectified completion labels are more accurate and reliable,\nousSOTAS3CNet[3]by7.2mIoU.Competitiveper-\ngreatlyimprovingthecompletionqualitiesofdeepmodels\nformanceisalsoshowninSemanticPOSScompletion\nonthosemovingobjects.\ntaskandSemanticKITTIsemanticsegmentationtask.\nWe conduct experiments on two large-scale outdoor\nscene completion benchmarks, i.e., SemanticKITTI [1]\n2.RelatedWork\nand SemanticPOSS [16]. Our SCPNet ranks 1st on Se-\nmanticKITTI semantic scene completion challenge 1 and Semantic scene completion. Early works on scene com-\noutperforms the S3CNet [3] by 7.2 mIoU. SCPNet also pletion mainly concentrates on the indoor scenarios [5,6,\nachieves better performance than other completion algo- 15,22]. Thepointcloudinindoorscenariosisdense,small-\nrithms on the SemanticPOSS dataset. The learned knowl- scale and has uniform density. By contrast, point cloud in\nedge from the completion task also benefits the segmenta- outdoor scenes is sparse, large-scale and has varying den-\ntiontask,makingourSCPNetachievesuperiorperformance sity, which poses great challenges to the semantic scene\nontheSemanticKITTIsemanticsegmentationtask. completionalgorithms[3,20,25,29,32].Variousalgorithms\nOurcontributionsaresummarizedasfollows. have been proposed, for instance, LMSCNet [19] uses a\nmixture of 2D and 3D convolutions to build the efficient\n• The comprehensive redesign of the completion sub-\ncompletion backbone. S3CNet [3] performs 2D and 3D\n1https://codalab.lisn.upsaclay.fr/competitions/7170#results till 2022- scene completion simultaneously, and fuses the results by\n11-1200:00PacificTime,andourmethodistermedSCPNet. theproposeddynamicvoxelfusionmodule. JS3C-Net[29]"
+    },
+    {
+      "page_num": 3,
+      "text": "3D Segmentation Sub-network Encoder Layer\nMLP ...\nLayer 1 Layer 2\n3D Completion\nVoxelization\n... Sub-network\n𝓛𝑑𝑠𝑘𝑑\n𝒊 𝒊+n Teacher Encoder Decoder\nMulti-Frame Point Cloud\nKnowledge Layer I Layer 2 ...\nDistillation Encoder Layer\nEncoder Decoder\nMLP\n3D Completion\nVoxelization\nSub-network\n𝒊 Student 3D Segmentation Sub-network Voxelwise output\nSingle Frame Point Cloud\nFigure 2. Framework overview of SCPNet. There are two SCPNets, one is teacher and the other is student, and they have the same\narchitecture. Theteachertakesmulti-framepointcloudasinputwhilethestudenttakesthesingle-framepointcloudasinput. Thedense-\nto-sparseknowledgedistillationlossisproposedtotransferthedensesemanticknowledgefromteachertostudent.IneachSCPNet,there\naretwosub-networks,i.e.,thecompletionsub-networkandthesegmentationsub-network. Thepointcloudisfirstprocessedbyastack\nofMLPstoextractpointfeatures. Thesepointfeaturesarevoxelizedandthenfedtothecompletionsub-networktoproducedenservoxel\nfeatures. Theproducedvoxelfeaturesarefurtherfedtothesegmentationsub-networktogeneratetheultimatevoxelwiseoutput. Forthe\ncompletionsub-network,itiscomprisedofseveralmulti-pathblocks,freefromthelossydownsamplingoperations.Forthesegmentation\nsub-network,itisadaptedfromtheCylinder3Dnetwork.\nattachesthecompletionnetworktothesegmentationback- cloud X ∈ RN×3, the network needs to assign a label to\nboneandrefinesthecompletionoutputsviathepoint-voxel eachvoxeloftheL×W×Hvoxelspacetoindicatewhether\ninteraction module. Compared with previous completion itisemptyorbelongstoaspecificclassc∈{0,1,2,...,C−\nnetworks, our SCPNet is free from the lossy downsam- 1},whereC isthenumberofclasses,L,W andH arethe\npling operations. Besides, our network is built on several length, width and height of the voxel space, respectively.\nMPBs that aggregate multi-scale features and can achieve WedenotethevoxelwiseoutputasO∈RL×W×H×C.\nhighcompletionqualityinobjectsofvarioussizes.\n3.1.Frameworkoverview\nKnowledgedistillation. Knowledgedistillation(KD)orig-\ninatesfromthepioneeringworkofG.Hintonetal.[8]. Its\nAs shown in Fig. 2, our SCPNet is comprised of two\nprimaryobjectiveistotransferthedarkknowledgefromthe\nsub-networks,i.e.,thecompletionsub-networkandtheseg-\nlarge over-parameterized teacher model to the small com-\nmentationsub-network. Thecompletionsub-networkisde-\npactstudentmodel. Alargenumberofmethodshavebeen\nsignedbasedonseveralkeydesignprinciples. Thesegmen-\nproposed and various forms of knowledge [21,24,27,33]\ntation sub-network is built upon Cylinder3D [35,36], with\nhavebeendesigned,e.g.,intermediatefeatures[11,21],vi-\nsome minor modifications. In the following sections, we\nsualattentionmaps[10,33],region-levelaffinityscores[9],\nfirst detail the completion sub-network and introduce sev-\nsimilarityscoresofdifferentsamples[24,26],etc.Itisnote-\neraldesignprinciplesthatarevitaltobuildingastrongcom-\nworthy that the majority of the distillation methods con-\npletion sub-network. The knowledge distillation of multi-\ncentrate on the 2D tasks. Only a few distillation meth-\nframe model and the completion label rectification will be\nods have focused on 3D domains, e.g., PVKD [12] and\nexplainedthereafter.\nSparseKD [31]. To our knowledge, this is the first work\nthat applies knowledge distillation to the semantic scene 3.2.RedesigningtheCompletionSub-network\ncompletiontask. Weproposetotransferthedense,relation-\nTake JS3C-Net [29] as example. The original JS3C-\nbased semantic knowledge from the multi-frame model to\nNetfirstperformssemanticsegmentationandthenconducts\nthesingle-frameone.\ncompletion upon the segmentation features. Although this\npipeline can benefit from the segmentation outputs, there\n3.Methodology\nareseveraldrawbacksinthisframework. First,theparam-\nTheobjectiveofthesemanticscenecompletiontaskisto eters in the completion sub-network are much fewer than\ninferthecompletegeometricandsemanticlayoutgiventhe thesegmentationsub-network,thusyieldingunsatisfactory\nincompleteandsparseinput.Formally,giventheinputpoint completionperformance. Second, therearedownsampling"
+    },
+    {
+      "page_num": 4,
+      "text": "3D Completion Sub-network 1 Frame 4 Frames\nMPB\nkcolBvnoC\n3-\nMPB MPB\nkcolBvnoC\n3-\nInput Voxel Feature Completed Voxel Feature\n3-ConvBlock Empty Voxel\nFigur k C e K o x n - k v C 3 3 x o D . k n v A Blo s c c k Re h L e U matic M o ul v ti e -P r 5 7 a - v - C C th o i o n n e v B v w B B l l l o o o c c c k k o k f (M t P h B e ) desig E O C n le o c e m c m u d p p e l i e n e t d c e t d - V o w V ox m o i e s x l e el p S l u e m tionnet- F c f d r ra c l u i a o g c m u u i d n r e lc y c ib e e . g a 4 T t n h . e lc y c ro to m h d e C e t c o hk c u rt m o m e m u p o l\nse\nlc re ih h e to v - p a t b i l r - j e i e f s t n o sre p r c i o a o t n m s n tsilc y c ib b a e d e r i e t i f w n tsilc y c ro to mfi e p c e a u u e s d a o r t n l i t e i y s s r . i g n ik ra p n o to g b l vk la w e d is b e i - e o fr u i d n r u e o h r to g - a d s m l e y n g n id liu b e t d i a fi e n e c n e f n e d d se m , n o ita te g e v r s u i t l g h t k n u rt n i a - n i f fi r t a n ia rre t c h m a e n e e lo p t s l p i y n o g c if n f g a i r s - t r in e le - t\nwork. ItisbuiltupontheMulti-PathBlocks(MPBs)thatcontain\n3×3×3,5×5×5and7×7×7convolutionblocks(ConvBlock).In\nbenefitfromthelargenumberofparametersofthesegmen-\neachconvolutionblock,thereisnoconvolutionbiasandnobatch\ntationsub-network.\nnormalizationtomaintainsparsityduringcompletion.\nAggregatemulti-scalefeatures. Toaggregatemulti-scale\nfeatures,wedesignthemulti-pathblockwhichiscomprised\nandupsamplingblocksinthecompletionsub-network. The\nof 3×3×3, 5×5×5 and 7×7×7 convolution blocks. As\ndownsampling operations will inevitably lose the informa-\nshown in Fig. 3, there are three branches in the comple-\ntion of the original point cloud and the upsampling opera-\ntionsub-network. TheupperbranchcontainsoneMPBand\ntionwillcauseoverdilationandshapedistortion.\nthe bottom branch is a residual connection. The middle\nTo address the aforementioned problems, we make a\nbranch is constructed by a 3×3×3 convolution block, two\ncomprehensive overhaul of the completion sub-network.\nMPBsanda3×3×3convolutionblock. Afterthecomple-\nMoreconcretely,therearethreeprinciplesinthedesignof\ntionsub-network,weobtainthedensecompletedvoxelfea-\nthe completion sub-network, i.e., maintaining sparsity, no\ntures. We extract the non-empty voxel features as well as\ndownsamplingandaggregatingmulti-scalefeatures.\ntheirvoxelindicesfromthecompletedvoxelfeatures. The\nMaintainsparsity. Thecompletionsub-networkneedsthe\ngeneratedsparsevoxelfeaturesaresenttothesegmentation\nvanilla dense convolution for dilation while the segmenta-\nsub-networktoproducethevoxelwisesegmentationoutput.\ntion sub-network uses sparse convolution for efficient pro-\nModificationsonthesegmentationsub-network. Recall\ncessing. However,thebiasoftheconvolutionweight,run-\nthat,forthesegmentationpart,wetaketheCylinder3D[36]\nning mean and beta of BN layers will break the sparsity\nasthebackbone. Sincethevoxelwisecompletionlabelsare\noftheoriginalvoxelfeatures, thussubstantiallyincreasing\ndefined based on the cubic partition, we replace the cylin-\nthe computation burden of the segmentation sub-network.\ndricalpartitionofCylinder3Dwithconventionalcubicpar-\nTherefore,toreducetheoverallcomputationcostandenjoy\ntition. Besides, the original point refinement module con-\nthehighefficiencyofsparseconvolution,weremoveallthe\nsumesmuchGPUmemoryandbringslimitedgains,wedis-\nconvolution bias and the BN layers in the completion sub-\ncardthismoduletosavememoryusage.\nnetwork. In this condition, the voxel features produced by\nthecompletionsub-networkcanstillkeepthesparseprop-\n3.3.DistillingMulti-frameKnowledge\nertyandthesegmentationsub-networkcanusesparsecon-\nvolutiontoprocessthesesparsevoxelfeatures. Since single frame point cloud is sparse and incom-\nNo downsampling. In popular completion networks such pleteintheoutdoorscenarios,directlyperformingsemantic\nas S3CNet [3] and JS3C-Net [29], there are several down- scenecompletionfromthesingle-frameinputisextremely\nsampling and upsampling blocks in the completion part. difficult. Itisnaturaltowonderifwecanconstructamulti-\nThe downsampling operations will inevitably lose the in- framemodelandthendistilthedensesemanticknowledge\nformation of the original point cloud, causing severe com- from this multi-frame network. From Fig. 4, it is evident\npletion and classification errors for small objects and thatthemulti-frameinputsignificantlyreducesthecomple-\ncrowded scenes. Therefore, we discard all downsam- tiondifficultysincemultipleframeshavemuchmorepoints\nplingandupsamplingoperationstorelievetheinformation inthesceneandobjectsareeasiertobeidentified.Thecom-\nloss, maximally retaining the information of the raw point pletion difficulty will gradually decrease as the number of\ncloud. Besides, as opposed to JS3C-Net which takes the inputpointcloudframesincreases. Therefore,weconstruct\nsegmentation-first baseline, we adopt the completion-first the multi-frame teacher which takes denser point cloud as\nprinciple.Concretely,wemakethecompletionsub-network inputandachievesbettercompletionperformance.\ndirectlyprocesstherawvoxelfeaturesproducedbythevox- Inspired by [12], we make the single-frame model dis-\nelizationprocess.Andthecompletionsub-networkcanalso til the relation-based structural knowledge from the multi-"
+    },
+    {
+      "page_num": 5,
+      "text": "Algorithm1PseudocodeofLabelRectification.\n# L_c: completion label (256x256x32)\n# L_s: semantic segmentation label (Nx1)\n# L_p: panoptic segmentation label (Nx1)\n# S_c: classes of moving objects; u: unlabeled class\nfor C_i in S_c:\n# voxel position of completion label for class C_i\nP_c_i = getInd(L_c, C_i)\nL_p_i = L_p[L_s == C_i] # instance label of class C_i\nP_dif = []\nif len(L_p_i) == 0:\nP_dif = P_c_i\nelif len(L_p_i) > 0 and len(P_c_i) > 0:\n# mask of voxel position bound for instance d_j\nM_c = zeros([256, 256, 32])\n# point position of class C_i\nP_i = P[L_s == C_i, :]\n# voxel position of class C_i\nP_s_i = voxelize(P_i)\nD_i = unique(L_p_i) # all instance ids\nfor d_j in D_i:\np f F o e l f i ra cc e g d t t u i i y v o r e lc y c ib n e e n a l 5 y m la . e lc y c ro to m b r i T c e e o m lk c u rt o s p o b . : v j se lc re ih h e to v - e T o e c r h t i t e s g n o sre ph , i e p n e r a . l tsilc y c ib o g o l p . n c , o g tsilc y c ro to m o c s m a e t r r d p d a o r a a l c l e n a e t g n ik ra p d b s io e p o n l k la w e d is e f r l r e a m s c b o d n r u e o h r to g -t o e n i v fi l . s i c g n id liu bn B w a g t o h ie c n e f o t o i t c n o b h m j n o ita te g e v o e h p c : a t ek n u rt s r v r e , a e c t m t i l n ia rre t i o o fi a n n k e g e lo pi d c n a t g c r nc if n f g a i r s- t a o c t m e h e f e s - - # vo # M ( M x _ x _ e j _ c v l o m [ x = i x M p e n _ _ o l P , m j s _ x i ) i p s _ n t o _ m : i i a x s o i [ x _ n t L , m i _ y a f o p _ x o _ m , n r i i y f n _ i = , m o n r = y i s _ n t i d m : a n _ a y n j x _ s c t ] , m e a z a _ x n l c m , a e i z b n _ e d , m l _ z i j _ n o m : f a z x _ c ) m l a a = x s ] s bo = C u _ n 1 i d 0 ( 00\ncompletionlabelsmoreaccurate. P_p_i = getInd(M_c, 1000)\nP_dif = difference(P_c_i, P_p_i)\nif len(P_dif) > 0:\nfor p_i in range(P_dif.shape[0]):\nframe teacher network. Since the original voxel features\nL_c[P_dif[p_i,0],P_dif[p_i,1],P_dif[p_i,2]] = u\nareinthesparseform, weleveragethesparsefeaturesand\ntheir indices to perform knowledge distillation. We de- getInd(A, b): get indices of b in A; bound: get bound of matrix;\ndifference(A, B):differencesetofAminusB.\nnote the voxel features and corresponding indices of the\nteacher and student as F\nT\n∈ RNm×Cf, F\nS\n∈ RNs×Cf,\ncompletion labels are obtained by concatenating the seg-\nI\nT\n∈ RNm×3 and I\nS\n∈ RNs×3, respectively. N\nm\nis the\nmentation labels of multiple consecutive point cloud\nnumberofnon-emptyvoxelfeaturesinthemulti-frame,N\ns frames. Specifically, for the t-th frame, the corresponding\nis the number of non-empty voxel features in the single- completionlabelsLcareconstructedinthefollowingway:\nframe, C isthenumberofchannelsofthevoxelfeatures. t\nf\nNotethattheindicesofteacherfeaturesandstudentfeatures\nare sorted and I S (i,j) = I T (i,j), where i ∈ {1,...,N s } Lc t =concat[Ls t ;T t+1→t Ls t+1 ;...;T t+T−1→t Ls t+T−1 ],\nandj ∈ {1,2,3}. Wefirstcomputethepairwiserelational (3)\nknowledgeofthestudentmodel:\nwhere Ls are the segmentation labels for the t-th frame,\nt\nT isthenumberofframesusedforconcatenation, T\nt+1→t\nP (i,j)= F S (i)TF S (j) ,i,j ∈{1,...,N } (1) isthetransformationmatrixthattransformsthecoordinate\nS ∥F (i)∥ ∥F (j)∥ s from(t+1)-thframetothet-thframe, andconcat[...;...]\nS 2 S 2\nistheconcatenatingoperation. Theconcatenationofmulti-\nThe relational knowledge of the teacher model P is\nT pleframeswillleadtolongtracesforthosemovingobjects,\ncalculatedinasimilarway. Therelationalknowledgecap-\nsuchascarandperson. AvividexampleisshowninFig.5.\nturesthesimilarityofeachpairofvoxelfeaturesandserve\nThe long traces of those dynamic objects are obviously ir-\nas important clues of the surrounding environment, which\nrationalandwillhamperthelearningofdeepmodels.\ncan be taken as high-level knowledge to be learned by the\nCompletionlabelrectification. Toremovethelongtraces\nsingle-framestudentmodel.TheproposedDense-to-Sparse\nofmovingobjectsinthecompletionlabels,weresorttothe\nKnowledgeDistillation(DSKD)lossisgivenasbelow:\npanopticsegmentationlabels.Specifically,giventhepanop-\ntic labels of class i, we first voxelize the labels and obtain\n1 (cid:88)\nNs\n(cid:88)\nNs thevoxelwisepanopticlabelsforclassi. Foreachinstance\nL dskd (P S ,P T )= N2 ∥P S (i,j)−P T (i,j)∥2 2 . of class i, we calculate the bound of each instance, form-\ns i=1j=1 ing a cube. We union the cubes of all instances and use\n(2) them to process the original voxelwise completion labels,\nfiltering those voxels that are outside the cubes. The pro-\n3.4.CompletionLabelRectification\ncessisrepeatedforallclassesthatcontaindynamicobjects.\nGenerationofcompletionlabels. Aspointedoutby[20], Thedetailedinformationofthelabelrectificationalgorithm\nfor outdoor semantic scene completion, the ground-truth is shown in Algorithm 1. As shown in Fig. 5, the pro-"
+    },
+    {
+      "page_num": 6,
+      "text": "Table1.QuantitativeresultsofsemanticscenecompletionalgorithmsonSemanticKITTItestset.Notethattheonlineserverstillusesthe\noriginalcompletionlabelstoevaluatealgorithms.Bold-bestincolumnforallsingle-framemethods.\nMethods mIoU completion rac\nelcycib\nelcycrotom\nkcurt\nelcihev-rehto\nnosrep tsilcycib\ntsilcycrotom\ndaor gnikrap klawedis\ndnuorg-rehto\ngnidliub ecnef\nnoitategev\nknurt niarret elop\nngis-cfifart\nSSCNet-Full[22] 16.1 50.0 24.3 0.5 0.8 1.2 4.3 0.3 0.3 0.0 51.2 27.1 30.8 6.4 34.5 19.9 35.3 18.2 29.0 13.1 6.7\nESSCNet[34] 17.5 41.8 26.4 0.3 5.4 5.0 9.1 2.9 2.7 0.1 43.8 26.9 28.1 10.3 29.8 23.3 35.8 20.1 28.7 16.4 16.7\nLMSCNet-SS[19] 17.6 56.7 30.9 0.0 0.0 1.5 0.8 0.0 0.0 0.0 64.8 29.0 34.7 4.6 38.1 21.3 41.3 19.9 32.1 15.0 0.8\nTDS[7] 17.7 50.6 29.5 0.0 0.0 2.5 0.1 0.0 0.0 0.0 62.2 23.3 31.6 6.5 34.1 24.1 40.1 21.9 33.1 16.9 6.9\nUDNet[37] 19.5 59.4 33.9 0.8 0.4 3.8 4.4 0.5 0.3 0.3 62.0 28.2 35.1 9.1 39.5 24.4 40.9 23.2 32.3 18.8 13.1\nLocal-DIFs[18] 22.7 57.7 34.8 3.6 2.4 4.4 4.8 2.5 1.1 0.0 67.9 40.1 42.9 11.4 40.4 29.0 42.2 26.5 39.1 21.3 17.5\nSSA-SC[32] 23.5 58.8 36.5 13.9 4.6 5.7 7.4 4.4 2.6 0.7 72.2 37.4 43.7 10.9 43.6 30.7 43.5 25.6 41.8 14.5 6.9\nJS3C-Net[29] 23.8 56.6 33.3 14.4 8.8 7.2 12.7 8.0 5.1 0.4 64.7 34.9 39.9 14.1 39.4 30.4 43.1 19.6 40.5 18.9 15.9\nS3CNet[3] 29.5 45.6 31.2 41.5 45.0 6.7 16.1 45.9 35.8 16.0 42.0 17.0 22.5 7.9 52.2 31.3 39.5 34.0 21.2 31.0 24.3\nSCPNet(#frame=1) 36.7 56.1 46.4 33.2 34.9 13.8 29.1 28.2 24.7 1.8 68.5 51.3 49.8 30.7 38.8 44.7 46.4 40.1 48.7 40.4 25.1\nSCPNet(#frame=4) 47.5 68.5 59.0 48.5 51.1 21.0 37.8 47.6 35.0 10.5 79.7 57.7 60.0 32.8 50.2 54.1 56.9 47.1 58.0 48.3 48.0\nposed label rectification operation can effectively remove Implementationdetails. TheoutputsizeofCylinder3Dis\nthe long traces of moving objects, making the completion setas256×256×32toadapttothecompletiontask. The\nlabelsmoreaccurate. numberoftrainingepochsissetas30andtheinitiallearn-\ningrateissetas0.0015.WeuseAdam[14]astheoptimizer.\n3.5.Overallobjective\nGradientnormclipisset10tostabilizethetrainingprocess.\nThe overall loss function is comprised of three terms, αandβaresetas1and3,000,respectively.Wefilterpoints\ni.e., thecrossentropyloss, thelovasz-softmaxloss[2]and thatareoutsidethepointcloudrangeofthevoxelwisecom-\ntheproposeddistillationloss. pletionlabels. ForSemanticKITTI,wefirsttrainthemodel\nonthetrainingsetandthenfinetuneitonbothtrainingand\nvalidationsetsbeforesubmittingthepredictionsoftestset\nL=L ce +αL lovasz +βL dskd , (4) totheonlineserver.\nBaseline KD algorithms. We take the vanilla knowl-\nwhereαandβarethelosscoefficientstobalancetheeffect\nedge distillation [8], FitNets [21], NST [13], PKT [17]\nofeachlossterm.\nandPVKD[12]asbaselinedistillationalgorithms. Vanilla\n4.Experiments knowledge distillation takes the softened logits as the dis-\ntilled knowledge. FitNets directly mimics the teacher fea-\nDatasets. Followingthepracticeofpopularscenecomple- tures.NSTadoptsthemaximummeandiscrepancytomini-\ntion models [3,29], we conduct experiments on two pop- mizethedistancebetweenstudentfeaturesandteacherfea-\nular LiDAR semantic scene completion benchmarks, i.e., tures. PKT models the teacher knowledge as a probability\nSemanticKITTI [1] and SemanticPOSS [16]. As to Se- distributionandthenforcestheconsistencyoftheprobabil-\nmanticKITTI, it has 22 point cloud sequences. Sequences itydistributionbetweentheteacherandthestudent. PVKD\n00 to 10, 08 and 11 to 21 are used for training, validation distilsthevoxelwiseoutputandinter-voxelaffinityknowl-\nandtesting,respectively. 19classesarechosenfortraining edge. Andwediscardtheoriginalpointwiseoutputdistilla-\nand evaluation after merging classes with distinct moving tionandinter-pointaffinitydistillationofPVKDsincethey\nstatus and discarding classes with very few points. As for consumemuchGPUmemoryandbringmarginalgains.\nSemanticPOSS,ithas2,988framesand11classesarese-\nlected for evaluation. Although SemanticPOSS is smaller\n4.1.Results\nthan SemanticKITTI in terms of dataset size, it is much\nmorechallengingsinceitcontainsalargerquantityofmov- Quantitative results. We summarize the performance\ningobjectsthanSemanticKITTI,suchaspersonandrider. of SCPNet and state-of-the-art semantic scene completion\nEvaluation metrics. Following [12,36], we adopt the methods in Table 1 and 2. On SemanticKITTI, our SCP-\nintersection-over-union(IoU)ofeachclassandmIoUofall Netsignificantlyoutperformsotherscenecompletionalgo-\nclasses as the evaluation metric. The IoU of class i is cal- rithms in terms of mIoU. For example, our SCPNet is 7.2\nculated via: IoU i = TPi+F T P P i i +FNi , where TP i , FP i and mIoUhigherthanS3CNet[3].Onclassessuchascar,other-\nFN denotethetruepositive,falsepositiveandfalsenega- vehicle, road, parking, sidewalk, fense, terrain and other-\ni\ntiveofclassi,respectively. Forsemanticscenecompletion, ground,theperformancegapbetweenSCPNetandS3CNet\nthedimensionofthecompletionlabelis256×256×32.We is more than 10 IoU. Our SCPNet also achieves superior\nalsoreportthecompletionmIoUwhichistheclass-agnostic performanceonSemanticPOSSvalset. Onclassessuchas\nversion of mIoU. Note that mIoU is the major evaluation car, trunk, pole, fence and bike, SCPNet is at least 5 IoU\nmetricforthesemanticscenecompletiontask. higherthanJS3C-Net[29]. Theimpressiveperformanceon"
+    },
+    {
+      "page_num": 7,
+      "text": "Table 2. Quantitative results of semantic scene completion algorithms on SemanticPOSS val set. Note that the completion labels are\nprocessedbytheproposedrectificationalgorithm.Bold-bestincolumnforallsingle-framemethods.\nMethods mIoU completion\nnosrep redir\nrac\nknurt stnalp\nngis-cfifart\nelop\ngnidliub\necnef ekib dnuorg\nSSCNet-Full[22] 15.2 53.5 5.3 0.3 1.3 5.6 39.6 1.0 2.6 28.7 3.4 26.0 43.1\nLMSCNet-SS[19] 16.5 52.3 7.7 0.3 0.6 4.0 37.7 1.9 8.2 36.8 13.8 25.8 45.1\nMotionSC[25] 17.6 52.7 7.8 0.5 0.5 3.9 39.8 2.2 8.5 39.2 13.1 30.8 47.0\nJS3C-Net[29] 22.7 58.1 18.9 0.2 7.1 3.6 47.8 2.2 0.0 46.3 26.6 43.4 53.2\nSCPNet(#frame=1) 26.3 56.3 9.2 3.3 12.4 11.0 49.6 3.1 11.1 50.1 40.8 48.7 49.8\nSCPNet(#frame=4) 33.6 60.7 21.4 5.0 34.5 8.9 55.3 7.8 31.0 50.3 47.9 55.1 52.3\nTable3. QuantitativeresultsofourSCPNetandstate-of-the-artLiDARsemanticsegmentationmethodsonSemanticKITTItestset. C3D\n+SCPNetdenotesCylinder3DinitializedfromthetrainedweightofSCPNet.Bold-bestincolumn.\nMethods mIoU\n)sm(ycnetaL\nrac\nelcycib\nelcycrotom\nkcurt\nelcihev-rehto\nnosrep tsilcycib\ntsilcycrotom\ndaor gnikrap klawedis\ndnuorg-rehto\ngnidliub ecnef\nnoitategev\nknurt niarret elop cfifart\nSPVNAS[23] 66.4 259 97.3 51.5 50.8 59.8 58.8 65.7 65.2 43.7 90.2 67.6 75.2 16.9 91.3 65.9 86.1 73.4 71.0 64.2 66.9\nAF2S3Net[4] 69.7 – 94.5 65.4 86.8 39.2 41.1 80.7 80.4 74.3 91.3 68.8 72.5 53.5 87.9 63.2 70.2 68.5 53.7 61.5 71.0\nRPVNet[28] 70.3 – 97.6 68.4 68.7 44.2 61.1 75.9 74.4 73.4 93.4 70.3 80.7 33.3 93.5 72.1 86.5 75.1 71.7 64.8 61.4\nPVKD[12] 71.2 76 97.0 67.9 69.3 53.5 60.2 75.1 73.5 50.5 91.8 70.9 77.5 41.0 92.4 69.4 86.5 73.8 71.9 64.9 65.8\n2DPASS[30] 72.9 – 97.0 63.6 63.4 61.1 61.5 77.9 81.3 74.1 89.7 67.4 74.7 40.0 93.5 72.9 86.2 73.9 71.0 65.0 70.4\nCylinder3D[36] 68.9 97.1 67.6 63.8 50.8 58.5 73.7 69.2 48.0 92.2 65.0 77.0 32.3 90.7 66.5 85.6 72.5 69.8 62.4 66.2\n170\nC3D+SCPNet 71.5 97.5 60.9 56.3 58.6 65.9 70.7 71.8 58.7 93.6 72.1 80.9 36.2 93.3 72.1 86.2 74.1 71.6 66.7 71.8\nTable4. Comparisonbetweendifferentknowledgedistillational- 2mIoU,showingtheeffectivenessoftheproposedrelation-\ngorithmsandtheproposedDSKDontheSemanticKITTIvalset. baseddistillationalgorithm. ThevanillaKDobjectiveand\nFitNets hamper the performance of the base model, indi-\nMethods mIoU\ncatingthatdirectlymimickingthelogitsorfeaturescannot\nSCPNetw/oDSKD 34.4\nboostthecompletionperformance.\n+KD[8] 33.8\nQualitative results. We also provide visual comparison\n+FitNets[21] 33.8\nbetween JS3C-Net [29], SCPNet (single-frame) and SCP-\n+PKT[17] 34.6\nNet (multi-frame). As can be seen from Fig. 6, our SCP-\n+PVKD[12] 36.2\nNet(single-frame)makemoreaccuratecompletionpredic-\n+NST[13] 36.3\ntionsthanJS3C-Netonroadandvegetation. Onlong,thin\n+DSKD 37.2\nobjects such as poles, our single-frame model also yields\nhigh-quality completion results compared with JS3C-Net.\ntwolarge-scalebenchmarksstronglydemonstratethesupe- The predictions of our single-frame model also resemble\nriorityofourSCPNet. those of the multi-frame network, demonstrating the effi-\nBesides, we use the trained weight of the segmentation cacyoftheproposedDSKDalgorithm.\nsub-networkasinitializationtotrainCylinder3DontheSe-\n4.2.Ablationstudies\nmanticKITTI semantic segmentation task. From Table 3,\nCylinder3D initialized from trained weight of the comple- ExperimentsareconductedinSemanticKITTIvalset.\ntiontaskoutperformstheoriginalCylinder3Dmodelby2.6 Effect of completion label rectification. We report the\nmIoU, and achieves impressive segmentation performance performanceofourSCPNetoncompletionlabelswithand\namong various competitive LiDAR segmentation models without rectification. From Table 5, it is evident that the\nsuch as 2DPASS [30], PVKD [12] and RPVNet [28]. The proposedrectificationstrategygreatlyenhancestheperfor-\nencouraging results show that knowledge learned in the mance of SCPNet on those dynamic objects, e.g., car and\ncompletiontaskisalsobeneficialtothesegmentationtask. person. Forexample,thecompletionlabelrectificationcan\nComparisonwithbaselineKDalgorithms.FromTable4, bring8.1,24.5,26.1and17.6IoUimprovementoncar,per-\nitisevidentthattheproposedDSKDmethodcanbringmore son, bicyclist and motorcyclist, respectively. The impres-\ngains than conventional knowledge distillation algorithms. sive performance gains strongly demonstrate the effective-\nFor instance, compared with FitNets [21] which directly nessofthelabelrectificationalgorithm.\nmimicstheteacherfeatures,ourDSKDcanbringmorethan Effect of the completion sub-network. To examine the"
+    },
+    {
+      "page_num": 8,
+      "text": "JS3C-Net SCPNet SCPNet-4Frames Ground Truth\ncar bicycle motorcycle building other-vehicles road parking truck bicyclist\nsidewalk other-ground fence vegetation trunk terrain pole traffic-sign person motorcyclist\nFigure6. VisualcomparisonofdifferentmethodsontheSemanticKITTIvalidationset. Fromlefttoright: predictionsofJS3C-Net[29],\nSCPNet(singleframe),SCPNet(multi-frame)andground-truth.Regionsthathavelargepredictionerrorsarehighlightedbyredellipses.\nTable5.Impactofcompletionlabelrectificationontheperformance.\nMethods mIoU completion rac\nelcycib\nelcycrotom\nkcurt\nelcihev-rehto\nnosrep tsilcycib\ntsilcycrotom\ndaor gnikrap klawedis\ndnuorg-rehto\ngnidliub ecnef\nnoitategev\nknurt niarret elop\nngis-cfifart\nSCPNet 37.2 49.9 50.5 28.5 31.7 58.4 41.4 19.4 19.9 0.2 70.5 60.9 52.0 20.2 34.1 33.0 35.3 33.7 51.9 38.3 27.5\nSCPNet+labelrectification 40.8 52.1 58.6 27.0 34.7 54.2 41.9 43.9 46.0 17.8 70.6 60.2 53.1 7.7 33.9 32.2 41.9 32.0 52.4 38.7 28.9\nTable6.Impactofthecompletionsub-network,DSKDanddown- Effectofthedownsamplingoperation. Weaddthedown-\nsamplingoperationontheperformance. samplingoperationtoourcompletionsub-networkandex-\n(a)Completionsub-network amineitseffect. AsreportedinTable6(c), thedownsam-\nmIoU plingoperationhampersthecompletionperformanceofour\nJS3C-Net[29] 24.0 SCPNet.Specifically,thecompletionperformanceofSCP-\nJS3C-Net+completion-subnet 30.8 Netdecreasesfrom37.2mIoUto33.1mIoU.Thenegative\n(b)DSKD resultsshowthattheno-downsamplingprincipleisvitalto\nmIoU thesuccessofthecompletionsub-networkredesign.\nSCPNetw/oDSKD 34.4\nSCPNetw/DSKD 37.2\n(c)Downsamplingoperation 5.Conclusion\nmIoU\nSCPNetw/odownsampling 37.2 Toaddressthechallengesofthesemanticscenecomple-\nSCPNetw/downsampling 33.1 tiontask,weproposethreesolutionsfromtheaspectsofthe\ncompletion network redesign, dense-to-sparse knowledge\ndistillation as well as completion label rectification. The\neffect of our completion sub-network, we add it to JS3C-\nresulting completion network, termed SCPNet , achieves\nNet. ThedetailedperformanceisshowninTable6(a). Our\nsuperiorcompletionperformanceintwolarge-scaleseman-\ncompletion sub-network can bring 6.8 mIoU improvement\nticscenecompletionbenchmarks,i.e.,SemanticKITTIand\ntoJS3C-Net,whichstronglydemonstratestheeffectiveness\nSemanticPOSS.Thelearnedknowledgeonthecompletion\nandgeneralizationoftheproposedcompletionsub-network.\ntaskisalsobeneficialtothesemanticsegmentationtask.\nEffectofDSKD.WecomparetheperformanceofourSCP-\nNet with and without the proposed DSKD in Table 6 (b). Acknowledgements. This work is partially supported\nThe proposed distillation method can bring 2.8 mIoU im- by the National Key R&D Program of China (No.\nprovementtoourSCPNet,showingthebenefitofdistilling 2022ZD0160100),and in part by Shanghai Committee of\nrelation-basedknowledgefromthemulti-framemodel. ScienceandTechnology(GrantNo. 21DZ1100100)."
+    },
+    {
+      "page_num": 9,
+      "text": "References [13] Zehao Huang and Naiyan Wang. Like What You Like:\nKnowledge Distill via Neuron Selectivity Transfer. arXiv\n[1] Jens Behley, Martin Garbade, Andres Milioto, Jan Quen-\npreprintarXiv:1707.01219,2017. 6,7\nzel, Sven Behnke, Cyrill Stachniss, and Jurgen Gall. Se-\n[14] Diederik P Kingma and Jimmy Ba. Adam: A Method for\nmanticKITTI:ADatasetforSemanticSceneUnderstanding\nStochastic Optimization. In International Conference on\nof Lidar Sequences. In IEEE International Conference on\nLearningRepresentations,2015. 6\nComputerVision,pages9297–9307,2019. 1,2,6,12\n[15] ShiceLiu,YuHu,YimingZeng,QiankunTang,BeibeiJin,\n[2] Maxim Berman, Amal Rannen Triki, and Matthew B.\nYinheHan,andXiaoweiLi. SeeandThink: Disentangling\nBlaschko.TheLovasz-SoftmaxLoss:ATractableSurrogate\nSemanticSceneCompletion. AdvancesinNeuralInforma-\nfor the Optimization of the Intersection-Over-Union Mea-\ntionProcessingSystems,31,2018. 2\nsureinNeuralNetworks. InIEEEConferenceonComputer\n[16] YanchengPan, BiaoGao, JilinMei, SiboGeng, Chengkun\nVisionandPatternRecognition,volume2018,pages4413–\nLi, and Huijing Zhao. SemanticPOSS: A Point Cloud\n4421,2018. 6\nDatasetwithLargeQuantityofDynamicInstances. InIEEE\n[3] RanCheng,ChristopherAgia,YuanRen,XinhaiLi,andLiu\nIntelligentVehiclesSymposium,pages687–693.IEEE,2020.\nBingbing. S3CNet: A Sparse Semantic Scene Completion\n2,6\nNetworkforLiDARPointClouds. InConferenceonRobot\n[17] NikolaosPassalisandAnastasiosTefas.LearningDeepRep-\nLearning,pages2148–2161.PMLR,2021. 1,2,4,6\nresentationswithProbabilisticKnowledgeTransfer.InEuro-\n[4] Ran Cheng, Ryan Razani, Ehsan Taghavi, Enxu Li, and\npeanConferenceonComputerVision,pages268–284,2018.\nBingbing Liu. (af)2-S3Net: Attentive Feature Fusion with\n6,7\nAdaptiveFeatureSelectionforSparseSemanticSegmenta-\n[18] ChristophBRist,DavidEmmerichs,MarkusEnzweiler,and\ntionNetwork. InIEEEConferenceonComputerVisionand\nDariuMGavrila. SemanticSceneCompletionusingLocal\nPatternRecognition,pages12547–12556,2021. 7\nDeepImplicitFunctionsonLiDARData.IEEETransactions\n[5] Angela Dai, Daniel Ritchie, Martin Bokeloh, Scott Reed,\nonPatternAnalysisandMachineIntelligence,44(10):7205–\nJu¨rgenSturm,andMatthiasNießner. Scancomplete: Large-\n7218,2021. 6\nscaleSceneCompletionandSemanticSegmentationfor3D\nScans. InIEEEConferenceonComputerVisionandPattern [19] LuisRoldao,RaouldeCharette,andAnneVerroust-Blondet.\nRecognition,pages4578–4587,2018. 2 LMSCNet: Lightweight Multiscale 3D Semantic Comple-\ntion.InInternationalConferenceon3DVision(3DV),pages\n[6] BenFei,WeidongYang,WenmingChen,ZhijunLi,Yikang\n111–119.IEEE,2020. 1,2,6,7\nLi,TaoMa,XingHu,andLipengMa. ComprehensiveRe-\nviewofDeepLearning-based3DPointCloudsCompletion [20] Luis Roldao, Raoul De Charette, and Anne Verroust-\nProcessingandAnalysis. arXivpreprintarXiv:2203.03311, Blondet. 3d Semantic Scene Completion: A Survey. In-\n2022. 2 ternationalJournalofComputerVision, pages1–28, 2022.\n1,2,5\n[7] Martin Garbade, Yueh-Tung Chen, Johann Sawatzky, and\nJuergenGall. TwoStream3DSemanticSceneCompletion. [21] Adriana Romero, Nicolas Ballas, Samira Ebrahimi Kahou,\nInIEEEConferenceonComputerVisionandPatternRecog- AntoineChassang,CarloGatta,andYoshuaBengio.FitNets:\nnitionWorkshops,pages0–0,2019. 6 Hints for Thin Deep Nets. In International Conference on\n[8] GeoffreyHinton,OriolVinyals,andJeffDean.Distillingthe LearningRepresentations,2015. 3,6,7\nKnowledgeinaNeuralNetwork.Statistics,1050:9,2015.3, [22] ShuranSong,FisherYu,AndyZeng,AngelXChang,Mano-\n6,7 lisSavva, andThomasFunkhouser. SemanticSceneCom-\n[9] Yuenan Hou, Zheng Ma, Chunxiao Liu, Tak-Wai Hui, and pletion from a Single Depth Image. In IEEE Conference\nChen Change Loy. Inter-Region Affinity Distillation for on Computer Vision and Pattern Recognition, pages 1746–\nRoadMarkingSegmentation. InIEEEConferenceonCom- 1754,2017. 1,2,6,7\nputerVisionandPatternRecognition, pages12486–12495, [23] HaotianTang,ZhijianLiu,ShengyuZhao,YujunLin,JiLin,\n2020. 3 HanruiWang,andSongHan. SearchingEfficient3DArchi-\n[10] Yuenan Hou, Zheng Ma, Chunxiao Liu, and Chen Change tectureswithSparsePoint-VoxelConvolution. InEuropean\nLoy. Learning Lightweight Lane Detection CNNs by Self Conference on Computer Vision, pages 685–702. Springer,\nAttentionDistillation. InIEEEInternationalConferenceon 2020. 7\nComputerVision,pages1013–1021,2019. 3 [24] FredTungandGregMori.Similarity-PreservingKnowledge\n[11] Yuenan Hou, Zheng Ma, Chunxiao Liu, and Chen Change Distillation. InIEEEInternationalConferenceonComputer\nLoy. Learning to Steer by Mimicking Features from Het- Vision,pages1365–1374,2019. 3\nerogeneousAuxiliaryNetworks. InAssociationfortheAd- [25] Joey Wilson, Jingyu Song, Yuewei Fu, Arthur Zhang, An-\nvancementofArtificialIntelligence,volume33,pages8433– drew Capodieci, Paramsothy Jayakumar, Kira Barton, and\n8440,2019. 3 MaaniGhaffari. MotionSC:DataSetandNetworkforReal-\n[12] YuenanHou,XingeZhu,YuexinMa,ChenChangeLoy,and TimeSemanticMappinginDynamicEnvironments. arXiv\nYikang Li. Point-to-Voxel Knowledge Distillation for Li- preprintarXiv:2203.07060,2022. 1,2,7\nDARSemanticSegmentation. InIEEEConferenceonCom- [26] XiaohanXing,YuenanHou,HangLi,YixuanYuan,Hong-\nputer Vision and Pattern Recognition, pages 8479–8488, sheng Li, and Max Q-H Meng. Categorical Relation-\n2022. 3,4,6,7 preserving Contrastive Knowledge Distillation for Medical"
+    },
+    {
+      "page_num": 10,
+      "text": "Appendices\nImage Classification. In Medical Image Computing and\nComputer Assisted Intervention, pages 163–173. Springer,\n2021. 3\nA.Ablationstudies\n[27] Guodong Xu, Yuenan Hou, Ziwei Liu, and Chen Change\nLoy. MindtheGapinDistillingStyleGANs. InEuropean\nLoss coefficient β. We investigate the effect of the loss\nConference on Computer Vision, pages 423–439. Springer,\ncoefficientoftheDSKDlossonthefinalperformance. As\n2022. 3\nshowninTable7,whenwechangethelosscoefficientfrom\n[28] JianyunXu,RuixiangZhang,JianDou,YushiZhu,JieSun,\nand Shiliang Pu. RPVnet: A Deep and Efficient Range- 1, 000 to 4, 000, the completion performance of SCPNet\nPoint-VoxelFusionNetworkforLidarPointCloudSegmen- firstimprovesandthendeclines. Therefore,wesettheloss\ntation. InIEEEInternationalConferenceonComputerVi- coefficient of the DSKD loss as 3, 000 to obtain the best\nsion,pages16024–16033,October2021. 7 performance.\n[29] Xu Yan, Jiantao Gao, Jie Li, Ruimao Zhang, Zhen Li, Detailed performance comparison on DSKD loss. The\nRui Huang, and Shuguang Cui. Sparse Single Sweep Li- detailedperformancecomparisonofSCPNetwithandwith-\nDAR Point Cloud Segmentation via Learning Contextual outDSKDisshowninTable 8. Onmotorcycle,truck,per-\nShapePriorsfromSceneCompletion. InProceedingsofthe\nsonandbicyclist,theproposedDSKDlosscanbringmore\nAAAIConferenceonArtificialIntelligence,volume35,pages\nthan3IoUimprovement.\n3101–3109,2021. 1,2,3,4,6,7,8\nDetailedperformancecomparisononthedownsampling\n[30] XuYan,JiantaoGao,ChaodaZheng,ChaoZheng,Ruimao\noperation. Weexaminetheeffectofaddingthedownsam-\nZhang, Shuguang Cui, and Zhen Li. 2DPASS: 2D Priors\nplingoperationtothecompletionsub-networkofSCPNet.\nAssisted Semantic Segmentation on LiDAR Point Clouds.\nInEuropeanConferenceonComputerVision(ECCV),2022. ThedetailedperformancecomparisonofSCPNetwithand\n7 withoutthedownsamplingoperationisshowninTable 9.It\n[31] Jihan Yang, Shaoshuai Shi, Runyu Ding, Zhe Wang, and is apparent that the completion performance drops signifi-\nXiaojuan Qi. Towards Efficient 3D Object Detection with cantly,especiallyfortruck,other-vehicle,other-groundand\nKnowledge Distillation. arXiv preprint arXiv:2205.15156, traffic-sign. The severe performance degradation strongly\n2022. 3 shows the necessity of removing the lossy downsampling\n[32] XuemengYang,HaoZou,XinKong,TianxinHuang,Yong operationforthecompletionsub-network.\nLiu,WanlongLi,FengWen,andHongboZhang. Semantic\nSegmentation-assisted Scene Completion for LiDAR Point\nB.Elaboratedimplementationdetails\nClouds. In IEEE International Conference on Intelligent\nRobots and Systems, pages 3555–3562. IEEE, 2021. 1, 2,\nRange mismatch. On SemanticKITTI, the point cloud\n6\nrange used by our segmentation sub-network, i.e., Cylin-\n[33] SergeyZagoruykoandNikosKomodakis. PayingMoreAt-\nder3D,is[-36.2,36.2]m,[-36.2,36.2]mand[-4,2]mfor\ntentiontoAttention: ImprovingthePerformanceofConvo-\nx, y, z, respectively. For semantic scene completion, the\nlutionalNeuralNetworksviaAttentionTransfer. InInterna-\nrangeofthecompletionlabelsis[0, 51.2]m, [-25.6, 25.6]\ntionalConferenceonLearningRepresentations,2017. 3\nm and [-2, 4.4] m for x, y, z, respectively. The range mis-\n[34] Jiahui Zhang, Hao Zhao, Anbang Yao, Yurong Chen, Li\nmatchproblemwillcausetheexistenceofmanyemptyvox-\nZhang,andHongenLiao. Efficientsemanticscenecomple-\nels,whichwillsignificantlyhamperthecompletionperfor-\ntion network with spatial group convolution. In European\nConferenceonComputerVision,pages733–749,2018. 6 mance. To address this problem, we directly use the point\n[35] XingeZhu, HuiZhou, TaiWang, FangzhouHong, WeiLi, cloudrangeofthecompletionlabels.\nYuexinMa, HongshengLi, RuigangYang, andDahuaLin. Why conv bias and BN layers breaks the sparsity of\nCylindricalandAsymmetrical3DConvolutionNetworksfor voxelfeatures. Thevoxelfeatures,whicharetreatedasthe\nLidar-basedPerception.IEEETransactionsonPatternAnal- inputofthecompletionsub-network,aresparse,i.e.,onlya\nysisandMachineIntelligence,2021. 3 partofthewholevoxelspaceisoccupied. Thecompletion\n[36] Xinge Zhu, Hui Zhou, Tai Wang, Fangzhou Hong, Yuexin sub-networkusesthevanilladenseconvolutionfordilation.\nMa,WeiLi,HongshengLi,andDahuaLin. Cylindricaland However,thebiasof3Dconvolutionweight,themeanand\nAsymmetrical3DConvolutionNetworksforLidarSegmen-\nvarianceoftheBatchNormalization(BN)layerswillresult\ntation. InIEEEConferenceonComputerVisionandPattern\nin non-zero values of all empty voxel positions. This will\nRecognition,pages9939–9948,2021. 3,4,6,7\ncause all empty voxel features to become occupied, which\n[37] HaoZou,XuemengYang,TianxinHuang,ChujuanZhang,\nbreaksthesparsityoftheoriginalvoxelfeaturesandsignif-\nYongLiu,WanlongLi,FengWen,andHongboZhang. Up-\nicantly increases the computation burden of the segmenta-\nto-Down Network: Fusing Multi-Scale Context for 3D Se-\ntionsub-network.\nmanticSceneCompletion. InIEEE/RSJInternationalCon-\nference on Intelligent Robots and Systems, pages 16–23. HowdoeschangingtherandomseedinfluencethemIoU\nIEEE,2021. 6 values. WeconductexperimentsonSemanticKITTIusing"
+    },
+    {
+      "page_num": 11,
+      "text": "Table7.Impactofthelosscoefficientβontheperformance.\nβ mIoU completion\nrac\nelcycib\nelcycrotom\nkcurt\nelcihev-rehto\nnosrep tsilcycib\ntsilcycrotom\ndaor\ngnikrap klawedis\ndnuorg-rehto\ngnidliub\necnef\nnoitategev\nknurt\nniarret\nelop\nngis-cfifart\n4000 35.1 49.9 49.5 25.4 28.9 47.0 40.2 15.3 16.1 5.1 70.2 58.5 51.4 11.5 33.0 30.1 40.3 31.5 49.3 37.0 27.5\n3000 37.2 49.9 50.5 28.5 31.7 58.4 41.4 19.4 19.9 0.2 70.5 60.9 52.0 20.2 34.1 33.0 35.3 33.7 51.9 38.3 27.5\n2000 35.3 50.4 50.0 25.8 31.3 56.4 41.6 17.2 9.8 0.0 70.0 58.0 51.3 8.3 31.7 28.7 40.7 32.7 51.6 38.1 27.9\n1000 35.0 48.8 49.2 27.1 29.6 56.2 36.4 16.4 14.2 0.0 69.6 57.7 50.7 7.7 29.7 30.4 34.7 30.3 48.0 37.0 27.4\nTable8.ImpactofDSKDlossontheperformance.\nMethods mIoU completion rac\nelcycib\nelcycrotom\nkcurt\nelcihev-rehto\nnosrep tsilcycib\ntsilcycrotom\ndaor gnikrap klawedis\ndnuorg-rehto\ngnidliub ecnef\nnoitategev\nknurt niarret elop\nngis-cfifart\nSCPNetw/DSKD 37.2 49.9 50.5 28.5 31.7 58.4 41.4 19.4 19.9 0.2 70.5 60.9 52.0 20.2 34.1 33.0 35.3 33.7 51.9 38.3 27.5\nSCPNetw/oDSKD 34.4 48.5 48.5 26.4 28.1 54.6 41.7 14.5 13.1 0.0 70.2 58.3 51.3 2.9 31.7 30.4 37.9 31.6 49.2 36.7 25.7\nTable9.Impactofdownsamplingontheperformance.\nMethods mIoU completion rac\nelcycib\nelcycrotom\nkcurt\nelcihev-rehto\nnosrep tsilcycib\ntsilcycrotom\ndaor gnikrap klawedis\ndnuorg-rehto\ngnidliub ecnef\nnoitategev\nknurt niarret elop\nngis-cfifart\nw/odownsampling 37.2 49.9 50.5 28.5 31.7 58.4 41.4 19.4 19.9 0.2 70.5 60.9 52.0 20.2 34.1 33.0 35.3 33.7 51.9 38.3 27.5\nw/downsampling 33.1 51.0 48.7 21.3 28.9 40.3 30.3 17.6 16.0 0.0 70.7 58.8 51.3 11.5 33.6 29.4 41.2 32.3 51.5 35.9 8.9\nthreedifferentrandomseeds,i.e.,100,240and666. Exper- Table10.TrainingandinferencetimeusingA100.\nimentsonSemanticKITTIshowthattheperformancevari-\nMethods Train(h) Inference(ms) mIoU\nanceofSCPNetiswithin0.3mIoU.\nSCPNet 34 143.2 37.2\nApply the proposed distillation loss to other architec-\nJS3CNet 28 120.6 24.0\ntures. We apply the DSKD loss to JS3CNet. It improves\ntheperformanceofJS3CNetfrom24.0mIoUto26.2mIoU\nC.Qualitativeresults\nonSemanticKITTIvalset.\nApplylabelrectificationtoothermodels. Weapplylabel WeprovidevisualcomparisonofSCPNetwithandwith-\nrectificationtoJS3CNet. Experimentalresultsshowthaton out DSKD in Fig. 7. Compared with SCPNet without\nSemanticKITTIvalset,theproposedlabelrectificationcan DSKD,thesingle-frameSCPNetwithDSKDachievesbet-\nbringconsiderablegainstoJS3CNet,improvingtheperfor- tercompletionandsegmentationperformancebydistilling\nmancefrom24.0mIoUto26.8mIoU. denseandrelation-basedinformationfromthemulti-frame\nComputationalimpactoftheproposedadjustments. We teacher model. SCPNet without DSKD performs badly\ncalculate the computational overhead of the completion on the parkingareas and smallobjects while SCPNet with\nsub-network and finds that it only introduces around 24.4 DSKDexhibitsmuchbettercompletionperformanceowing\nmsoverhead. totheproposeddistillationobjective.\nError bands for the results. We run the experiments And we also provide visual comparison between origi-\non SemanticKITTI and SemanticPOSS datasets for three nal SCPNet and SCPNet with downsampling and upsam-\ntimes. The performance variance of SCPNet on these pling operations. As can be seen from Fig. 8, the down-\nbenchmarksiswithin0.3mIoU. sampling and upsampling operations will cause over dila-\ntion and shape distortion for these objects marked by the\nWhypanopticlabelsareusefulinlabelrectification.The\nredellipses.\npanopticlabelsprovideinstance-levelannotationsforthose\nthing classes (e.g., cars and persons) and these instance-\nlevel annotations are helpful to remove the long traces of\nmoving objects in completion labels which only provide\nsemanticsegmentationannotationsanddonotdifferentiate\neachsingleinstance.\nTraining and inference time and a comparison with\nSOTA.Wesummarizedthetrainingandinferencetimebe-\ntween JS3CNet and our SCPNet in Table 10. Our SCP-\nNethascomparabletrainingandinferencetimebutexhibits\nmuchbettercompletionperformancethanJS3CNet."
+    },
+    {
+      "page_num": 12,
+      "text": "SCPNet w/o DSKD SCPNet SCPNet-4Frames Ground Truth\ncar bicycle motorcycle building other-vehicles road parking truck bicyclist\nsidewalk other-ground fence vegetation trunk terrain pole traffic-sign person motorcyclist\nFigure7.VisualcomparisonofSCPNetwithandwithoutDSKDontheSemanticKITTI[1]validationset.Fromlefttoright:SCPNetwith-\nouttheDSKDloss,SCPNetwithDSKD,SCPNet-4Framesandground-truth.Differentcolorrepresentsdifferentclass.\nSCPNet + downsamping SCPNet SCPNet-4Frames Ground Truth\ncar bicycle motorcycle building other-vehicles road parking truck bicyclist\nsidewalk other-ground fence vegetation trunk terrain pole traffic-sign person motorcyclist\nFigure8.VisualcomparisonofSCPNetwithandwithoutthedownsamplingoperationontheSemanticKITTI[1]validationset.Fromleft\ntoright: SCPNetwithdownsamplingoperation,SCPNetwithoutdownsamplingoperation,SCPNet-4Framesandground-truth. Different\ncolorrepresentsdifferentclass."
+    }
+  ],
+  "text_by_sections": {
+    "abstract": "in 3D scene understanding. Performing semantic scene\nTraining deep models for semantic scene completion completion in the outdoor scenarios is challenging due to\n(SSC) is challenging due to the sparse and incomplete in- thesparseandincompleteinput,alargequantityofobjects\nput,alargequantityofobjectsofdiversescalesaswellas ofdiversescalesaswellastheinherentlabelnoiseforthose\ntheinherentlabelnoiseformovingobjects. Toaddressthe movingobjects(SeeFig.1(a)).\nabove-mentionedproblems,weproposethefollowingthree Recent years have witnessed an explosion of methods\nsolutions:1)Redesigningthecompletionsub-network.We intheoutdoorscenecompletionfield[3,19,22,25,29,32].\ndesign a novel completion sub-network, which consists of Forexample, S3CNet[3]performs2Dand3Dcompletion\nseveralMulti-PathBlocks(MPBs)toaggregatemulti-scale tasks jointly and achieves impressive performance on the\nfeatures and is free from the lossy downsampling opera- SemanticKITTI leaderboard [1]. JS3C-Net [29] performs\ntions. 2) Distilling rich knowledge from the multi-frame semantic segmentation first and then feeds the segmenta-\nmodel. Wedesignanovelknowledgedistillationobjective, tionfeaturestothecompletionsub-network. Thecoarse-to-\ndubbed Dense-to-Sparse Knowledge Distillation (DSKD). finerefinementmoduleisfurtherputforwardtoimprovethe\nIt transfers the dense, relation-based semantic knowledge completionquality. Althoughsignificantprogresshasbeen\nfrom the multi-frame teacher to the single-frame student, achievedinthisarea,thesemethodsheavilyrelyonthevox-\nsignificantly improving the representation learning of the elwise completion labels and show unsatisfactory comple-\nsingle-framemodel. 3)Completionlabelrectification. We tionperformanceonthesmall,distantobjectsandcrowded\npropose a simple yet effective label rectification strategy, scenes. Moreover,thelongtracesofthedynamicobjectsin\nwhichusesoff-the-shelfpanopticsegmentationlabelstore- original completion labels will hamper the learning of the\nmove the traces of dynamic objects in completion labels, completionmodels,whichisoverlookedinthepreviouslit-\ngreatly improving the performance of deep models espe- erature[20].\ncially for those moving objects. Extensive experiments\nTo address the preceding problems, we propose three\nare conducted in two public SSC benchmarks, i.e., Se-\nsolutions from the aspects of the completion sub-network\nmanticKITTIandSemanticPOSS.OurSCPNetranks1ston\nredesign, distillation of multi-frame knowledge as well as\nSemanticKITTI semantic scene completion challenge and\ncompletion label rectification. Specifically, we first make\nsurpasses the competitive S3CNet [3] by 7.2 mIoU. SCP-\na comprehensive overhaul of the completion sub-network.\nNetalsooutperformspreviouscompletionalgorithmsonthe\nWeadoptthecompletion-firstprincipleandmakethecom-\nSemanticPOSSdataset. Besides,ourmethodalsoachieves\npletionmoduledirectlyprocesstherawvoxelfeatures. Be-\ncompetitive results on SemanticKITTI semantic segmenta-\nsides, we avoid the use of downsampling operations since\ntion tasks, showing that knowledge learned in the scene\nthey inevitably introduce information loss and cause se-\ncompletionisbeneficialtothesegmentationtask.\nvere misclassification for those small objects and crowded\nscenes. Toimprovethecompletionqualityonobjectsofdi-\nversescales,wedesignMulti-PathBlocks(MPBs)withvar-\n1.Introduction\nied kernel sizes, which aggregate multi-scale features and\nfullyutilizetherichcontextualinformation.\nSecond,tocombatagainstthesparseandincompletein-\nSemanticscenecompletion(SSC)[20]aimsatinferring\nput signals, we make the single-scan student model distil\nboth geometry and semantics of the scene from an incom-\nknowledgefromthemulti-frameteachermodel. However,\n†:Correspondingauthor. mimickingtheprobabilisticknowledgeofeachpoint/voxel\n3202\nraM\n31\n]VC.sc[\n1v48860.3032:viXra\nmIoU(%) SCPNet\n(36.7)\n35\n30\nS3CNet\n(29.5)\n(a) JS3CNet\n25 (23.8)\nSSA-SC\nLocal-DIFs\n(23.5)\n(22.7)\n20 ESSCNet TS3D+DNet+SATNet UDNet\n(17.5) (17.7) (19.5)\nSSCNet-Full\nLMSCNet-SS\n(16.1)\n(17.6)\n15\n2016 2017 2018 2019 2020 2021 2022 2023\n(b) (c)\nFigure1. Left: challengesofsemanticscenecompletion,i.e.,(a)sparseandincompleteinput,varyingcompletiondifficultyforobjects\nof diverse scales and (b) long traces of dynamic objects in completion labels. Traces of cars and persons are highlighted by yellow\nellipses. Right: (c)performancecomparisonbetweencompetitivecompletionalgorithmsandSCPNetonSemanticKITTIsemanticscene\ncompletionchallenge.\nbrings marginal gains. Instead, we propose to distill the network. We unveil several key factors to building\npairwise similarity information. Considering the sparsity strongcompletionnetworks.\nand unorderness of features, we align the features using\ntheir indices and then force the consistency between the • To cope with the sparsity and incompleteness of the\npairwise similarity maps of student features and those of input, we propose to distill the dense relation-based\nteacher features, make the student benefit from the rela- knowledgefromthemulti-framemodel. Notethatwe\ntional knowledge of the teacher. The resulting Dense-to- are the first to apply knowledge distillation to the se-\nSparse Knowledge Distillation objective is termed DSKD, manticscenecompletiontask.\nwhichisspecificallydesignedforthescenecompletiontask.\n• To address the long traces of moving objects in com-\nFinally, toaddressthelongtracesofthosedynamicob-\npletionlabels,wepresentthecompletionlabelrectifi-\njects in the completion labels, we propose a simple yet\ncationstrategy.\neffective label rectification strategy. The core idea is to\nuse off-the-shelf panoptic segmentation labels to remove\n• Our SCPNet ranks 1st on SemanticKITTI semantic\nthe traces of dynamic objects in completion labels. The\nscene completion challenge, outperforming the previ-\nrectified completion labels are more accurate and reliable,\nousSOTAS3CNet[3]by7.2mIoU.Competitiveper-\ngreatlyimprovingthecompletionqualitiesofdeepmodels\nformanceisalsoshowninSemanticPOSScompletion\nonthosemovingobjects.\ntaskandSemanticKITTIsemanticsegmentationtask.\nWe conduct experiments on two large-scale outdoor\nscene completion benchmarks, i.e., SemanticKITTI [1]\n2.RelatedWork\nand SemanticPOSS [16]. Our SCPNet ranks 1st on Se-\nmanticKITTI semantic scene completion challenge 1 and Semantic scene completion. Early works on scene com-\noutperforms the S3CNet [3] by 7.2 mIoU. SCPNet also pletion mainly concentrates on the indoor scenarios [5,6,\nachieves better performance than other completion algo- 15,22]. Thepointcloudinindoorscenariosisdense,small-\nrithms on the SemanticPOSS dataset. The learned knowl- scale and has uniform density. By contrast, point cloud in\nedge from the completion task also benefits the segmenta- outdoor scenes is sparse, large-scale and has varying den-\ntiontask,makingourSCPNetachievesuperiorperformance sity, which poses great challenges to the semantic scene\nontheSemanticKITTIsemanticsegmentationtask. completionalgorithms[3,20,25,29,32].Variousalgorithms\nOurcontributionsaresummarizedasfollows. have been proposed, for instance, LMSCNet [19] uses a\nmixture of 2D and 3D convolutions to build the efficient\n• The comprehensive redesign of the completion sub-\ncompletion backbone. S3CNet [3] performs 2D and 3D\n1https://codalab.lisn.upsaclay.fr/competitions/7170#results till 2022- scene completion simultaneously, and fuses the results by\n11-1200:00PacificTime,andourmethodistermedSCPNet. theproposeddynamicvoxelfusionmodule. JS3C-Net[29]\n3D Segmentation Sub-network Encoder Layer\nMLP ...\nLayer 1 Layer 2\n3D Completion\nVoxelization\n... Sub-network\n𝓛𝑑𝑠𝑘𝑑\n𝒊 𝒊+n Teacher Encoder Decoder\nMulti-Frame Point Cloud\nKnowledge Layer I Layer 2 ...\nDistillation Encoder Layer\nEncoder Decoder\nMLP\n3D Completion\nVoxelization\nSub-network\n𝒊 Student 3D Segmentation Sub-network Voxelwise output\nSingle Frame Point Cloud\nFigure 2. Framework overview of SCPNet. There are two SCPNets, one is teacher and the other is student, and they have the same\narchitecture. Theteachertakesmulti-framepointcloudasinputwhilethestudenttakesthesingle-framepointcloudasinput. Thedense-\nto-sparseknowledgedistillationlossisproposedtotransferthedensesemanticknowledgefromteachertostudent.IneachSCPNet,there\naretwosub-networks,i.e.,thecompletionsub-networkandthesegmentationsub-network. Thepointcloudisfirstprocessedbyastack\nofMLPstoextractpointfeatures. Thesepointfeaturesarevoxelizedandthenfedtothecompletionsub-networktoproducedenservoxel\nfeatures. Theproducedvoxelfeaturesarefurtherfedtothesegmentationsub-networktogeneratetheultimatevoxelwiseoutput. Forthe\ncompletionsub-network,itiscomprisedofseveralmulti-pathblocks,freefromthelossydownsamplingoperations.Forthesegmentation\nsub-network,itisadaptedfromtheCylinder3Dnetwork.\nattachesthecompletionnetworktothesegmentationback- cloud X ∈ RN×3, the network needs to assign a label to\nboneandrefinesthecompletionoutputsviathepoint-voxel eachvoxeloftheL×W×Hvoxelspacetoindicatewhether\ninteraction module. Compared with previous completion itisemptyorbelongstoaspecificclassc∈{0,1,2,...,C−\nnetworks, our SCPNet is free from the lossy downsam- 1},whereC isthenumberofclasses,L,W andH arethe\npling operations. Besides, our network is built on several length, width and height of the voxel space, respectively.\nMPBs that aggregate multi-scale features and can achieve WedenotethevoxelwiseoutputasO∈RL×W×H×C.\nhighcompletionqualityinobjectsofvarioussizes.\n3.1.Frameworkoverview\nKnowledgedistillation. Knowledgedistillation(KD)orig-\ninatesfromthepioneeringworkofG.Hintonetal.[8]. Its\nAs shown in Fig. 2, our SCPNet is comprised of two\nprimaryobjectiveistotransferthedarkknowledgefromthe\nsub-networks,i.e.,thecompletionsub-networkandtheseg-\nlarge over-parameterized teacher model to the small com-\nmentationsub-network. Thecompletionsub-networkisde-\npactstudentmodel. Alargenumberofmethodshavebeen\nsignedbasedonseveralkeydesignprinciples. Thesegmen-\nproposed and various forms of knowledge [21,24,27,33]\ntation sub-network is built upon Cylinder3D [35,36], with\nhavebeendesigned,e.g.,intermediatefeatures[11,21],vi-\nsome minor modifications. In the following sections, we\nsualattentionmaps[10,33],region-levelaffinityscores[9],\nfirst detail the completion sub-network and introduce sev-\nsimilarityscoresofdifferentsamples[24,26],etc.Itisnote-\neraldesignprinciplesthatarevitaltobuildingastrongcom-\nworthy that the majority of the distillation methods con-\npletion sub-network. The knowledge distillation of multi-\ncentrate on the 2D tasks. Only a few distillation meth-\nframe model and the completion label rectification will be\nods have focused on 3D domains, e.g., PVKD [12] and\nexplainedthereafter.\nSparseKD [31]. To our knowledge, this is the first work\nthat applies knowledge distillation to the semantic scene 3.2.RedesigningtheCompletionSub-network\ncompletiontask. Weproposetotransferthedense,relation-\nTake JS3C-Net [29] as example. The original JS3C-\nbased semantic knowledge from the multi-frame model to\nNetfirstperformssemanticsegmentationandthenconducts\nthesingle-frameone.\ncompletion upon the segmentation features. Although this\npipeline can benefit from the segmentation outputs, there\n3.Methodology\nareseveraldrawbacksinthisframework. First,theparam-\nTheobjectiveofthesemanticscenecompletiontaskisto eters in the completion sub-network are much fewer than\ninferthecompletegeometricandsemanticlayoutgiventhe thesegmentationsub-network,thusyieldingunsatisfactory\nincompleteandsparseinput.Formally,giventheinputpoint completionperformance. Second, therearedownsampling\n3D Completion Sub-network 1 Frame 4 Frames\nMPB\nkcolBvnoC\n3-\nMPB MPB\nkcolBvnoC\n3-\nInput Voxel Feature Completed Voxel Feature\n3-ConvBlock Empty Voxel\nFigur k C e K o x n - k v C 3 3 x o D . k n v A Blo s c c k Re h L e U matic M o ul v ti e -P r 5 7 a - v - C C th o i o n n e v B v w B B l l l o o o c c c k k o k f (M t P h B e ) desig E O C n le o c e m c m u d p p e l i e n e t d c e t d - V o w V ox m o i e s x l e el p S l u e m tionnet- F c f d r ra c l u i a o g c m u u i d n r e lc y c ib e e . g a 4 T t n h . e lc y c ro to m h d e C e t c o hk c u rt m o m e m u p o l\nse\nlc re ih h e to v - p a t b i l r - j e i e f s t n o sre p r c i o a o t n m s n tsilc y c ib b a e d e r i e t i f w n tsilc y c ro to mfi e p c e a u u e s d a o r t n l i t e i y s s r . i g n ik ra p n o to g b l vk la w e d is b e i - e o fr u i d n r u e o h r to g - a d s m l e y n g n id liu b e t d i a fi e n e c n e f n e d d se m , n o ita te g e v r s u i t l g h t k n u rt n i a - n i f fi r t a n ia rre t c h m a e n e e lo p t s l p i y n o g c if n f g a i r s - t r in e le - t\nwork. ItisbuiltupontheMulti-PathBlocks(MPBs)thatcontain\n3×3×3,5×5×5and7×7×7convolutionblocks(ConvBlock).In\nbenefitfromthelargenumberofparametersofthesegmen-\neachconvolutionblock,thereisnoconvolutionbiasandnobatch\ntationsub-network.\nnormalizationtomaintainsparsityduringcompletion.\nAggregatemulti-scalefeatures. Toaggregatemulti-scale\nfeatures,wedesignthemulti-pathblockwhichiscomprised\nandupsamplingblocksinthecompletionsub-network. The\nof 3×3×3, 5×5×5 and 7×7×7 convolution blocks. As\ndownsampling operations will inevitably lose the informa-\nshown in Fig. 3, there are three branches in the comple-\ntion of the original point cloud and the upsampling opera-\ntionsub-network. TheupperbranchcontainsoneMPBand\ntionwillcauseoverdilationandshapedistortion.\nthe bottom branch is a residual connection. The middle\nTo address the aforementioned problems, we make a\nbranch is constructed by a 3×3×3 convolution block, two\ncomprehensive overhaul of the completion sub-network.\nMPBsanda3×3×3convolutionblock. Afterthecomple-\nMoreconcretely,therearethreeprinciplesinthedesignof\ntionsub-network,weobtainthedensecompletedvoxelfea-\nthe completion sub-network, i.e., maintaining sparsity, no\ntures. We extract the non-empty voxel features as well as\ndownsamplingandaggregatingmulti-scalefeatures.\ntheirvoxelindicesfromthecompletedvoxelfeatures. The\nMaintainsparsity. Thecompletionsub-networkneedsthe\ngeneratedsparsevoxelfeaturesaresenttothesegmentation\nvanilla dense convolution for dilation while the segmenta-\nsub-networktoproducethevoxelwisesegmentationoutput.\ntion sub-network uses sparse convolution for efficient pro-\nModificationsonthesegmentationsub-network. Recall\ncessing. However,thebiasoftheconvolutionweight,run-\nthat,forthesegmentationpart,wetaketheCylinder3D[36]\nning mean and beta of BN layers will break the sparsity\nasthebackbone. Sincethevoxelwisecompletionlabelsare\noftheoriginalvoxelfeatures, thussubstantiallyincreasing\ndefined based on the cubic partition, we replace the cylin-\nthe computation burden of the segmentation sub-network.\ndricalpartitionofCylinder3Dwithconventionalcubicpar-\nTherefore,toreducetheoverallcomputationcostandenjoy\ntition. Besides, the original point refinement module con-\nthehighefficiencyofsparseconvolution,weremoveallthe\nsumesmuchGPUmemoryandbringslimitedgains,wedis-\nconvolution bias and the BN layers in the completion sub-\ncardthismoduletosavememoryusage.\nnetwork. In this condition, the voxel features produced by\nthecompletionsub-networkcanstillkeepthesparseprop-\n3.3.DistillingMulti-frameKnowledge\nertyandthesegmentationsub-networkcanusesparsecon-\nvolutiontoprocessthesesparsevoxelfeatures. Since single frame point cloud is sparse and incom-\nNo downsampling. In popular completion networks such pleteintheoutdoorscenarios,directlyperformingsemantic\nas S3CNet [3] and JS3C-Net [29], there are several down- scenecompletionfromthesingle-frameinputisextremely\nsampling and upsampling blocks in the completion part. difficult. Itisnaturaltowonderifwecanconstructamulti-\nThe downsampling operations will inevitably lose the in- framemodelandthendistilthedensesemanticknowledge\nformation of the original point cloud, causing severe com- from this multi-frame network. From Fig. 4, it is evident\npletion and classification errors for small objects and thatthemulti-frameinputsignificantlyreducesthecomple-\ncrowded scenes. Therefore, we discard all downsam- tiondifficultysincemultipleframeshavemuchmorepoints\nplingandupsamplingoperationstorelievetheinformation inthesceneandobjectsareeasiertobeidentified.Thecom-\nloss, maximally retaining the information of the raw point pletion difficulty will gradually decrease as the number of\ncloud. Besides, as opposed to JS3C-Net which takes the inputpointcloudframesincreases. Therefore,weconstruct\nsegmentation-first baseline, we adopt the completion-first the multi-frame teacher which takes denser point cloud as\nprinciple.Concretely,wemakethecompletionsub-network inputandachievesbettercompletionperformance.\ndirectlyprocesstherawvoxelfeaturesproducedbythevox- Inspired by [12], we make the single-frame model dis-\nelizationprocess.Andthecompletionsub-networkcanalso til the relation-based structural knowledge from the multi-\nAlgorithm1PseudocodeofLabelRectification.\n# L_c: completion label (256x256x32)\n# L_s: semantic segmentation label (Nx1)\n# L_p: panoptic segmentation label (Nx1)\n# S_c: classes of moving objects; u: unlabeled class\nfor C_i in S_c:\n# voxel position of completion label for class C_i\nP_c_i = getInd(L_c, C_i)\nL_p_i = L_p[L_s == C_i] # instance label of class C_i\nP_dif = []\nif len(L_p_i) == 0:\nP_dif = P_c_i\nelif len(L_p_i) > 0 and len(P_c_i) > 0:\n# mask of voxel position bound for instance d_j\nM_c = zeros([256, 256, 32])\n# point position of class C_i\nP_i = P[L_s == C_i, :]\n# voxel position of class C_i\nP_s_i = voxelize(P_i)\nD_i = unique(L_p_i) # all instance ids\nfor d_j in D_i:\np f F o e l f i ra cc e g d t t u i i y v o r e lc y c ib n e e n a l 5 y m la . e lc y c ro to m b r i T c e e o m lk c u rt o s p o b . : v j se lc re ih h e to v - e T o e c r h t i t e s g n o sre ph , i e p n e r a . l tsilc y c ib o g o l p . n c , o g tsilc y c ro to m o c s m a e t r r d p d a o r a a l c l e n a e t g n ik ra p d b s io e p o n l k la w e d is e f r l r e a m s c b o d n r u e o h r to g -t o e n i v fi l . s i c g n id liu bn B w a g t o h ie c n e f o t o i t c n o b h m j n o ita te g e v o e h p c : a t ek n u rt s r v r e , a e c t m t i l n ia rre t i o o fi a n n k e g e lo pi d c n a t g c r nc if n f g a i r s- t a o c t m e h e f e s - - # vo # M ( M x _ x _ e j _ c v l o m [ x = i x M p e n _ _ o l P , m j s _ x i ) i p s _ n t o _ m : i i a x s o i [ x _ n t L , m i _ y a f o p _ x o _ m , n r i i y f n _ i = , m o n r = y i s _ n t i d m : a n _ a y n j x _ s c t ] , m e a z a _ x n l c m , a e i z b n _ e d , m l _ z i j _ n o m : f a z x _ c ) m l a a = x s ] s bo = C u _ n 1 i d 0 ( 00\ncompletionlabelsmoreaccurate. P_p_i = getInd(M_c, 1000)\nP_dif = difference(P_c_i, P_p_i)\nif len(P_dif) > 0:\nfor p_i in range(P_dif.shape[0]):\nframe teacher network. Since the original voxel features\nL_c[P_dif[p_i,0],P_dif[p_i,1],P_dif[p_i,2]] = u\nareinthesparseform, weleveragethesparsefeaturesand\ntheir indices to perform knowledge distillation. We de- getInd(A, b): get indices of b in A; bound: get bound of matrix;\ndifference(A, B):differencesetofAminusB.\nnote the voxel features and corresponding indices of the\nteacher and student as F\nT\n∈ RNm×Cf, F\nS\n∈ RNs×Cf,\ncompletion labels are obtained by concatenating the seg-\nI\nT\n∈ RNm×3 and I\nS\n∈ RNs×3, respectively. N\nm\nis the\nmentation labels of multiple consecutive point cloud\nnumberofnon-emptyvoxelfeaturesinthemulti-frame,N\ns frames. Specifically, for the t-th frame, the corresponding\nis the number of non-empty voxel features in the single- completionlabelsLcareconstructedinthefollowingway:\nframe, C isthenumberofchannelsofthevoxelfeatures. t\nf\nNotethattheindicesofteacherfeaturesandstudentfeatures\nare sorted and I S (i,j) = I T (i,j), where i ∈ {1,...,N s } Lc t =concat[Ls t ;T t+1→t Ls t+1 ;...;T t+T−1→t Ls t+T−1 ],\nandj ∈ {1,2,3}. Wefirstcomputethepairwiserelational (3)\nknowledgeofthestudentmodel:\nwhere Ls are the segmentation labels for the t-th frame,\nt\nT isthenumberofframesusedforconcatenation, T\nt+1→t\nP (i,j)= F S (i)TF S (j) ,i,j ∈{1,...,N } (1) isthetransformationmatrixthattransformsthecoordinate\nS ∥F (i)∥ ∥F (j)∥ s from(t+1)-thframetothet-thframe, andconcat[...;...]\nS 2 S 2\nistheconcatenatingoperation. Theconcatenationofmulti-\nThe relational knowledge of the teacher model P is\nT pleframeswillleadtolongtracesforthosemovingobjects,\ncalculatedinasimilarway. Therelationalknowledgecap-\nsuchascarandperson. AvividexampleisshowninFig.5.\nturesthesimilarityofeachpairofvoxelfeaturesandserve\nThe long traces of those dynamic objects are obviously ir-\nas important clues of the surrounding environment, which\nrationalandwillhamperthelearningofdeepmodels.\ncan be taken as high-level knowledge to be learned by the\nCompletionlabelrectification. Toremovethelongtraces\nsingle-framestudentmodel.TheproposedDense-to-Sparse\nofmovingobjectsinthecompletionlabels,weresorttothe\nKnowledgeDistillation(DSKD)lossisgivenasbelow:\npanopticsegmentationlabels.Specifically,giventhepanop-\ntic labels of class i, we first voxelize the labels and obtain\n1 (cid:88)\nNs\n(cid:88)\nNs thevoxelwisepanopticlabelsforclassi. Foreachinstance\nL dskd (P S ,P T )= N2 ∥P S (i,j)−P T (i,j)∥2 2 . of class i, we calculate the bound of each instance, form-\ns i=1j=1 ing a cube. We union the cubes of all instances and use\n(2) them to process the original voxelwise completion labels,\nfiltering those voxels that are outside the cubes. The pro-\n3.4.CompletionLabelRectification\ncessisrepeatedforallclassesthatcontaindynamicobjects.\nGenerationofcompletionlabels. Aspointedoutby[20], Thedetailedinformationofthelabelrectificationalgorithm\nfor outdoor semantic scene completion, the ground-truth is shown in Algorithm 1. As shown in Fig. 5, the pro-\nTable1.QuantitativeresultsofsemanticscenecompletionalgorithmsonSemanticKITTItestset.Notethattheonlineserverstillusesthe\noriginalcompletionlabelstoevaluatealgorithms.Bold-bestincolumnforallsingle-framemethods.\nMethods mIoU completion rac\nelcycib\nelcycrotom\nkcurt\nelcihev-rehto\nnosrep tsilcycib\ntsilcycrotom\ndaor gnikrap klawedis\ndnuorg-rehto\ngnidliub ecnef\nnoitategev\nknurt niarret elop\nngis-cfifart\nSSCNet-Full[22] 16.1 50.0 24.3 0.5 0.8 1.2 4.3 0.3 0.3 0.0 51.2 27.1 30.8 6.4 34.5 19.9 35.3 18.2 29.0 13.1 6.7\nESSCNet[34] 17.5 41.8 26.4 0.3 5.4 5.0 9.1 2.9 2.7 0.1 43.8 26.9 28.1 10.3 29.8 23.3 35.8 20.1 28.7 16.4 16.7\nLMSCNet-SS[19] 17.6 56.7 30.9 0.0 0.0 1.5 0.8 0.0 0.0 0.0 64.8 29.0 34.7 4.6 38.1 21.3 41.3 19.9 32.1 15.0 0.8\nTDS[7] 17.7 50.6 29.5 0.0 0.0 2.5 0.1 0.0 0.0 0.0 62.2 23.3 31.6 6.5 34.1 24.1 40.1 21.9 33.1 16.9 6.9\nUDNet[37] 19.5 59.4 33.9 0.8 0.4 3.8 4.4 0.5 0.3 0.3 62.0 28.2 35.1 9.1 39.5 24.4 40.9 23.2 32.3 18.8 13.1\nLocal-DIFs[18] 22.7 57.7 34.8 3.6 2.4 4.4 4.8 2.5 1.1 0.0 67.9 40.1 42.9 11.4 40.4 29.0 42.2 26.5 39.1 21.3 17.5\nSSA-SC[32] 23.5 58.8 36.5 13.9 4.6 5.7 7.4 4.4 2.6 0.7 72.2 37.4 43.7 10.9 43.6 30.7 43.5 25.6 41.8 14.5 6.9\nJS3C-Net[29] 23.8 56.6 33.3 14.4 8.8 7.2 12.7 8.0 5.1 0.4 64.7 34.9 39.9 14.1 39.4 30.4 43.1 19.6 40.5 18.9 15.9\nS3CNet[3] 29.5 45.6 31.2 41.5 45.0 6.7 16.1 45.9 35.8 16.0 42.0 17.0 22.5 7.9 52.2 31.3 39.5 34.0 21.2 31.0 24.3\nSCPNet(#frame=1) 36.7 56.1 46.4 33.2 34.9 13.8 29.1 28.2 24.7 1.8 68.5 51.3 49.8 30.7 38.8 44.7 46.4 40.1 48.7 40.4 25.1\nSCPNet(#frame=4) 47.5 68.5 59.0 48.5 51.1 21.0 37.8 47.6 35.0 10.5 79.7 57.7 60.0 32.8 50.2 54.1 56.9 47.1 58.0 48.3 48.0\nposed label rectification operation can effectively remove Implementationdetails. TheoutputsizeofCylinder3Dis\nthe long traces of moving objects, making the completion setas256×256×32toadapttothecompletiontask. The\nlabelsmoreaccurate. numberoftrainingepochsissetas30andtheinitiallearn-\ningrateissetas0.0015.WeuseAdam[14]astheoptimizer.\n3.5.Overallobjective\nGradientnormclipisset10tostabilizethetrainingprocess.\nThe overall loss function is comprised of three terms, αandβaresetas1and3,000,respectively.Wefilterpoints\ni.e., thecrossentropyloss, thelovasz-softmaxloss[2]and thatareoutsidethepointcloudrangeofthevoxelwisecom-\ntheproposeddistillationloss. pletionlabels. ForSemanticKITTI,wefirsttrainthemodel\nonthetrainingsetandthenfinetuneitonbothtrainingand\nvalidationsetsbeforesubmittingthepredictionsoftestset\nL=L ce +αL lovasz +βL dskd , (4) totheonlineserver.\nBaseline KD algorithms. We take the vanilla knowl-\nwhereαandβarethelosscoefficientstobalancetheeffect\nedge distillation [8], FitNets [21], NST [13], PKT [17]\nofeachlossterm.\nandPVKD[12]asbaselinedistillationalgorithms. Vanilla\n4.Experiments knowledge distillation takes the softened logits as the dis-\ntilled knowledge. FitNets directly mimics the teacher fea-\nDatasets. Followingthepracticeofpopularscenecomple- tures.NSTadoptsthemaximummeandiscrepancytomini-\ntion models [3,29], we conduct experiments on two pop- mizethedistancebetweenstudentfeaturesandteacherfea-\nular LiDAR semantic scene completion benchmarks, i.e., tures. PKT models the teacher knowledge as a probability\nSemanticKITTI [1] and SemanticPOSS [16]. As to Se- distributionandthenforcestheconsistencyoftheprobabil-\nmanticKITTI, it has 22 point cloud sequences. Sequences itydistributionbetweentheteacherandthestudent. PVKD\n00 to 10, 08 and 11 to 21 are used for training, validation distilsthevoxelwiseoutputandinter-voxelaffinityknowl-\nandtesting,respectively. 19classesarechosenfortraining edge. Andwediscardtheoriginalpointwiseoutputdistilla-\nand evaluation after merging classes with distinct moving tionandinter-pointaffinitydistillationofPVKDsincethey\nstatus and discarding classes with very few points. As for consumemuchGPUmemoryandbringmarginalgains.\nSemanticPOSS,ithas2,988framesand11classesarese-\nlected for evaluation. Although SemanticPOSS is smaller\n4.1.Results\nthan SemanticKITTI in terms of dataset size, it is much\nmorechallengingsinceitcontainsalargerquantityofmov- Quantitative results. We summarize the performance\ningobjectsthanSemanticKITTI,suchaspersonandrider. of SCPNet and state-of-the-art semantic scene completion\nEvaluation metrics. Following [12,36], we adopt the methods in Table 1 and 2. On SemanticKITTI, our SCP-\nintersection-over-union(IoU)ofeachclassandmIoUofall Netsignificantlyoutperformsotherscenecompletionalgo-\nclasses as the evaluation metric. The IoU of class i is cal- rithms in terms of mIoU. For example, our SCPNet is 7.2\nculated via: IoU i = TPi+F T P P i i +FNi , where TP i , FP i and mIoUhigherthanS3CNet[3].Onclassessuchascar,other-\nFN denotethetruepositive,falsepositiveandfalsenega- vehicle, road, parking, sidewalk, fense, terrain and other-\ni\ntiveofclassi,respectively. Forsemanticscenecompletion, ground,theperformancegapbetweenSCPNetandS3CNet\nthedimensionofthecompletionlabelis256×256×32.We is more than 10 IoU. Our SCPNet also achieves superior\nalsoreportthecompletionmIoUwhichistheclass-agnostic performanceonSemanticPOSSvalset. Onclassessuchas\nversion of mIoU. Note that mIoU is the major evaluation car, trunk, pole, fence and bike, SCPNet is at least 5 IoU\nmetricforthesemanticscenecompletiontask. higherthanJS3C-Net[29]. Theimpressiveperformanceon\nTable 2. Quantitative results of semantic scene completion algorithms on SemanticPOSS val set. Note that the completion labels are\nprocessedbytheproposedrectificationalgorithm.Bold-bestincolumnforallsingle-framemethods.\nMethods mIoU completion\nnosrep redir\nrac\nknurt stnalp\nngis-cfifart\nelop\ngnidliub\necnef ekib dnuorg\nSSCNet-Full[22] 15.2 53.5 5.3 0.3 1.3 5.6 39.6 1.0 2.6 28.7 3.4 26.0 43.1\nLMSCNet-SS[19] 16.5 52.3 7.7 0.3 0.6 4.0 37.7 1.9 8.2 36.8 13.8 25.8 45.1\nMotionSC[25] 17.6 52.7 7.8 0.5 0.5 3.9 39.8 2.2 8.5 39.2 13.1 30.8 47.0\nJS3C-Net[29] 22.7 58.1 18.9 0.2 7.1 3.6 47.8 2.2 0.0 46.3 26.6 43.4 53.2\nSCPNet(#frame=1) 26.3 56.3 9.2 3.3 12.4 11.0 49.6 3.1 11.1 50.1 40.8 48.7 49.8\nSCPNet(#frame=4) 33.6 60.7 21.4 5.0 34.5 8.9 55.3 7.8 31.0 50.3 47.9 55.1 52.3\nTable3. QuantitativeresultsofourSCPNetandstate-of-the-artLiDARsemanticsegmentationmethodsonSemanticKITTItestset. C3D\n+SCPNetdenotesCylinder3DinitializedfromthetrainedweightofSCPNet.Bold-bestincolumn.\nMethods mIoU\n)sm(ycnetaL\nrac\nelcycib\nelcycrotom\nkcurt\nelcihev-rehto\nnosrep tsilcycib\ntsilcycrotom\ndaor gnikrap klawedis\ndnuorg-rehto\ngnidliub ecnef\nnoitategev\nknurt niarret elop cfifart\nSPVNAS[23] 66.4 259 97.3 51.5 50.8 59.8 58.8 65.7 65.2 43.7 90.2 67.6 75.2 16.9 91.3 65.9 86.1 73.4 71.0 64.2 66.9\nAF2S3Net[4] 69.7 – 94.5 65.4 86.8 39.2 41.1 80.7 80.4 74.3 91.3 68.8 72.5 53.5 87.9 63.2 70.2 68.5 53.7 61.5 71.0\nRPVNet[28] 70.3 – 97.6 68.4 68.7 44.2 61.1 75.9 74.4 73.4 93.4 70.3 80.7 33.3 93.5 72.1 86.5 75.1 71.7 64.8 61.4\nPVKD[12] 71.2 76 97.0 67.9 69.3 53.5 60.2 75.1 73.5 50.5 91.8 70.9 77.5 41.0 92.4 69.4 86.5 73.8 71.9 64.9 65.8\n2DPASS[30] 72.9 – 97.0 63.6 63.4 61.1 61.5 77.9 81.3 74.1 89.7 67.4 74.7 40.0 93.5 72.9 86.2 73.9 71.0 65.0 70.4\nCylinder3D[36] 68.9 97.1 67.6 63.8 50.8 58.5 73.7 69.2 48.0 92.2 65.0 77.0 32.3 90.7 66.5 85.6 72.5 69.8 62.4 66.2\n170\nC3D+SCPNet 71.5 97.5 60.9 56.3 58.6 65.9 70.7 71.8 58.7 93.6 72.1 80.9 36.2 93.3 72.1 86.2 74.1 71.6 66.7 71.8\nTable4. Comparisonbetweendifferentknowledgedistillational- 2mIoU,showingtheeffectivenessoftheproposedrelation-\ngorithmsandtheproposedDSKDontheSemanticKITTIvalset. baseddistillationalgorithm. ThevanillaKDobjectiveand\nFitNets hamper the performance of the base model, indi-\nMethods mIoU\ncatingthatdirectlymimickingthelogitsorfeaturescannot\nSCPNetw/oDSKD 34.4\nboostthecompletionperformance.\n+KD[8] 33.8\nQualitative results. We also provide visual comparison\n+FitNets[21] 33.8\nbetween JS3C-Net [29], SCPNet (single-frame) and SCP-\n+PKT[17] 34.6\nNet (multi-frame). As can be seen from Fig. 6, our SCP-\n+PVKD[12] 36.2\nNet(single-frame)makemoreaccuratecompletionpredic-\n+NST[13] 36.3\ntionsthanJS3C-Netonroadandvegetation. Onlong,thin\n+DSKD 37.2\nobjects such as poles, our single-frame model also yields\nhigh-quality completion results compared with JS3C-Net.\ntwolarge-scalebenchmarksstronglydemonstratethesupe- The predictions of our single-frame model also resemble\nriorityofourSCPNet. those of the multi-frame network, demonstrating the effi-\nBesides, we use the trained weight of the segmentation cacyoftheproposedDSKDalgorithm.\nsub-networkasinitializationtotrainCylinder3DontheSe-\n4.2.Ablationstudies\nmanticKITTI semantic segmentation task. From Table 3,\nCylinder3D initialized from trained weight of the comple- ExperimentsareconductedinSemanticKITTIvalset.\ntiontaskoutperformstheoriginalCylinder3Dmodelby2.6 Effect of completion label rectification. We report the\nmIoU, and achieves impressive segmentation performance performanceofourSCPNetoncompletionlabelswithand\namong various competitive LiDAR segmentation models without rectification. From Table 5, it is evident that the\nsuch as 2DPASS [30], PVKD [12] and RPVNet [28]. The proposedrectificationstrategygreatlyenhancestheperfor-\nencouraging results show that knowledge learned in the mance of SCPNet on those dynamic objects, e.g., car and\ncompletiontaskisalsobeneficialtothesegmentationtask. person. Forexample,thecompletionlabelrectificationcan\nComparisonwithbaselineKDalgorithms.FromTable4, bring8.1,24.5,26.1and17.6IoUimprovementoncar,per-\nitisevidentthattheproposedDSKDmethodcanbringmore son, bicyclist and motorcyclist, respectively. The impres-\ngains than conventional knowledge distillation algorithms. sive performance gains strongly demonstrate the effective-\nFor instance, compared with FitNets [21] which directly nessofthelabelrectificationalgorithm.\nmimicstheteacherfeatures,ourDSKDcanbringmorethan Effect of the completion sub-network. To examine the\nJS3C-Net SCPNet SCPNet-4Frames Ground Truth\ncar bicycle motorcycle building other-vehicles road parking truck bicyclist\nsidewalk other-ground fence vegetation trunk terrain pole traffic-sign person motorcyclist\nFigure6. VisualcomparisonofdifferentmethodsontheSemanticKITTIvalidationset. Fromlefttoright: predictionsofJS3C-Net[29],\nSCPNet(singleframe),SCPNet(multi-frame)andground-truth.Regionsthathavelargepredictionerrorsarehighlightedbyredellipses.\nTable5.Impactofcompletionlabelrectificationontheperformance.\nMethods mIoU completion rac\nelcycib\nelcycrotom\nkcurt\nelcihev-rehto\nnosrep tsilcycib\ntsilcycrotom\ndaor gnikrap klawedis\ndnuorg-rehto\ngnidliub ecnef\nnoitategev\nknurt niarret elop\nngis-cfifart\nSCPNet 37.2 49.9 50.5 28.5 31.7 58.4 41.4 19.4 19.9 0.2 70.5 60.9 52.0 20.2 34.1 33.0 35.3 33.7 51.9 38.3 27.5\nSCPNet+labelrectification 40.8 52.1 58.6 27.0 34.7 54.2 41.9 43.9 46.0 17.8 70.6 60.2 53.1 7.7 33.9 32.2 41.9 32.0 52.4 38.7 28.9\nTable6.Impactofthecompletionsub-network,DSKDanddown- Effectofthedownsamplingoperation. Weaddthedown-\nsamplingoperationontheperformance. samplingoperationtoourcompletionsub-networkandex-\n(a)Completionsub-network amineitseffect. AsreportedinTable6(c), thedownsam-\nmIoU plingoperationhampersthecompletionperformanceofour\nJS3C-Net[29] 24.0 SCPNet.Specifically,thecompletionperformanceofSCP-\nJS3C-Net+completion-subnet 30.8 Netdecreasesfrom37.2mIoUto33.1mIoU.Thenegative\n(b)DSKD resultsshowthattheno-downsamplingprincipleisvitalto\nmIoU thesuccessofthecompletionsub-networkredesign.\nSCPNetw/oDSKD 34.4\nSCPNetw/DSKD 37.2\n(c)Downsamplingoperation 5.Conclusion\nmIoU\nSCPNetw/odownsampling 37.2 Toaddressthechallengesofthesemanticscenecomple-\nSCPNetw/downsampling 33.1 tiontask,weproposethreesolutionsfromtheaspectsofthe\ncompletion network redesign, dense-to-sparse knowledge\ndistillation as well as completion label rectification. The\neffect of our completion sub-network, we add it to JS3C-\nresulting completion network, termed SCPNet , achieves\nNet. ThedetailedperformanceisshowninTable6(a). Our\nsuperiorcompletionperformanceintwolarge-scaleseman-\ncompletion sub-network can bring 6.8 mIoU improvement\nticscenecompletionbenchmarks,i.e.,SemanticKITTIand\ntoJS3C-Net,whichstronglydemonstratestheeffectiveness\nSemanticPOSS.Thelearnedknowledgeonthecompletion\nandgeneralizationoftheproposedcompletionsub-network.\ntaskisalsobeneficialtothesemanticsegmentationtask.\nEffectofDSKD.WecomparetheperformanceofourSCP-\nNet with and without the proposed DSKD in Table 6 (b). Acknowledgements. This work is partially supported\nThe proposed distillation method can bring 2.8 mIoU im- by the National Key R&D Program of China (No.\nprovementtoourSCPNet,showingthebenefitofdistilling 2022ZD0160100),and in part by Shanghai Committee of\nrelation-basedknowledgefromthemulti-framemodel. ScienceandTechnology(GrantNo. 21DZ1100100).",
+    "references": "Knowledge Distill via Neuron Selectivity Transfer. arXiv\n[1] Jens Behley, Martin Garbade, Andres Milioto, Jan Quen-\npreprintarXiv:1707.01219,2017. 6,7\nzel, Sven Behnke, Cyrill Stachniss, and Jurgen Gall. Se-\n[14] Diederik P Kingma and Jimmy Ba. Adam: A Method for\nmanticKITTI:ADatasetforSemanticSceneUnderstanding\nStochastic Optimization. In International Conference on\nof Lidar Sequences. In IEEE International Conference on\nLearningRepresentations,2015. 6\nComputerVision,pages9297–9307,2019. 1,2,6,12\n[15] ShiceLiu,YuHu,YimingZeng,QiankunTang,BeibeiJin,\n[2] Maxim Berman, Amal Rannen Triki, and Matthew B.\nYinheHan,andXiaoweiLi. SeeandThink: Disentangling\nBlaschko.TheLovasz-SoftmaxLoss:ATractableSurrogate\nSemanticSceneCompletion. AdvancesinNeuralInforma-\nfor the Optimization of the Intersection-Over-Union Mea-\ntionProcessingSystems,31,2018. 2\nsureinNeuralNetworks. InIEEEConferenceonComputer\n[16] YanchengPan, BiaoGao, JilinMei, SiboGeng, Chengkun\nVisionandPatternRecognition,volume2018,pages4413–\nLi, and Huijing Zhao. SemanticPOSS: A Point Cloud\n4421,2018. 6\nDatasetwithLargeQuantityofDynamicInstances. InIEEE\n[3] RanCheng,ChristopherAgia,YuanRen,XinhaiLi,andLiu\nIntelligentVehiclesSymposium,pages687–693.IEEE,2020.\nBingbing. S3CNet: A Sparse Semantic Scene Completion\n2,6\nNetworkforLiDARPointClouds. InConferenceonRobot\n[17] NikolaosPassalisandAnastasiosTefas.LearningDeepRep-\nLearning,pages2148–2161.PMLR,2021. 1,2,4,6\nresentationswithProbabilisticKnowledgeTransfer.InEuro-\n[4] Ran Cheng, Ryan Razani, Ehsan Taghavi, Enxu Li, and\npeanConferenceonComputerVision,pages268–284,2018.\nBingbing Liu. (af)2-S3Net: Attentive Feature Fusion with\n6,7\nAdaptiveFeatureSelectionforSparseSemanticSegmenta-\n[18] ChristophBRist,DavidEmmerichs,MarkusEnzweiler,and\ntionNetwork. InIEEEConferenceonComputerVisionand\nDariuMGavrila. SemanticSceneCompletionusingLocal\nPatternRecognition,pages12547–12556,2021. 7\nDeepImplicitFunctionsonLiDARData.IEEETransactions\n[5] Angela Dai, Daniel Ritchie, Martin Bokeloh, Scott Reed,\nonPatternAnalysisandMachineIntelligence,44(10):7205–\nJu¨rgenSturm,andMatthiasNießner. Scancomplete: Large-\n7218,2021. 6\nscaleSceneCompletionandSemanticSegmentationfor3D\nScans. InIEEEConferenceonComputerVisionandPattern [19] LuisRoldao,RaouldeCharette,andAnneVerroust-Blondet.\nRecognition,pages4578–4587,2018. 2 LMSCNet: Lightweight Multiscale 3D Semantic Comple-\ntion.InInternationalConferenceon3DVision(3DV),pages\n[6] BenFei,WeidongYang,WenmingChen,ZhijunLi,Yikang\n111–119.IEEE,2020. 1,2,6,7\nLi,TaoMa,XingHu,andLipengMa. ComprehensiveRe-\nviewofDeepLearning-based3DPointCloudsCompletion [20] Luis Roldao, Raoul De Charette, and Anne Verroust-\nProcessingandAnalysis. arXivpreprintarXiv:2203.03311, Blondet. 3d Semantic Scene Completion: A Survey. In-\n2022. 2 ternationalJournalofComputerVision, pages1–28, 2022.\n1,2,5\n[7] Martin Garbade, Yueh-Tung Chen, Johann Sawatzky, and\nJuergenGall. TwoStream3DSemanticSceneCompletion. [21] Adriana Romero, Nicolas Ballas, Samira Ebrahimi Kahou,\nInIEEEConferenceonComputerVisionandPatternRecog- AntoineChassang,CarloGatta,andYoshuaBengio.FitNets:\nnitionWorkshops,pages0–0,2019. 6 Hints for Thin Deep Nets. In International Conference on\n[8] GeoffreyHinton,OriolVinyals,andJeffDean.Distillingthe LearningRepresentations,2015. 3,6,7\nKnowledgeinaNeuralNetwork.Statistics,1050:9,2015.3, [22] ShuranSong,FisherYu,AndyZeng,AngelXChang,Mano-\n6,7 lisSavva, andThomasFunkhouser. SemanticSceneCom-\n[9] Yuenan Hou, Zheng Ma, Chunxiao Liu, Tak-Wai Hui, and pletion from a Single Depth Image. In IEEE Conference\nChen Change Loy. Inter-Region Affinity Distillation for on Computer Vision and Pattern Recognition, pages 1746–\nRoadMarkingSegmentation. InIEEEConferenceonCom- 1754,2017. 1,2,6,7\nputerVisionandPatternRecognition, pages12486–12495, [23] HaotianTang,ZhijianLiu,ShengyuZhao,YujunLin,JiLin,\n2020. 3 HanruiWang,andSongHan. SearchingEfficient3DArchi-\n[10] Yuenan Hou, Zheng Ma, Chunxiao Liu, and Chen Change tectureswithSparsePoint-VoxelConvolution. InEuropean\nLoy. Learning Lightweight Lane Detection CNNs by Self Conference on Computer Vision, pages 685–702. Springer,\nAttentionDistillation. InIEEEInternationalConferenceon 2020. 7\nComputerVision,pages1013–1021,2019. 3 [24] FredTungandGregMori.Similarity-PreservingKnowledge\n[11] Yuenan Hou, Zheng Ma, Chunxiao Liu, and Chen Change Distillation. InIEEEInternationalConferenceonComputer\nLoy. Learning to Steer by Mimicking Features from Het- Vision,pages1365–1374,2019. 3\nerogeneousAuxiliaryNetworks. InAssociationfortheAd- [25] Joey Wilson, Jingyu Song, Yuewei Fu, Arthur Zhang, An-\nvancementofArtificialIntelligence,volume33,pages8433– drew Capodieci, Paramsothy Jayakumar, Kira Barton, and\n8440,2019. 3 MaaniGhaffari. MotionSC:DataSetandNetworkforReal-\n[12] YuenanHou,XingeZhu,YuexinMa,ChenChangeLoy,and TimeSemanticMappinginDynamicEnvironments. arXiv\nYikang Li. Point-to-Voxel Knowledge Distillation for Li- preprintarXiv:2203.07060,2022. 1,2,7\nDARSemanticSegmentation. InIEEEConferenceonCom- [26] XiaohanXing,YuenanHou,HangLi,YixuanYuan,Hong-\nputer Vision and Pattern Recognition, pages 8479–8488, sheng Li, and Max Q-H Meng. Categorical Relation-\n2022. 3,4,6,7 preserving Contrastive Knowledge Distillation for Medical\nAppendices\nImage Classification. In Medical Image Computing and\nComputer Assisted Intervention, pages 163–173. Springer,\n2021. 3\nA.Ablationstudies\n[27] Guodong Xu, Yuenan Hou, Ziwei Liu, and Chen Change\nLoy. MindtheGapinDistillingStyleGANs. InEuropean\nLoss coefficient β. We investigate the effect of the loss\nConference on Computer Vision, pages 423–439. Springer,\ncoefficientoftheDSKDlossonthefinalperformance. As\n2022. 3\nshowninTable7,whenwechangethelosscoefficientfrom\n[28] JianyunXu,RuixiangZhang,JianDou,YushiZhu,JieSun,\nand Shiliang Pu. RPVnet: A Deep and Efficient Range- 1, 000 to 4, 000, the completion performance of SCPNet\nPoint-VoxelFusionNetworkforLidarPointCloudSegmen- firstimprovesandthendeclines. Therefore,wesettheloss\ntation. InIEEEInternationalConferenceonComputerVi- coefficient of the DSKD loss as 3, 000 to obtain the best\nsion,pages16024–16033,October2021. 7 performance.\n[29] Xu Yan, Jiantao Gao, Jie Li, Ruimao Zhang, Zhen Li, Detailed performance comparison on DSKD loss. The\nRui Huang, and Shuguang Cui. Sparse Single Sweep Li- detailedperformancecomparisonofSCPNetwithandwith-\nDAR Point Cloud Segmentation via Learning Contextual outDSKDisshowninTable 8. Onmotorcycle,truck,per-\nShapePriorsfromSceneCompletion. InProceedingsofthe\nsonandbicyclist,theproposedDSKDlosscanbringmore\nAAAIConferenceonArtificialIntelligence,volume35,pages\nthan3IoUimprovement.\n3101–3109,2021. 1,2,3,4,6,7,8\nDetailedperformancecomparisononthedownsampling\n[30] XuYan,JiantaoGao,ChaodaZheng,ChaoZheng,Ruimao\noperation. Weexaminetheeffectofaddingthedownsam-\nZhang, Shuguang Cui, and Zhen Li. 2DPASS: 2D Priors\nplingoperationtothecompletionsub-networkofSCPNet.\nAssisted Semantic Segmentation on LiDAR Point Clouds.\nInEuropeanConferenceonComputerVision(ECCV),2022. ThedetailedperformancecomparisonofSCPNetwithand\n7 withoutthedownsamplingoperationisshowninTable 9.It\n[31] Jihan Yang, Shaoshuai Shi, Runyu Ding, Zhe Wang, and is apparent that the completion performance drops signifi-\nXiaojuan Qi. Towards Efficient 3D Object Detection with cantly,especiallyfortruck,other-vehicle,other-groundand\nKnowledge Distillation. arXiv preprint arXiv:2205.15156, traffic-sign. The severe performance degradation strongly\n2022. 3 shows the necessity of removing the lossy downsampling\n[32] XuemengYang,HaoZou,XinKong,TianxinHuang,Yong operationforthecompletionsub-network.\nLiu,WanlongLi,FengWen,andHongboZhang. Semantic\nSegmentation-assisted Scene Completion for LiDAR Point\nB.Elaboratedimplementationdetails\nClouds. In IEEE International Conference on Intelligent\nRobots and Systems, pages 3555–3562. IEEE, 2021. 1, 2,\nRange mismatch. On SemanticKITTI, the point cloud\n6\nrange used by our segmentation sub-network, i.e., Cylin-\n[33] SergeyZagoruykoandNikosKomodakis. PayingMoreAt-\nder3D,is[-36.2,36.2]m,[-36.2,36.2]mand[-4,2]mfor\ntentiontoAttention: ImprovingthePerformanceofConvo-\nx, y, z, respectively. For semantic scene completion, the\nlutionalNeuralNetworksviaAttentionTransfer. InInterna-\nrangeofthecompletionlabelsis[0, 51.2]m, [-25.6, 25.6]\ntionalConferenceonLearningRepresentations,2017. 3\nm and [-2, 4.4] m for x, y, z, respectively. The range mis-\n[34] Jiahui Zhang, Hao Zhao, Anbang Yao, Yurong Chen, Li\nmatchproblemwillcausetheexistenceofmanyemptyvox-\nZhang,andHongenLiao. Efficientsemanticscenecomple-\nels,whichwillsignificantlyhamperthecompletionperfor-\ntion network with spatial group convolution. In European\nConferenceonComputerVision,pages733–749,2018. 6 mance. To address this problem, we directly use the point\n[35] XingeZhu, HuiZhou, TaiWang, FangzhouHong, WeiLi, cloudrangeofthecompletionlabels.\nYuexinMa, HongshengLi, RuigangYang, andDahuaLin. Why conv bias and BN layers breaks the sparsity of\nCylindricalandAsymmetrical3DConvolutionNetworksfor voxelfeatures. Thevoxelfeatures,whicharetreatedasthe\nLidar-basedPerception.IEEETransactionsonPatternAnal- inputofthecompletionsub-network,aresparse,i.e.,onlya\nysisandMachineIntelligence,2021. 3 partofthewholevoxelspaceisoccupied. Thecompletion\n[36] Xinge Zhu, Hui Zhou, Tai Wang, Fangzhou Hong, Yuexin sub-networkusesthevanilladenseconvolutionfordilation.\nMa,WeiLi,HongshengLi,andDahuaLin. Cylindricaland However,thebiasof3Dconvolutionweight,themeanand\nAsymmetrical3DConvolutionNetworksforLidarSegmen-\nvarianceoftheBatchNormalization(BN)layerswillresult\ntation. InIEEEConferenceonComputerVisionandPattern\nin non-zero values of all empty voxel positions. This will\nRecognition,pages9939–9948,2021. 3,4,6,7\ncause all empty voxel features to become occupied, which\n[37] HaoZou,XuemengYang,TianxinHuang,ChujuanZhang,\nbreaksthesparsityoftheoriginalvoxelfeaturesandsignif-\nYongLiu,WanlongLi,FengWen,andHongboZhang. Up-\nicantly increases the computation burden of the segmenta-\nto-Down Network: Fusing Multi-Scale Context for 3D Se-\ntionsub-network.\nmanticSceneCompletion. InIEEE/RSJInternationalCon-\nference on Intelligent Robots and Systems, pages 16–23. HowdoeschangingtherandomseedinfluencethemIoU\nIEEE,2021. 6 values. WeconductexperimentsonSemanticKITTIusing\nTable7.Impactofthelosscoefficientβontheperformance.\nβ mIoU completion\nrac\nelcycib\nelcycrotom\nkcurt\nelcihev-rehto\nnosrep tsilcycib\ntsilcycrotom\ndaor\ngnikrap klawedis\ndnuorg-rehto\ngnidliub\necnef\nnoitategev\nknurt\nniarret\nelop\nngis-cfifart\n4000 35.1 49.9 49.5 25.4 28.9 47.0 40.2 15.3 16.1 5.1 70.2 58.5 51.4 11.5 33.0 30.1 40.3 31.5 49.3 37.0 27.5\n3000 37.2 49.9 50.5 28.5 31.7 58.4 41.4 19.4 19.9 0.2 70.5 60.9 52.0 20.2 34.1 33.0 35.3 33.7 51.9 38.3 27.5\n2000 35.3 50.4 50.0 25.8 31.3 56.4 41.6 17.2 9.8 0.0 70.0 58.0 51.3 8.3 31.7 28.7 40.7 32.7 51.6 38.1 27.9\n1000 35.0 48.8 49.2 27.1 29.6 56.2 36.4 16.4 14.2 0.0 69.6 57.7 50.7 7.7 29.7 30.4 34.7 30.3 48.0 37.0 27.4\nTable8.ImpactofDSKDlossontheperformance.\nMethods mIoU completion rac\nelcycib\nelcycrotom\nkcurt\nelcihev-rehto\nnosrep tsilcycib\ntsilcycrotom\ndaor gnikrap klawedis\ndnuorg-rehto\ngnidliub ecnef\nnoitategev\nknurt niarret elop\nngis-cfifart\nSCPNetw/DSKD 37.2 49.9 50.5 28.5 31.7 58.4 41.4 19.4 19.9 0.2 70.5 60.9 52.0 20.2 34.1 33.0 35.3 33.7 51.9 38.3 27.5\nSCPNetw/oDSKD 34.4 48.5 48.5 26.4 28.1 54.6 41.7 14.5 13.1 0.0 70.2 58.3 51.3 2.9 31.7 30.4 37.9 31.6 49.2 36.7 25.7\nTable9.Impactofdownsamplingontheperformance.\nMethods mIoU completion rac\nelcycib\nelcycrotom\nkcurt\nelcihev-rehto\nnosrep tsilcycib\ntsilcycrotom\ndaor gnikrap klawedis\ndnuorg-rehto\ngnidliub ecnef\nnoitategev\nknurt niarret elop\nngis-cfifart\nw/odownsampling 37.2 49.9 50.5 28.5 31.7 58.4 41.4 19.4 19.9 0.2 70.5 60.9 52.0 20.2 34.1 33.0 35.3 33.7 51.9 38.3 27.5\nw/downsampling 33.1 51.0 48.7 21.3 28.9 40.3 30.3 17.6 16.0 0.0 70.7 58.8 51.3 11.5 33.6 29.4 41.2 32.3 51.5 35.9 8.9\nthreedifferentrandomseeds,i.e.,100,240and666. Exper- Table10.TrainingandinferencetimeusingA100.\nimentsonSemanticKITTIshowthattheperformancevari-\nMethods Train(h) Inference(ms) mIoU\nanceofSCPNetiswithin0.3mIoU.\nSCPNet 34 143.2 37.2\nApply the proposed distillation loss to other architec-\nJS3CNet 28 120.6 24.0\ntures. We apply the DSKD loss to JS3CNet. It improves\ntheperformanceofJS3CNetfrom24.0mIoUto26.2mIoU\nC.Qualitativeresults\nonSemanticKITTIvalset.\nApplylabelrectificationtoothermodels. Weapplylabel WeprovidevisualcomparisonofSCPNetwithandwith-\nrectificationtoJS3CNet. Experimentalresultsshowthaton out DSKD in Fig. 7. Compared with SCPNet without\nSemanticKITTIvalset,theproposedlabelrectificationcan DSKD,thesingle-frameSCPNetwithDSKDachievesbet-\nbringconsiderablegainstoJS3CNet,improvingtheperfor- tercompletionandsegmentationperformancebydistilling\nmancefrom24.0mIoUto26.8mIoU. denseandrelation-basedinformationfromthemulti-frame\nComputationalimpactoftheproposedadjustments. We teacher model. SCPNet without DSKD performs badly\ncalculate the computational overhead of the completion on the parkingareas and smallobjects while SCPNet with\nsub-network and finds that it only introduces around 24.4 DSKDexhibitsmuchbettercompletionperformanceowing\nmsoverhead. totheproposeddistillationobjective.\nError bands for the results. We run the experiments And we also provide visual comparison between origi-\non SemanticKITTI and SemanticPOSS datasets for three nal SCPNet and SCPNet with downsampling and upsam-\ntimes. The performance variance of SCPNet on these pling operations. As can be seen from Fig. 8, the down-\nbenchmarksiswithin0.3mIoU. sampling and upsampling operations will cause over dila-\ntion and shape distortion for these objects marked by the\nWhypanopticlabelsareusefulinlabelrectification.The\nredellipses.\npanopticlabelsprovideinstance-levelannotationsforthose\nthing classes (e.g., cars and persons) and these instance-\nlevel annotations are helpful to remove the long traces of\nmoving objects in completion labels which only provide\nsemanticsegmentationannotationsanddonotdifferentiate\neachsingleinstance.\nTraining and inference time and a comparison with\nSOTA.Wesummarizedthetrainingandinferencetimebe-\ntween JS3CNet and our SCPNet in Table 10. Our SCP-\nNethascomparabletrainingandinferencetimebutexhibits\nmuchbettercompletionperformancethanJS3CNet.\nSCPNet w/o DSKD SCPNet SCPNet-4Frames Ground Truth\ncar bicycle motorcycle building other-vehicles road parking truck bicyclist\nsidewalk other-ground fence vegetation trunk terrain pole traffic-sign person motorcyclist\nFigure7.VisualcomparisonofSCPNetwithandwithoutDSKDontheSemanticKITTI[1]validationset.Fromlefttoright:SCPNetwith-\nouttheDSKDloss,SCPNetwithDSKD,SCPNet-4Framesandground-truth.Differentcolorrepresentsdifferentclass.\nSCPNet + downsamping SCPNet SCPNet-4Frames Ground Truth\ncar bicycle motorcycle building other-vehicles road parking truck bicyclist\nsidewalk other-ground fence vegetation trunk terrain pole traffic-sign person motorcyclist\nFigure8.VisualcomparisonofSCPNetwithandwithoutthedownsamplingoperationontheSemanticKITTI[1]validationset.Fromleft\ntoright: SCPNetwithdownsamplingoperation,SCPNetwithoutdownsamplingoperation,SCPNet-4Framesandground-truth. Different\ncolorrepresentsdifferentclass."
+  }
+}
