@@ -1,0 +1,569 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{cite}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{bm}
+\usepackage{subcaption}
+\usepackage[margin=1in]{geometry}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\title{Delta-Triplane Transformers as Occupancy World Models}
+
+\author{
+  Haoran Xu$^{1,2}$,\quad
+  Peixi Peng$^{2,3\dagger}$,\quad
+  Guang Tan$^{1\dagger}$,\quad
+  Yiqian Chang$^{2,4}$,\quad
+  Yisen Zhao$^3$,\quad
+  Yonghong Tian$^{2,3,5}$ \\[0.8em]
+  $^1$School of Intelligent Systems Engineering, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China. \\
+  $^2$Peng Cheng Laboratory, Shenzhen 518108, China. \\
+  $^3$School of Electronic and Computer Engineering, Shenzhen Graduate School, Peking University, 518066, China. \\
+  $^4$School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen, 518055, China. \\
+  $^5$School of Computer Science, Peking University, Beijing 100871, China.
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Occupancy World Models (OWMs) aim to predict future scenes via 3D voxelized representations of the environment to support intelligent motion planning.
+Existing approaches typically generate full future occupancy states from VAE-style latent encodings.
+In contrast, we propose Delta-Triplane Transformers (DTT), a novel 4D OWM for autonomous driving.
+DTT adopts temporal triplane as the occupancy representation, and focuses on modeling changes in occupancy rather than dealing with full states.
+The core insight is that changes in the compact 3D latent space are naturally sparser and easier to model, enabling higher accuracy with a lighter-weight architecture.
+We first pretrain a triplane representation model that encodes 3D occupancy compactly, and then extract multi-scale motion features from historical data and iteratively predict future triplane deltas.
+These deltas are combined with past states to decode future occupancy and ego-motion trajectories.
+Extensive experiments show that DTT achieves a state-of-the-art mean IoU of 30.85, reduces mean absolute planning error to 1.0 meter, and runs in real time at 26 FPS on an RTX 4090.
+Demo videos and code are provided in the supplementary material.
+\end{abstract}
+
+\section{Introduction}
+
+World models \cite{ref0,ref0a} aim to represent the environment, predict future scenes and enable agents to perform advanced motion planning.
+Recently, 3D occupancy technique \cite{wenwentong2023,xiaoyutian2023} has emerged as a structured and spatially rich representation of the environment, enabling constructing finer correlations between occupied voxels and planning decisions.
+In this paper, we focus on the design of Occupancy World Models (OWMs) for autonomous driving.
+
+In designing OWMs, there are two tasks needed to be solved: (i) learning a compact latent representation of raw occupancy data, and (ii) using this representation for scene forecasting and motion planning.
+
+For the first task, most existing OWMs \cite{julongwei2024,tianshuoxu2025,wenzhaozheng2024,ziyangyan2025} mainly use VQ-VAE based BEV representations \cite{aaronvandenoord2017}.
+While VAE has shown success in several generative tasks \cite{yumingjiang2023,hangzhang2024}, its use for occupancy compression requires the latent space of 3D structures to be converted into a 2D BEV plane, which we denote by $xy$.
+In such a way, objects that appear similar in BEV but differ vertically may become indistinguishable, forcing the BEV-based methods to rely on fine-grained semantic cues.
+This usually means using more feature channels and thus increased model size.
+Recent advances have shown that the triplane representation provides an effective alternative for 3D occupancy prediction and scene generation \cite{rajaeikhatibandrajagiryes2024,taohu2023,juminlee2024}.
+By incorporating additional $xz$ and $yz$ planes, triplane preserves vertical information.
+Motivated by this benefit, we propose to adopt the triplane representation for 4D OWMs.
+
+For the second task, the key is how to fully exploit triplanes for 4D occupancy prediction and motion planning.
+Existing OWMs typically use a large Transformer to model the full occupancy state \cite{tianshuoxu2025,julongwei2024}.
+In particular, its multi-head attention mechanism is expected to capture the diverse motion patterns of multi-scale objects --- for example, the abrupt movements of pedestrians versus the more inertial dynamics of large vehicles.
+This increases model complexity and parameter count, and makes long-horizon predictions more susceptible to error accumulation (as confirmed in our experiments).
+In contrast, we observe that occupancy changes are inherently sparse and thus easier to model.
+Figure~\ref{fig:occupancy_comparison} depicts this by comparing the full occupancy of a scene with the corresponding occupancy changes across two adjacent frames, showing how key elements of interest are more distinct in the change map.
+The change distribution in the latent space is much more tightly concentrated around zero, which reduces variance and simplifies learning.
+
+Building on this insight, we propose Delta-Triplane Transformers (DTT), a novel 4D OWM model that predicts future states incrementally rather than in full.
+This leads to a much lighter-weight architecture that runs faster and achieves higher predictive accuracy.
+Figure~\ref{fig:architecture_comparison} compares the conventional model architecture with our approach.
+In particular, we extend the triplane representation into the temporal domain and use separate Transformers to predict changes on each plane auto-regressively.
+These deltas are then used as sparse queries to attentively produce planning outputs.
+DTT achieves state-of-the-art (SOTA) performance.
+For example, compared with DOME \cite{songengu2024}, it reduces cumulative errors in long-term occupancy prediction, improving mIoU from 27.10 to 30.85 and IoU from 36.36 to 74.58.
+For motion planning, it attains the lowest average error of 1.0 meter and the lowest collision rate of 30\%.
+In addition, DTT is efficient, running at 26 FPS on an RTX 4090.
+In summary, our contributions are three-fold:
+\begin{itemize}
+  \item We introduce DTT, a novel 4D autoregressive OWM that forecasts future scenes through incremental changes instead of full occupancy states.
+  \item DTT leverages compact triplane representations and lightweight multi-scale Transformers to predict sparse deltas on each plane, which are fused for occupancy forecasting and motion planning.
+  \item Extensive experiments on the nuScenes \cite{holgercaesar2020} and Occ3D \cite{xiaoyutian2023} datasets validate our SOTA performance in terms of occupancy forecasting, motion planning, and real-time execution.
+\end{itemize}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.9\textwidth]{figures/fig_2_2.png}
+  \caption{Comparison of occupancy world model architectures: (a) Conventional approaches use a pre-trained VAE to compress occupancy state $S^t$ into a compact BEV representation, which is then combined with previous actions $a$ to predict future BEVs and actions via a large Transformer. (b) Our method, DTT, adopts more compact and precise triplane representations and uses lightweight Transformers to separately predict the triplane changes of each plane. These deltas are then used for occupancy forecasting and motion planning.}
+  \label{fig:architecture_comparison}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.85\textwidth]{figures/fig_2_1.png}
+  \caption{(a-b) Comparison between the full occupancy and occupancy changes ($\Delta$) of a scene. In the change map, red indicates newly appeared voxels, while blue denotes disappeared voxels. (c) Distribution of latent-space feature values for full occupancy versus occupancy changes.}
+  \label{fig:occupancy_comparison}
+\end{figure}
+
+\section{Related Works}
+
+\textbf{3D occupancy reconstruction.}
+3D occupancy reconstruction methods \cite{wenwentong2023,xiaoyutian2023,yiwei2023,ruiliu2024,nicolamarinello2025} aim to represent the environment as a 3D voxel grid where each voxel encodes both geometric and semantic information.
+The field was pioneered by SSCNet \cite{shuransong2017} for indoor scenes using depth sensors, and later extended to outdoor camera-based settings by MonoScene \cite{anhquancaoandraouldecharette2022}.
+These approaches primarily utilize multi-camera RGB images \cite{yimingli2023,yuanhuihuang2023} or LiDAR point clouds \cite{anhquancao2024,zhaoyangxia2023} to infer voxel-wise occupancy and semantics in an agent-centric coordinate system.
+A core challenge lies in building accurate correlations between raw sensor data and 3D voxel space.
+Once an accurate occupancy reconstruction is achieved, further learning of the temporal dynamics of scene changes becomes necessary \cite{jinkeli2024}.
+
+\textbf{4D occupancy prediction.}
+To anticipate future scene changes, various 4D occupancy prediction methods have been proposed to capture the temporal dynamics of scene evolution.
+Some \cite{fanlu2021,benediktmersch2022,tarashakhurana2023} predict future sensor-level data, which is subsequently voxelized into occupancy results, while others \cite{junyima2024,junliangchen2025,jingyixu2024,haoranxu2025} directly forecast occupancy outcomes from historical observations.
+These methods mainly focus on reducing spatio-temporal biases on future occupancy predictions.
+However, they overlook the use of predicted scenes for effective and comprehensive motion planning.
+
+\textbf{End-to-end autonomous driving.}
+Conventional end-to-end autonomous driving systems \cite{shengchaohu2022,yihanhu2023} follow a pipeline of perception, prediction, and planning, which are typically decoupled and optimized separately.
+The perception module produces structured representations --- such as 2D bounding boxes, BEV features, and occupancy grids --- that provide accurate ego localization and rich scene semantics.
+The prediction module infers the intentions of nearby traffic participants and forecasts future scene evolution.
+The planning module \cite{zhiqili2024} then generates safe and feasible trajectories based on this information.
+Many recent approaches achieve remarkable performance by leveraging more supervisions \cite{wenzhaozheng2024a}, high-definition maps \cite{wenzhaozheng2024a,diwen2024}, or richer intention reasoning \cite{zhilichen2024,yupengzheng2025,diwen2024}.
+In contrast, our work relies solely on 3D latent triplane changes as a compact conditioning signal for both scene forecasting and motion planning, within the domain of occupancy world models introduced later.
+
+\textbf{World models for autonomous driving.}
+World models \cite{ref0,ref0a} aim to compress high-dimensional scene representations to capture the temporal dynamics of scene transitions, facilitating both future scene predictions and motion planning for the agent.
+In autonomous driving, existing models \cite{bojiang2023,yumengzhang2024} typically map surrounding traffic participants to the BEV perspective to predict instance-level tracklets or directly use diffusion models \cite{zehuanwu2024,yuqiwang2024,xiaofengwang2024,shenyuangao2025,fanjia2023} to generate pixel-level future driving views.
+These methods derive control signals for the agent from current observations and predicted surroundings, but they rely solely on 2D BEV or image space, which limits the ability to establish fine-grained, efficient correlations between scene changes and motion planning.
+Recent world models \cite{julongwei2024,tianshuoxu2025,wenzhaozheng2024,ziyangyan2025,songengu2024} have leveraged 3D occupancy data to address this issue.
+However, they typically use VAE-series \cite{aaronvandenoord2017,diederikpkingma2013} models for environment compression, which often neglect original 3D geometric information and compromises reconstruction accuracy.
+Additionally, they rely on Transformers \cite{ashishvaswani2017} to forecast the entire future scene instead of incremental changes, leading to significant error accumulation.
+
+\section{Methodology}
+
+\subsection{Formulation}
+
+Next, we provide the formulation of Occupancy World Model (OWM) \cite{wenzhaozheng2024}.
+OWM primarily receives a sequence of scene representations and motion actions from past $\tau_p$ frames up to the current time step $t$, such that $S^t \in \mathbb{R}^{H \times W \times L}$ represents the occupancy data of the agent-centric surrounding environment, with $H$, $W$, and $L$ denoting the height, width, and length, respectively, and $a^t \in \mathbb{R}^2$ denotes a transition-related motion command.
+The goal of OWM is to establish a stochastic mapping, $\Phi$, that associates past occupancy data and actions with future $\tau_f$ frames of occupancy data and action proposals.
+Formally:
+\begin{equation}
+  \hat{S}^{t+1:t+\tau_f}, \hat{a}^{t+1:t+\tau_f} = \Phi(S^{t-\tau_p:t},\, a^{t-\tau_p:t}).
+  \label{eq:owm}
+\end{equation}
+
+To achieve this, we first pretrain a compact triplane representation of the raw occupancy data with an auto-encoder.
+The encoder and decoder, parameterized by $\Phi_{enc}$ and $\Phi_{dec}$, are defined as:
+\begin{equation}
+  \hat{s}^t = \Phi_{enc}(S^t), \quad \hat{S}^t = \Phi_{dec}(\hat{s}^t),
+  \label{eq:enc_dec}
+\end{equation}
+where $s^t = [s^t_{xy}, s^t_{xz}, s^t_{yz}]$ contains three orthogonal feature planes.
+Specifically, $s^t_{xy} \in \mathbb{R}^{c \times w \times l}$, $s^t_{xz} \in \mathbb{R}^{c \times h \times w}$, and $s^t_{yz} \in \mathbb{R}^{c \times h \times l}$, with $c$ the channel dimension and $(h, w, l)$ the spatial resolutions along the three axes.
+$\hat{S}^t$ is the reconstructed occupancy data.
+
+Once we obtain the latent scene representations $s^t$, we can predict future latent states with incremental changes $\Delta\hat{s}^{t+1}$ produced by the scene forecasting model $\Phi_{fut}$.
+These are combined with the previous latent state $s^t$ and decoded back to future occupancy outcome $\hat{S}^{t+1}$ using $\Phi_{dec}$.
+Since $\Delta\hat{s}^{t+1}$ encodes changes between consecutive latent states, it can serve as sparse queries for the planning model $\Phi_{act}$ to generate future actions $\hat{a}^{t+1}$.
+
+Note that our OWM, $\Phi = \{\Phi_{enc}, \Phi_{dec}, \Phi_{fut}, \Phi_{act}\}$, operates in an autoregressive fashion, iteratively using previously predicted outcomes as part of the historical data to forecast future scenes and provide motion proposals.
+Figure~\ref{fig:workflow} illustrates our design, detailed below.
+
+\begin{figure}[htbp]
+  \centering
+  % Workflow diagram (Figure 3 in original paper)
+  % Architecture overview figure spanning the full method pipeline
+  \fbox{\parbox{0.95\textwidth}{\centering\vspace{1cm}[Workflow diagram: DTT pre-trains compact triplane representations of occupancy data, applies multi-scale Transformers to model temporal dynamics within each plane and predict future triplane changes $(\Delta)$, and uses these changes with the previous triplane to generate future occupancy results and motion proposals.]\vspace{1cm}}}
+  \caption{Workflow of DTT. DTT first pre-trains compact triplane representations of occupancy data. It then applies multi-scale Transformers to model temporal dynamics within each plane and predict future triplane changes ($\Delta$). Finally, these changes, combined with the previous triplane, are used to generate future occupancy results and motion proposals.}
+  \label{fig:workflow}
+\end{figure}
+
+\subsection{DTT as OWM}
+
+\subsubsection{Pre-training triplane representations for OWM}
+
+To enable faster and more accurate predictions of future scenes $S^{t+1:t+\tau_f}$, OWM requires a compact yet accurate representation of the high-dimensional voxelized occupancy scene.
+To achieve this, we employ the triplane technique \cite{juminlee2024}, which is widely used in volume rendering \cite{jryanshue2023,taohu2023,luchuansong2024,yuanhuihuang2023}, to compress raw occupancy data in an orthogonal decomposition fashion.
+
+Specifically, the occupancy data $S^t$ is first encoded by $\Phi_{enc}$ into $s^t$.
+Then, an axis-wise average pooling operation is applied to obtain three orthogonal feature planes,
+$s^t = [s^t_{xy}, s^t_{xz}, s^t_{yz}]$, where $s^t_{xy} \in \mathbb{R}^{c \times w \times l}$, $s^t_{xz} \in \mathbb{R}^{c \times h \times w}$, and $s^t_{yz} \in \mathbb{R}^{c \times h \times l}$.
+To decode the occupancy data, each 3D point $\text{pos} = (x, y, z)$ queries its corresponding features from the three planes.
+These features are summed, concatenated with the positional encoding $\mathrm{PE}(\text{pos})$, and passed through $\Phi_{dec}$ to predict the semantic label.
+This process is formalized in Eq.~\eqref{eq:enc_dec}, and detailed network structures are provided in the supplementary material.
+
+We pretrain $\Phi_{enc}$ and $\Phi_{dec}$ to obtain compact yet high-fidelity latent triplane representations using:
+\begin{equation}
+  J_{enc,dec} = \mathbb{E}_{t \sim T,\, \text{pos} \sim S^t}\left[ L_{occ}\!\left(\Phi_{dec}(\Phi_{enc}(S^t)),\, S^t\right) \right],
+  \label{eq:pretrain}
+\end{equation}
+where $T$ represents the collection of all time steps in the occupancy dataset, and $L_{occ} = L_{ce} + \lambda L_{lz}$.
+Here, $L_{ce}$ and $L_{lz}$ denote the cross-entropy and Lovász-softmax losses \cite{maximberman2018,juminlee2024}, respectively, and $\lambda$ is the trade-off factor.
+
+The triplane representation, compared to the tokens generated by the VQ-VAE in OccWorld \cite{wenzhaozheng2024} and the MS-VAE in OccLLM \cite{tianshuoxu2025}, retains 3D structural information while achieving a more compact latent space (see Table~\ref{tab:latent} for evaluation).
+This not only makes our OWM more lightweight but also reduces the cumulative prediction error over time, as detailed later.
+
+\subsubsection{Delta-Triplane Transformers (DTT)}
+
+DTT follows the autoregressive prediction paradigm similar to GPT-like models but differs by leveraging historical triplanes to predict future triplane changes rather than full state predictions.
+These changes are then decoded into future scenes and motion trajectories.
+At the time step $k \in \{1, \cdots, \tau_f\}$ for autoregressive forecasting, given $\tau_p$ historical triplane frames $s^{k-\tau_p:k}$, the objective of DTT is to capture the complete temporal dynamics of the scene, particularly adapting to object motions at different scales.
+To this end, DTT performs two steps: (i) predicting plane-specific future changes $\{\Delta\hat{s}^k_i \mid i \in \{xy, xz, yz\}\}$ with multi-scale Transformers, and (ii) aggregating these changes with the previous state and aligning the three planes through a fine-tuned decoder $\Phi_{dec}$.
+
+In particular, we design the future prediction module as three plane-specific models: $\Phi_{fut} = \{\Phi_{fut_{xy}}, \Phi_{fut_{xz}}, \Phi_{fut_{yz}}\}$.
+Each predictor $\Phi_{fut_i}$ is implemented with Transformers \cite{ashishvaswani2017} operating at multiple scales.
+The predictors share the same architecture but use separate learnable parameters and different input sizes, depending on the plane and scale, as illustrated in Figure~\ref{fig:workflow}.
+We denote by $k \in \{1, \cdots, \tau_f\}$ the time step for autoregressive forecasting.
+Take the $xy$-plane predictor as an example: the input $s^k_{xy}$ is first downsampled using a UNet \cite{olafronneberger2015}-style encoder, producing $V$ scales of features.
+At scale $v \in V$, the feature is denoted as $s^{k,v}_{xy} \in \mathbb{R}^{c_v^{xy} \times w^v_{xy} \times h^v_{xy}}$, which is flattened into $w^v_{xy} \times h^v_{xy}$ tokens and passed to a Transformer encoder to build spatio-temporal memory.
+A learnable future query $Q^k_{xy}$, with the same dimension as $s^{k,v}_{xy}$, is then used in the Transformer decoder for cross-attention, generating token changes from the current step to the next.
+Finally, token changes across all scales are fused by UNet-style upsampling to produce the plane's feature change $\Delta\hat{s}^{k+1}_{xy}$, which is combined with the previous state $\hat{s}^k_{xy}$ via a $1 \times 1$ convolution $\phi$.
+The same procedure applies to the other planes.
+Detailed architecture and hyperparameters are provided in the supplementary material.
+
+The overall forecasting process at autoregressive time step $k$ is defined as:
+\begin{align}
+  \Delta\hat{s}^k_i &= \Phi_{fut_i}\!\left(\hat{s}^{k-\tau_p:k},\, Q^k_{s_i}\right), \label{eq:fut} \\
+  \hat{s}^k_i &= \Delta\hat{s}^k_i + \phi(\hat{s}^{k-1}_i), \label{eq:update} \\
+  \hat{S}^k &= \Phi_{dec}\!\left(\hat{s}^k := \{\hat{s}^k_i\}\right), \label{eq:decode}
+\end{align}
+where $i \in \{xy, xz, yz\}$ and $Q^k_i$ is the learnable query at time step $k$ in the $i$-th plane.
+
+Since the triplane occupancy representations are pretrained, the ground-truth (GT) future triplanes can be directly used to supervise DTT.
+In this setting, we freeze the encoder and fine-tune only the decoder $\Phi_{dec}$.
+This ensures a stable and geometry-consistent triplane initialization, while allowing the decoder to adapt specifically to future dynamics.
+Such decoupling also mitigates representation drift and reduces misalignment across independently predicted planes, leading to more coherent multi-plane aggregation.
+The training objective is defined as:
+\begin{equation}
+  J_{fut} = \mathbb{E}_{k,i}\!\left[ L_{fut}(\hat{s}^k_i, s^k_i) + \xi\, L_{occ}(\hat{S}^k, S^k) \right],
+  \label{eq:jfut}
+\end{equation}
+where $L_{fut} = L_1 + L_2$ is the weighted sum of L1 and L2 losses, with $\xi$ as a trade-off weight.
+
+\subsection{Motion planning with DTT}
+
+Given the predicted triplane changes $\Delta\hat{s}^k = \{\Delta\hat{s}^k_i \mid i \in \{xy, xz, yz\}\}$, which encode both global context and local motion dynamics, we directly use them as sparse queries to attentively generate planning outputs across past and future frames, as illustrated in Figure~\ref{fig:planning}.
+
+\begin{figure}[htbp]
+  \centering
+  \fbox{\parbox{0.5\textwidth}{\centering\vspace{1cm}[Motion planning module diagram (Figure 5 in original)]\vspace{1cm}}}
+  \caption{Motion planning with DTT.}
+  \label{fig:planning}
+\end{figure}
+
+Specifically, the previous triplane $\hat{s}^{k-1}$, the change $\Delta\hat{s}^k$, and the next triplane $\hat{s}^k$ are first mapped into a shared latent space by three ResNet-18 networks \cite{kaiminghe2016}, $\theta_p$, $\theta_\Delta$, and $\theta_f$, yielding $z^{k-1}$, $\Delta z^k$, and $z^k$.
+The change feature $\Delta z^k$ is then processed by two parallel fully connected (FC) layers with Sigmoid activations, denoted $\zeta_p$ and $\zeta_f$, to produce query vectors $f^{k-1}$ and $f^k$.
+These queries are multiplied with $z^{k-1}$ and $z^k$ to extract motion-related features relative to the previous and current triplanes.
+The resulting features are averaged element-wise with $\Delta z^k$, passed through another FC layer $\zeta_q$, and combined with the learnable future query to form the motion-planning query $Q^k_a \in \mathbb{R}^{d_{act}}$.
+
+Next, we project the actions from the past $\tau_p$ frames into the same dimension as $Q^k_a$, and employ a Transformer encoder to capture motion dependencies.
+The query $Q^k_a$ is then fed into a Transformer decoder via cross-attention to predict the next action $\hat{a}^{k+1}$:
+\begin{equation}
+  \hat{a}^{k+1} = \Phi_{act}\!\left(\hat{a}^{k-\tau_p:k},\, \hat{s}^{k-1},\, \Delta\hat{s}^k,\, Q^k_a\right).
+  \label{eq:act}
+\end{equation}
+
+Unlike OccWorld \cite{wenzhaozheng2024}, which introduces an additional ego token to track the agent's trajectory, our approach learns future motion directly from scene changes and historical motion.
+This design simplifies the planning module while still delivering safer and more precise motion decisions.
+The optimization objective is defined as follows:
+\begin{equation}
+  J_{act} = \mathbb{E}_k\!\left[ L_{act}(\hat{a}^k, a^k) \right],
+  \label{eq:jact}
+\end{equation}
+where $L_{act}$ measures the L2 discrepancy between the predicted and GT trajectories.
+
+\section{Experiments}
+
+\subsection{Experimental settings}
+
+\textbf{Targets and evaluation metrics.}
+OWMs aim to jointly modeling occupancy forecasting and motion planning.
+Following \cite{wenzhaozheng2024,julongwei2024}, we use the past four frames (2 seconds) to predict the outcomes of the next six frames (3 seconds).
+We conduct two sets of experiments: (i) To evaluate 4D occupancy forecasting, we report intersection over union (IoU) for occupied and unoccupied voxels and mean IoU (mIoU) across 18 semantic classes, based on the occupancy annotations in the Occ3D dataset \cite{xiaoyutian2023}.
+(ii) To assess planning precision and safety, we measure the L2 distance between predicted and GT trajectories (in meters) and the collision rate with traffic participants' bounding boxes, using nuScenes annotations \cite{holgercaesar2020}.
+
+\textbf{Implementation details.}
+The dataset consists of 1,000 scenes, of which 700 are used for training and 100 for testing.
+Each scene contains up to 40 timesteps, with a sampling frequency of 2 Hz.
+The occupancy data $S^t$ at each timestep has dimensions of $16 \times 200 \times 200$, while the pre-trained triplane shape is $16 \times 100 \times 100$ with 8 channels.
+In $\Phi_{fut}$, predictions for each plane use features from $V = 5$ scales, and the token dimension in $\Phi_{act}$ is $d_{act} = 50$.
+The objectives $J_{enc,dec}$, $J_{fut}$, and $J_{mot}$ are optimized using AdamW, with a weight regularization factor of 0.01, an initial learning rate of 0.001, and cosine decay with a minimum learning rate of $10^{-6}$.
+We first pre-train $\Phi_{enc}$ and $\Phi_{dec}$ with a batch size of 10, using random flip augmentation to obtain the triplane representations.
+Then, we train $\Phi_{fut}$ and $\Phi_{act}$ with a batch size of 1, while fine-tuning $\Phi_{dec}$.
+All training and testing are performed on 4 RTX 4090 GPUs.
+More details are given in the supplementary material.
+
+\subsection{Comparisons with the state-of-the-art}
+
+\textbf{4D occupancy forecasting.}
+Table~\ref{tab:occupancy} reports the testing performance of various methods, under two settings:
+(i) using 3D occupancy GTs as historical input, marked with ``-O'';
+(ii) using predicted 3D occupancy data from FB-Occ \cite{zhiqili2023} as historical input, marked with ``-F''.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Testing performance comparison with SOTA methods on the 4D occupancy forecasting task. Best values in each metric are bolded. 0s refers to reconstruction accuracy, while 1s, 2s, and 3s denote future prediction accuracy. Avg.\ is the average of 1s, 2s, and 3s.}
+  \label{tab:occupancy}
+  \resizebox{\textwidth}{!}{
+  \begin{tabular}{llcccccccccc}
+    \toprule
+    \multirow{2}{*}{Models} & \multirow{2}{*}{Input} & \multicolumn{5}{c}{mIoU (\%) $\uparrow$} & \multicolumn{5}{c}{IoU (\%) $\uparrow$} \\
+    \cmidrule(lr){3-7}\cmidrule(lr){8-12}
+    & & 0s & 1s & 2s & 3s & Avg. & 0s & 1s & 2s & 3s & Avg. \\
+    \midrule
+    OccWorld-O    & 3D-Occ & 66.38 & 25.78 & 15.14 & 10.51 & 17.14 & 62.29 & 34.63 & 25.07 & 20.18 & 26.63 \\
+    OccLLaMA-O    & 3D-Occ & 75.20 & 25.05 & 19.49 & 15.26 & 19.93 & 63.76 & 34.56 & 28.53 & 24.41 & 29.17 \\
+    RenderWorld-O & 3D-Occ & -- & 28.69 & 18.89 & 14.83 & 20.80 & -- & 37.74 & 28.41 & 24.08 & 30.08 \\
+    OccLLM-O      & 3D-Occ & -- & 24.02 & 21.65 & 17.29 & 20.99 & -- & 36.65 & 32.14 & 28.77 & 32.52 \\
+    DOME-O        & 3D-Occ & 83.08 & 35.11 & 25.89 & 20.29 & 27.10 & 77.25 & 43.99 & 35.36 & 29.74 & 36.36 \\
+    \textbf{DTT-O (ours)} & 3D-Occ & \textbf{85.50} & \textbf{37.69} & \textbf{29.77} & \textbf{25.10} & \textbf{30.85} & \textbf{92.07} & \textbf{76.60} & \textbf{74.44} & \textbf{72.71} & \textbf{74.58} \\
+    \midrule
+    OccWorld-F    & Camera & 20.09 & 8.03  & 6.91  & 3.54  & 6.16  & 35.61 & 23.62 & 18.13 & 15.22 & 18.99 \\
+    OccLLaMA-F    & Camera & 37.38 & 10.34 & 8.66  & 6.98  & 8.66  & 38.92 & 25.81 & 23.19 & 19.97 & 22.99 \\
+    RenderWorld-F & Camera & -- & 2.83  & 2.55  & 2.37  & 2.58  & -- & 14.61 & 13.61 & 12.98 & 13.73 \\
+    OccLLM-F      & Camera & -- & 11.28 & 10.21 & 9.13  & 10.21 & -- & 27.11 & 24.07 & 20.19 & 23.79 \\
+    DOME-F        & Camera & 75.00 & 24.12 & 17.41 & 13.24 & 18.25 & 74.31 & 35.18 & 27.90 & 23.44 & 28.84 \\
+    \textbf{DTT-F (ours)} & Camera & 43.52 & 24.87 & 18.30 & 15.63 & 19.60 & 54.31 & 38.98 & 37.45 & 31.89 & 36.11 \\
+    \bottomrule
+  \end{tabular}
+  }
+\end{table}
+
+At 0s, baseline methods clearly fall short of ours, mainly because our triplane representation achieves higher-fidelity compression.
+The only exception is DOME-F, which performs better than DTT-F at this initial step.
+This is primarily due to additional noise in the FB-Occ outputs used in our pipeline, whereas DOME's VAE-style encoder combined with its diffusion architecture provides greater robustness compared with our triplane encoder.
+Beyond 0s, both DTT-O and DTT-F leverage triplane-delta predictions instead of full-state predictions, yielding the best mIoU and IoU accuracy with reduced error accumulation.
+The IoU improvement is particularly significant, as occupancy changes are inherently sparse and predicting binary occupancy (occupied vs.\ empty) is simpler than multi-class predictions measured by mIoU.
+Additionally, DTT's strategy of predicting triplane changes significantly aids $\Phi_{fut}$ in forecasting the next 3 seconds, effectively reducing error accumulation.
+
+\textbf{Motion planning.}
+We compare DTT extensively with SOTA methods for autonomous driving, including LiDAR-based (IL \cite{nathandratliff2006}, NMP \cite{wenyuanzeng2019}, FF \cite{peiyunhu2021}, and EO \cite{tarashakhurana2022}), camera-based (ST-P3 \cite{shengchaohu2022}, UniAD \cite{yihanhu2023}, VAD \cite{bojiang2023}), and occupancy-based methods (OccWorld \cite{wenzhaozheng2024}, RenderWorld \cite{ziyangyan2025}, and OccLLaMA \cite{julongwei2024}).
+The results on the testing dataset are shown in Table~\ref{tab:planning}.
+Specifically, (i) LiDAR- and camera-based methods often require additional auxiliary supervisions (e.g., 3D bounding boxes, drivable freespace, HD maps) to improve planning quality.
+(ii) When using camera input only, DTT-F operates as a purely vision-based 4D occupancy forecasting method, with performance dependent on the accuracy of vision-based predictions.
+In this setting, DTT-F achieves competitive results compared to UniAD.
+(iii) Occupancy-based methods rely solely on dense 3D occupancy annotations, suggesting that improving the quality of occupancy GT could further enhance planning performance.
+Compared to SOTA occupancy-based methods, DTT-O delivers superior results, mainly due to its ability to establish precise, task-relevant correlations between scene changes and motion trajectories in a deep latent space, effectively filtering out noise from irrelevant traffic elements.
+However, for short-term prediction (1--2 seconds), DTT-O underperforms OccLLaMA-O.
+This is primarily because even slight inaccuracies in the predicted deltas can have a larger impact on near-future action decisions.
+For instance, a small prediction bias may delay an obstacle-avoidance maneuver, leading to an increased collision rate.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Testing performance of motion planning compared with SOTA method. Best and second-best values in each metric are bolded and underlined, respectively. Auxiliary supervision refers to additional supervision signals beyond the GT trajectories.}
+  \label{tab:planning}
+  \resizebox{\textwidth}{!}{
+  \begin{tabular}{llcccccccccc}
+    \toprule
+    \multirow{2}{*}{Models} & \multirow{2}{*}{Input} & \multirow{2}{*}{Auxiliary supervision} & \multicolumn{4}{c}{L2 (m) $\downarrow$} & \multicolumn{4}{c}{Collision rate (\%) $\downarrow$} \\
+    \cmidrule(lr){4-7}\cmidrule(lr){8-11}
+    & & & 1s & 2s & 3s & Avg. & 1s & 2s & 3s & Avg. \\
+    \midrule
+    IL      & LiDAR  & None                           & 0.44 & 1.15 & 2.47 & 1.35 & 0.08 & 0.27 & 1.95 & 0.77 \\
+    NMP     & LiDAR  & Box+Motion                     & 0.53 & 1.25 & 2.67 & 1.48 & 0.04 & 0.12 & 0.87 & 0.34 \\
+    FF      & LiDAR  & Freespace                      & 0.55 & 1.20 & 2.54 & 1.43 & 0.06 & 0.17 & 1.07 & 0.43 \\
+    EO      & LiDAR  & Freespace                      & 0.67 & 1.36 & 2.78 & 1.60 & 0.04 & 0.09 & 0.88 & 0.33 \\
+    ST-P3   & Camera & Map+Box+Depth                  & 1.33 & 2.11 & 2.90 & 2.11 & 0.23 & 0.62 & 1.27 & 0.71 \\
+    UniAD   & Camera & Map+Box+Motion+Track+Occ       & 0.48 & 0.96 & 1.65 & 1.03 & 0.05 & 0.17 & 0.71 & 0.31 \\
+    VAD     & Camera & Map+Box+Motion                 & 0.54 & 1.15 & 1.98 & 1.22 & 0.04 & 0.39 & 1.17 & 0.53 \\
+    OccWorld-F  & Camera & None                       & 0.67 & 1.69 & 3.13 & 1.83 & 0.19 & 1.28 & 4.59 & 2.02 \\
+    RenderWorld-F & Camera & None                     & 0.48 & 1.30 & 2.67 & 1.48 & 0.14 & 0.55 & 2.23 & 0.97 \\
+    OccLLaMA-F  & Camera & None                       & 0.38 & 1.07 & 2.15 & 1.20 & 0.06 & 0.39 & 1.65 & 0.70 \\
+    \textbf{DTT-F (ours)} & Camera & None             & \textbf{0.35} & \textbf{1.01} & 1.89 & 1.08 & 0.08 & 0.33 & 0.91 & 0.44 \\
+    \midrule
+    OccWorld-O  & 3D-Occ & None                       & 0.43 & 1.08 & 1.99 & 1.17 & 0.07 & 0.38 & 1.35 & 0.60 \\
+    RenderWorld-O & 3D-Occ & None                     & 0.35 & 0.91 & 1.84 & 1.03 & 0.05 & 0.40 & 1.39 & 0.61 \\
+    OccLLaMA-O  & 3D-Occ & None                       & 0.37 & 1.02 & 2.03 & 1.14 & 0.04 & 0.24 & 1.20 & 0.49 \\
+    \textbf{DTT-O (ours)} & 3D-Occ & None             & \textbf{0.32} & \textbf{0.91} & \textbf{1.76} & \textbf{1.00} & 0.08 & 0.32 & \textbf{0.51} & \textbf{0.30} \\
+    \bottomrule
+  \end{tabular}
+  }
+\end{table}
+
+\textbf{Visual comparisons with SOTA.}
+Figure~\ref{fig:visual_comparison} shows the scene evolution over the next 3 seconds with motion predictions for two representative scenarios.
+Since DOME only performs conditional scene generation, we show its occupancy predictions only.
+(i) In the first case, OccWorld-O incorrectly labels part of the truck as a trailer, and this error accumulates over time.
+DOME-O avoids this misclassification through its iterative diffusion-based refinement, although the predicted motion for the middle vehicle is slightly aggressive, causing them to leave the frame prematurely.
+In contrast, DTT-O tracks all objects accurately and preserves clear boundaries throughout the sequence.
+Nonetheless, our method exhibits some residual artifacts in the 2.0--2.5 s frames for the middle cars.
+This occurs because the triplane changes preserve fine-grained 3D details, and adding these residuals to the previous triplane can introduce slight decoding noise.
+By comparison, DOME-O and OccWorld-O rely on VAE-style encoders that produce smoother representations but are less effective at capturing precise object motion.
+(ii) In the second case, OccWorld-O gradually loses the road boundary and misidentifies the motorcycle as a truck at 2.5 s and 3 s, due to the limited 3D detail preserved by its VAE-based encoder.
+DOME-O alleviates these issues and better preserves global geometry.
+However, because it conditions future scene generation primarily on the ego vehicle's trajectory, it may be less sensitive to the detailed motion patterns of other agents, occasionally resulting in drifts or hallucinated objects.
+In contrast, our method preserves road geometry, roadside structures, and small-object semantics.
+These precise scene forecasts arise from accurately predicted latent triplane changes, enabling more accurate motion planning.
+
+\begin{figure}[htbp]
+  \centering
+  % Figure 6: 4D occupancy forecasting visualization over 3 seconds
+  % Two scenarios, 4 methods (GT, OccWorld-O, DOME-O, DTT-O), 6 time steps
+  \begin{tabular}{@{}cccccc@{}}
+    \multicolumn{6}{c}{\textbf{Scenario 1}} \\
+    0.5s & 1s & 1.5s & 2s & 2.5s & 3s \\
+    \includegraphics[width=0.155\textwidth]{figures/fig_8_1.png} &
+    \includegraphics[width=0.155\textwidth]{figures/fig_8_8.png} &
+    \includegraphics[width=0.155\textwidth]{figures/fig_8_15.png} &
+    \includegraphics[width=0.155\textwidth]{figures/fig_8_22.png} &
+    \includegraphics[width=0.155\textwidth]{figures/fig_8_29.png} &
+    \includegraphics[width=0.155\textwidth]{figures/fig_8_34.png} \\
+    \multicolumn{6}{c}{\textbf{Scenario 2}} \\
+    \includegraphics[width=0.155\textwidth]{figures/fig_8_18.png} &
+    \includegraphics[width=0.155\textwidth]{figures/fig_8_21.png} &
+    \includegraphics[width=0.155\textwidth]{figures/fig_8_23.png} &
+    \includegraphics[width=0.155\textwidth]{figures/fig_8_25.png} &
+    \includegraphics[width=0.155\textwidth]{figures/fig_8_27.png} &
+    \includegraphics[width=0.155\textwidth]{figures/fig_8_31.png} \\
+  \end{tabular}
+  \caption{Visualization of 4D occupancy forecasting and motion planning for the next 3 seconds on the Occ3D test dataset (zoom in for a clearer view).}
+  \label{fig:visual_comparison}
+\end{figure}
+
+Figure~\ref{fig:bev_comparison} compares occupancy predictions for the three furthest frames, focusing on dynamic objects of varying sizes (cars and pedestrians) from a BEV perspective.
+Two reference lines are displayed to reflect the errors between the predictions and GT.
+The results of our method match the GT significantly better than OccWorld-O, which exhibits substantial drift.
+For instance, the predictions for the pedestrians at the top and the vehicle on the left clearly demonstrate this improvement.
+
+\begin{figure}[htbp]
+  \centering
+  \begin{tabular}{@{}ccc@{}}
+    & GT & OccWorld-O / DTT-O \\
+    $t=2$s &
+    \includegraphics[width=0.3\textwidth]{figures/fig_8_35.png} &
+    \includegraphics[width=0.3\textwidth]{figures/fig_8_36.png} \\
+    $t=2.5$s &
+    \includegraphics[width=0.3\textwidth]{figures/fig_8_38.png} &
+    \includegraphics[width=0.3\textwidth]{figures/fig_8_39.png} \\
+    $t=3$s &
+    \includegraphics[width=0.3\textwidth]{figures/fig_8_41.png} &
+    \includegraphics[width=0.3\textwidth]{figures/fig_8_42.png} \\
+  \end{tabular}
+  \caption{Predicted locations of dynamic objects for the three last frames.}
+  \label{fig:bev_comparison}
+\end{figure}
+
+\subsection{Ablation study}
+
+\textbf{Latent representation comparison.}
+Table~\ref{tab:latent} empirically finds that adding the two extra planes ($xz$ and $yz$) in BEV allows for fewer channels per plane while still achieving high-quality reconstruction at 0s.
+For BEV, the latent size is $w \times l \times c$; for triplane, it is the sum across the three orthogonal planes: $(h \times w + h \times l + w \times l) \times c$.
+These results show that BEV requires significantly more channels to maintain reconstruction quality, while triplane achieves strong performance with fewer channels.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Latent representation comparison.}
+  \label{tab:latent}
+  \begin{tabular}{lcccccc}
+    \toprule
+    & & \multicolumn{3}{c}{Latent space $\downarrow$} & mIoU & IoU \\
+    \cmidrule(lr){3-5}
+    Type & $h, w, l, c$ & Total shape $\downarrow$ & (\%) $\uparrow$ & (\%) $\uparrow$ \\
+    \midrule
+    BEV      & --, 50, 50, 128 & 320,000   & 60.50 & 59.07 \\
+    BEV      & --, 50, 50, 16  & 40,000    & 37.81 & 46.53 \\
+    BEV      & --, 50, 50, 8   & 20,000    & 35.26 & 42.91 \\
+    Triplane & 16, 50, 50, 8   & 32,800    & 72.45 & 80.83 \\
+    \midrule
+    BEV      & --, 100, 100, 128 & 1,280,000 & 78.12 & 71.63 \\
+    BEV      & --, 100, 100, 16  & 160,000   & 57.34 & 48.19 \\
+    BEV      & --, 100, 100, 8   & 80,000    & 54.13 & 46.78 \\
+    Triplane & 16, 100, 100, 8   & 105,600   & \textbf{85.50} & \textbf{92.07} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\textbf{Effect of DTT components.}
+Table~\ref{tab:ablation} evaluates the effectiveness of key designs in DTT.
+M0 denotes the full model, while ablations are obtained by replacing its components as follows:
+M1 removes pre-training and learns triplane changes in an end-to-end manner, causing downstream task gradients to bias the encoder toward task-specific cues while losing 3D scene information, which degrades both encoder quality and overall performance.
+M2 uses latent BEV features from OccWorld as input, leading to geometric information loss.
+M3 predicts full future triplanes instead of $\Delta$ changes, showing that change prediction is more efficient.
+M4 applies a single-scale Transformer, failing to capture multi-scale motion and accumulating errors.
+M5 removes the autoregressive mechanism, where each previous prediction is fed into the next step. Instead, it predicts all future outcomes simultaneously from four historical occupancy frames.
+This prevents step-wise adjustments based on previous predictions, which can degrade performance.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Ablation study of DTT.}
+  \label{tab:ablation}
+  \begin{tabular}{clcccc}
+    \toprule
+    Idx. & Models & Avg.\ mIoU $\uparrow$ & Avg.\ L2 $\downarrow$ & FPS $\uparrow$ \\
+    \midrule
+    M0 & DTT-O                    & \textbf{30.85} & \textbf{1.00} & 26 \\
+    M1 & w/o pretraining          & 28.45 & 1.12 & 26 \\
+    M2 & w/o triplane             & 26.71 & 1.13 & 21 \\
+    M3 & w/o triplane changes     & 27.97 & 1.10 & 27 \\
+    M4 & w/o multi-scale mot.     & 29.05 & 1.08 & 36 \\
+    M5 & w/o autoregression       & 29.41 & 1.11 & 34 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\textbf{Effect of long-duration predictions.}
+In Table~\ref{tab:longterm}, we retrain OccWorld, DOME, and DTT for a 10-second prediction task, which is particularly challenging due to the substantial changes that occur in the scene over long horizons.
+New objects may appear, existing objects can move or leave the field of view, and the overall geometry evolves over time.
+As a result, the mIoU and L2 metrics of all methods gradually decline with increasing prediction length.
+In contrast, our approach accumulates errors more slowly, primarily because its multi-scale modeling of triplane deltas allows it to capture fine-grained changes in the scene more effectively across extended durations.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Effect of long-duration predictions.}
+  \label{tab:longterm}
+  \begin{tabular}{llcccc}
+    \toprule
+    & & \multicolumn{4}{c}{OccWorld-O / DOME-O / DTT-O} \\
+    \midrule
+    \multirow{4}{*}{mIoU (\%) $\uparrow$}
+      & 1s  & 19.95 & 25.37 & 27.61 \\
+      & 3s  & 10.65 & 14.13 & 16.22 \\
+      & 5s  & 6.44  & 9.52  & 11.03 \\
+      & 10s & 5.26  & 8.99  & 9.17  \\
+    \midrule
+    \multirow{4}{*}{L2 (m) $\downarrow$}
+      & 1s  & 0.88  & 0.64  & N/A   \\
+      & 3s  & 4.41  & 3.26  & N/A   \\
+      & 5s  & 5.53  & 4.43  & N/A   \\
+      & 10s & 5.61  & 4.59  & N/A   \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\textbf{Effect of different hyperparameters.}
+Table~\ref{tab:hyperparams} shows the impact of different hyperparameters, with $\star$ indicating our final trade-off.
+The H1 series varies the latent triplane shape, defined by channel number and spatial size $(h, w, l)$; increasing spatial size improves predictions, while more channels offer little benefit and can hurt performance due to feature redundancy in self-attention.
+The H2 series adjusts the number of scales ($V$) and the depth and width of the Transformer, i.e., the number of layers and attention heads.
+The results show that even a lightweight Transformer captures essential patterns, whereas larger models add cost without notable gains.
+Our final design uses only 903M memory (vs.\ 13,000M / 13,500M for OccWorld / RenderWorld) and runs at 26 FPS on an RTX 4090, outperforming OccWorld's 18 FPS.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Effect of different hyperparameters.}
+  \label{tab:hyperparams}
+  \begin{tabular}{clcccc}
+    \toprule
+    Idx. & Setting & Avg.\ mIoU $\uparrow$ & Avg.\ L2 $\downarrow$ & FPS $\uparrow$ \\
+    \midrule
+    H1.1 & 8, (8, 50, 50)       & 23.18 & 1.33 & 37 \\
+    H1.2 & 8, (16, 50, 50)      & 24.56 & 1.23 & 33 \\
+    H1.3 & 8, (8, 100, 100)     & 27.71 & 1.17 & 30 \\
+    H1.4$^\star$ & 8, (16, 100, 100) & 30.85 & 1.00 & 26 \\
+    H1.5 & 16, (16, 100, 100)   & 31.02 & 1.09 & 23 \\
+    H1.6 & 32, (16, 100, 100)   & 29.89 & 1.11 & 18 \\
+    \midrule
+    H2.1 & $V = 3$, 4, 16       & 29.01 & 1.08 & 28 \\
+    H2.2$^\star$ & $V = 5$, 4, 16 & 30.85 & 1.00 & 26 \\
+    H2.3 & $V = 5$, 4, 32       & 31.59 & 1.04 & 21 \\
+    H2.4 & $V = 5$, 8, 16       & 32.04 & 1.02 & 23 \\
+    H2.5 & $V = 7$, 4, 16       & 28.75 & 0.98 & 20 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Conclusion}
+
+This paper introduces DTT, a new 4D OWM that leverages pre-trained triplane latent representations and predicts plane-wise future changes with multi-scale Transformers.
+These predictions are recovered into future occupancy outcomes and used as sparse queries for motion planning.
+DTT achieves SOTA performance in both scene forecasting and motion planning with real-time efficiency.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

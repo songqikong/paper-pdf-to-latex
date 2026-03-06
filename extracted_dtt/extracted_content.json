@@ -1,0 +1,3181 @@
+{
+  "metadata": {
+    "title": "Delta-Triplane Transformers as Occupancy World Models",
+    "author": "Haoran Xu; Peixi Peng; Guang Tan; Yiqian Chang; Yisen Zhao; Yonghong Tian",
+    "subject": "",
+    "creator": "arXiv GenPDF (tex2pdf:4177c2c)",
+    "producer": "pikepdf 8.15.1",
+    "page_count": 14
+  },
+  "images": [
+    {
+      "image_id": 1,
+      "page": 2,
+      "index": 0,
+      "filename": "fig_2_1.png",
+      "path": "extracted_dtt/figures/fig_2_1.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "image_id": 2,
+      "page": 2,
+      "index": 1,
+      "filename": "fig_2_2.png",
+      "path": "extracted_dtt/figures/fig_2_2.png",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "image_id": 3,
+      "page": 4,
+      "index": 0,
+      "filename": "fig_4_1.png",
+      "path": "extracted_dtt/figures/fig_4_1.png",
+      "width": 19,
+      "height": 37
+    },
+    {
+      "image_id": 4,
+      "page": 4,
+      "index": 1,
+      "filename": "fig_4_2.png",
+      "path": "extracted_dtt/figures/fig_4_2.png",
+      "width": 15,
+      "height": 32
+    },
+    {
+      "image_id": 5,
+      "page": 4,
+      "index": 2,
+      "filename": "fig_4_3.png",
+      "path": "extracted_dtt/figures/fig_4_3.png",
+      "width": 19,
+      "height": 37
+    },
+    {
+      "image_id": 6,
+      "page": 4,
+      "index": 3,
+      "filename": "fig_4_4.png",
+      "path": "extracted_dtt/figures/fig_4_4.png",
+      "width": 15,
+      "height": 32
+    },
+    {
+      "image_id": 7,
+      "page": 4,
+      "index": 4,
+      "filename": "fig_4_5.png",
+      "path": "extracted_dtt/figures/fig_4_5.png",
+      "width": 9,
+      "height": 16
+    },
+    {
+      "image_id": 8,
+      "page": 4,
+      "index": 5,
+      "filename": "fig_4_6.png",
+      "path": "extracted_dtt/figures/fig_4_6.png",
+      "width": 19,
+      "height": 37
+    },
+    {
+      "image_id": 9,
+      "page": 4,
+      "index": 6,
+      "filename": "fig_4_7.png",
+      "path": "extracted_dtt/figures/fig_4_7.png",
+      "width": 15,
+      "height": 32
+    },
+    {
+      "image_id": 10,
+      "page": 4,
+      "index": 7,
+      "filename": "fig_4_8.png",
+      "path": "extracted_dtt/figures/fig_4_8.png",
+      "width": 9,
+      "height": 16
+    },
+    {
+      "image_id": 11,
+      "page": 4,
+      "index": 8,
+      "filename": "fig_4_9.png",
+      "path": "extracted_dtt/figures/fig_4_9.png",
+      "width": 620,
+      "height": 638
+    },
+    {
+      "image_id": 12,
+      "page": 4,
+      "index": 9,
+      "filename": "fig_4_10.png",
+      "path": "extracted_dtt/figures/fig_4_10.png",
+      "width": 624,
+      "height": 652
+    },
+    {
+      "image_id": 13,
+      "page": 4,
+      "index": 10,
+      "filename": "fig_4_11.png",
+      "path": "extracted_dtt/figures/fig_4_11.png",
+      "width": 629,
+      "height": 665
+    },
+    {
+      "image_id": 14,
+      "page": 4,
+      "index": 11,
+      "filename": "fig_4_12.png",
+      "path": "extracted_dtt/figures/fig_4_12.png",
+      "width": 19,
+      "height": 37
+    },
+    {
+      "image_id": 15,
+      "page": 4,
+      "index": 12,
+      "filename": "fig_4_13.png",
+      "path": "extracted_dtt/figures/fig_4_13.png",
+      "width": 9,
+      "height": 16
+    },
+    {
+      "image_id": 16,
+      "page": 4,
+      "index": 13,
+      "filename": "fig_4_14.png",
+      "path": "extracted_dtt/figures/fig_4_14.png",
+      "width": 15,
+      "height": 32
+    },
+    {
+      "image_id": 17,
+      "page": 4,
+      "index": 14,
+      "filename": "fig_4_15.png",
+      "path": "extracted_dtt/figures/fig_4_15.png",
+      "width": 9,
+      "height": 16
+    },
+    {
+      "image_id": 18,
+      "page": 4,
+      "index": 15,
+      "filename": "fig_4_16.png",
+      "path": "extracted_dtt/figures/fig_4_16.png",
+      "width": 19,
+      "height": 37
+    },
+    {
+      "image_id": 19,
+      "page": 4,
+      "index": 16,
+      "filename": "fig_4_17.png",
+      "path": "extracted_dtt/figures/fig_4_17.png",
+      "width": 15,
+      "height": 32
+    },
+    {
+      "image_id": 20,
+      "page": 4,
+      "index": 17,
+      "filename": "fig_4_18.png",
+      "path": "extracted_dtt/figures/fig_4_18.png",
+      "width": 9,
+      "height": 16
+    },
+    {
+      "image_id": 21,
+      "page": 4,
+      "index": 18,
+      "filename": "fig_4_19.png",
+      "path": "extracted_dtt/figures/fig_4_19.png",
+      "width": 615,
+      "height": 632
+    },
+    {
+      "image_id": 22,
+      "page": 4,
+      "index": 19,
+      "filename": "fig_4_20.png",
+      "path": "extracted_dtt/figures/fig_4_20.png",
+      "width": 818,
+      "height": 460
+    },
+    {
+      "image_id": 23,
+      "page": 4,
+      "index": 20,
+      "filename": "fig_4_21.png",
+      "path": "extracted_dtt/figures/fig_4_21.png",
+      "width": 818,
+      "height": 461
+    },
+    {
+      "image_id": 24,
+      "page": 4,
+      "index": 21,
+      "filename": "fig_4_22.png",
+      "path": "extracted_dtt/figures/fig_4_22.png",
+      "width": 818,
+      "height": 460
+    },
+    {
+      "image_id": 25,
+      "page": 4,
+      "index": 22,
+      "filename": "fig_4_23.png",
+      "path": "extracted_dtt/figures/fig_4_23.png",
+      "width": 19,
+      "height": 37
+    },
+    {
+      "image_id": 26,
+      "page": 4,
+      "index": 23,
+      "filename": "fig_4_24.png",
+      "path": "extracted_dtt/figures/fig_4_24.png",
+      "width": 15,
+      "height": 32
+    },
+    {
+      "image_id": 27,
+      "page": 4,
+      "index": 24,
+      "filename": "fig_4_25.png",
+      "path": "extracted_dtt/figures/fig_4_25.png",
+      "width": 9,
+      "height": 16
+    },
+    {
+      "image_id": 28,
+      "page": 4,
+      "index": 25,
+      "filename": "fig_4_26.png",
+      "path": "extracted_dtt/figures/fig_4_26.png",
+      "width": 47,
+      "height": 48
+    },
+    {
+      "image_id": 29,
+      "page": 4,
+      "index": 26,
+      "filename": "fig_4_27.png",
+      "path": "extracted_dtt/figures/fig_4_27.png",
+      "width": 391,
+      "height": 349
+    },
+    {
+      "image_id": 30,
+      "page": 4,
+      "index": 27,
+      "filename": "fig_4_28.png",
+      "path": "extracted_dtt/figures/fig_4_28.png",
+      "width": 247,
+      "height": 67
+    },
+    {
+      "image_id": 31,
+      "page": 4,
+      "index": 28,
+      "filename": "fig_4_29.png",
+      "path": "extracted_dtt/figures/fig_4_29.png",
+      "width": 537,
+      "height": 259
+    },
+    {
+      "image_id": 32,
+      "page": 4,
+      "index": 29,
+      "filename": "fig_4_30.png",
+      "path": "extracted_dtt/figures/fig_4_30.png",
+      "width": 536,
+      "height": 259
+    },
+    {
+      "image_id": 33,
+      "page": 4,
+      "index": 30,
+      "filename": "fig_4_31.png",
+      "path": "extracted_dtt/figures/fig_4_31.png",
+      "width": 537,
+      "height": 259
+    },
+    {
+      "image_id": 34,
+      "page": 4,
+      "index": 31,
+      "filename": "fig_4_32.png",
+      "path": "extracted_dtt/figures/fig_4_32.png",
+      "width": 56,
+      "height": 48
+    },
+    {
+      "image_id": 35,
+      "page": 4,
+      "index": 32,
+      "filename": "fig_4_33.png",
+      "path": "extracted_dtt/figures/fig_4_33.png",
+      "width": 55,
+      "height": 47
+    },
+    {
+      "image_id": 36,
+      "page": 4,
+      "index": 33,
+      "filename": "fig_4_34.png",
+      "path": "extracted_dtt/figures/fig_4_34.png",
+      "width": 56,
+      "height": 48
+    },
+    {
+      "image_id": 37,
+      "page": 4,
+      "index": 34,
+      "filename": "fig_4_35.png",
+      "path": "extracted_dtt/figures/fig_4_35.png",
+      "width": 818,
+      "height": 461
+    },
+    {
+      "image_id": 38,
+      "page": 4,
+      "index": 35,
+      "filename": "fig_4_36.png",
+      "path": "extracted_dtt/figures/fig_4_36.png",
+      "width": 818,
+      "height": 461
+    },
+    {
+      "image_id": 39,
+      "page": 4,
+      "index": 36,
+      "filename": "fig_4_37.png",
+      "path": "extracted_dtt/figures/fig_4_37.png",
+      "width": 19,
+      "height": 37
+    },
+    {
+      "image_id": 40,
+      "page": 4,
+      "index": 37,
+      "filename": "fig_4_38.png",
+      "path": "extracted_dtt/figures/fig_4_38.png",
+      "width": 15,
+      "height": 32
+    },
+    {
+      "image_id": 41,
+      "page": 4,
+      "index": 38,
+      "filename": "fig_4_39.png",
+      "path": "extracted_dtt/figures/fig_4_39.png",
+      "width": 9,
+      "height": 16
+    },
+    {
+      "image_id": 42,
+      "page": 4,
+      "index": 39,
+      "filename": "fig_4_40.png",
+      "path": "extracted_dtt/figures/fig_4_40.png",
+      "width": 19,
+      "height": 37
+    },
+    {
+      "image_id": 43,
+      "page": 4,
+      "index": 40,
+      "filename": "fig_4_41.png",
+      "path": "extracted_dtt/figures/fig_4_41.png",
+      "width": 15,
+      "height": 32
+    },
+    {
+      "image_id": 44,
+      "page": 4,
+      "index": 41,
+      "filename": "fig_4_42.png",
+      "path": "extracted_dtt/figures/fig_4_42.png",
+      "width": 9,
+      "height": 16
+    },
+    {
+      "image_id": 45,
+      "page": 4,
+      "index": 42,
+      "filename": "fig_4_43.png",
+      "path": "extracted_dtt/figures/fig_4_43.png",
+      "width": 226,
+      "height": 57
+    },
+    {
+      "image_id": 46,
+      "page": 5,
+      "index": 0,
+      "filename": "fig_5_1.png",
+      "path": "extracted_dtt/figures/fig_5_1.png",
+      "width": 303,
+      "height": 249
+    },
+    {
+      "image_id": 47,
+      "page": 5,
+      "index": 1,
+      "filename": "fig_5_2.png",
+      "path": "extracted_dtt/figures/fig_5_2.png",
+      "width": 380,
+      "height": 342
+    },
+    {
+      "image_id": 48,
+      "page": 8,
+      "index": 0,
+      "filename": "fig_8_1.png",
+      "path": "extracted_dtt/figures/fig_8_1.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 49,
+      "page": 8,
+      "index": 1,
+      "filename": "fig_8_2.png",
+      "path": "extracted_dtt/figures/fig_8_2.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 50,
+      "page": 8,
+      "index": 2,
+      "filename": "fig_8_3.png",
+      "path": "extracted_dtt/figures/fig_8_3.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 51,
+      "page": 8,
+      "index": 3,
+      "filename": "fig_8_4.png",
+      "path": "extracted_dtt/figures/fig_8_4.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 52,
+      "page": 8,
+      "index": 4,
+      "filename": "fig_8_5.png",
+      "path": "extracted_dtt/figures/fig_8_5.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 53,
+      "page": 8,
+      "index": 5,
+      "filename": "fig_8_6.png",
+      "path": "extracted_dtt/figures/fig_8_6.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 54,
+      "page": 8,
+      "index": 6,
+      "filename": "fig_8_7.png",
+      "path": "extracted_dtt/figures/fig_8_7.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 55,
+      "page": 8,
+      "index": 7,
+      "filename": "fig_8_8.png",
+      "path": "extracted_dtt/figures/fig_8_8.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 56,
+      "page": 8,
+      "index": 8,
+      "filename": "fig_8_9.png",
+      "path": "extracted_dtt/figures/fig_8_9.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 57,
+      "page": 8,
+      "index": 9,
+      "filename": "fig_8_10.png",
+      "path": "extracted_dtt/figures/fig_8_10.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 58,
+      "page": 8,
+      "index": 10,
+      "filename": "fig_8_11.png",
+      "path": "extracted_dtt/figures/fig_8_11.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 59,
+      "page": 8,
+      "index": 11,
+      "filename": "fig_8_12.png",
+      "path": "extracted_dtt/figures/fig_8_12.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 60,
+      "page": 8,
+      "index": 12,
+      "filename": "fig_8_13.png",
+      "path": "extracted_dtt/figures/fig_8_13.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 61,
+      "page": 8,
+      "index": 13,
+      "filename": "fig_8_14.png",
+      "path": "extracted_dtt/figures/fig_8_14.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 62,
+      "page": 8,
+      "index": 14,
+      "filename": "fig_8_15.png",
+      "path": "extracted_dtt/figures/fig_8_15.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 63,
+      "page": 8,
+      "index": 15,
+      "filename": "fig_8_16.png",
+      "path": "extracted_dtt/figures/fig_8_16.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 64,
+      "page": 8,
+      "index": 16,
+      "filename": "fig_8_17.png",
+      "path": "extracted_dtt/figures/fig_8_17.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 65,
+      "page": 8,
+      "index": 17,
+      "filename": "fig_8_18.png",
+      "path": "extracted_dtt/figures/fig_8_18.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 66,
+      "page": 8,
+      "index": 18,
+      "filename": "fig_8_19.png",
+      "path": "extracted_dtt/figures/fig_8_19.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 67,
+      "page": 8,
+      "index": 19,
+      "filename": "fig_8_20.png",
+      "path": "extracted_dtt/figures/fig_8_20.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 68,
+      "page": 8,
+      "index": 20,
+      "filename": "fig_8_21.png",
+      "path": "extracted_dtt/figures/fig_8_21.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 69,
+      "page": 8,
+      "index": 21,
+      "filename": "fig_8_22.png",
+      "path": "extracted_dtt/figures/fig_8_22.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 70,
+      "page": 8,
+      "index": 22,
+      "filename": "fig_8_23.png",
+      "path": "extracted_dtt/figures/fig_8_23.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 71,
+      "page": 8,
+      "index": 23,
+      "filename": "fig_8_24.png",
+      "path": "extracted_dtt/figures/fig_8_24.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 72,
+      "page": 8,
+      "index": 24,
+      "filename": "fig_8_25.png",
+      "path": "extracted_dtt/figures/fig_8_25.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 73,
+      "page": 8,
+      "index": 25,
+      "filename": "fig_8_26.png",
+      "path": "extracted_dtt/figures/fig_8_26.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 74,
+      "page": 8,
+      "index": 26,
+      "filename": "fig_8_27.png",
+      "path": "extracted_dtt/figures/fig_8_27.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 75,
+      "page": 8,
+      "index": 27,
+      "filename": "fig_8_28.png",
+      "path": "extracted_dtt/figures/fig_8_28.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 76,
+      "page": 8,
+      "index": 28,
+      "filename": "fig_8_29.png",
+      "path": "extracted_dtt/figures/fig_8_29.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 77,
+      "page": 8,
+      "index": 29,
+      "filename": "fig_8_30.png",
+      "path": "extracted_dtt/figures/fig_8_30.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 78,
+      "page": 8,
+      "index": 30,
+      "filename": "fig_8_31.png",
+      "path": "extracted_dtt/figures/fig_8_31.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 79,
+      "page": 8,
+      "index": 31,
+      "filename": "fig_8_32.png",
+      "path": "extracted_dtt/figures/fig_8_32.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 80,
+      "page": 8,
+      "index": 32,
+      "filename": "fig_8_33.png",
+      "path": "extracted_dtt/figures/fig_8_33.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 81,
+      "page": 8,
+      "index": 33,
+      "filename": "fig_8_34.png",
+      "path": "extracted_dtt/figures/fig_8_34.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 82,
+      "page": 8,
+      "index": 34,
+      "filename": "fig_8_35.png",
+      "path": "extracted_dtt/figures/fig_8_35.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 83,
+      "page": 8,
+      "index": 35,
+      "filename": "fig_8_36.png",
+      "path": "extracted_dtt/figures/fig_8_36.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 84,
+      "page": 8,
+      "index": 36,
+      "filename": "fig_8_37.png",
+      "path": "extracted_dtt/figures/fig_8_37.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 85,
+      "page": 8,
+      "index": 37,
+      "filename": "fig_8_38.png",
+      "path": "extracted_dtt/figures/fig_8_38.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 86,
+      "page": 8,
+      "index": 38,
+      "filename": "fig_8_39.png",
+      "path": "extracted_dtt/figures/fig_8_39.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 87,
+      "page": 8,
+      "index": 39,
+      "filename": "fig_8_40.png",
+      "path": "extracted_dtt/figures/fig_8_40.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 88,
+      "page": 8,
+      "index": 40,
+      "filename": "fig_8_41.png",
+      "path": "extracted_dtt/figures/fig_8_41.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 89,
+      "page": 8,
+      "index": 41,
+      "filename": "fig_8_42.png",
+      "path": "extracted_dtt/figures/fig_8_42.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 90,
+      "page": 8,
+      "index": 42,
+      "filename": "fig_8_43.png",
+      "path": "extracted_dtt/figures/fig_8_43.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 91,
+      "page": 8,
+      "index": 43,
+      "filename": "fig_8_44.png",
+      "path": "extracted_dtt/figures/fig_8_44.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 92,
+      "page": 8,
+      "index": 44,
+      "filename": "fig_8_45.png",
+      "path": "extracted_dtt/figures/fig_8_45.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 93,
+      "page": 8,
+      "index": 45,
+      "filename": "fig_8_46.png",
+      "path": "extracted_dtt/figures/fig_8_46.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 94,
+      "page": 8,
+      "index": 46,
+      "filename": "fig_8_47.png",
+      "path": "extracted_dtt/figures/fig_8_47.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 95,
+      "page": 8,
+      "index": 47,
+      "filename": "fig_8_48.png",
+      "path": "extracted_dtt/figures/fig_8_48.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 96,
+      "page": 8,
+      "index": 48,
+      "filename": "fig_8_49.png",
+      "path": "extracted_dtt/figures/fig_8_49.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 97,
+      "page": 8,
+      "index": 49,
+      "filename": "fig_8_50.png",
+      "path": "extracted_dtt/figures/fig_8_50.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 98,
+      "page": 8,
+      "index": 50,
+      "filename": "fig_8_51.png",
+      "path": "extracted_dtt/figures/fig_8_51.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 99,
+      "page": 8,
+      "index": 51,
+      "filename": "fig_8_52.png",
+      "path": "extracted_dtt/figures/fig_8_52.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 100,
+      "page": 8,
+      "index": 52,
+      "filename": "fig_8_53.png",
+      "path": "extracted_dtt/figures/fig_8_53.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 101,
+      "page": 8,
+      "index": 53,
+      "filename": "fig_8_54.png",
+      "path": "extracted_dtt/figures/fig_8_54.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 102,
+      "page": 8,
+      "index": 54,
+      "filename": "fig_8_55.png",
+      "path": "extracted_dtt/figures/fig_8_55.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 103,
+      "page": 8,
+      "index": 55,
+      "filename": "fig_8_56.png",
+      "path": "extracted_dtt/figures/fig_8_56.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 104,
+      "page": 8,
+      "index": 56,
+      "filename": "fig_8_57.png",
+      "path": "extracted_dtt/figures/fig_8_57.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 105,
+      "page": 8,
+      "index": 57,
+      "filename": "fig_8_58.png",
+      "path": "extracted_dtt/figures/fig_8_58.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 106,
+      "page": 8,
+      "index": 58,
+      "filename": "fig_8_59.png",
+      "path": "extracted_dtt/figures/fig_8_59.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 107,
+      "page": 8,
+      "index": 59,
+      "filename": "fig_8_60.png",
+      "path": "extracted_dtt/figures/fig_8_60.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 108,
+      "page": 8,
+      "index": 60,
+      "filename": "fig_8_61.png",
+      "path": "extracted_dtt/figures/fig_8_61.png",
+      "width": 35,
+      "height": 41
+    },
+    {
+      "image_id": 109,
+      "page": 8,
+      "index": 61,
+      "filename": "fig_8_62.png",
+      "path": "extracted_dtt/figures/fig_8_62.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 110,
+      "page": 8,
+      "index": 62,
+      "filename": "fig_8_63.png",
+      "path": "extracted_dtt/figures/fig_8_63.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 111,
+      "page": 8,
+      "index": 63,
+      "filename": "fig_8_64.png",
+      "path": "extracted_dtt/figures/fig_8_64.png",
+      "width": 716,
+      "height": 403
+    },
+    {
+      "image_id": 112,
+      "page": 9,
+      "index": 0,
+      "filename": "fig_9_1.png",
+      "path": "extracted_dtt/figures/fig_9_1.png",
+      "width": 670,
+      "height": 355
+    },
+    {
+      "image_id": 113,
+      "page": 9,
+      "index": 1,
+      "filename": "fig_9_2.png",
+      "path": "extracted_dtt/figures/fig_9_2.png",
+      "width": 670,
+      "height": 355
+    },
+    {
+      "image_id": 114,
+      "page": 9,
+      "index": 2,
+      "filename": "fig_9_3.png",
+      "path": "extracted_dtt/figures/fig_9_3.png",
+      "width": 670,
+      "height": 355
+    },
+    {
+      "image_id": 115,
+      "page": 9,
+      "index": 3,
+      "filename": "fig_9_4.png",
+      "path": "extracted_dtt/figures/fig_9_4.png",
+      "width": 670,
+      "height": 355
+    },
+    {
+      "image_id": 116,
+      "page": 9,
+      "index": 4,
+      "filename": "fig_9_5.png",
+      "path": "extracted_dtt/figures/fig_9_5.png",
+      "width": 670,
+      "height": 355
+    },
+    {
+      "image_id": 117,
+      "page": 9,
+      "index": 5,
+      "filename": "fig_9_6.png",
+      "path": "extracted_dtt/figures/fig_9_6.png",
+      "width": 670,
+      "height": 355
+    },
+    {
+      "image_id": 118,
+      "page": 9,
+      "index": 6,
+      "filename": "fig_9_7.png",
+      "path": "extracted_dtt/figures/fig_9_7.png",
+      "width": 670,
+      "height": 355
+    },
+    {
+      "image_id": 119,
+      "page": 9,
+      "index": 7,
+      "filename": "fig_9_8.png",
+      "path": "extracted_dtt/figures/fig_9_8.png",
+      "width": 670,
+      "height": 355
+    },
+    {
+      "image_id": 120,
+      "page": 9,
+      "index": 8,
+      "filename": "fig_9_9.png",
+      "path": "extracted_dtt/figures/fig_9_9.png",
+      "width": 670,
+      "height": 355
+    },
+    {
+      "image_id": 121,
+      "page": 9,
+      "index": 9,
+      "filename": "fig_9_10.png",
+      "path": "extracted_dtt/figures/fig_9_10.png",
+      "width": 593,
+      "height": 334
+    },
+    {
+      "image_id": 122,
+      "page": 9,
+      "index": 10,
+      "filename": "fig_9_11.png",
+      "path": "extracted_dtt/figures/fig_9_11.png",
+      "width": 576,
+      "height": 324
+    },
+    {
+      "image_id": 123,
+      "page": 9,
+      "index": 11,
+      "filename": "fig_9_12.png",
+      "path": "extracted_dtt/figures/fig_9_12.png",
+      "width": 527,
+      "height": 297
+    },
+    {
+      "image_id": 124,
+      "page": 9,
+      "index": 12,
+      "filename": "fig_9_13.png",
+      "path": "extracted_dtt/figures/fig_9_13.png",
+      "width": 527,
+      "height": 297
+    },
+    {
+      "image_id": 125,
+      "page": 9,
+      "index": 13,
+      "filename": "fig_9_14.png",
+      "path": "extracted_dtt/figures/fig_9_14.png",
+      "width": 599,
+      "height": 337
+    },
+    {
+      "image_id": 126,
+      "page": 9,
+      "index": 14,
+      "filename": "fig_9_15.png",
+      "path": "extracted_dtt/figures/fig_9_15.png",
+      "width": 672,
+      "height": 378
+    },
+    {
+      "image_id": 127,
+      "page": 9,
+      "index": 15,
+      "filename": "fig_9_16.png",
+      "path": "extracted_dtt/figures/fig_9_16.png",
+      "width": 672,
+      "height": 378
+    },
+    {
+      "image_id": 128,
+      "page": 9,
+      "index": 16,
+      "filename": "fig_9_17.png",
+      "path": "extracted_dtt/figures/fig_9_17.png",
+      "width": 672,
+      "height": 378
+    },
+    {
+      "image_id": 129,
+      "page": 9,
+      "index": 17,
+      "filename": "fig_9_18.png",
+      "path": "extracted_dtt/figures/fig_9_18.png",
+      "width": 610,
+      "height": 343
+    },
+    {
+      "image_id": 130,
+      "page": 9,
+      "index": 18,
+      "filename": "fig_9_19.png",
+      "path": "extracted_dtt/figures/fig_9_19.png",
+      "width": 672,
+      "height": 378
+    },
+    {
+      "image_id": 131,
+      "page": 9,
+      "index": 19,
+      "filename": "fig_9_20.png",
+      "path": "extracted_dtt/figures/fig_9_20.png",
+      "width": 610,
+      "height": 344
+    },
+    {
+      "image_id": 132,
+      "page": 9,
+      "index": 20,
+      "filename": "fig_9_21.png",
+      "path": "extracted_dtt/figures/fig_9_21.png",
+      "width": 527,
+      "height": 297
+    }
+  ],
+  "tables": [
+    {
+      "page": 2,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "((aa)) ((bb",
+          "))",
+          null
+        ],
+        [
+          null,
+          null,
+          ""
+        ]
+      ],
+      "row_count": 2
+    },
+    {
+      "page": 2,
+      "table_idx": 1,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "row_count": 2
+    },
+    {
+      "page": 4,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "Last token\nC\nDTT",
+          ""
+        ],
+        [
+          null,
+          ""
+        ]
+      ],
+      "row_count": 2
+    },
+    {
+      "page": 4,
+      "table_idx": 4,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "",
+          ""
+        ],
+        [
+          null,
+          "po"
+        ]
+      ],
+      "row_count": 2
+    },
+    {
+      "page": 5,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "M\nean\nTransformer Transformer\nDecoder Encoder",
+          null,
+          null
+        ],
+        [
+          null,
+          "Transformer\nEncoder",
+          null
+        ],
+        [
+          null,
+          null,
+          ""
+        ]
+      ],
+      "row_count": 3
+    },
+    {
+      "page": 6,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "17.14",
+          null,
+          null,
+          null,
+          null,
+          "26.63"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "19.93",
+          null,
+          null,
+          null,
+          null,
+          "29.17"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "20.80",
+          null,
+          null,
+          null,
+          null,
+          "30.08"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "20.99",
+          null,
+          null,
+          null,
+          null,
+          "32.52"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "27.10",
+          null,
+          null,
+          null,
+          null,
+          "36.36"
+        ],
+        [
+          "DTT-O(ours)",
+          "3D-Occ",
+          "85.50",
+          "37.69",
+          "29.77",
+          "25.10",
+          "30.85",
+          "92.07",
+          "76.60",
+          "74.44",
+          "72.71",
+          "74.58"
+        ]
+      ],
+      "row_count": 6
+    },
+    {
+      "page": 6,
+      "table_idx": 1,
+      "method": "pdfplumber",
+      "data": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "6.16",
+          null,
+          null,
+          null,
+          null,
+          "18.99"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "8.66",
+          null,
+          null,
+          null,
+          null,
+          "22.99"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "2.58",
+          null,
+          null,
+          null,
+          null,
+          "13.73"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "10.21",
+          null,
+          null,
+          null,
+          null,
+          "23.79"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "18.25",
+          null,
+          null,
+          null,
+          null,
+          "28.84"
+        ],
+        [
+          "DTT-F(ours)",
+          "Camera",
+          "43.52",
+          "24.87",
+          "18.30",
+          "15.63",
+          "19.60",
+          "54.31",
+          "38.98",
+          "37.45",
+          "31.89",
+          "36.11"
+        ]
+      ],
+      "row_count": 6
+    },
+    {
+      "page": 7,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "1.35"
+        ],
+        [
+          "1.48"
+        ],
+        [
+          "1.43"
+        ],
+        [
+          "1.60"
+        ]
+      ],
+      "row_count": 4
+    },
+    {
+      "page": 7,
+      "table_idx": 1,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "0.77"
+        ],
+        [
+          "0.34"
+        ],
+        [
+          "0.43"
+        ],
+        [
+          "0.33"
+        ]
+      ],
+      "row_count": 4
+    },
+    {
+      "page": 7,
+      "table_idx": 2,
+      "method": "pdfplumber",
+      "data": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "2.11",
+          null,
+          null,
+          null,
+          "0.71"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "1.03",
+          null,
+          null,
+          null,
+          "0.31"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "1.22",
+          null,
+          null,
+          null,
+          "0.53"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "1.83",
+          null,
+          null,
+          null,
+          "2.02"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "1.48",
+          null,
+          null,
+          null,
+          "0.97"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "1.20",
+          null,
+          null,
+          null,
+          "0.70"
+        ],
+        [
+          "DTT-F(ours)",
+          "Camera",
+          "None",
+          "0.35",
+          "1.01",
+          "1.89",
+          "1.08",
+          "0.08",
+          "0.33",
+          "0.91",
+          "0.44"
+        ]
+      ],
+      "row_count": 7
+    },
+    {
+      "page": 7,
+      "table_idx": 3,
+      "method": "pdfplumber",
+      "data": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "1.17",
+          null,
+          null,
+          null,
+          "0.60"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "1.03",
+          null,
+          null,
+          null,
+          "0.61"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "1.14",
+          null,
+          null,
+          null,
+          "0.49"
+        ],
+        [
+          "DTT-O(ours)",
+          "3D-Occ",
+          "None",
+          "0.32",
+          "0.91",
+          "1.76",
+          "1.00",
+          "0.08",
+          "0.32",
+          "0.51",
+          "0.30"
+        ]
+      ],
+      "row_count": 4
+    },
+    {
+      "page": 10,
+      "table_idx": 0,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "27.61"
+        ],
+        [
+          "16.22"
+        ],
+        [
+          "11.03"
+        ],
+        [
+          "9.17"
+        ]
+      ],
+      "row_count": 4
+    },
+    {
+      "page": 10,
+      "table_idx": 1,
+      "method": "pdfplumber",
+      "data": [
+        [
+          "0.64"
+        ],
+        [
+          "3.26"
+        ],
+        [
+          "4.43"
+        ],
+        [
+          "4.59"
+        ]
+      ],
+      "row_count": 4
+    }
+  ],
+  "formulas": [
+    {
+      "page": 1,
+      "line": 8,
+      "text": "OccupancyWorldModels(OWMs)aimtopredictfuturescenesvia3Dvoxelizedrepresentationsof"
+    },
+    {
+      "page": 1,
+      "line": 11,
+      "text": "Transformers(DTT),anovel4DOWMforautonomousdriving. DTTadoptstemporaltriplaneasthe"
+    },
+    {
+      "page": 1,
+      "line": 22,
+      "text": "Worldmodels[1,2]aimtorepresenttheenvironment,predictfuturescenesandenableagentstoperformadvanced"
+    },
+    {
+      "page": 1,
+      "line": 23,
+      "text": "motionplanning. Recently,3Doccupancytechnique[3,4]hasemergedasastructuredandspatiallyrichrepresentation"
+    },
+    {
+      "page": 1,
+      "line": 25,
+      "text": "paper,wefocusonthedesignofOccupancyWorldModels(OWMs)forautonomousdriving."
+    },
+    {
+      "page": 1,
+      "line": 33,
+      "text": "(a)Conventionalapproach. (b)OurapproachDTT."
+    },
+    {
+      "page": 1,
+      "line": 34,
+      "text": "Figure1: Comparisonofoccupancyworldmodelarchitectures: (a)Conventionalapproachesuseapre-trainedVAE"
+    },
+    {
+      "page": 1,
+      "line": 36,
+      "text": "topredictfutureBEVsandactionsviaalargeTransformer. (b)Ourmethod,DTT,adoptsmorecompactandprecise"
+    },
+    {
+      "page": 1,
+      "line": 42,
+      "text": "]OR.sc["
+    },
+    {
+      "page": 2,
+      "line": 0,
+      "text": "IndesigningOWMs,therearetwotasksneedtobesolved:(i)learningacompactlatentrepresentationofrawoccupancy"
+    },
+    {
+      "page": 2,
+      "line": 1,
+      "text": "data,and(ii)usingthisrepresentationforsceneforecastingandmotionplanning."
+    },
+    {
+      "page": 2,
+      "line": 2,
+      "text": "Occupancy change ( )"
+    },
+    {
+      "page": 2,
+      "line": 5,
+      "text": "For the first task, most existing OWMs [5, 6, 7, 8] mainly use VQ-"
+    },
+    {
+      "page": 2,
+      "line": 6,
+      "text": "VAEbasedBEVrepresentations[9]. WhileVAEhasshownsuccess"
+    },
+    {
+      "page": 2,
+      "line": 7,
+      "text": "OOccccuuppaannccyy ddaattaa Occupancy change ( )"
+    },
+    {
+      "page": 2,
+      "line": 8,
+      "text": "inseveralgenerativetasks[10,11],itsuseforoccupancycompression"
+    },
+    {
+      "page": 2,
+      "line": 13,
+      "text": "((aa)) ((bb))"
+    },
+    {
+      "page": 2,
+      "line": 17,
+      "text": "generation[12,13,14]. Byincorporatingadditionalxzandyzplanes,"
+    },
+    {
+      "page": 2,
+      "line": 22,
+      "text": "usealargeTransformertomodelthefulloccupancystate[6,5]. In"
+    },
+    {
+      "page": 2,
+      "line": 25,
+      "text": "thediversemotionpatternsofmulti-scaleobjects–forexample,the ((cc))"
+    },
+    {
+      "page": 2,
+      "line": 27,
+      "text": "Figure2: (a-b)Comparisonbetweenthefull"
+    },
+    {
+      "page": 2,
+      "line": 29,
+      "text": "occupancy and occupancy changes (∆) of a"
+    },
+    {
+      "page": 2,
+      "line": 32,
+      "text": "mulation(asconfirmedinourexperiments). Incontrast,weobserve"
+    },
+    {
+      "page": 2,
+      "line": 35,
+      "text": "pearedvoxels. (c)Distributionoflatent-space"
+    },
+    {
+      "page": 2,
+      "line": 45,
+      "text": "Buildingonthisinsight,weproposeDelta-TriplaneTransformers(DTT),anovel4DOWMmodelthatpredictsfuture"
+    },
+    {
+      "page": 2,
+      "line": 50,
+      "text": "achievesstate-of-the-art(SOTA)performance. Forexample,comparedwithDOME[15],itreducescumulativeerrors"
+    },
+    {
+      "page": 2,
+      "line": 58,
+      "text": "•ExtensiveexperimentsonthenuScenes[16]andOcc3D[4]datasetsvalidateourSOTAperformanceintermsof"
+    },
+    {
+      "page": 2,
+      "line": 61,
+      "text": "3Doccupancyreconstruction.3Doccupancyreconstructionmethods[3,4,17,18,19]aimtorepresenttheenvironment"
+    },
+    {
+      "page": 2,
+      "line": 63,
+      "text": "by SSCNet [20] for indoor scenes using depth sensors, and later extended to outdoor camera-based settings by"
+    },
+    {
+      "page": 2,
+      "line": 64,
+      "text": "MonoScene[21].Theseapproachesprimarilyutilizemulti-cameraRGBimages[22,23]orLiDARpointclouds[24,25]"
+    },
+    {
+      "page": 3,
+      "line": 1,
+      "text": "achieved,furtherlearningofthetemporaldynamicsofscenechangesbecomesnecessary[26]."
+    },
+    {
+      "page": 3,
+      "line": 3,
+      "text": "proposedtocapturethetemporaldynamicsofsceneevolution. Some[27,28,29]predictfuturesensor-leveldata,which"
+    },
+    {
+      "page": 3,
+      "line": 4,
+      "text": "issubsequentlyvoxelizedintooccupancyresults,whileothers[30,31,32,33]directlyforecastoccupancyoutcomes"
+    },
+    {
+      "page": 3,
+      "line": 7,
+      "text": "End-to-endautonomousdriving. Conventionalend-to-endautonomousdrivingsystems[34,35]followapipeline"
+    },
+    {
+      "page": 3,
+      "line": 11,
+      "text": "trafficparticipantsandforecastsfuturesceneevolution. Theplanningmodule[36]thengeneratessafeandfeasible"
+    },
+    {
+      "page": 3,
+      "line": 13,
+      "text": "supervisions[37],high-definitionmaps[37,38],orricherintentionreasoning[39,40,38]. Incontrast,ourworkrelies"
+    },
+    {
+      "page": 3,
+      "line": 16,
+      "text": "Worldmodelsforautonomousdriving. Worldmodels[1,2]aimtocompresshigh-dimensionalscenerepresentations"
+    },
+    {
+      "page": 3,
+      "line": 18,
+      "text": "fortheagent. Inautonomousdriving,existingmodels[41,42]typicallymapsurroundingtrafficparticipantstothe"
+    },
+    {
+      "page": 3,
+      "line": 19,
+      "text": "BEVperspectivetopredictinstance-leveltrackletsordirectlyusediffusionmodels[43,44,45,46,47]togenerate"
+    },
+    {
+      "page": 3,
+      "line": 22,
+      "text": "grained, efficient correlations between scene changes and motion planning. Recent world models [5, 6, 7, 8, 15]"
+    },
+    {
+      "page": 3,
+      "line": 23,
+      "text": "haveleveraged3Doccupancydatatoaddressthisissue. However,theytypicallyuseVAE-series[9,48]modelsfor"
+    },
+    {
+      "page": 3,
+      "line": 25,
+      "text": "accuracy. Additionally,theyrelyonTransformers[49]toforecasttheentirefuturesceneinsteadofincrementalchanges,"
+    },
+    {
+      "page": 3,
+      "line": 29,
+      "text": "Next,weprovidetheformulationofOccupancyWorldModel(OWM)[7]. OWMprimarilyreceivesasequenceof"
+    },
+    {
+      "page": 3,
+      "line": 30,
+      "text": "scenerepresentationsandmotionactionsfrompastτ framesuptothecurrenttimestept,suchthatSt ∈RH×W×L"
+    },
+    {
+      "page": 3,
+      "line": 33,
+      "text": "width,andlength,respectively,andat ∈ R2 denotesatransition-relatedmotioncommand. ThegoalofOWMisto"
+    },
+    {
+      "page": 3,
+      "line": 37,
+      "text": "Sˆt+1:t+τf,aˆt+1:t+τf =Φ(St−τp:t,at−τp:t). (1)"
+    },
+    {
+      "page": 3,
+      "line": 41,
+      "text": "sˆt =Φ (St), Sˆt =Φ (sˆt), (2)"
+    },
+    {
+      "page": 3,
+      "line": 43,
+      "text": "where st = [st ,st ,st ] contains three orthogonal feature planes. Specifically, st ∈ Rc×w×l, st ∈ Rc×h×w,"
+    },
+    {
+      "page": 3,
+      "line": 45,
+      "text": "andst ∈ Rc×h×l,withcthechanneldimensionand(h,w,l)thespatialresolutionsalongthethreeaxes. Sˆt isthe"
+    },
+    {
+      "page": 4,
+      "line": 31,
+      "text": "multi-scale Transformers to model temporal dynamics within each plane and predict future triplane changes (∆)."
+    },
+    {
+      "page": 4,
+      "line": 38,
+      "text": "achievethis,weemploythetriplanetechnique[14],whichiswidelyusedinvolumerendering[50,"
+    },
+    {
+      "page": 4,
+      "line": 39,
+      "text": "13,51,23],tocompressrawoccupancydatainanorthogonaldecompositionfashion."
+    },
+    {
+      "page": 4,
+      "line": 43,
+      "text": "st = [st ,st ,st ],wherest ∈ Rc×w×l,st ∈ Rc×h×w,andst ∈ Rc×h×l. Todecodethe axis-wise"
+    },
+    {
+      "page": 4,
+      "line": 45,
+      "text": "occupancydata,each3Dpointpos=(x,y,z)queriesitscorrespondingfeaturesfromthethree"
+    },
+    {
+      "page": 4,
+      "line": 46,
+      "text": "planes. Thesefeaturesaresummed,concatenatedwiththepositionalencodingPE(pos),and pos"
+    },
+    {
+      "page": 4,
+      "line": 50,
+      "text": "c PE(pos)"
+    },
+    {
+      "page": 4,
+      "line": 54,
+      "text": "J =E [L (Φ (Φ (St)),St)], (3)"
+    },
+    {
+      "page": 4,
+      "line": 58,
+      "text": "λL .Here,L andL denotethecross-entropyandLovasz-softmaxlosses[52,14],receptively,"
+    },
+    {
+      "page": 4,
+      "line": 62,
+      "text": "Thetriplanerepresentation,comparedtothetokensgeneratedbytheVQ-VAEinOccWorld[7]"
+    },
+    {
+      "page": 4,
+      "line": 64,
+      "text": "andtheMS-VAEinOccLLM[6],retains3Dstructuralinformationwhileachievingamorecom-"
+    },
+    {
+      "page": 4,
+      "line": 65,
+      "text": "pactlatentspace(seeTable3forevaluation). ThisnotonlymakesourOWMmorelightweight"
+    },
+    {
+      "page": 4,
+      "line": 67,
+      "text": "3.2.2 Delta-TriplaneTransformers(DTT)"
+    },
+    {
+      "page": 4,
+      "line": 70,
+      "text": "scenesandmotiontrajectories. Atthetimestepk ∈ {1,··· ,τ }forautoregressiveforecasting,givenτ historical"
+    },
+    {
+      "page": 5,
+      "line": 0,
+      "text": "adaptingtoobjectmotionsatdifferentscales. Tothisend,DTTperformstwosteps: (i)predictingplane-specificfuture"
+    },
+    {
+      "page": 5,
+      "line": 1,
+      "text": "changes{∆sˆk |i∈{xy,xz,yz}}withmulti-scaleTransformers,and(ii)aggregatingthesechangeswiththeprevious"
+    },
+    {
+      "page": 5,
+      "line": 7,
+      "text": "EachpredictorΦ isimplementedwithTransformers[49]operatingatmultiplescales. Thepredictorssharethe"
+    },
+    {
+      "page": 5,
+      "line": 10,
+      "text": "illustratedinFigure3. Wedenotebyk ∈{1,··· ,τ }thetimestepforautoregressiveforecasting. Takethexy-plane"
+    },
+    {
+      "page": 5,
+      "line": 12,
+      "text": "predictorasanexample: theinputsk isfirstdownsampledusingaUNet[53]-styleencoder,producingV scalesof"
+    },
+    {
+      "page": 5,
+      "line": 14,
+      "text": "features. Atscalev ∈ V,thefeatureisdenotedassk x , y v ∈ Rcv xy ×w x v y ×hv xy,whichisflattenedintow x v y ×hv xy tokens"
+    },
+    {
+      "page": 5,
+      "line": 25,
+      "text": "∆sˆk =Φ (sˆk−τp:k,Qk ), (4)"
+    },
+    {
+      "page": 5,
+      "line": 27,
+      "text": "sˆk =∆sˆk+ϕ(sˆk−1), (5)"
+    },
+    {
+      "page": 5,
+      "line": 29,
+      "text": "Sˆk =Φ (sˆk :={sˆk}), (6)"
+    },
+    {
+      "page": 5,
+      "line": 31,
+      "text": "wherei∈{xy,xz,yz}andQk isthelearnablequeryattimestepkinthei-thplane."
+    },
+    {
+      "page": 5,
+      "line": 33,
+      "text": "Sincethetriplaneoccupancyrepresentationsarepretrained,theground-truth(GT)futuretriplanescanbedirectlyused"
+    },
+    {
+      "page": 5,
+      "line": 39,
+      "text": "Sincethetriplaneoccupancyrepresentationsarepretrained,theground-truth(GT)futuretriplanescanbedirectlyused"
+    },
+    {
+      "page": 5,
+      "line": 45,
+      "text": "J =E [L (sˆk,sk)+ξL (Sˆk,Sk)], (7)"
+    },
+    {
+      "page": 5,
+      "line": 59,
+      "text": "Giventhepredictedtriplanechanges∆sˆk ={∆sˆk |i∈{xy,xz,yz}},"
+    },
+    {
+      "page": 5,
+      "line": 66,
+      "text": "18 networks [54], θ , θ , and θ , yielding zk−1, ∆zk, and zk. The p ∆ f"
+    },
+    {
+      "page": 5,
+      "line": 68,
+      "text": "(FC)layerswithSigmoidactivations, denotedζ andζ , toproduce"
+    },
+    {
+      "page": 5,
+      "line": 74,
+      "text": "futurequerytoformthemotion-planningqueryQk ∈Rdact."
+    },
+    {
+      "page": 6,
+      "line": 3,
+      "text": "mIoU(%)↑ IoU(%)↑"
+    },
+    {
+      "page": 6,
+      "line": 11,
+      "text": "DTT-O(ours) 3D-Occ 85.50 37.69 29.77 25.10 30.85 92.07 76.60 74.44 72.71 74.58"
+    },
+    {
+      "page": 6,
+      "line": 17,
+      "text": "DTT-F(ours) Camera 43.52 24.87 18.30 15.63 19.60 54.31 38.98 37.45 31.89 36.11"
+    },
+    {
+      "page": 6,
+      "line": 19,
+      "text": "aˆk+1 =Φ (aˆk−τp:k,sˆk−1,∆sˆk,Qk). (8)"
+    },
+    {
+      "page": 6,
+      "line": 21,
+      "text": "UnlikeOccWorld[7],whichintroducesanadditionalegotokentotracktheagent’strajectory,ourapproachlearns"
+    },
+    {
+      "page": 6,
+      "line": 24,
+      "text": "J =E [L (aˆk,ak)], (9)"
+    },
+    {
+      "page": 6,
+      "line": 31,
+      "text": "Following[7,5],weusethepastfourframes(2seconds)topredicttheoutcomesofthenextsixframes(3seconds)."
+    },
+    {
+      "page": 6,
+      "line": 32,
+      "text": "We conduct two sets of experiments: (i) To evaluate 4D occupancy forecasting, we report intersection over union"
+    },
+    {
+      "page": 6,
+      "line": 33,
+      "text": "(IoU)foroccupiedandunoccupiedvoxelsandmeanIoU(mIoU)across18semanticclasses,basedontheoccupancy"
+    },
+    {
+      "page": 6,
+      "line": 34,
+      "text": "annotationsintheOcc3Ddataset[4]. (ii)Toassessplanningprecisionandsafety,wemeasuretheL2distancebetween"
+    },
+    {
+      "page": 6,
+      "line": 35,
+      "text": "predictedandGTtrajectories(inmeters)andthecollisionratewithtrafficparticipants’boundingboxes,usingnuScenes"
+    },
+    {
+      "page": 6,
+      "line": 36,
+      "text": "annotations[16]."
+    },
+    {
+      "page": 6,
+      "line": 53,
+      "text": "4Doccupancyforecasting. Table1reportsthetestingperformanceofvariousmethods,undertwosettings: (i)using"
+    },
+    {
+      "page": 6,
+      "line": 54,
+      "text": "3DoccupancyGTsashistoricalinput,markedwith“-O”;(ii)usingpredicted3DoccupancydatafromFB-Occ[55]as"
+    },
+    {
+      "page": 7,
+      "line": 6,
+      "text": "sparseandpredictingbinaryoccupancy(occupiedvs. empty)issimplerthanmulti-classpredictionsmeasuredbymIoU."
+    },
+    {
+      "page": 7,
+      "line": 13,
+      "text": "L2(m)↓ Collisionrate(%)↓"
+    },
+    {
+      "page": 7,
+      "line": 26,
+      "text": "DTT-F(ours) Camera None 0.35 1.01 1.89 1.08 0.08 0.33 0.91 0.44"
+    },
+    {
+      "page": 7,
+      "line": 30,
+      "text": "DTT-O(ours) 3D-Occ None 0.32 0.91 1.76 1.00 0.08 0.32 0.51 0.30"
+    },
+    {
+      "page": 7,
+      "line": 32,
+      "text": "(IL[56],NMP[57],FF[58],andEO[59]),camera-based(ST-P3[34],UniAD[35],VAD[41]),andoccupancy-based"
+    },
+    {
+      "page": 7,
+      "line": 33,
+      "text": "methods(OccWorld[7],RenderWorld[8],andOccLLaMA[5]). TheresultsonthetestingdatasetareshowninTable2."
+    },
+    {
+      "page": 7,
+      "line": 34,
+      "text": "Specifically,(i)LiDAR-andcamera-basedmethodsoftenrequireadditionalauxiliarysupervisions(e.g.,3Dbounding"
+    },
+    {
+      "page": 7,
+      "line": 35,
+      "text": "boxes,drivablefreespace,HDmaps)toimproveplanningquality. (ii)Whenusingcamerainputonly,DTT-Foperates"
+    },
+    {
+      "page": 7,
+      "line": 37,
+      "text": "predictions. Inthissetting,DTT-FachievescompetitiveresultscomparedtoUniAD.(iii)Occupancy-basedmethods"
+    },
+    {
+      "page": 7,
+      "line": 41,
+      "text": "latentspace,effectivelyfilteringoutnoisefromirrelevanttrafficelements. However,forshort-termprediction(1–2"
+    },
+    {
+      "page": 7,
+      "line": 42,
+      "text": "seconds),DTT-OunderperformsOccLLaMA-O.Thisisprimarilybecauseevenslightinaccuraciesinthepredicted"
+    },
+    {
+      "page": 7,
+      "line": 47,
+      "text": "predictions only. (i) In the first case, OccWorld-O incorrectly labels part of the truck as a trailer, and this error"
+    },
+    {
+      "page": 7,
+      "line": 54,
+      "text": "representationsbutarelesseffectiveatcapturingpreciseobjectmotion. (ii)Inthesecondcase,OccWorld-Ogradually"
+    },
+    {
+      "page": 8,
+      "line": 41,
+      "text": "dataset(zoominforaclearerview)."
+    },
+    {
+      "page": 8,
+      "line": 48,
+      "text": "(carsandpedestrians)fromaBEVperspective. Tworeferencelinesaredisplayedtoreflecttheerrorsbetweenthe"
+    },
+    {
+      "page": 9,
+      "line": 8,
+      "text": "h,w,l,c shape↓ (%)↑ (%)↑"
+    },
+    {
+      "page": 9,
+      "line": 32,
+      "text": "Latentrepresentationcomparison. Table3empiricallyfindsthataddingthetwoextraplanes(xyandyz)inBEV"
+    },
+    {
+      "page": 9,
+      "line": 34,
+      "text": "isw×l×c;fortriplane,itisthesumacrossthreeorthogonalplanes: (h×w+h×l+w×l)×c. Theseresults"
+    },
+    {
+      "page": 10,
+      "line": 4,
+      "text": "(%)↑ 5s 6.44 9.52 11.03"
+    },
+    {
+      "page": 10,
+      "line": 9,
+      "text": "(m)↓ 5s 5.53 4.43"
+    },
+    {
+      "page": 10,
+      "line": 15,
+      "text": "H1.1 8,(8,50,50) 23.18 1.33 37"
+    },
+    {
+      "page": 10,
+      "line": 16,
+      "text": "H1.2 8,(16,50,50) 24.56 1.23 33"
+    },
+    {
+      "page": 10,
+      "line": 17,
+      "text": "H1.3 8,(8,100,100) 27.71 1.17 30"
+    },
+    {
+      "page": 10,
+      "line": 18,
+      "text": "H1.4 8,(16,100,100) 30.85 1.00 26"
+    },
+    {
+      "page": 10,
+      "line": 19,
+      "text": "H1.5 16,(16,100,100) 31.02 1.09 23"
+    },
+    {
+      "page": 10,
+      "line": 20,
+      "text": "H1.6 32,(16,100,100) 29.89 1.11 18"
+    },
+    {
+      "page": 10,
+      "line": 42,
+      "text": "finaltrade-off. TheH1seriesvariesthelatenttriplaneshape,definedbychannelnumberandspatialsize(h,w,l);"
+    },
+    {
+      "page": 10,
+      "line": 44,
+      "text": "tofeatureredundancyinself-attention. TheH2seriesadjuststhenumberofscales(V)andthedepthandwidthof"
+    },
+    {
+      "page": 10,
+      "line": 47,
+      "text": "memory(vs. 13,000M/13,500MforOccWorld/RenderWorld)andrunsat26FPSonanRTX4090,outperforming"
+    },
+    {
+      "page": 11,
+      "line": 6,
+      "text": "[1] DavidHaandJürgenSchmidhuber. Worldmodels. arXivpreprintarXiv:1803.10122,2018."
+    },
+    {
+      "page": 11,
+      "line": 7,
+      "text": "[2] David Ha and Jürgen Schmidhuber. Recurrent world models facilitate policy evolution. Advances in neural"
+    },
+    {
+      "page": 11,
+      "line": 9,
+      "text": "[3] WenwenTong,ChonghaoSima,TaiWang,LiChen,SileiWu,HanmingDeng,YiGu,LeweiLu,PingLuo,Dahua"
+    },
+    {
+      "page": 11,
+      "line": 12,
+      "text": "[4] XiaoyuTian,TaoJiang,LongfeiYun,YuchengMao,HuitongYang,YueWang,YilunWang,andHangZhao."
+    },
+    {
+      "page": 11,
+      "line": 15,
+      "text": "[5] Julong Wei, Shanshuai Yuan, Pengfei Li, Qingda Hu, Zhongxue Gan, and Wenchao Ding. Occllama: An"
+    },
+    {
+      "page": 11,
+      "line": 18,
+      "text": "[6] TianshuoXu,HaoLu,XuYan,YingjieCai,BingbingLiu,andYingcongChen. Occ-llm: Enhancingautonomous"
+    },
+    {
+      "page": 11,
+      "line": 21,
+      "text": "[7] WenzhaoZheng,WeiliangChen,YuanhuiHuang,BoruiZhang,YueqiDuan,andJiwenLu. Occworld: Learning"
+    },
+    {
+      "page": 11,
+      "line": 24,
+      "text": "[8] ZiyangYan, WenzhenDong, YihuaShao, YuhangLu, LiuHaiyang, JingwenLiu, HaozheWang, ZheWang,"
+    },
+    {
+      "page": 11,
+      "line": 27,
+      "text": "[9] AaronVanDenOord,OriolVinyals,etal. Neuraldiscreterepresentationlearning. Advancesinneuralinformation"
+    },
+    {
+      "page": 11,
+      "line": 29,
+      "text": "[10] YumingJiang,ShuaiYang,TongLiangKoh,WayneWu,ChenChangeLoy,andZiweiLiu. Text2performer:"
+    },
+    {
+      "page": 11,
+      "line": 32,
+      "text": "[11] HangZhang, AntonSavov, andBenjaminDillenburger. Maskplan: Maskedgenerativelayoutplanningfrom"
+    },
+    {
+      "page": 11,
+      "line": 35,
+      "text": "[12] RajaeiKhatibandRajaGiryes. Trinerflet: Awaveletbasedtriplanenerfrepresentation. InEuropeanConference"
+    },
+    {
+      "page": 11,
+      "line": 37,
+      "text": "[13] Tao Hu, Xiaogang Xu, Ruihang Chu, and Jiaya Jia. Trivol: Point cloud rendering via triple volumes. In"
+    },
+    {
+      "page": 11,
+      "line": 40,
+      "text": "[14] JuminLee,SebinLee,ChanghoJo,WoobinIm,JuhyeongSeon,andSung-EuiYoon. Semcity: Semanticscene"
+    },
+    {
+      "page": 11,
+      "line": 43,
+      "text": "[15] SongenGu,WeiYin,BuJin,XiaoyangGuo,JunmingWang,HaodongLi,QianZhang,andXiaoxiaoLong.Dome:"
+    },
+    {
+      "page": 11,
+      "line": 46,
+      "text": "[16] Holger Caesar, Varun Bankiti, Alex H Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan,"
+    },
+    {
+      "page": 12,
+      "line": 0,
+      "text": "[17] YiWei,LinqingZhao,WenzhaoZheng,ZhengZhu,JieZhou,andJiwenLu. Surroundocc: Multi-camera3d"
+    },
+    {
+      "page": 12,
+      "line": 3,
+      "text": "[18] RuiLiu,WenguanWang,andYiYang. Volumetricenvironmentrepresentationforvision-languagenavigation. In"
+    },
+    {
+      "page": 12,
+      "line": 6,
+      "text": "[19] NicolaMarinello,SimenCassiman,JonasHeylen,MarcProesmans,andLucVanGool. Camera-only3dpanoptic"
+    },
+    {
+      "page": 12,
+      "line": 9,
+      "text": "[20] ShuranSong,FisherYu,AndyZeng,AngelXChang,ManolisSavva,andThomasFunkhouser. Semanticscene"
+    },
+    {
+      "page": 12,
+      "line": 12,
+      "text": "[21] Anh-QuanCaoandRaoulDeCharette. Monoscene: Monocular3dsemanticscenecompletion. InProceedingsof"
+    },
+    {
+      "page": 12,
+      "line": 14,
+      "text": "[22] Yiming Li, Zhiding Yu, Christopher Choy, Chaowei Xiao, Jose M Alvarez, Sanja Fidler, Chen Feng, and"
+    },
+    {
+      "page": 12,
+      "line": 17,
+      "text": "[23] YuanhuiHuang,WenzhaoZheng,YunpengZhang,JieZhou,andJiwenLu. Tri-perspectiveviewforvision-based"
+    },
+    {
+      "page": 12,
+      "line": 20,
+      "text": "[24] Anh-QuanCao,AngelaDai,andRaoulDeCharette. Pasco: Urban3dpanopticscenecompletionwithuncertainty"
+    },
+    {
+      "page": 12,
+      "line": 23,
+      "text": "[25] ZhaoyangXia,YouquanLiu,XinLi,XingeZhu,YuexinMa,YikangLi,YuenanHou,andYuQiao. Scpnet:"
+    },
+    {
+      "page": 12,
+      "line": 26,
+      "text": "[26] Jinke Li, Xiao He, Chonghua Zhou, Xiaoqiang Cheng, Yang Wen, and Dan Zhang. Viewformer: Exploring"
+    },
+    {
+      "page": 12,
+      "line": 29,
+      "text": "[27] FanLu,GuangChen,ZhijunLi,LijunZhang,YinlongLiu,SanqingQu,andAloisKnoll. Monet: Motion-based"
+    },
+    {
+      "page": 12,
+      "line": 30,
+      "text": "pointcloudpredictionnetwork. IEEETransactionsonIntelligentTransportationSystems,23(8):13794–13804,"
+    },
+    {
+      "page": 12,
+      "line": 32,
+      "text": "[28] BenediktMersch,XieyuanliChen,JensBehley,andCyrillStachniss. Self-supervisedpointcloudpredictionusing"
+    },
+    {
+      "page": 12,
+      "line": 34,
+      "text": "[29] TarashaKhurana,PeiyunHu,DavidHeld,andDevaRamanan.Pointcloudforecastingasaproxyfor4doccupancy"
+    },
+    {
+      "page": 12,
+      "line": 37,
+      "text": "[30] JunyiMa,XieyuanliChen,JiaweiHuang,JingyiXu,ZhenLuo,JintaoXu,WeihaoGu,RuiAi,andHesheng"
+    },
+    {
+      "page": 12,
+      "line": 41,
+      "text": "[31] JunliangChen,HuaiyuanXu,YiWang,andLap-PuiChau.Occprophet:Pushingefficiencyfrontierofcamera-only"
+    },
+    {
+      "page": 12,
+      "line": 43,
+      "text": "[32] Jingyi Xu, Xieyuanli Chen, Junyi Ma, Jiawei Huang, Jintao Xu, Yue Wang, and Ling Pei. Spatiotemporal"
+    },
+    {
+      "page": 12,
+      "line": 45,
+      "text": "[33] Haoran Xu, Peixi Peng, Xinyi Zhang, Guang Tan, Yaokun Li, Shuaixian Wang, and Luntong Li. Exploiting"
+    },
+    {
+      "page": 12,
+      "line": 47,
+      "text": "[34] ShengchaoHu,LiChen,PenghaoWu,HongyangLi,JunchiYan,andDachengTao. St-p3: End-to-endvision-"
+    },
+    {
+      "page": 12,
+      "line": 50,
+      "text": "[35] YihanHu,JiazhiYang,LiChen,KeyuLi,ChonghaoSima,XizhouZhu,SiqiChai,SenyaoDu,TianweiLin,"
+    },
+    {
+      "page": 13,
+      "line": 0,
+      "text": "[36] ZhiqiLi,ZhidingYu,ShiyiLan,JiahanLi,JanKautz,TongLu,andJoseMAlvarez. Isegostatusallyouneedfor"
+    },
+    {
+      "page": 13,
+      "line": 3,
+      "text": "[37] WenzhaoZheng,RuiqiSong,XiandaGuo,ChenmingZhang,andLongChen. Genad: Generativeend-to-end"
+    },
+    {
+      "page": 13,
+      "line": 5,
+      "text": "[38] DiWen,HaoranXu,ZhaochengHe,ZheWu,GuangTan,andPeixiPeng. Density-adaptivemodelbasedonmotif"
+    },
+    {
+      "page": 13,
+      "line": 8,
+      "text": "[39] ZhiliChen,MaoshengYe,ShuangjieXu,TongyiCao,andQifengChen. Ppad: Iterativeinteractionsofprediction"
+    },
+    {
+      "page": 13,
+      "line": 11,
+      "text": "[40] YupengZheng,PengxuanYang,ZebinXing,QichaoZhang,YuhangZheng,YinfengGao,PengfeiLi,TengZhang,"
+    },
+    {
+      "page": 13,
+      "line": 15,
+      "text": "[41] BoJiang,ShaoyuChen,QingXu,BenchengLiao,JiajieChen,HelongZhou,QianZhang,WenyuLiu,Chang"
+    },
+    {
+      "page": 13,
+      "line": 18,
+      "text": "[42] YumengZhang,ShiGong,KaixinXiong,XiaoqingYe,XiaoTan,FanWang,JizhouHuang,HuaWu,andHaifeng"
+    },
+    {
+      "page": 13,
+      "line": 21,
+      "text": "[43] Zehuan Wu, Jingcheng Ni, Xiaodong Wang, Yuxin Guo, Rui Chen, Lewei Lu, Jifeng Dai, and Yuwen"
+    },
+    {
+      "page": 13,
+      "line": 24,
+      "text": "[44] Yuqi Wang, Jiawei He, Lue Fan, Hongxin Li, Yuntao Chen, and Zhaoxiang Zhang. Driving into the future:"
+    },
+    {
+      "page": 13,
+      "line": 27,
+      "text": "[45] XiaofengWang,ZhengZhu,GuanHuang,XinzeChen,JiagangZhu,andJiwenLu. Drivedreamer: Towards"
+    },
+    {
+      "page": 13,
+      "line": 30,
+      "text": "[46] ShenyuanGao,JiazhiYang,LiChen,KashyapChitta,YihangQiu,AndreasGeiger,JunZhang,andHongyangLi."
+    },
+    {
+      "page": 13,
+      "line": 33,
+      "text": "[47] FanJia,WeixinMao,YingfeiLiu,YuchengZhao,YuqingWen,ChiZhang,XiangyuZhang,andTiancaiWang."
+    },
+    {
+      "page": 13,
+      "line": 35,
+      "text": "[48] DiederikPKingma,MaxWelling,etal. Auto-encodingvariationalbayes,2013."
+    },
+    {
+      "page": 13,
+      "line": 36,
+      "text": "[49] AshishVaswani,NoamShazeer,NikiParmar,JakobUszkoreit,LlionJones,AidanNGomez,ŁukaszKaiser,and"
+    },
+    {
+      "page": 13,
+      "line": 38,
+      "text": "[50] JRyanShue, EricRyanChan, RyanPo, ZacharyAnkner, JiajunWu, andGordonWetzstein. 3dneuralfield"
+    },
+    {
+      "page": 13,
+      "line": 41,
+      "text": "[51] LuchuanSong,PinxinLiu,LeleChen,GuojunYin,andChenliangXu. Tri2-plane: Thinkingheadavatarvia"
+    },
+    {
+      "page": 13,
+      "line": 43,
+      "text": "[52] MaximBerman,AmalRannenTriki,andMatthewBBlaschko. Thelovász-softmaxloss: Atractablesurrogate"
+    },
+    {
+      "page": 13,
+      "line": 46,
+      "text": "[53] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net: Convolutional networks for biomedical image"
+    },
+    {
+      "page": 13,
+      "line": 49,
+      "text": "[54] KaimingHe,XiangyuZhang,ShaoqingRen,andJianSun. Deepresiduallearningforimagerecognition. In"
+    },
+    {
+      "page": 13,
+      "line": 51,
+      "text": "[55] ZhiqiLi,ZhidingYu,DavidAustin,MingshengFang,ShiyiLan,JanKautz,andJoseMAlvarez. FB-OCC:3D"
+    },
+    {
+      "page": 14,
+      "line": 0,
+      "text": "[56] NathanDRatliff,JAndrewBagnell,andMartinAZinkevich. Maximummarginplanning. InProceedingsofthe"
+    },
+    {
+      "page": 14,
+      "line": 2,
+      "text": "[57] WenyuanZeng,WenjieLuo,SimonSuo,AbbasSadat,BinYang,SergioCasas,andRaquelUrtasun. End-to-end"
+    },
+    {
+      "page": 14,
+      "line": 5,
+      "text": "[58] Peiyun Hu, Aaron Huang, John Dolan, David Held, and Deva Ramanan. Safe local motion planning with"
+    },
+    {
+      "page": 14,
+      "line": 8,
+      "text": "[59] TarashaKhurana,PeiyunHu,AchalDave,JasonZiglar,DavidHeld,andDevaRamanan.Differentiableraycasting"
+    }
+  ],
+  "references": [
+    {
+      "number": "1",
+      "text": "DavidHaandJürgenSchmidhuber. Worldmodels. arXivpreprintarXiv:1803.10122,2018."
+    },
+    {
+      "number": "2",
+      "text": "David Ha and Jürgen Schmidhuber. Recurrent world models facilitate policy evolution. Advances in neural informationprocessingsystems,31,2018."
+    },
+    {
+      "number": "3",
+      "text": "WenwenTong,ChonghaoSima,TaiWang,LiChen,SileiWu,HanmingDeng,YiGu,LeweiLu,PingLuo,Dahua Lin,etal. Sceneasoccupancy. InProceedingsoftheIEEE/CVFInternationalConferenceonComputerVision, pages8406–8415,2023."
+    },
+    {
+      "number": "4",
+      "text": "XiaoyuTian,TaoJiang,LongfeiYun,YuchengMao,HuitongYang,YueWang,YilunWang,andHangZhao. Occ3d:Alarge-scale3doccupancypredictionbenchmarkforautonomousdriving.AdvancesinNeuralInformation ProcessingSystems,36:64318–64330,2023."
+    },
+    {
+      "number": "5",
+      "text": "Julong Wei, Shanshuai Yuan, Pengfei Li, Qingda Hu, Zhongxue Gan, and Wenchao Ding. Occllama: An occupancy-language-actiongenerativeworldmodelforautonomousdriving. arXivpreprintarXiv:2409.03272, 2024."
+    },
+    {
+      "number": "6",
+      "text": "TianshuoXu,HaoLu,XuYan,YingjieCai,BingbingLiu,andYingcongChen. Occ-llm: Enhancingautonomous drivingwithoccupancy-basedlargelanguagemodels. InInternationalConferenceonRoboticsandAutomation, 2025."
+    },
+    {
+      "number": "7",
+      "text": "WenzhaoZheng,WeiliangChen,YuanhuiHuang,BoruiZhang,YueqiDuan,andJiwenLu. Occworld: Learning a3doccupancyworldmodelforautonomousdriving. InEuropeanconferenceoncomputervision,pages55–72. Springer,2024."
+    },
+    {
+      "number": "8",
+      "text": "ZiyangYan, WenzhenDong, YihuaShao, YuhangLu, LiuHaiyang, JingwenLiu, HaozheWang, ZheWang, YanWang,FabioRemondino,etal. Renderworld: Worldmodelwithself-supervised3dlabel. InInternational ConferenceonRoboticsandAutomation,2025."
+    },
+    {
+      "number": "9",
+      "text": "AaronVanDenOord,OriolVinyals,etal. Neuraldiscreterepresentationlearning. Advancesinneuralinformation processingsystems,30,2017."
+    },
+    {
+      "number": "10",
+      "text": "YumingJiang,ShuaiYang,TongLiangKoh,WayneWu,ChenChangeLoy,andZiweiLiu. Text2performer: Text-drivenhumanvideogeneration. InProceedingsoftheIEEE/CVFInternationalConferenceonComputer Vision,pages22747–22757,2023."
+    },
+    {
+      "number": "11",
+      "text": "HangZhang, AntonSavov, andBenjaminDillenburger. Maskplan: Maskedgenerativelayoutplanningfrom partialinput. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages 8964–8973,2024."
+    },
+    {
+      "number": "12",
+      "text": "RajaeiKhatibandRajaGiryes. Trinerflet: Awaveletbasedtriplanenerfrepresentation. InEuropeanConference onComputerVision,pages358–374.Springer,2024."
+    },
+    {
+      "number": "13",
+      "text": "Tao Hu, Xiaogang Xu, Ruihang Chu, and Jiaya Jia. Trivol: Point cloud rendering via triple volumes. In ProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages20732–20741, 2023."
+    },
+    {
+      "number": "14",
+      "text": "JuminLee,SebinLee,ChanghoJo,WoobinIm,JuhyeongSeon,andSung-EuiYoon. Semcity: Semanticscene generationwithtriplanediffusion. InProceedingsoftheIEEE/CVFconferenceoncomputervisionandpattern recognition,pages28337–28347,2024."
+    },
+    {
+      "number": "15",
+      "text": "SongenGu,WeiYin,BuJin,XiaoyangGuo,JunmingWang,HaodongLi,QianZhang,andXiaoxiaoLong.Dome: Tamingdiffusionmodelintohigh-fidelitycontrollableoccupancyworldmodel. arXivpreprintarXiv:2410.10429, 2024."
+    },
+    {
+      "number": "16",
+      "text": "Holger Caesar, Varun Bankiti, Alex H Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan, YuPan, GiancarloBaldan, andOscarBeijbom. nuscenes: Amultimodaldatasetforautonomousdriving. In ProceedingsoftheIEEE/CVFconferenceoncomputervisionandpatternrecognition,pages11621–11631,2020. 11"
+    },
+    {
+      "number": "17",
+      "text": "YiWei,LinqingZhao,WenzhaoZheng,ZhengZhu,JieZhou,andJiwenLu. Surroundocc: Multi-camera3d occupancypredictionforautonomousdriving. InProceedingsoftheIEEE/CVFInternationalConferenceon ComputerVision,pages21729–21740,2023."
+    },
+    {
+      "number": "18",
+      "text": "RuiLiu,WenguanWang,andYiYang. Volumetricenvironmentrepresentationforvision-languagenavigation. In ProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages16317–16328, 2024."
+    },
+    {
+      "number": "19",
+      "text": "NicolaMarinello,SimenCassiman,JonasHeylen,MarcProesmans,andLucVanGool. Camera-only3dpanoptic scenecompletionforautonomousdrivingthroughdifferentiableobjectshapes. InProceedingsoftheComputer VisionandPatternRecognitionConference,pages2520–2529,2025."
+    },
+    {
+      "number": "20",
+      "text": "ShuranSong,FisherYu,AndyZeng,AngelXChang,ManolisSavva,andThomasFunkhouser. Semanticscene completionfromasingledepthimage. InProceedingsoftheIEEEconferenceoncomputervisionandpattern recognition,pages1746–1754,2017."
+    },
+    {
+      "number": "21",
+      "text": "Anh-QuanCaoandRaoulDeCharette. Monoscene: Monocular3dsemanticscenecompletion. InProceedingsof theIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages3991–4001,2022."
+    },
+    {
+      "number": "22",
+      "text": "Yiming Li, Zhiding Yu, Christopher Choy, Chaowei Xiao, Jose M Alvarez, Sanja Fidler, Chen Feng, and AnimaAnandkumar. Voxformer: Sparsevoxeltransformerforcamera-based3dsemanticscenecompletion. In ProceedingsoftheIEEE/CVFconferenceoncomputervisionandpatternrecognition,pages9087–9098,2023."
+    },
+    {
+      "number": "23",
+      "text": "YuanhuiHuang,WenzhaoZheng,YunpengZhang,JieZhou,andJiwenLu. Tri-perspectiveviewforvision-based 3dsemanticoccupancyprediction. InProceedingsoftheIEEE/CVFconferenceoncomputervisionandpattern recognition,pages9223–9232,2023."
+    },
+    {
+      "number": "24",
+      "text": "Anh-QuanCao,AngelaDai,andRaoulDeCharette. Pasco: Urban3dpanopticscenecompletionwithuncertainty awareness. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages 14554–14564,2024."
+    },
+    {
+      "number": "25",
+      "text": "ZhaoyangXia,YouquanLiu,XinLi,XingeZhu,YuexinMa,YikangLi,YuenanHou,andYuQiao. Scpnet: Semanticscenecompletiononpointcloud. InProceedingsoftheIEEE/CVFconferenceoncomputervisionand patternrecognition,pages17642–17651,2023."
+    },
+    {
+      "number": "26",
+      "text": "Jinke Li, Xiao He, Chonghua Zhou, Xiaoqiang Cheng, Yang Wen, and Dan Zhang. Viewformer: Exploring spatiotemporalmodelingformulti-view3doccupancyperceptionviaview-guidedtransformers. InEuropean ConferenceonComputerVision,pages90–106.Springer,2024."
+    },
+    {
+      "number": "27",
+      "text": "FanLu,GuangChen,ZhijunLi,LijunZhang,YinlongLiu,SanqingQu,andAloisKnoll. Monet: Motion-based pointcloudpredictionnetwork. IEEETransactionsonIntelligentTransportationSystems,23(8):13794–13804, 2021."
+    },
+    {
+      "number": "28",
+      "text": "BenediktMersch,XieyuanliChen,JensBehley,andCyrillStachniss. Self-supervisedpointcloudpredictionusing 3dspatio-temporalconvolutionalnetworks. InConferenceonRobotLearning,pages1444–1454.PMLR,2022."
+    },
+    {
+      "number": "29",
+      "text": "TarashaKhurana,PeiyunHu,DavidHeld,andDevaRamanan.Pointcloudforecastingasaproxyfor4doccupancy forecasting. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages 1116–1124,2023."
+    },
+    {
+      "number": "30",
+      "text": "JunyiMa,XieyuanliChen,JiaweiHuang,JingyiXu,ZhenLuo,JintaoXu,WeihaoGu,RuiAi,andHesheng Wang. Cam4docc: Benchmarkforcamera-only4doccupancyforecastinginautonomousdrivingapplications. In ProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages21486–21495, 2024."
+    },
+    {
+      "number": "31",
+      "text": "JunliangChen,HuaiyuanXu,YiWang,andLap-PuiChau.Occprophet:Pushingefficiencyfrontierofcamera-only 4doccupancyforecastingwithobserver-forecaster-refinerframework. InICLR,2025."
+    },
+    {
+      "number": "32",
+      "text": "Jingyi Xu, Xieyuanli Chen, Junyi Ma, Jiawei Huang, Jintao Xu, Yue Wang, and Ling Pei. Spatiotemporal decouplingforefficientvision-basedoccupancyforecasting. arXivpreprintarXiv:2411.14169,2024."
+    },
+    {
+      "number": "33",
+      "text": "Haoran Xu, Peixi Peng, Xinyi Zhang, Guang Tan, Yaokun Li, Shuaixian Wang, and Luntong Li. Exploiting continuousmotioncluesforvision-basedoccupancyprediction. InAAAI,2025."
+    },
+    {
+      "number": "34",
+      "text": "ShengchaoHu,LiChen,PenghaoWu,HongyangLi,JunchiYan,andDachengTao. St-p3: End-to-endvision- basedautonomousdrivingviaspatial-temporalfeaturelearning. InEuropeanConferenceonComputerVision, pages533–549.Springer,2022."
+    },
+    {
+      "number": "35",
+      "text": "YihanHu,JiazhiYang,LiChen,KeyuLi,ChonghaoSima,XizhouZhu,SiqiChai,SenyaoDu,TianweiLin, WenhaiWang,etal. Planning-orientedautonomousdriving. InProceedingsoftheIEEE/CVFconferenceon computervisionandpatternrecognition,pages17853–17862,2023. 12"
+    },
+    {
+      "number": "36",
+      "text": "ZhiqiLi,ZhidingYu,ShiyiLan,JiahanLi,JanKautz,TongLu,andJoseMAlvarez. Isegostatusallyouneedfor open-loopend-to-endautonomousdriving? InProceedingsoftheIEEE/CVFConferenceonComputerVisionand PatternRecognition,pages14864–14873,2024."
+    },
+    {
+      "number": "37",
+      "text": "WenzhaoZheng,RuiqiSong,XiandaGuo,ChenmingZhang,andLongChen. Genad: Generativeend-to-end autonomousdriving. InEuropeanConferenceonComputerVision,pages87–104.Springer,2024."
+    },
+    {
+      "number": "38",
+      "text": "DiWen,HaoranXu,ZhaochengHe,ZheWu,GuangTan,andPeixiPeng. Density-adaptivemodelbasedonmotif matrixformulti-agenttrajectoryprediction. InProceedingsoftheIEEE/CVFConferenceonComputerVisionand PatternRecognition,pages14822–14832,2024."
+    },
+    {
+      "number": "39",
+      "text": "ZhiliChen,MaoshengYe,ShuangjieXu,TongyiCao,andQifengChen. Ppad: Iterativeinteractionsofprediction andplanningforend-to-endautonomousdriving. InEuropeanConferenceonComputerVision,pages239–256. Springer,2024."
+    },
+    {
+      "number": "40",
+      "text": "YupengZheng,PengxuanYang,ZebinXing,QichaoZhang,YuhangZheng,YinfengGao,PengfeiLi,TengZhang, ZhongpuXia,PengJia,etal. World4drive: End-to-endautonomousdrivingviaintention-awarephysicallatent worldmodel. InProceedingsoftheIEEE/CVFInternationalConferenceonComputerVision,pages28632–28642, 2025."
+    },
+    {
+      "number": "41",
+      "text": "BoJiang,ShaoyuChen,QingXu,BenchengLiao,JiajieChen,HelongZhou,QianZhang,WenyuLiu,Chang Huang,andXinggangWang. Vad: Vectorizedscenerepresentationforefficientautonomousdriving. InProceed- ingsoftheIEEE/CVFInternationalConferenceonComputerVision,pages8340–8350,2023."
+    },
+    {
+      "number": "42",
+      "text": "YumengZhang,ShiGong,KaixinXiong,XiaoqingYe,XiaoTan,FanWang,JizhouHuang,HuaWu,andHaifeng Wang. Bevworld: Amultimodalworldmodelforautonomousdrivingviaunifiedbevlatentspace. arXivpreprint arXiv:2407.05679,2024."
+    },
+    {
+      "number": "43",
+      "text": "Zehuan Wu, Jingcheng Ni, Xiaodong Wang, Yuxin Guo, Rui Chen, Lewei Lu, Jifeng Dai, and Yuwen Xiong. Holodrive: Holistic2d-3dmulti-modalstreetscenegenerationforautonomousdriving. arXivpreprint arXiv:2412.01407,2024."
+    },
+    {
+      "number": "44",
+      "text": "Yuqi Wang, Jiawei He, Lue Fan, Hongxin Li, Yuntao Chen, and Zhaoxiang Zhang. Driving into the future: Multiview visual forecasting and planning with world model for autonomous driving. In Proceedings of the IEEE/CVFConferenceonComputerVisionandPatternRecognition,pages14749–14759,2024."
+    },
+    {
+      "number": "45",
+      "text": "XiaofengWang,ZhengZhu,GuanHuang,XinzeChen,JiagangZhu,andJiwenLu. Drivedreamer: Towards real-world-driveworldmodelsforautonomousdriving. InEuropeanConferenceonComputerVision, pages 55–72.Springer,2024."
+    },
+    {
+      "number": "46",
+      "text": "ShenyuanGao,JiazhiYang,LiChen,KashyapChitta,YihangQiu,AndreasGeiger,JunZhang,andHongyangLi. Vista: Ageneralizabledrivingworldmodelwithhighfidelityandversatilecontrollability. AdvancesinNeural InformationProcessingSystems,37:91560–91596,2025."
+    },
+    {
+      "number": "47",
+      "text": "FanJia,WeixinMao,YingfeiLiu,YuchengZhao,YuqingWen,ChiZhang,XiangyuZhang,andTiancaiWang. Adriver-i: Ageneralworldmodelforautonomousdriving. arXivpreprintarXiv:2311.13549,2023."
+    },
+    {
+      "number": "48",
+      "text": "DiederikPKingma,MaxWelling,etal. Auto-encodingvariationalbayes,2013."
+    },
+    {
+      "number": "49",
+      "text": "AshishVaswani,NoamShazeer,NikiParmar,JakobUszkoreit,LlionJones,AidanNGomez,ŁukaszKaiser,and IlliaPolosukhin. Attentionisallyouneed. Advancesinneuralinformationprocessingsystems,30,2017."
+    },
+    {
+      "number": "50",
+      "text": "JRyanShue, EricRyanChan, RyanPo, ZacharyAnkner, JiajunWu, andGordonWetzstein. 3dneuralfield generationusingtriplanediffusion. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPattern Recognition,pages20875–20886,2023."
+    },
+    {
+      "number": "51",
+      "text": "LuchuanSong,PinxinLiu,LeleChen,GuojunYin,andChenliangXu. Tri2-plane: Thinkingheadavatarvia featurepyramid. InEuropeanConferenceonComputerVision,pages1–20.Springer,2024."
+    },
+    {
+      "number": "52",
+      "text": "MaximBerman,AmalRannenTriki,andMatthewBBlaschko. Thelovász-softmaxloss: Atractablesurrogate for the optimization of the intersection-over-union measure in neural networks. In Proceedings of the IEEE conferenceoncomputervisionandpatternrecognition,pages4413–4421,2018."
+    },
+    {
+      "number": "53",
+      "text": "Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net: Convolutional networks for biomedical image segmentation. InMedicalimagecomputingandcomputer-assistedintervention–MICCAI2015:18thinternational conference,Munich,Germany,October5-9,2015,proceedings,partIII18,pages234–241.Springer,2015."
+    },
+    {
+      "number": "54",
+      "text": "KaimingHe,XiangyuZhang,ShaoqingRen,andJianSun. Deepresiduallearningforimagerecognition. In ProceedingsoftheIEEEconferenceoncomputervisionandpatternrecognition,pages770–778,2016."
+    },
+    {
+      "number": "55",
+      "text": "ZhiqiLi,ZhidingYu,DavidAustin,MingshengFang,ShiyiLan,JanKautz,andJoseMAlvarez. FB-OCC:3D occupancypredictionbasedonforward-backwardviewtransformation. arXiv:2307.01492,2023. 13"
+    },
+    {
+      "number": "56",
+      "text": "NathanDRatliff,JAndrewBagnell,andMartinAZinkevich. Maximummarginplanning. InProceedingsofthe 23rdinternationalconferenceonMachinelearning,pages729–736,2006."
+    },
+    {
+      "number": "57",
+      "text": "WenyuanZeng,WenjieLuo,SimonSuo,AbbasSadat,BinYang,SergioCasas,andRaquelUrtasun. End-to-end interpretableneuralmotionplanner. InProceedingsoftheIEEE/CVFconferenceoncomputervisionandpattern recognition,pages8660–8669,2019."
+    },
+    {
+      "number": "58",
+      "text": "Peiyun Hu, Aaron Huang, John Dolan, David Held, and Deva Ramanan. Safe local motion planning with self-supervisedfreespaceforecasting. InProceedingsoftheIEEE/CVFConferenceonComputerVisionand PatternRecognition,pages12732–12741,2021."
+    },
+    {
+      "number": "59",
+      "text": "TarashaKhurana,PeiyunHu,AchalDave,JasonZiglar,DavidHeld,andDevaRamanan.Differentiableraycasting forself-supervisedoccupancyforecasting. InEuropeanConferenceonComputerVision,pages353–369.Springer, 2022. 14"
+    }
+  ],
+  "citations": {
+    "1": {
+      "page": 11,
+      "context": "motionplanningwithreal-timeefficiency.\nReferences\n[1] DavidHaandJürgenSchmidhuber. Worldmodels. arXivpr"
+    },
+    "2": {
+      "page": 11,
+      "context": "Worldmodels. arXivpreprintarXiv:1803.10122,2018.\n[2] David Ha and Jürgen Schmidhuber. Recurrent world"
+    },
+    "3": {
+      "page": 11,
+      "context": "s in neural\ninformationprocessingsystems,31,2018.\n[3] WenwenTong,ChonghaoSima,TaiWang,LiChen,SileiWu,Ha"
+    },
+    "4": {
+      "page": 11,
+      "context": "lConferenceonComputerVision,\npages8406–8415,2023.\n[4] XiaoyuTian,TaoJiang,LongfeiYun,YuchengMao,Huitong"
+    },
+    "9": {
+      "page": 11,
+      "context": "rnational\nConferenceonRoboticsandAutomation,2025.\n[9] AaronVanDenOord,OriolVinyals,etal. Neuraldiscrete"
+    },
+    "10": {
+      "page": 11,
+      "context": "cesinneuralinformation\nprocessingsystems,30,2017.\n[10] YumingJiang,ShuaiYang,TongLiangKoh,WayneWu,ChenCh"
+    },
+    "11": {
+      "page": 11,
+      "context": "onferenceonComputer\nVision,pages22747–22757,2023.\n[11] HangZhang, AntonSavov, andBenjaminDillenburger. M"
+    },
+    "12": {
+      "page": 11,
+      "context": "VisionandPatternRecognition,pages\n8964–8973,2024.\n[12] RajaeiKhatibandRajaGiryes. Trinerflet: Awaveletba"
+    },
+    "13": {
+      "page": 11,
+      "context": "ence\nonComputerVision,pages358–374.Springer,2024.\n[13] Tao Hu, Xiaogang Xu, Ruihang Chu, and Jiaya Jia."
+    },
+    "14": {
+      "page": 11,
+      "context": "sionandPatternRecognition,pages20732–20741,\n2023.\n[14] JuminLee,SebinLee,ChanghoJo,WoobinIm,JuhyeongSeon"
+    },
+    "6": {
+      "page": 11,
+      "context": "mousdriving. arXivpreprintarXiv:2409.03272,\n2024.\n[6] TianshuoXu,HaoLu,XuYan,YingjieCai,BingbingLiu,and"
+    },
+    "5": {
+      "page": 11,
+      "context": "nformation\nProcessingSystems,36:64318–64330,2023.\n[5] Julong Wei, Shanshuai Yuan, Pengfei Li, Qingda Hu"
+    },
+    "15": {
+      "page": 11,
+      "context": "sionandpattern\nrecognition,pages28337–28347,2024.\n[15] SongenGu,WeiYin,BuJin,XiaoyangGuo,JunmingWang,Hao"
+    },
+    "16": {
+      "page": 11,
+      "context": "yworldmodel. arXivpreprintarXiv:2410.10429,\n2024.\n[16] Holger Caesar, Varun Bankiti, Alex H Lang, Sourab"
+    },
+    "17": {
+      "page": 12,
+      "context": "[17] YiWei,LinqingZhao,WenzhaoZheng,ZhengZhu,JieZhou,a"
+    },
+    "18": {
+      "page": 12,
+      "context": "onferenceon\nComputerVision,pages21729–21740,2023.\n[18] RuiLiu,WenguanWang,andYiYang. Volumetricenvironme"
+    },
+    "19": {
+      "page": 12,
+      "context": "sionandPatternRecognition,pages16317–16328,\n2024.\n[19] NicolaMarinello,SimenCassiman,JonasHeylen,MarcPro"
+    },
+    "20": {
+      "page": 12,
+      "context": "PatternRecognitionConference,pages2520–2529,2025.\n[20] ShuranSong,FisherYu,AndyZeng,AngelXChang,ManolisS"
+    },
+    "21": {
+      "page": 12,
+      "context": "visionandpattern\nrecognition,pages1746–1754,2017.\n[21] Anh-QuanCaoandRaoulDeCharette. Monoscene: Monocul"
+    },
+    "22": {
+      "page": 12,
+      "context": "rVisionandPatternRecognition,pages3991–4001,2022.\n[22] Yiming Li, Zhiding Yu, Christopher Choy, Chaowei"
+    },
+    "23": {
+      "page": 12,
+      "context": "rvisionandpatternrecognition,pages9087–9098,2023.\n[23] YuanhuiHuang,WenzhaoZheng,YunpengZhang,JieZhou,an"
+    },
+    "24": {
+      "page": 12,
+      "context": "visionandpattern\nrecognition,pages9223–9232,2023.\n[24] Anh-QuanCao,AngelaDai,andRaoulDeCharette. Pasco:"
+    },
+    "25": {
+      "page": 12,
+      "context": "sionandPatternRecognition,pages\n14554–14564,2024.\n[25] ZhaoyangXia,YouquanLiu,XinLi,XingeZhu,YuexinMa,Yi"
+    },
+    "26": {
+      "page": 12,
+      "context": "sionand\npatternrecognition,pages17642–17651,2023.\n[26] Jinke Li, Xiao He, Chonghua Zhou, Xiaoqiang Cheng"
+    },
+    "27": {
+      "page": 12,
+      "context": "erenceonComputerVision,pages90–106.Springer,2024.\n[27] FanLu,GuangChen,ZhijunLi,LijunZhang,YinlongLiu,Sa"
+    },
+    "28": {
+      "page": 12,
+      "context": "entTransportationSystems,23(8):13794–13804,\n2021.\n[28] BenediktMersch,XieyuanliChen,JensBehley,andCyrill"
+    },
+    "29": {
+      "page": 12,
+      "context": "nferenceonRobotLearning,pages1444–1454.PMLR,2022.\n[29] TarashaKhurana,PeiyunHu,DavidHeld,andDevaRamanan."
+    },
+    "30": {
+      "page": 12,
+      "context": "VisionandPatternRecognition,pages\n1116–1124,2023.\n[30] JunyiMa,XieyuanliChen,JiaweiHuang,JingyiXu,ZhenLu"
+    },
+    "31": {
+      "page": 12,
+      "context": "sionandPatternRecognition,pages21486–21495,\n2024.\n[31] JunliangChen,HuaiyuanXu,YiWang,andLap-PuiChau.Occ"
+    },
+    "32": {
+      "page": 12,
+      "context": "bserver-forecaster-refinerframework. InICLR,2025.\n[32] Jingyi Xu, Xieyuanli Chen, Junyi Ma, Jiawei Huang"
+    },
+    "33": {
+      "page": 12,
+      "context": "yforecasting. arXivpreprintarXiv:2411.14169,2024.\n[33] Haoran Xu, Peixi Peng, Xinyi Zhang, Guang Tan, Ya"
+    },
+    "34": {
+      "page": 12,
+      "context": "sforvision-basedoccupancyprediction. InAAAI,2025.\n[34] ShengchaoHu,LiChen,PenghaoWu,HongyangLi,JunchiYan"
+    },
+    "35": {
+      "page": 12,
+      "context": "enceonComputerVision,\npages533–549.Springer,2022.\n[35] YihanHu,JiazhiYang,LiChen,KeyuLi,ChonghaoSima,Xiz"
+    },
+    "36": {
+      "page": 13,
+      "context": "[36] ZhiqiLi,ZhidingYu,ShiyiLan,JiahanLi,JanKautz,Tong"
+    },
+    "37": {
+      "page": 13,
+      "context": "sionand\nPatternRecognition,pages14864–14873,2024.\n[37] WenzhaoZheng,RuiqiSong,XiandaGuo,ChenmingZhang,an"
+    },
+    "38": {
+      "page": 13,
+      "context": "erenceonComputerVision,pages87–104.Springer,2024.\n[38] DiWen,HaoranXu,ZhaochengHe,ZheWu,GuangTan,andPeix"
+    },
+    "39": {
+      "page": 13,
+      "context": "sionand\nPatternRecognition,pages14822–14832,2024.\n[39] ZhiliChen,MaoshengYe,ShuangjieXu,TongyiCao,andQif"
+    },
+    "40": {
+      "page": 13,
+      "context": "enceonComputerVision,pages239–256.\nSpringer,2024.\n[40] YupengZheng,PengxuanYang,ZebinXing,QichaoZhang,Yu"
+    },
+    "41": {
+      "page": 13,
+      "context": "onferenceonComputerVision,pages28632–28642,\n2025.\n[41] BoJiang,ShaoyuChen,QingXu,BenchengLiao,JiajieChen"
+    },
+    "42": {
+      "page": 13,
+      "context": "alConferenceonComputerVision,pages8340–8350,2023.\n[42] YumengZhang,ShiGong,KaixinXiong,XiaoqingYe,XiaoTa"
+    },
+    "43": {
+      "page": 13,
+      "context": "latentspace. arXivpreprint\narXiv:2407.05679,2024.\n[43] Zehuan Wu, Jingcheng Ni, Xiaodong Wang, Yuxin Guo"
+    },
+    "44": {
+      "page": 13,
+      "context": "mousdriving. arXivpreprint\narXiv:2412.01407,2024.\n[44] Yuqi Wang, Jiawei He, Lue Fan, Hongxin Li, Yuntao"
+    },
+    "45": {
+      "page": 13,
+      "context": "isionandPatternRecognition,pages14749–14759,2024.\n[45] XiaofengWang,ZhengZhu,GuanHuang,XinzeChen,Jiagang"
+    },
+    "46": {
+      "page": 13,
+      "context": "renceonComputerVision, pages\n55–72.Springer,2024.\n[46] ShenyuanGao,JiazhiYang,LiChen,KashyapChitta,Yihan"
+    },
+    "47": {
+      "page": 13,
+      "context": "InformationProcessingSystems,37:91560–91596,2025.\n[47] FanJia,WeixinMao,YingfeiLiu,YuchengZhao,YuqingWen"
+    },
+    "48": {
+      "page": 13,
+      "context": "omousdriving. arXivpreprintarXiv:2311.13549,2023.\n[48] DiederikPKingma,MaxWelling,etal. Auto-encodingvar"
+    },
+    "49": {
+      "page": 13,
+      "context": "Welling,etal. Auto-encodingvariationalbayes,2013.\n[49] AshishVaswani,NoamShazeer,NikiParmar,JakobUszkore"
+    },
+    "7": {
+      "page": 11,
+      "context": "rnationalConferenceonRoboticsandAutomation,\n2025.\n[7] WenzhaoZheng,WeiliangChen,YuanhuiHuang,BoruiZhang"
+    },
+    "52": {
+      "page": 13,
+      "context": "nferenceonComputerVision,pages1–20.Springer,2024.\n[52] MaximBerman,AmalRannenTriki,andMatthewBBlaschko."
+    },
+    "53": {
+      "page": 13,
+      "context": "rvisionandpatternrecognition,pages4413–4421,2018.\n[53] Olaf Ronneberger, Philipp Fischer, and Thomas Bro"
+    },
+    "54": {
+      "page": 13,
+      "context": "proceedings,partIII18,pages234–241.Springer,2015.\n[54] KaimingHe,XiangyuZhang,ShaoqingRen,andJianSun. De"
+    },
+    "55": {
+      "page": 13,
+      "context": "tervisionandpatternrecognition,pages770–778,2016.\n[55] ZhiqiLi,ZhidingYu,DavidAustin,MingshengFang,Shiyi"
+    },
+    "8": {
+      "page": 12,
+      "context": "ETransactionsonIntelligentTransportationSystems,23(8):13794–13804,\n2021.\n[28] BenediktMersch,XieyuanliC"
+    },
+    "56": {
+      "page": 14,
+      "context": "[56] NathanDRatliff,JAndrewBagnell,andMartinAZinkevich"
+    },
+    "57": {
+      "page": 14,
+      "context": "nalconferenceonMachinelearning,pages729–736,2006.\n[57] WenyuanZeng,WenjieLuo,SimonSuo,AbbasSadat,BinYang"
+    },
+    "58": {
+      "page": 14,
+      "context": "visionandpattern\nrecognition,pages8660–8669,2019.\n[58] Peiyun Hu, Aaron Huang, John Dolan, David Held, a"
+    },
+    "59": {
+      "page": 14,
+      "context": "sionand\nPatternRecognition,pages12732–12741,2021.\n[59] TarashaKhurana,PeiyunHu,AchalDave,JasonZiglar,Dav"
+    },
+    "50": {
+      "page": 13,
+      "context": "ncesinneuralinformationprocessingsystems,30,2017.\n[50] JRyanShue, EricRyanChan, RyanPo, ZacharyAnkner, J"
+    },
+    "100": {
+      "page": 10,
+      "context": ".00 26\nH1.5 16,(16,100,100) 31.02 1.09 23\nH1.6 32,(16,100,100) 29.89 1.11 18\nH2.1 V =3,4,16 29.01 1.08 28\nH2.2 V"
+    },
+    "51": {
+      "page": 13,
+      "context": "sionandPattern\nRecognition,pages20875–20886,2023.\n[51] LuchuanSong,PinxinLiu,LeleChen,GuojunYin,andChenl"
+    }
+  },
+  "text_by_page": [
+    {
+      "page_num": 1,
+      "text": "Delta-Triplane Transformers as Occupancy World Models\nHaoranXu1,2,PeixiPeng2,3†,GuangTan1†,YiqianChang2,4,YisenZhao3,andYonghongTian2,3,5\n1SchoolofIntelligentSystemsEngineering,ShenzhenCampusofSunYat-senUniversity,Shenzhen518107,China.\n2PengChengLaboratory,Shenzhen518108,China.\n3SchoolofElectronicandComputerEngineering,ShenzhenGraduateSchool,PekingUniversity,518066,China.\n4SchoolofComputerScienceandTechnology,HarbinInstituteofTechnology,Shenzhen,518055,China.\n5SchoolofComputerScience,PekingUniversity,Beijing100871,China.\nABSTRACT\nOccupancyWorldModels(OWMs)aimtopredictfuturescenesvia3Dvoxelizedrepresentationsof\ntheenvironmenttosupportintelligentmotionplanning. Existingapproachestypicallygeneratefull\nfutureoccupancystatesfromVAE-stylelatentencodings. Incontrast,weproposeDelta-Triplane\nTransformers(DTT),anovel4DOWMforautonomousdriving. DTTadoptstemporaltriplaneasthe\noccupancyrepresentation,andfocusesonmodelingchangesinoccupancyratherthandealingwithfull\nstates. Thecoreinsightisthatchangesinthecompact3Dlatentspacearenaturallysparserandeasier\ntomodel,enablinghigheraccuracywithalighter-weightarchitecture. Wefirstpretrainatriplane\nrepresentationmodelthatencodes3Doccupancycompactly,andthenextractmulti-scalemotion\nfeaturesfromhistoricaldataanditerativelypredictfuturetriplanedeltas. Thesedeltasarecombined\nwithpaststatestodecodefutureoccupancyandego-motiontrajectories. Extensiveexperimentsshow\nthatDTTachievesastate-of-the-artmeanIoUof30.85,reducesmeanabsoluteplanningerrorto1.0\nmeter,andrunsinrealtimeat26FPSonanRTX4090. Demovideosandcodeareprovidedinthe\nsupplementarymaterial.\n1 Introduction\nWorldmodels[1,2]aimtorepresenttheenvironment,predictfuturescenesandenableagentstoperformadvanced\nmotionplanning. Recently,3Doccupancytechnique[3,4]hasemergedasastructuredandspatiallyrichrepresentation\noftheenvironment,enablingconstructingfinercorrelationsbetweenoccupiedvoxelsandplanningdecisions. Inthis\npaper,wefocusonthedesignofOccupancyWorldModels(OWMs)forautonomousdriving.\nInput: ... Input: ...\nVQ-VAE E E E E Triplane E E E E\ncodeboo...k\nLightweight Transformers\nxy Transformer xz xy yz\nD D D D D D D D\nPredicted: Predicted:\n(a)Conventionalapproach. (b)OurapproachDTT.\nFigure1: Comparisonofoccupancyworldmodelarchitectures: (a)Conventionalapproachesuseapre-trainedVAE\ntocompressoccupancystateS intoacompactBEVrepresentation,whichisthencombinedwithpreviousactionsa\ntopredictfutureBEVsandactionsviaalargeTransformer. (b)Ourmethod,DTT,adoptsmorecompactandprecise\ntriplanerepresentationsanduseslightweightTransformerstoseparatelypredictthetriplanechangesofeachplane.\nThesedeltasarethenusedtoforoccupancyforecastingandmotionplanning.\n5202\nvoN\n92\n]OR.sc[\n4v83370.3052:viXra"
+    },
+    {
+      "page_num": 2,
+      "text": "IndesigningOWMs,therearetwotasksneedtobesolved:(i)learningacompactlatentrepresentationofrawoccupancy\ndata,and(ii)usingthisrepresentationforsceneforecastingandmotionplanning.\nOccupancy change ( )\nVVaalluuee\nyyccnneeuuqqeerrFF\nFor the first task, most existing OWMs [5, 6, 7, 8] mainly use VQ-\nVAEbasedBEVrepresentations[9]. WhileVAEhasshownsuccess\nOOccccuuppaannccyy ddaattaa Occupancy change ( )\ninseveralgenerativetasks[10,11],itsuseforoccupancycompression\nrequires the latent space of 3D structures to be converted into a 2D\nBEVplane,whichwedenotebyxy. Insuchaway,objectsthatappear\nsimilar in BEV but differ vertically may become indistinguishable,\nforcingtheBEV-basedmethodstorelyonfine-grainedsemanticcues.\n((aa)) ((bb))\nThis usually means using more feature channels and thus increased\nmodelsize.Recentadvanceshaveshownthatthetriplanerepresentation 6\nprovidesaneffectivealternativefor3Doccupancypredictionandscene\ngeneration[12,13,14]. Byincorporatingadditionalxzandyzplanes,\ntriplanepreservesverticalinformation. Motivatedbythisbenefit,we\nproposetoadoptthetriplanerepresentationfor4DOWMs. 3\nForthesecondtask, thekeyishowtofullyexploittriplanesfor4D\noccupancypredictionandmotionplanning. ExistingOWMstypically\nusealargeTransformertomodelthefulloccupancystate[6,5]. In\nparticular,itsmulti-headattentionmechanismisexpectedtocapture 0\n-2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0\nthediversemotionpatternsofmulti-scaleobjects–forexample,the ((cc))\nabruptmovementsofpedestriansversusthemoreinertialdynamicsof\nFigure2: (a-b)Comparisonbetweenthefull\nlargevehicles. Thisincreasesmodelcomplexityandparametercount,\noccupancy and occupancy changes (∆) of a\nand makes long-horizon predictions more susceptible to error accu-\nscene. Inthechangemap,redindicatesnewly\nmulation(asconfirmedinourexperiments). Incontrast,weobserve\nappeared voxels, while blue denotes disap-\nthatoccupancychangesareinherentlysparseandthuseasiertomodel.\npearedvoxels. (c)Distributionoflatent-space\nFigure 2a depicts this by comparing the full occupancy of a scene\nfeaturevaluesforfulloccupancyversusoccu-\nwiththecorrespondingoccupancychangesacrosstwoadjacentframes,\npancychanges.\nshowinghowkeyelementsofinterestaremoredistinctinthechange\nmap. Figure2bfurthercontraststheirdistributionsinthelatentspace,\nwherethexaxisisascalarfeaturevalue. Whilefulloccupancystates\nexhibit a scattered distribution, occupancy changes states are much more tightly concentrated around zero, which\nreducesvarianceandsimplifieslearning.\nBuildingonthisinsight,weproposeDelta-TriplaneTransformers(DTT),anovel4DOWMmodelthatpredictsfuture\nstatesincrementallyratherthaninfull. Thisleadstoamuchlighter-weightarchitecturethatrunsfasterandachieves\nhigherpredictiveaccuracy. Figure1comparestheconventionalmodelarchitecturewithourapproach. Inparticular,\nweextendthetriplanerepresentationintothetemporaldomainanduseseparateTransformerstopredictchangeson\neachplaneauto-regressively. Thesedeltasarethenusedassparsequeriestoattentivelyproduceplanningoutputs. DTT\nachievesstate-of-the-art(SOTA)performance. Forexample,comparedwithDOME[15],itreducescumulativeerrors\ninlong-termoccupancyprediction,improvingmIoUfrom27.10to30.85andIoUfrom36.36to74.58. Formotion\nplanning,itattainsthelowestaverageerrorof1.0meterandthelowestcollisionrateof30%. Inaddition,DTTis\nefficient,runningat26FPSonanRTX4090. Insummary,ourcontributionsarethree-fold:\n•WeintroduceDTT,anovel4DautoregressiveOWMthatforecastsfuturescenesthroughincrementalchangesinstead\noffulloccupancystates.\n•DTTleveragescompacttriplanerepresentationsandlightweightmulti-scaleTransformerstopredictsparsedeltason\neachplane,whicharefusedforoccupancyforecastingandmotionplanning.\n•ExtensiveexperimentsonthenuScenes[16]andOcc3D[4]datasetsvalidateourSOTAperformanceintermsof\noccupancyforecasting,motionplanning,andreal-timeexecution.\n2 RelatedWorks\n3Doccupancyreconstruction.3Doccupancyreconstructionmethods[3,4,17,18,19]aimtorepresenttheenvironment\nas a 3D voxel grid where each voxel encodes both geometric and semantic information. The field was pioneered\nby SSCNet [20] for indoor scenes using depth sensors, and later extended to outdoor camera-based settings by\nMonoScene[21].Theseapproachesprimarilyutilizemulti-cameraRGBimages[22,23]orLiDARpointclouds[24,25]\ntoinfervoxel-wiseoccupancyandsemanticsinanagent-centriccoordinatesystem. Acorechallengeliesinbuilding\n2"
+    },
+    {
+      "page_num": 3,
+      "text": "accurate correlations between raw sensor data and 3D voxel space. Once an accurate occupancy reconstruction is\nachieved,furtherlearningofthetemporaldynamicsofscenechangesbecomesnecessary[26].\n4Doccupancyprediction. Toanticipatefuturescenechanges,various4Doccupancypredictionmethodshavebeen\nproposedtocapturethetemporaldynamicsofsceneevolution. Some[27,28,29]predictfuturesensor-leveldata,which\nissubsequentlyvoxelizedintooccupancyresults,whileothers[30,31,32,33]directlyforecastoccupancyoutcomes\nfromhistoricalobservations. Thesemethodsmainlyfocusonreducingspatio-temporalbiasesonfutureoccupancy\npredictions. However,theyoverlooktheuseofpredictedscenesforeffectiveandcomprehensivemotionplanning.\nEnd-to-endautonomousdriving. Conventionalend-to-endautonomousdrivingsystems[34,35]followapipeline\nof perception, prediction, and planning, which are typically decoupled and optimized separately. The perception\nmoduleproducesstructuredrepresentations–suchas2Dboundingboxes,BEVfeatures,andoccupancygrids–that\nprovide accurate ego localization and rich scene semantics. The prediction module infers the intentions of nearby\ntrafficparticipantsandforecastsfuturesceneevolution. Theplanningmodule[36]thengeneratessafeandfeasible\ntrajectoriesbasedonthisinformation. Manyrecentapproachesachieveremarkableperformancebyleveragingmore\nsupervisions[37],high-definitionmaps[37,38],orricherintentionreasoning[39,40,38]. Incontrast,ourworkrelies\nsolelyon3Dlatenttriplanechangesasacompactconditioningsignalforbothsceneforecastingandmotionplanning,\nwithinthedomainofoccupancyworldmodelsintroducedlater.\nWorldmodelsforautonomousdriving. Worldmodels[1,2]aimtocompresshigh-dimensionalscenerepresentations\ntocapturethetemporaldynamicsofscenetransitions,facilitatingbothfuturescenepredictionsandmotionplanning\nfortheagent. Inautonomousdriving,existingmodels[41,42]typicallymapsurroundingtrafficparticipantstothe\nBEVperspectivetopredictinstance-leveltrackletsordirectlyusediffusionmodels[43,44,45,46,47]togenerate\npixel-levelfuturedrivingviews. Thesemethodsderivecontrolsignalsfortheagentfromcurrentobservationsand\npredicted surroundings, but they rely solely on 2D BEV or image space, which limits the ability to establish fine-\ngrained, efficient correlations between scene changes and motion planning. Recent world models [5, 6, 7, 8, 15]\nhaveleveraged3Doccupancydatatoaddressthisissue. However,theytypicallyuseVAE-series[9,48]modelsfor\nenvironmentcompression,whichoftenneglectoriginal3Dgeometricinformationandcompromisesreconstruction\naccuracy. Additionally,theyrelyonTransformers[49]toforecasttheentirefuturesceneinsteadofincrementalchanges,\nleadingtosignificanterroraccumulation.\n3 Methodology\n3.1 Formulation\nNext,weprovidetheformulationofOccupancyWorldModel(OWM)[7]. OWMprimarilyreceivesasequenceof\nscenerepresentationsandmotionactionsfrompastτ framesuptothecurrenttimestept,suchthatSt ∈RH×W×L\np\nrepresentstheoccupancydataoftheagent-centricsurroundingenvironment,withH,W,andLdenotingtheheight,\nwidth,andlength,respectively,andat ∈ R2 denotesatransition-relatedmotioncommand. ThegoalofOWMisto\nestablishastochasticmapping,Φ,thatassociatespastoccupancydataandactionswithfutureτ framesofoccupancy\nf\ndataandactionproposals. Formally:\nSˆt+1:t+τf,aˆt+1:t+τf =Φ(St−τp:t,at−τp:t). (1)\nToachievethis,wefirstpretrainacompacttriplanerepresentationoftherawoccupancydatawithanauto-encoder. The\nencoderanddecoder,parameterizedbyΦ andΦ ,aredefinedas:\nenc dec\nsˆt =Φ (St), Sˆt =Φ (sˆt), (2)\nenc dec\nwhere st = [st ,st ,st ] contains three orthogonal feature planes. Specifically, st ∈ Rc×w×l, st ∈ Rc×h×w,\nxy xz yz xy xz\nandst ∈ Rc×h×l,withcthechanneldimensionand(h,w,l)thespatialresolutionsalongthethreeaxes. Sˆt isthe\nyz\nreconstructedoccupancydata.\nOnceweobtainthelatentscenerepresentationsst,wecanpredictfuturelatentstateswithincrementalchanges∆sˆt+1\nproducedbythesceneforecastingmodelΦ . Thesearecombinedwiththepreviouslatentstatestanddecodedback\nfut\ntofutureoccupancyoutcomeSˆt+1usingΦ . Since∆sˆt+1encodeschangesbetweenconsecutivelatentstates,itcan\ndec\nserveassparsequeriesfortheplanningmodelΦ togeneratefutureactionsaˆt+1.\nact\nNotethatourOWM,Φ={Φ ,Φ ,Φ ,Φ },operatesinanautoregressivefashion,iterativelyusingpreviously\nenc dec fut act\npredicted outcomes as part of the historical data to forecast future scenes and provide motion proposals. Figure 3\nillustratesourdesign,detailedbelow.\n3"
+    },
+    {
+      "page_num": 4,
+      "text": "Trained\nFixed\nMul�-scale\ntokens\nToken\nchanges\nMul�-scale\nTransformers\nAutorega�on\nElement-wise\nsum\nC Concatena�on\nyrotsih\nerutuf\nTime\n... ...\n*Applied to all planes\nLast token\nxy\nC\nxz\nyz\nDTT\nyz\nLearnable xz\nfuture query xy\nLast triplane\nMo�on Planning Triplane\nwith DTT changes\nNext triplane\nFigure3: WorkflowofDTT.DTTfirstpre-trainscompacttriplanerepresentationsofoccupancydata. Itthenapplies\nmulti-scale Transformers to model temporal dynamics within each plane and predict future triplane changes (∆).\nFinally,thesechanges,combinedwiththeprevioustriplane,areusedtogeneratefutureoccupancyresultsandmotion\nproposals.\n3.2 DTTasOWM\n3.2.1 Pre-trainingtriplanerepresentationsforOWM\nTo enable faster and more accurate predictions of future scenes St+1:t+τf, OWM requires a\ncompactyetaccuraterepresentationofthehigh-dimensionalvoxelizedoccupancyscene. To\nachievethis,weemploythetriplanetechnique[14],whichiswidelyusedinvolumerendering[50,\n13,51,23],tocompressrawoccupancydatainanorthogonaldecompositionfashion.\nSpecifically,asshowninFigure4,theoccupancydataStisfirstencodedbyΦ intost. Then,\nenc\nan axis-wise average pooling operation is applied to obtain three orthogonal feature planes,\nst = [st ,st ,st ],wherest ∈ Rc×w×l,st ∈ Rc×h×w,andst ∈ Rc×h×l. Todecodethe axis-wise\nxy xz yz xy xz yz pooling\noccupancydata,each3Dpointpos=(x,y,z)queriesitscorrespondingfeaturesfromthethree\nplanes. Thesefeaturesaresummed,concatenatedwiththepositionalencodingPE(pos),and pos\npassed through Φ to predict the semantic label. This process is formalized in Eq. 2, and\ndec\ndetailednetworkstructuresareprovidedinthesupplementarymaterial.\nc PE(pos)\nWepretrainΦ andΦ toobtaincompactyethigh-fidelitylatenttriplanerepresentations\nenc dec\nusing:\nJ =E [L (Φ (Φ (St)),St)], (3)\nenc,dec t∼T,pos∼St occ dec enc\nwhereT representsthecollectionofalltimestepsintheoccupancydataset,andL =L +\nocc ce\nλL .Here,L andL denotethecross-entropyandLovasz-softmaxlosses[52,14],receptively,\nlz ce lz\nandλisthetrade-offfactor.\nFigure4: Pretrained\nThetriplanerepresentation,comparedtothetokensgeneratedbytheVQ-VAEinOccWorld[7]\ntriplaneforOWM.\nandtheMS-VAEinOccLLM[6],retains3Dstructuralinformationwhileachievingamorecom-\npactlatentspace(seeTable3forevaluation). ThisnotonlymakesourOWMmorelightweight\nbutalsoreducesthecumulativepredictionerrorovertime,asdetailedlater.\n3.2.2 Delta-TriplaneTransformers(DTT)\nDTTfollowstheautoregressivepredictionparadigmsimilartoGPT-likemodelsbutdiffersbyleveraginghistorical\ntriplanestopredictfuturetriplanechangesratherthanfullstatepredictions. Thesechangesarethendecodedintofuture\nscenesandmotiontrajectories. Atthetimestepk ∈ {1,··· ,τ }forautoregressiveforecasting,givenτ historical\nf p\ntriplaneframessk−τp:k,theobjectiveofDTTistocapturethecompletetemporaldynamicsofthescene,particularly\n4"
+    },
+    {
+      "page_num": 5,
+      "text": "adaptingtoobjectmotionsatdifferentscales. Tothisend,DTTperformstwosteps: (i)predictingplane-specificfuture\nchanges{∆sˆk |i∈{xy,xz,yz}}withmulti-scaleTransformers,and(ii)aggregatingthesechangeswiththeprevious\ni\nstateandaligningthethreeplanesthroughafine-tuneddecoderΦ .\ndec\nInparticular,wedesignthefuturepredictionmoduleasthreeplane-specificmodels: Φ ={Φ ,Φ ,Φ }.\nfut futxy futxz futyz\nEachpredictorΦ isimplementedwithTransformers[49]operatingatmultiplescales. Thepredictorssharethe\nfuti\nsamearchitecturebutuseseparatelearnableparametersanddifferentinputsizes,dependingontheplaneandscale,as\nillustratedinFigure3. Wedenotebyk ∈{1,··· ,τ }thetimestepforautoregressiveforecasting. Takethexy-plane\nf\npredictorasanexample: theinputsk isfirstdownsampledusingaUNet[53]-styleencoder,producingV scalesof\nxy\nfeatures. Atscalev ∈ V,thefeatureisdenotedassk x , y v ∈ Rcv xy ×w x v y ×hv xy,whichisflattenedintow x v y ×hv xy tokens\nandpassedtoaTransformerencodertobuildspatio-temporalmemory. AlearnablefuturequeryQk ,withthesame\nxy\ndimensionassk,v, isthenusedintheTransformerdecoderforcross-attention, generatingtokenchangesfromthe\nxy\ncurrentsteptothenext. Finally,tokenchangesacrossallscalesarefusedbyUNet-styleupsamplingtoproducethe\nplane’sfeaturechange∆sˆk+1,whichiscombinedwiththepreviousstatesˆk viaa1×1convolutionϕ. Thesame\nxy xy\nprocedureappliestotheotherplanes. Detailedarchitectureandhyperparametersareprovidedinthesupplementary\nmaterial.\nTheoverallforecastingprocessatautoregressivetimestepkisdefinedas:\n∆sˆk =Φ (sˆk−τp:k,Qk ), (4)\ni futi i si\nsˆk =∆sˆk+ϕ(sˆk−1), (5)\ni i i\nSˆk =Φ (sˆk :={sˆk}), (6)\ndec i\nwherei∈{xy,xz,yz}andQk isthelearnablequeryattimestepkinthei-thplane.\ni\nSincethetriplaneoccupancyrepresentationsarepretrained,theground-truth(GT)futuretriplanescanbedirectlyused\ntosuperviseDTT.Inthissetting,wefreezetheencoderandfine-tuneonlythedecoderΦ . Thisensuresastableand\ndec\ngeometry-consistenttriplaneinitialization,whileallowingthedecodertoadaptspecificallytofuturedynamics. Such\ndecouplingalsomitigatesrepresentationdriftandreducesmisalignmentacrossindependentlypredictedplanes,leading\ntomorecoherentmulti-planeaggregation.\nSincethetriplaneoccupancyrepresentationsarepretrained,theground-truth(GT)futuretriplanescanbedirectlyused\ntosuperviseDTT.Inthissetup,wefreezetheencoderandfine-tuneonlythedecoderΦ . Thisprovidesastableand\ndec\ngeometry-consistenttriplaneinitialization,whileallowingthedecodertoadaptspecificallytofuturedynamics. Such\ndecouplingalsomitigatesrepresentationdriftandreducesmisalignmentacrossindependentlypredictedplanes,leading\ntomorecoherentmulti-planeaggregation. Thetrainingobjectiveisdefinedas:\nJ =E [L (sˆk,sk)+ξL (Sˆk,Sk)], (7)\nfut k,i fut i i occ\nwhereL =L +L istheweightedsumofL1andL2losses,withξasatrade-offweight.\nfut 1 2\n3.3 MotionplanningwithDTT\nLearnable Last\nfuture triplane\nquery\nTriplane\nchanges\nM ean\nTransformer Transformer\nDecoder Encoder\n...\nGiventhepredictedtriplanechanges∆sˆk ={∆sˆk |i∈{xy,xz,yz}},\ni\nwhichencodebothglobalcontextandlocalmotiondynamics,wedi-\nrectlyusethemassparsequeriestoattentivelygenerateplanningoutputs\nacrosspastandfutureframes,asillustratedinFigure5.\nSpecifically,theprevioustriplanesˆk−1,thechange∆sˆk,andthenext\ntriplanesˆk arefirstmappedintoasharedlatentspacebythreeResNet-\n18 networks [54], θ , θ , and θ , yielding zk−1, ∆zk, and zk. The p ∆ f\nchangefeature∆zk isthenprocessedbytwoparallelfullyconnected\n(FC)layerswithSigmoidactivations, denotedζ andζ , toproduce\np f\nqueryvectorsfk−1andfk. Thesequeriesaremultipliedwithzk−1and\nzk toextractmotion-relatedfeaturesrelativetothepreviousandcurrent\ntriplanes. Theresultingfeaturesareaveragedelement-wisewith∆zk,\npassedthroughanotherFClayerζ q ,andcombinedwiththelearnable Figure5: MotionplanningwithDTT.\nfuturequerytoformthemotion-planningqueryQk ∈Rdact.\na\nNext,weprojecttheactionsfromthepastτ framesintothesamedimensionasQk,andemployaTransformerencoder\np a\ntocapturemotiondependencies. ThequeryQk isthenfedintoaTransformerdecoderviacross-attentiontopredictthe\na\n5"
+    },
+    {
+      "page_num": 6,
+      "text": "Table1: TestingperformancecomparisonwithSOTAmethodsonthe4Doccupancyforecastingtask. Bestvaluesin\neachmetricarebolded. 0sreferstoreconstructionaccuracy,while1s,2s,and3sdenotefuturepredictionaccuracy.\nAvg. istheaverageof1s,2s,and3s.\nmIoU(%)↑ IoU(%)↑\nModels Input\n0s 1s 2s 3s Avg. 0s 1s 2s 3s Avg.\nOccWorld-O 3D-Occ 66.38 25.78 15.14 10.51 17.14 62.29 34.63 25.07 20.18 26.63\nOccLLaMA-O 3D-Occ 75.20 25.05 19.49 15.26 19.93 63.76 34.56 28.53 24.41 29.17\nRenderWorld-O 3D-Occ - 28.69 18.89 14.83 20.80 - 37.74 28.41 24.08 30.08\nOccLLM-O 3D-Occ - 24.02 21.65 17.29 20.99 - 36.65 32.14 28.77 32.52\nDOME-O 3D-Occ 83.08 35.11 25.89 20.29 27.10 77.25 43.99 35.36 29.74 36.36\nDTT-O(ours) 3D-Occ 85.50 37.69 29.77 25.10 30.85 92.07 76.60 74.44 72.71 74.58\nOccWorld-F Camera 20.09 8.03 6.91 3.54 6.16 35.61 23.62 18.13 15.22 18.99\nOccLLaMA-F Camera 37.38 10.34 8.66 6.98 8.66 38.92 25.81 23.19 19.97 22.99\nRenderWorld-F Camera - 2.83 2.55 2.37 2.58 - 14.61 13.61 12.98 13.73\nOccLLM-F Camera - 11.28 10.21 9.13 10.21 - 27.11 24.07 20.19 23.79\nDOME-F Camera 75.00 24.12 17.41 13.24 18.25 74.31 35.18 27.90 23.44 28.84\nDTT-F(ours) Camera 43.52 24.87 18.30 15.63 19.60 54.31 38.98 37.45 31.89 36.11\nnextactionaˆk+1:\naˆk+1 =Φ (aˆk−τp:k,sˆk−1,∆sˆk,Qk). (8)\nact a\nUnlikeOccWorld[7],whichintroducesanadditionalegotokentotracktheagent’strajectory,ourapproachlearns\nfuturemotiondirectlyfromscenechangesandhistoricalmotion. Thisdesignsimplifiestheplanningmodulewhilestill\ndeliveringsaferandmoreprecisemotiondecisions. Theoptimizationobjectiveisdefinedasfollows:\nJ =E [L (aˆk,ak)], (9)\nact k act\nwhereL measurestheL2discrepancybetweenthepredictedandGTtrajectories.\nact\n4 Experiments\n4.1 Experimentalsettings\nTargets and evaluation metrics. OWMs aim to jointly modeling occupancy forecasting and motion planning.\nFollowing[7,5],weusethepastfourframes(2seconds)topredicttheoutcomesofthenextsixframes(3seconds).\nWe conduct two sets of experiments: (i) To evaluate 4D occupancy forecasting, we report intersection over union\n(IoU)foroccupiedandunoccupiedvoxelsandmeanIoU(mIoU)across18semanticclasses,basedontheoccupancy\nannotationsintheOcc3Ddataset[4]. (ii)Toassessplanningprecisionandsafety,wemeasuretheL2distancebetween\npredictedandGTtrajectories(inmeters)andthecollisionratewithtrafficparticipants’boundingboxes,usingnuScenes\nannotations[16].\nImplementationdetails. Thedatasetconsistsof1,000scenes,ofwhich700areusedfortrainingand100fortesting.\nEachscenecontainsupto40timesteps,withasamplingfrequencyof2Hz. TheoccupancydataStateachtimestep\nhasdimensionsof16×200×200,whilethepre-trainedtriplaneshapeis16×100×100with8channels. InΦ ,\nfut\npredictionsforeachplaneusefeaturesfromV =5scales,andthetokendimensioninΦ isd =50.Theobjectives,\nact act\nJ ,J ,andJ ,areoptimizedusingAdamW,withaweightregularizationfactorof0.01,aninitiallearning\nenc,dec fut mot\nrateof0.001,andcosinedecaywithaminimumlearningrateof10−6. Wefirstpre-trainΦ andΦ withabatch\nenc dec\nsizeof10,usingrandomflipaugmentationtoobtainthetriplanerepresentations. Then,wetrainΦ andΦ witha\nfut act\nbatchsizeof1,whilefine-tuningΦ . Alltrainingandtestingareperformedon4RTX4090GPUs. Moredetailsare\ndec\ngiveninthesupplementarymaterial.\n4.2 Comparisonswiththestate-of-the-art\n4Doccupancyforecasting. Table1reportsthetestingperformanceofvariousmethods,undertwosettings: (i)using\n3DoccupancyGTsashistoricalinput,markedwith“-O”;(ii)usingpredicted3DoccupancydatafromFB-Occ[55]as\nhistoricalinput,markedwith“-F”.\n6"
+    },
+    {
+      "page_num": 7,
+      "text": "At0s,baselinemethodsclearlyfallshortofours,mainlybecauseourtriplanerepresentationachieveshigher-fidelity\ncompression. TheonlyexceptionisDOME-F,whichperformsbetterthanDTT-Fatthisinitialstep. Thisisprimarily\nduetoadditionalnoiseintheFB-Occoutputsusedinourpipeline,whereasDOME’sVAE-styleencodercombined\nwithitsdiffusionarchitectureprovidesgreaterrobustnesscomparedwithourtriplaneencoder. Beyond0s,bothDTT-O\nandDTT-Fleveragetriplane-deltapredictionsinsteadoffull-statepredictions,yieldingthebestmIoUandIoUaccuracy\nwithreducederroraccumulation. TheIoUimprovementisparticularlysignificant,asoccupancychangesareinherently\nsparseandpredictingbinaryoccupancy(occupiedvs. empty)issimplerthanmulti-classpredictionsmeasuredbymIoU.\nAdditionally,DTT’strategyofpredictingtriplanechangessignificantlyaidsΦ inforecastingthenext3seconds,\nfut\neffectivelyreducingerroraccumulation.\nTable2: TestingperformanceofmotionplanningcomparedwithSOTAmethod. Bestandsecond-bestvaluesineach\nmetricareboldedandunderlined,respectively. Auxiliarysupervisionreferstoadditionalsupervisionsignalsbeyond\ntheGTtrajectories.\nL2(m)↓ Collisionrate(%)↓\nModels Input Auxiliarysupervision\n1s 2s 3s Avg. 1s 2s 3s Avg.\nIL LiDAR None 0.44 1.15 2.47 1.35 0.08 0.27 1.95 0.77\nNMP LiDAR Box+Motion 0.53 1.25 2.67 1.48 0.04 0.12 0.87 0.34\nFF LiDAR Freespace 0.55 1.20 2.54 1.43 0.06 0.17 1.07 0.43\nEO LiDAR Freespace 0.67 1.36 2.78 1.60 0.04 0.09 0.88 0.33\nST-P3 Camera Map+Box+Depth 1.33 2.11 2.90 2.11 0.23 0.62 1.27 0.71\nUniAD Camera Map+Box+Motion+Track+Occ 0.48 0.96 1.65 1.03 0.05 0.17 0.71 0.31\nVAD Camera Map+Box+Motion 0.54 1.15 1.98 1.22 0.04 0.39 1.17 0.53\nOccWorld-F Camera None 0.67 1.69 3.13 1.83 0.19 1.28 4.59 2.02\nRenderWorld-F Camera None 0.48 1.30 2.67 1.48 0.14 0.55 2.23 0.97\nOccLLaMA-F Camera None 0.38 1.07 2.15 1.20 0.06 0.39 1.65 0.70\nDTT-F(ours) Camera None 0.35 1.01 1.89 1.08 0.08 0.33 0.91 0.44\nOccWorld-O 3D-Occ None 0.43 1.08 1.99 1.17 0.07 0.38 1.35 0.60\nRenderWorld-O 3D-Occ None 0.35 0.91 1.84 1.03 0.05 0.40 1.39 0.61\nOccLLaMA-O 3D-Occ None 0.37 1.02 2.03 1.14 0.04 0.24 1.20 0.49\nDTT-O(ours) 3D-Occ None 0.32 0.91 1.76 1.00 0.08 0.32 0.51 0.30\nMotionplanning. WecompareDTTextensivelywithSOTAmethodsforautonomousdriving,includingLiDAR-based\n(IL[56],NMP[57],FF[58],andEO[59]),camera-based(ST-P3[34],UniAD[35],VAD[41]),andoccupancy-based\nmethods(OccWorld[7],RenderWorld[8],andOccLLaMA[5]). TheresultsonthetestingdatasetareshowninTable2.\nSpecifically,(i)LiDAR-andcamera-basedmethodsoftenrequireadditionalauxiliarysupervisions(e.g.,3Dbounding\nboxes,drivablefreespace,HDmaps)toimproveplanningquality. (ii)Whenusingcamerainputonly,DTT-Foperates\nasapurelyvision-based4Doccupancyforecastingmethod,withperformancedependentontheaccuracyofvision-based\npredictions. Inthissetting,DTT-FachievescompetitiveresultscomparedtoUniAD.(iii)Occupancy-basedmethods\nrelysolelyondense3Doccupancyannotations,suggestingthatimprovingthequalityofoccupancyGTcouldfurther\nenhanceplanningperformance. ComparedtoSOTAoccupancy-basedmethods,DTT-Odeliverssuperiorresults,mainly\nduetoitsabilitytoestablishprecise,task-relevantcorrelationsbetweenscenechangesandmotiontrajectoriesinadeep\nlatentspace,effectivelyfilteringoutnoisefromirrelevanttrafficelements. However,forshort-termprediction(1–2\nseconds),DTT-OunderperformsOccLLaMA-O.Thisisprimarilybecauseevenslightinaccuraciesinthepredicted\ndeltascanhavealargerimpactonnear-futureactiondecisions. Forinstance,asmallpredictionbiasmaydelayan\nobstacle-avoidancemaneuver,leadingtoanincreasedcollisionrate.\nVisualcomparisonswithSOTA.Figure6showsthesceneevolutionoverthenext3secondswithmotionpredictions\nfortworepresentativescenarios. SinceDOMEonlyperformsconditionalscenegeneration,weshowitsoccupancy\npredictions only. (i) In the first case, OccWorld-O incorrectly labels part of the truck as a trailer, and this error\naccumulatesovertime. DOME-Oavoidsthismisclassificationthroughitsiterativediffusion-basedrefinement,although\nthepredictedmotionforthemiddlevehicleisslightlyaggressive,causingthemtoleavetheframeprematurely. In\ncontrast,DTT-Otracksallobjectsaccuratelyandpreservesclearboundariesthroughoutthesequence. Nonetheless,\nour method exhibits some residual artifacts in the 2.0–2.5 s frames for the middle cars. This occurs because the\ntriplanechangespreservefine-grained3Ddetails,andaddingtheseresidualstotheprevioustriplanecanintroduce\nslightdecodingnoise. Bycomparison,DOME-OandOccWorld-OrelyonVAE-styleencodersthatproducesmoother\nrepresentationsbutarelesseffectiveatcapturingpreciseobjectmotion. (ii)Inthesecondcase,OccWorld-Ogradually\nloses the road boundary and misidentifies the motorcycle as a truck at 2.5 s and 3 s, due to the limited 3D detail\n7"
+    },
+    {
+      "page_num": 8,
+      "text": "TG\nO-dlroWccO\nO-EMOD\nO-TTD\nO-EMOD\n0.5s\nTG\nO-dlroWccO\nO-TTD\nbarrier bicycle bus car const. veh. motorcycle pedestrian traffic cone trailer\ntruck driveable surface other flat sidewalk terrain manmade vegeta�on\n0.5s 1s 1.5s 2s 2.5s 3s\n8\n3s\n7\n6\n5\n4\n3\n2\n1 0.5s\n-0.10.0\nX posi�on\n1s 1.5s 2s 2.5s 3s\n3s\n25\n20\n15\n10\n5\n0.5s\n0.10.2\nX posi�on\nno�isop\nY\nno�isop\nY\nGT\nOccWorld\nDTT\nFigure6: Visualizationof4Doccupancyforecastingandmotionplanningforthenext3secondsontheOcc3Dtest\ndataset(zoominforaclearerview).\npreservedbyitsVAE-basedencoder. DOME-Oalleviatestheseissuesandbetterpreservesglobalgeometry. However,\nbecauseitconditionsfuturescenegenerationprimarilyontheegovehicle’strajectory,itmaybelesssensitivetothe\ndetailedmotionpatternsofotheragents,occasionallyresultingindriftsorhallucinatedobjects. Incontrast,ourmethod\npreservesroadgeometry,roadsidestructures,andsmall-objectsemantics. Theseprecisesceneforecastsarisefrom\naccuratelypredictedlatenttriplanechanges,enablingmoreaccuratemotionplanning.\nFigure7comparesoccupancypredictionsforthethreefurthestframes,focusingondynamicobjectsofvaryingsizes\n(carsandpedestrians)fromaBEVperspective. Tworeferencelinesaredisplayedtoreflecttheerrorsbetweenthe\npredictionsandGT.TheresultsofourmethodmatchtheGTsignificantlybetterthanOccWorld-O,whichexhibits\nsubstantialdrift.Forinstance,thepredictionsforthepedestriansatthetopandthevehicleontheleftclearlydemonstrate\nthisimprovement.\nFigure8showstwofailurecasesoverthreeconsecutiveframes, wherefragmentedorincompleteroadboundaries\nleadtosomedeviationsinmotionplanningcomparedwithGT.Thismainlystemsfromtheoccupancylabels: LiDAR\npointsnearroadedgesareradialandsparse,producingthin,discontinuousboundarysurfaces. Asthetriplaneencoder\n8"
+    },
+    {
+      "page_num": 9,
+      "text": "car pedestrian others\nGT OccWorld-O DTT-O\ns2=t\ns5.2=t\ns3=t\nTable3: Latentrepresentationcomparison.\nLatentspace↓ Total mIoU IoU\nType\nh,w,l,c shape↓ (%)↑ (%)↑\nBEV -,50,50,128 320,000 60.50 59.07\nBEV -,50,50,16 40,000 37.81 46.53\nBEV -,50,50,8 20,000 35.26 42.91\nTriplane 16,50,50,8 32,800 72.45 80.83\nBEV -,100,100,128 1,280,000 78.12 71.63\nBEV -,100,100,16 160,000 57.34 48.19\nBEV -,100,100,8 80,000 54.13 46.78\nTriplane 16,100,100,8 105,600 85.50 92.07\nTable4: AblationstudyofDTT.\nAvg. Avg.\nIdx. Models ↑ ↓ FPS↑\nmIoU L2\nM0 DTT-O 30.85 1.00 26\nM1 w/opretraining 28.45 1.12 26\nM2 w/otriplane 26.71 1.13 21\nM3 w/otriplanechanges 27.97 1.10 27\nM4 w/omulti-scalemot. 29.05 1.08 36\nM5 w/oautoregression 29.41 1.11 34\nFigure7: Predictedlocationsofdynamicobjectsforthe\nthreelastframes.\nmustmodelbothdenseinteriorregionsandthesesparseedgestructures,ittendstoprioritizedenseareasandunderfit\nboundaries. Thislimitationcouldbealleviatedbyboundarydensificationoredge-focusedregularizationduringtraining.\n4.3 Ablationstudy\nLatentrepresentationcomparison. Table3empiricallyfindsthataddingthetwoextraplanes(xyandyz)inBEV\nallowsforfewerchannelsperplanewhilestillachievinghigh-qualityreconstructionat0s. ForBEV,thelatentsize\nisw×l×c;fortriplane,itisthesumacrossthreeorthogonalplanes: (h×w+h×l+w×l)×c. Theseresults\nshowthatBEVrequiressignificantlymorechannelstomaintainreconstructionquality,whiletriplaneachievesstrong\nperformancewithfewerchannels.\nGT\nDTT\n3s\n10\n5\n0.5s\n0.5 1.5\n3s\n0.5s\nno�isop\nY\n15\nX posi�on\n14\n12\n10\n8\n6\n4\n2\nno�isop\nY\n1s 2s 3s\n-0.25 0.00\nX posi�on\nTG\nO-TTD\nTG\nO-TTD\nFigure8: Somefailurecases.\n9"
+    },
+    {
+      "page_num": 10,
+      "text": "Table5: Effectoflong-durationpredictions.\nOccWorld-O DOME-O DTT-O\n1s 19.95 25.37 27.61\nmIoU 3s 10.65 14.13 16.22\n(%)↑ 5s 6.44 9.52 11.03\n10s 5.26 8.99 9.17\n1s 0.88 0.64\nL2 3s 4.41 3.26\nN/A\n(m)↓ 5s 5.53 4.43\n10s 5.61 4.59\nTable6: Effectofdifferenthyperparameters.\nAvg. Avg.\nIdx. Setting ↑ ↓ FPS↑\nmIoU L2\nH1.1 8,(8,50,50) 23.18 1.33 37\nH1.2 8,(16,50,50) 24.56 1.23 33\nH1.3 8,(8,100,100) 27.71 1.17 30\nH1.4 8,(16,100,100) 30.85 1.00 26\nH1.5 16,(16,100,100) 31.02 1.09 23\nH1.6 32,(16,100,100) 29.89 1.11 18\nH2.1 V =3,4,16 29.01 1.08 28\nH2.2 V =5,4,16 30.85 1.00 26\nH2.3 V =5,4,32 31.59 1.04 21\nH2.4 V =5,8,16 32.04 1.02 23\nH2.5 V =7,4,16 28.75 0.98 20\nEffectofDTTcomponents. Table4evaluatestheeffectivenessofkeydesignsinDTT.M0denotesthefullmodel,\nwhile ablations are obtained by replacing its components as follows: M1 removes pre-training and learns triplane\nchangesinanend-to-endmanner,causingdownstreamtaskgradientstobiastheencodertowardtask-specificcues\nwhilelosing3Dsceneinformation,whichdegradesbothencoderqualityandoverallperformance. M2useslatent\nBEVfeaturesfromOccWorldasinput,leadingtogeometricinformationloss. M3predictsfullfuturetriplanesinstead\nof ∆ changes, showing that change prediction is more efficient. M4 applies a single-scale Transformer, failing to\ncapturemulti-scalemotionandaccumulatingerrors. M5removestheautoregressivemechanism,whereeachprevious\npredictionisfedintothenextstep.Instead,itpredictsallfutureoutcomessimultaneouslyfromfourhistoricaloccupancy\nframes. Thispreventsstep-wiseadjustmentsbasedonpreviouspredictions,whichcandegradeperformance.\nEffectoflong-durationpredictions. InTable5,weretrainOccWorld,DOME,andDTTfora10-secondprediction\ntask,whichisparticularlychallengingduetothesubstantialchangesthatoccurinthesceneoverlonghorizons. New\nobjectsmayappear,existingobjectscanmoveorleavethefieldofview,andtheoverallgeometryevolvesovertime. As\naresult,themIoUandL2metricsofallmethodsgraduallydeclinewithincreasingpredictionlength. Incontrast,our\napproachaccumulateserrorsmoreslowly,primarilybecauseitsmulti-scalemodelingoftriplanedeltasallowsitto\ncapturefine-grainedchangesinthescenemoreeffectivelyacrossextendeddurations.\nEffectofdifferenthyperparameters. Table6showstheimpactofdifferenthyperparameters,with indicatingour\nfinaltrade-off. TheH1seriesvariesthelatenttriplaneshape,definedbychannelnumberandspatialsize(h,w,l);\nincreasingspatialsizeimprovespredictions,whilemorechannelsofferlittlebenefitandcanhurtperformancedue\ntofeatureredundancyinself-attention. TheH2seriesadjuststhenumberofscales(V)andthedepthandwidthof\ntheTransformer,i.e.,thenumberoflayersandattentionheads. TheresultsshowthatevenalightweightTransformer\ncapturesessentialpatterns,whereaslargermodelsaddcostwithoutnotablegains. Ourfinaldesignusesonly903M\nmemory(vs. 13,000M/13,500MforOccWorld/RenderWorld)andrunsat26FPSonanRTX4090,outperforming\nOccWorld’s18FPS.\n10"
+    },
+    {
+      "page_num": 11,
+      "text": "5 Conclusion\nThispaperintroducesDTT,anew4DOWMthatleveragespre-trainedtriplanelatentrepresentationsandpredicts\nplane-wise future changes with multi-scale Transformers. These predictions are recovered into future occupancy\noutcomesandusedassparsequeriesformotionplanning. DTTachieveSOTAperformanceinbothsceneforecasting\nandmotionplanningwithreal-timeefficiency.\nReferences\n[1] DavidHaandJürgenSchmidhuber. Worldmodels. arXivpreprintarXiv:1803.10122,2018.\n[2] David Ha and Jürgen Schmidhuber. Recurrent world models facilitate policy evolution. Advances in neural\ninformationprocessingsystems,31,2018.\n[3] WenwenTong,ChonghaoSima,TaiWang,LiChen,SileiWu,HanmingDeng,YiGu,LeweiLu,PingLuo,Dahua\nLin,etal. Sceneasoccupancy. InProceedingsoftheIEEE/CVFInternationalConferenceonComputerVision,\npages8406–8415,2023.\n[4] XiaoyuTian,TaoJiang,LongfeiYun,YuchengMao,HuitongYang,YueWang,YilunWang,andHangZhao.\nOcc3d:Alarge-scale3doccupancypredictionbenchmarkforautonomousdriving.AdvancesinNeuralInformation\nProcessingSystems,36:64318–64330,2023.\n[5] Julong Wei, Shanshuai Yuan, Pengfei Li, Qingda Hu, Zhongxue Gan, and Wenchao Ding. Occllama: An\noccupancy-language-actiongenerativeworldmodelforautonomousdriving. arXivpreprintarXiv:2409.03272,\n2024.\n[6] TianshuoXu,HaoLu,XuYan,YingjieCai,BingbingLiu,andYingcongChen. Occ-llm: Enhancingautonomous\ndrivingwithoccupancy-basedlargelanguagemodels. InInternationalConferenceonRoboticsandAutomation,\n2025.\n[7] WenzhaoZheng,WeiliangChen,YuanhuiHuang,BoruiZhang,YueqiDuan,andJiwenLu. Occworld: Learning\na3doccupancyworldmodelforautonomousdriving. InEuropeanconferenceoncomputervision,pages55–72.\nSpringer,2024.\n[8] ZiyangYan, WenzhenDong, YihuaShao, YuhangLu, LiuHaiyang, JingwenLiu, HaozheWang, ZheWang,\nYanWang,FabioRemondino,etal. Renderworld: Worldmodelwithself-supervised3dlabel. InInternational\nConferenceonRoboticsandAutomation,2025.\n[9] AaronVanDenOord,OriolVinyals,etal. Neuraldiscreterepresentationlearning. Advancesinneuralinformation\nprocessingsystems,30,2017.\n[10] YumingJiang,ShuaiYang,TongLiangKoh,WayneWu,ChenChangeLoy,andZiweiLiu. Text2performer:\nText-drivenhumanvideogeneration. InProceedingsoftheIEEE/CVFInternationalConferenceonComputer\nVision,pages22747–22757,2023.\n[11] HangZhang, AntonSavov, andBenjaminDillenburger. Maskplan: Maskedgenerativelayoutplanningfrom\npartialinput. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages\n8964–8973,2024.\n[12] RajaeiKhatibandRajaGiryes. Trinerflet: Awaveletbasedtriplanenerfrepresentation. InEuropeanConference\nonComputerVision,pages358–374.Springer,2024.\n[13] Tao Hu, Xiaogang Xu, Ruihang Chu, and Jiaya Jia. Trivol: Point cloud rendering via triple volumes. In\nProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages20732–20741,\n2023.\n[14] JuminLee,SebinLee,ChanghoJo,WoobinIm,JuhyeongSeon,andSung-EuiYoon. Semcity: Semanticscene\ngenerationwithtriplanediffusion. InProceedingsoftheIEEE/CVFconferenceoncomputervisionandpattern\nrecognition,pages28337–28347,2024.\n[15] SongenGu,WeiYin,BuJin,XiaoyangGuo,JunmingWang,HaodongLi,QianZhang,andXiaoxiaoLong.Dome:\nTamingdiffusionmodelintohigh-fidelitycontrollableoccupancyworldmodel. arXivpreprintarXiv:2410.10429,\n2024.\n[16] Holger Caesar, Varun Bankiti, Alex H Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan,\nYuPan, GiancarloBaldan, andOscarBeijbom. nuscenes: Amultimodaldatasetforautonomousdriving. In\nProceedingsoftheIEEE/CVFconferenceoncomputervisionandpatternrecognition,pages11621–11631,2020.\n11"
+    },
+    {
+      "page_num": 12,
+      "text": "[17] YiWei,LinqingZhao,WenzhaoZheng,ZhengZhu,JieZhou,andJiwenLu. Surroundocc: Multi-camera3d\noccupancypredictionforautonomousdriving. InProceedingsoftheIEEE/CVFInternationalConferenceon\nComputerVision,pages21729–21740,2023.\n[18] RuiLiu,WenguanWang,andYiYang. Volumetricenvironmentrepresentationforvision-languagenavigation. In\nProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages16317–16328,\n2024.\n[19] NicolaMarinello,SimenCassiman,JonasHeylen,MarcProesmans,andLucVanGool. Camera-only3dpanoptic\nscenecompletionforautonomousdrivingthroughdifferentiableobjectshapes. InProceedingsoftheComputer\nVisionandPatternRecognitionConference,pages2520–2529,2025.\n[20] ShuranSong,FisherYu,AndyZeng,AngelXChang,ManolisSavva,andThomasFunkhouser. Semanticscene\ncompletionfromasingledepthimage. InProceedingsoftheIEEEconferenceoncomputervisionandpattern\nrecognition,pages1746–1754,2017.\n[21] Anh-QuanCaoandRaoulDeCharette. Monoscene: Monocular3dsemanticscenecompletion. InProceedingsof\ntheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages3991–4001,2022.\n[22] Yiming Li, Zhiding Yu, Christopher Choy, Chaowei Xiao, Jose M Alvarez, Sanja Fidler, Chen Feng, and\nAnimaAnandkumar. Voxformer: Sparsevoxeltransformerforcamera-based3dsemanticscenecompletion. In\nProceedingsoftheIEEE/CVFconferenceoncomputervisionandpatternrecognition,pages9087–9098,2023.\n[23] YuanhuiHuang,WenzhaoZheng,YunpengZhang,JieZhou,andJiwenLu. Tri-perspectiveviewforvision-based\n3dsemanticoccupancyprediction. InProceedingsoftheIEEE/CVFconferenceoncomputervisionandpattern\nrecognition,pages9223–9232,2023.\n[24] Anh-QuanCao,AngelaDai,andRaoulDeCharette. Pasco: Urban3dpanopticscenecompletionwithuncertainty\nawareness. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages\n14554–14564,2024.\n[25] ZhaoyangXia,YouquanLiu,XinLi,XingeZhu,YuexinMa,YikangLi,YuenanHou,andYuQiao. Scpnet:\nSemanticscenecompletiononpointcloud. InProceedingsoftheIEEE/CVFconferenceoncomputervisionand\npatternrecognition,pages17642–17651,2023.\n[26] Jinke Li, Xiao He, Chonghua Zhou, Xiaoqiang Cheng, Yang Wen, and Dan Zhang. Viewformer: Exploring\nspatiotemporalmodelingformulti-view3doccupancyperceptionviaview-guidedtransformers. InEuropean\nConferenceonComputerVision,pages90–106.Springer,2024.\n[27] FanLu,GuangChen,ZhijunLi,LijunZhang,YinlongLiu,SanqingQu,andAloisKnoll. Monet: Motion-based\npointcloudpredictionnetwork. IEEETransactionsonIntelligentTransportationSystems,23(8):13794–13804,\n2021.\n[28] BenediktMersch,XieyuanliChen,JensBehley,andCyrillStachniss. Self-supervisedpointcloudpredictionusing\n3dspatio-temporalconvolutionalnetworks. InConferenceonRobotLearning,pages1444–1454.PMLR,2022.\n[29] TarashaKhurana,PeiyunHu,DavidHeld,andDevaRamanan.Pointcloudforecastingasaproxyfor4doccupancy\nforecasting. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages\n1116–1124,2023.\n[30] JunyiMa,XieyuanliChen,JiaweiHuang,JingyiXu,ZhenLuo,JintaoXu,WeihaoGu,RuiAi,andHesheng\nWang. Cam4docc: Benchmarkforcamera-only4doccupancyforecastinginautonomousdrivingapplications. In\nProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages21486–21495,\n2024.\n[31] JunliangChen,HuaiyuanXu,YiWang,andLap-PuiChau.Occprophet:Pushingefficiencyfrontierofcamera-only\n4doccupancyforecastingwithobserver-forecaster-refinerframework. InICLR,2025.\n[32] Jingyi Xu, Xieyuanli Chen, Junyi Ma, Jiawei Huang, Jintao Xu, Yue Wang, and Ling Pei. Spatiotemporal\ndecouplingforefficientvision-basedoccupancyforecasting. arXivpreprintarXiv:2411.14169,2024.\n[33] Haoran Xu, Peixi Peng, Xinyi Zhang, Guang Tan, Yaokun Li, Shuaixian Wang, and Luntong Li. Exploiting\ncontinuousmotioncluesforvision-basedoccupancyprediction. InAAAI,2025.\n[34] ShengchaoHu,LiChen,PenghaoWu,HongyangLi,JunchiYan,andDachengTao. St-p3: End-to-endvision-\nbasedautonomousdrivingviaspatial-temporalfeaturelearning. InEuropeanConferenceonComputerVision,\npages533–549.Springer,2022.\n[35] YihanHu,JiazhiYang,LiChen,KeyuLi,ChonghaoSima,XizhouZhu,SiqiChai,SenyaoDu,TianweiLin,\nWenhaiWang,etal. Planning-orientedautonomousdriving. InProceedingsoftheIEEE/CVFconferenceon\ncomputervisionandpatternrecognition,pages17853–17862,2023.\n12"
+    },
+    {
+      "page_num": 13,
+      "text": "[36] ZhiqiLi,ZhidingYu,ShiyiLan,JiahanLi,JanKautz,TongLu,andJoseMAlvarez. Isegostatusallyouneedfor\nopen-loopend-to-endautonomousdriving? InProceedingsoftheIEEE/CVFConferenceonComputerVisionand\nPatternRecognition,pages14864–14873,2024.\n[37] WenzhaoZheng,RuiqiSong,XiandaGuo,ChenmingZhang,andLongChen. Genad: Generativeend-to-end\nautonomousdriving. InEuropeanConferenceonComputerVision,pages87–104.Springer,2024.\n[38] DiWen,HaoranXu,ZhaochengHe,ZheWu,GuangTan,andPeixiPeng. Density-adaptivemodelbasedonmotif\nmatrixformulti-agenttrajectoryprediction. InProceedingsoftheIEEE/CVFConferenceonComputerVisionand\nPatternRecognition,pages14822–14832,2024.\n[39] ZhiliChen,MaoshengYe,ShuangjieXu,TongyiCao,andQifengChen. Ppad: Iterativeinteractionsofprediction\nandplanningforend-to-endautonomousdriving. InEuropeanConferenceonComputerVision,pages239–256.\nSpringer,2024.\n[40] YupengZheng,PengxuanYang,ZebinXing,QichaoZhang,YuhangZheng,YinfengGao,PengfeiLi,TengZhang,\nZhongpuXia,PengJia,etal. World4drive: End-to-endautonomousdrivingviaintention-awarephysicallatent\nworldmodel. InProceedingsoftheIEEE/CVFInternationalConferenceonComputerVision,pages28632–28642,\n2025.\n[41] BoJiang,ShaoyuChen,QingXu,BenchengLiao,JiajieChen,HelongZhou,QianZhang,WenyuLiu,Chang\nHuang,andXinggangWang. Vad: Vectorizedscenerepresentationforefficientautonomousdriving. InProceed-\ningsoftheIEEE/CVFInternationalConferenceonComputerVision,pages8340–8350,2023.\n[42] YumengZhang,ShiGong,KaixinXiong,XiaoqingYe,XiaoTan,FanWang,JizhouHuang,HuaWu,andHaifeng\nWang. Bevworld: Amultimodalworldmodelforautonomousdrivingviaunifiedbevlatentspace. arXivpreprint\narXiv:2407.05679,2024.\n[43] Zehuan Wu, Jingcheng Ni, Xiaodong Wang, Yuxin Guo, Rui Chen, Lewei Lu, Jifeng Dai, and Yuwen\nXiong. Holodrive: Holistic2d-3dmulti-modalstreetscenegenerationforautonomousdriving. arXivpreprint\narXiv:2412.01407,2024.\n[44] Yuqi Wang, Jiawei He, Lue Fan, Hongxin Li, Yuntao Chen, and Zhaoxiang Zhang. Driving into the future:\nMultiview visual forecasting and planning with world model for autonomous driving. In Proceedings of the\nIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages14749–14759,2024.\n[45] XiaofengWang,ZhengZhu,GuanHuang,XinzeChen,JiagangZhu,andJiwenLu. Drivedreamer: Towards\nreal-world-driveworldmodelsforautonomousdriving. InEuropeanConferenceonComputerVision, pages\n55–72.Springer,2024.\n[46] ShenyuanGao,JiazhiYang,LiChen,KashyapChitta,YihangQiu,AndreasGeiger,JunZhang,andHongyangLi.\nVista: Ageneralizabledrivingworldmodelwithhighfidelityandversatilecontrollability. AdvancesinNeural\nInformationProcessingSystems,37:91560–91596,2025.\n[47] FanJia,WeixinMao,YingfeiLiu,YuchengZhao,YuqingWen,ChiZhang,XiangyuZhang,andTiancaiWang.\nAdriver-i: Ageneralworldmodelforautonomousdriving. arXivpreprintarXiv:2311.13549,2023.\n[48] DiederikPKingma,MaxWelling,etal. Auto-encodingvariationalbayes,2013.\n[49] AshishVaswani,NoamShazeer,NikiParmar,JakobUszkoreit,LlionJones,AidanNGomez,ŁukaszKaiser,and\nIlliaPolosukhin. Attentionisallyouneed. Advancesinneuralinformationprocessingsystems,30,2017.\n[50] JRyanShue, EricRyanChan, RyanPo, ZacharyAnkner, JiajunWu, andGordonWetzstein. 3dneuralfield\ngenerationusingtriplanediffusion. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPattern\nRecognition,pages20875–20886,2023.\n[51] LuchuanSong,PinxinLiu,LeleChen,GuojunYin,andChenliangXu. Tri2-plane: Thinkingheadavatarvia\nfeaturepyramid. InEuropeanConferenceonComputerVision,pages1–20.Springer,2024.\n[52] MaximBerman,AmalRannenTriki,andMatthewBBlaschko. Thelovász-softmaxloss: Atractablesurrogate\nfor the optimization of the intersection-over-union measure in neural networks. In Proceedings of the IEEE\nconferenceoncomputervisionandpatternrecognition,pages4413–4421,2018.\n[53] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net: Convolutional networks for biomedical image\nsegmentation. InMedicalimagecomputingandcomputer-assistedintervention–MICCAI2015:18thinternational\nconference,Munich,Germany,October5-9,2015,proceedings,partIII18,pages234–241.Springer,2015.\n[54] KaimingHe,XiangyuZhang,ShaoqingRen,andJianSun. Deepresiduallearningforimagerecognition. In\nProceedingsoftheIEEEconferenceoncomputervisionandpatternrecognition,pages770–778,2016.\n[55] ZhiqiLi,ZhidingYu,DavidAustin,MingshengFang,ShiyiLan,JanKautz,andJoseMAlvarez. FB-OCC:3D\noccupancypredictionbasedonforward-backwardviewtransformation. arXiv:2307.01492,2023.\n13"
+    },
+    {
+      "page_num": 14,
+      "text": "[56] NathanDRatliff,JAndrewBagnell,andMartinAZinkevich. Maximummarginplanning. InProceedingsofthe\n23rdinternationalconferenceonMachinelearning,pages729–736,2006.\n[57] WenyuanZeng,WenjieLuo,SimonSuo,AbbasSadat,BinYang,SergioCasas,andRaquelUrtasun. End-to-end\ninterpretableneuralmotionplanner. InProceedingsoftheIEEE/CVFconferenceoncomputervisionandpattern\nrecognition,pages8660–8669,2019.\n[58] Peiyun Hu, Aaron Huang, John Dolan, David Held, and Deva Ramanan. Safe local motion planning with\nself-supervisedfreespaceforecasting. InProceedingsoftheIEEE/CVFConferenceonComputerVisionand\nPatternRecognition,pages12732–12741,2021.\n[59] TarashaKhurana,PeiyunHu,AchalDave,JasonZiglar,DavidHeld,andDevaRamanan.Differentiableraycasting\nforself-supervisedoccupancyforecasting. InEuropeanConferenceonComputerVision,pages353–369.Springer,\n2022.\n14"
+    }
+  ],
+  "text_by_sections": {
+    "abstract": "OccupancyWorldModels(OWMs)aimtopredictfuturescenesvia3Dvoxelizedrepresentationsof\ntheenvironmenttosupportintelligentmotionplanning. Existingapproachestypicallygeneratefull\nfutureoccupancystatesfromVAE-stylelatentencodings. Incontrast,weproposeDelta-Triplane\nTransformers(DTT),anovel4DOWMforautonomousdriving. DTTadoptstemporaltriplaneasthe\noccupancyrepresentation,andfocusesonmodelingchangesinoccupancyratherthandealingwithfull\nstates. Thecoreinsightisthatchangesinthecompact3Dlatentspacearenaturallysparserandeasier\ntomodel,enablinghigheraccuracywithalighter-weightarchitecture. Wefirstpretrainatriplane\nrepresentationmodelthatencodes3Doccupancycompactly,andthenextractmulti-scalemotion\nfeaturesfromhistoricaldataanditerativelypredictfuturetriplanedeltas. Thesedeltasarecombined\nwithpaststatestodecodefutureoccupancyandego-motiontrajectories. Extensiveexperimentsshow\nthatDTTachievesastate-of-the-artmeanIoUof30.85,reducesmeanabsoluteplanningerrorto1.0\nmeter,andrunsinrealtimeat26FPSonanRTX4090. Demovideosandcodeareprovidedinthe\nsupplementarymaterial.\n1 Introduction\nWorldmodels[1,2]aimtorepresenttheenvironment,predictfuturescenesandenableagentstoperformadvanced\nmotionplanning. Recently,3Doccupancytechnique[3,4]hasemergedasastructuredandspatiallyrichrepresentation\noftheenvironment,enablingconstructingfinercorrelationsbetweenoccupiedvoxelsandplanningdecisions. Inthis\npaper,wefocusonthedesignofOccupancyWorldModels(OWMs)forautonomousdriving.\nInput: ... Input: ...\nVQ-VAE E E E E Triplane E E E E\ncodeboo...k\nLightweight Transformers\nxy Transformer xz xy yz\nD D D D D D D D\nPredicted: Predicted:\n(a)Conventionalapproach. (b)OurapproachDTT.\nFigure1: Comparisonofoccupancyworldmodelarchitectures: (a)Conventionalapproachesuseapre-trainedVAE\ntocompressoccupancystateS intoacompactBEVrepresentation,whichisthencombinedwithpreviousactionsa\ntopredictfutureBEVsandactionsviaalargeTransformer. (b)Ourmethod,DTT,adoptsmorecompactandprecise\ntriplanerepresentationsanduseslightweightTransformerstoseparatelypredictthetriplanechangesofeachplane.\nThesedeltasarethenusedtoforoccupancyforecastingandmotionplanning.\n5202\nvoN\n92\n]OR.sc[\n4v83370.3052:viXra\nIndesigningOWMs,therearetwotasksneedtobesolved:(i)learningacompactlatentrepresentationofrawoccupancy\ndata,and(ii)usingthisrepresentationforsceneforecastingandmotionplanning.\nOccupancy change ( )\nVVaalluuee\nyyccnneeuuqqeerrFF\nFor the first task, most existing OWMs [5, 6, 7, 8] mainly use VQ-\nVAEbasedBEVrepresentations[9]. WhileVAEhasshownsuccess\nOOccccuuppaannccyy ddaattaa Occupancy change ( )\ninseveralgenerativetasks[10,11],itsuseforoccupancycompression\nrequires the latent space of 3D structures to be converted into a 2D\nBEVplane,whichwedenotebyxy. Insuchaway,objectsthatappear\nsimilar in BEV but differ vertically may become indistinguishable,\nforcingtheBEV-basedmethodstorelyonfine-grainedsemanticcues.\n((aa)) ((bb))\nThis usually means using more feature channels and thus increased\nmodelsize.Recentadvanceshaveshownthatthetriplanerepresentation 6\nprovidesaneffectivealternativefor3Doccupancypredictionandscene\ngeneration[12,13,14]. Byincorporatingadditionalxzandyzplanes,\ntriplanepreservesverticalinformation. Motivatedbythisbenefit,we\nproposetoadoptthetriplanerepresentationfor4DOWMs. 3\nForthesecondtask, thekeyishowtofullyexploittriplanesfor4D\noccupancypredictionandmotionplanning. ExistingOWMstypically\nusealargeTransformertomodelthefulloccupancystate[6,5]. In\nparticular,itsmulti-headattentionmechanismisexpectedtocapture 0\n-2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0\nthediversemotionpatternsofmulti-scaleobjects–forexample,the ((cc))\nabruptmovementsofpedestriansversusthemoreinertialdynamicsof\nFigure2: (a-b)Comparisonbetweenthefull\nlargevehicles. Thisincreasesmodelcomplexityandparametercount,\noccupancy and occupancy changes (∆) of a\nand makes long-horizon predictions more susceptible to error accu-\nscene. Inthechangemap,redindicatesnewly\nmulation(asconfirmedinourexperiments). Incontrast,weobserve\nappeared voxels, while blue denotes disap-\nthatoccupancychangesareinherentlysparseandthuseasiertomodel.\npearedvoxels. (c)Distributionoflatent-space\nFigure 2a depicts this by comparing the full occupancy of a scene\nfeaturevaluesforfulloccupancyversusoccu-\nwiththecorrespondingoccupancychangesacrosstwoadjacentframes,\npancychanges.\nshowinghowkeyelementsofinterestaremoredistinctinthechange\nmap. Figure2bfurthercontraststheirdistributionsinthelatentspace,\nwherethexaxisisascalarfeaturevalue. Whilefulloccupancystates\nexhibit a scattered distribution, occupancy changes states are much more tightly concentrated around zero, which\nreducesvarianceandsimplifieslearning.\nBuildingonthisinsight,weproposeDelta-TriplaneTransformers(DTT),anovel4DOWMmodelthatpredictsfuture\nstatesincrementallyratherthaninfull. Thisleadstoamuchlighter-weightarchitecturethatrunsfasterandachieves\nhigherpredictiveaccuracy. Figure1comparestheconventionalmodelarchitecturewithourapproach. Inparticular,\nweextendthetriplanerepresentationintothetemporaldomainanduseseparateTransformerstopredictchangeson\neachplaneauto-regressively. Thesedeltasarethenusedassparsequeriestoattentivelyproduceplanningoutputs. DTT\nachievesstate-of-the-art(SOTA)performance. Forexample,comparedwithDOME[15],itreducescumulativeerrors\ninlong-termoccupancyprediction,improvingmIoUfrom27.10to30.85andIoUfrom36.36to74.58. Formotion\nplanning,itattainsthelowestaverageerrorof1.0meterandthelowestcollisionrateof30%. Inaddition,DTTis\nefficient,runningat26FPSonanRTX4090. Insummary,ourcontributionsarethree-fold:\n•WeintroduceDTT,anovel4DautoregressiveOWMthatforecastsfuturescenesthroughincrementalchangesinstead\noffulloccupancystates.\n•DTTleveragescompacttriplanerepresentationsandlightweightmulti-scaleTransformerstopredictsparsedeltason\neachplane,whicharefusedforoccupancyforecastingandmotionplanning.\n•ExtensiveexperimentsonthenuScenes[16]andOcc3D[4]datasetsvalidateourSOTAperformanceintermsof\noccupancyforecasting,motionplanning,andreal-timeexecution.\n2 RelatedWorks\n3Doccupancyreconstruction.3Doccupancyreconstructionmethods[3,4,17,18,19]aimtorepresenttheenvironment\nas a 3D voxel grid where each voxel encodes both geometric and semantic information. The field was pioneered\nby SSCNet [20] for indoor scenes using depth sensors, and later extended to outdoor camera-based settings by\nMonoScene[21].Theseapproachesprimarilyutilizemulti-cameraRGBimages[22,23]orLiDARpointclouds[24,25]\ntoinfervoxel-wiseoccupancyandsemanticsinanagent-centriccoordinatesystem. Acorechallengeliesinbuilding\n2\naccurate correlations between raw sensor data and 3D voxel space. Once an accurate occupancy reconstruction is\nachieved,furtherlearningofthetemporaldynamicsofscenechangesbecomesnecessary[26].\n4Doccupancyprediction. Toanticipatefuturescenechanges,various4Doccupancypredictionmethodshavebeen\nproposedtocapturethetemporaldynamicsofsceneevolution. Some[27,28,29]predictfuturesensor-leveldata,which\nissubsequentlyvoxelizedintooccupancyresults,whileothers[30,31,32,33]directlyforecastoccupancyoutcomes\nfromhistoricalobservations. Thesemethodsmainlyfocusonreducingspatio-temporalbiasesonfutureoccupancy\npredictions. However,theyoverlooktheuseofpredictedscenesforeffectiveandcomprehensivemotionplanning.\nEnd-to-endautonomousdriving. Conventionalend-to-endautonomousdrivingsystems[34,35]followapipeline\nof perception, prediction, and planning, which are typically decoupled and optimized separately. The perception\nmoduleproducesstructuredrepresentations–suchas2Dboundingboxes,BEVfeatures,andoccupancygrids–that\nprovide accurate ego localization and rich scene semantics. The prediction module infers the intentions of nearby\ntrafficparticipantsandforecastsfuturesceneevolution. Theplanningmodule[36]thengeneratessafeandfeasible\ntrajectoriesbasedonthisinformation. Manyrecentapproachesachieveremarkableperformancebyleveragingmore\nsupervisions[37],high-definitionmaps[37,38],orricherintentionreasoning[39,40,38]. Incontrast,ourworkrelies\nsolelyon3Dlatenttriplanechangesasacompactconditioningsignalforbothsceneforecastingandmotionplanning,\nwithinthedomainofoccupancyworldmodelsintroducedlater.\nWorldmodelsforautonomousdriving. Worldmodels[1,2]aimtocompresshigh-dimensionalscenerepresentations\ntocapturethetemporaldynamicsofscenetransitions,facilitatingbothfuturescenepredictionsandmotionplanning\nfortheagent. Inautonomousdriving,existingmodels[41,42]typicallymapsurroundingtrafficparticipantstothe\nBEVperspectivetopredictinstance-leveltrackletsordirectlyusediffusionmodels[43,44,45,46,47]togenerate\npixel-levelfuturedrivingviews. Thesemethodsderivecontrolsignalsfortheagentfromcurrentobservationsand\npredicted surroundings, but they rely solely on 2D BEV or image space, which limits the ability to establish fine-\ngrained, efficient correlations between scene changes and motion planning. Recent world models [5, 6, 7, 8, 15]\nhaveleveraged3Doccupancydatatoaddressthisissue. However,theytypicallyuseVAE-series[9,48]modelsfor\nenvironmentcompression,whichoftenneglectoriginal3Dgeometricinformationandcompromisesreconstruction\naccuracy. Additionally,theyrelyonTransformers[49]toforecasttheentirefuturesceneinsteadofincrementalchanges,\nleadingtosignificanterroraccumulation.\n3 Methodology\n3.1 Formulation\nNext,weprovidetheformulationofOccupancyWorldModel(OWM)[7]. OWMprimarilyreceivesasequenceof\nscenerepresentationsandmotionactionsfrompastτ framesuptothecurrenttimestept,suchthatSt ∈RH×W×L\np\nrepresentstheoccupancydataoftheagent-centricsurroundingenvironment,withH,W,andLdenotingtheheight,\nwidth,andlength,respectively,andat ∈ R2 denotesatransition-relatedmotioncommand. ThegoalofOWMisto\nestablishastochasticmapping,Φ,thatassociatespastoccupancydataandactionswithfutureτ framesofoccupancy\nf\ndataandactionproposals. Formally:\nSˆt+1:t+τf,aˆt+1:t+τf =Φ(St−τp:t,at−τp:t). (1)\nToachievethis,wefirstpretrainacompacttriplanerepresentationoftherawoccupancydatawithanauto-encoder. The\nencoderanddecoder,parameterizedbyΦ andΦ ,aredefinedas:\nenc dec\nsˆt =Φ (St), Sˆt =Φ (sˆt), (2)\nenc dec\nwhere st = [st ,st ,st ] contains three orthogonal feature planes. Specifically, st ∈ Rc×w×l, st ∈ Rc×h×w,\nxy xz yz xy xz\nandst ∈ Rc×h×l,withcthechanneldimensionand(h,w,l)thespatialresolutionsalongthethreeaxes. Sˆt isthe\nyz\nreconstructedoccupancydata.\nOnceweobtainthelatentscenerepresentationsst,wecanpredictfuturelatentstateswithincrementalchanges∆sˆt+1\nproducedbythesceneforecastingmodelΦ . Thesearecombinedwiththepreviouslatentstatestanddecodedback\nfut\ntofutureoccupancyoutcomeSˆt+1usingΦ . Since∆sˆt+1encodeschangesbetweenconsecutivelatentstates,itcan\ndec\nserveassparsequeriesfortheplanningmodelΦ togeneratefutureactionsaˆt+1.\nact\nNotethatourOWM,Φ={Φ ,Φ ,Φ ,Φ },operatesinanautoregressivefashion,iterativelyusingpreviously\nenc dec fut act\npredicted outcomes as part of the historical data to forecast future scenes and provide motion proposals. Figure 3\nillustratesourdesign,detailedbelow.\n3\nTrained\nFixed\nMul�-scale\ntokens\nToken\nchanges\nMul�-scale\nTransformers\nAutorega�on\nElement-wise\nsum\nC Concatena�on\nyrotsih\nerutuf\nTime\n... ...\n*Applied to all planes\nLast token\nxy\nC\nxz\nyz\nDTT\nyz\nLearnable xz\nfuture query xy\nLast triplane\nMo�on Planning Triplane\nwith DTT changes\nNext triplane\nFigure3: WorkflowofDTT.DTTfirstpre-trainscompacttriplanerepresentationsofoccupancydata. Itthenapplies\nmulti-scale Transformers to model temporal dynamics within each plane and predict future triplane changes (∆).\nFinally,thesechanges,combinedwiththeprevioustriplane,areusedtogeneratefutureoccupancyresultsandmotion\nproposals.\n3.2 DTTasOWM\n3.2.1 Pre-trainingtriplanerepresentationsforOWM\nTo enable faster and more accurate predictions of future scenes St+1:t+τf, OWM requires a\ncompactyetaccuraterepresentationofthehigh-dimensionalvoxelizedoccupancyscene. To\nachievethis,weemploythetriplanetechnique[14],whichiswidelyusedinvolumerendering[50,\n13,51,23],tocompressrawoccupancydatainanorthogonaldecompositionfashion.\nSpecifically,asshowninFigure4,theoccupancydataStisfirstencodedbyΦ intost. Then,\nenc\nan axis-wise average pooling operation is applied to obtain three orthogonal feature planes,\nst = [st ,st ,st ],wherest ∈ Rc×w×l,st ∈ Rc×h×w,andst ∈ Rc×h×l. Todecodethe axis-wise\nxy xz yz xy xz yz pooling\noccupancydata,each3Dpointpos=(x,y,z)queriesitscorrespondingfeaturesfromthethree\nplanes. Thesefeaturesaresummed,concatenatedwiththepositionalencodingPE(pos),and pos\npassed through Φ to predict the semantic label. This process is formalized in Eq. 2, and\ndec\ndetailednetworkstructuresareprovidedinthesupplementarymaterial.\nc PE(pos)\nWepretrainΦ andΦ toobtaincompactyethigh-fidelitylatenttriplanerepresentations\nenc dec\nusing:\nJ =E [L (Φ (Φ (St)),St)], (3)\nenc,dec t∼T,pos∼St occ dec enc\nwhereT representsthecollectionofalltimestepsintheoccupancydataset,andL =L +\nocc ce\nλL .Here,L andL denotethecross-entropyandLovasz-softmaxlosses[52,14],receptively,\nlz ce lz\nandλisthetrade-offfactor.\nFigure4: Pretrained\nThetriplanerepresentation,comparedtothetokensgeneratedbytheVQ-VAEinOccWorld[7]\ntriplaneforOWM.\nandtheMS-VAEinOccLLM[6],retains3Dstructuralinformationwhileachievingamorecom-\npactlatentspace(seeTable3forevaluation). ThisnotonlymakesourOWMmorelightweight\nbutalsoreducesthecumulativepredictionerrorovertime,asdetailedlater.\n3.2.2 Delta-TriplaneTransformers(DTT)\nDTTfollowstheautoregressivepredictionparadigmsimilartoGPT-likemodelsbutdiffersbyleveraginghistorical\ntriplanestopredictfuturetriplanechangesratherthanfullstatepredictions. Thesechangesarethendecodedintofuture\nscenesandmotiontrajectories. Atthetimestepk ∈ {1,··· ,τ }forautoregressiveforecasting,givenτ historical\nf p\ntriplaneframessk−τp:k,theobjectiveofDTTistocapturethecompletetemporaldynamicsofthescene,particularly\n4\nadaptingtoobjectmotionsatdifferentscales. Tothisend,DTTperformstwosteps: (i)predictingplane-specificfuture\nchanges{∆sˆk |i∈{xy,xz,yz}}withmulti-scaleTransformers,and(ii)aggregatingthesechangeswiththeprevious\ni\nstateandaligningthethreeplanesthroughafine-tuneddecoderΦ .\ndec\nInparticular,wedesignthefuturepredictionmoduleasthreeplane-specificmodels: Φ ={Φ ,Φ ,Φ }.\nfut futxy futxz futyz\nEachpredictorΦ isimplementedwithTransformers[49]operatingatmultiplescales. Thepredictorssharethe\nfuti\nsamearchitecturebutuseseparatelearnableparametersanddifferentinputsizes,dependingontheplaneandscale,as\nillustratedinFigure3. Wedenotebyk ∈{1,··· ,τ }thetimestepforautoregressiveforecasting. Takethexy-plane\nf\npredictorasanexample: theinputsk isfirstdownsampledusingaUNet[53]-styleencoder,producingV scalesof\nxy\nfeatures. Atscalev ∈ V,thefeatureisdenotedassk x , y v ∈ Rcv xy ×w x v y ×hv xy,whichisflattenedintow x v y ×hv xy tokens\nandpassedtoaTransformerencodertobuildspatio-temporalmemory. AlearnablefuturequeryQk ,withthesame\nxy\ndimensionassk,v, isthenusedintheTransformerdecoderforcross-attention, generatingtokenchangesfromthe\nxy\ncurrentsteptothenext. Finally,tokenchangesacrossallscalesarefusedbyUNet-styleupsamplingtoproducethe\nplane’sfeaturechange∆sˆk+1,whichiscombinedwiththepreviousstatesˆk viaa1×1convolutionϕ. Thesame\nxy xy\nprocedureappliestotheotherplanes. Detailedarchitectureandhyperparametersareprovidedinthesupplementary\nmaterial.\nTheoverallforecastingprocessatautoregressivetimestepkisdefinedas:\n∆sˆk =Φ (sˆk−τp:k,Qk ), (4)\ni futi i si\nsˆk =∆sˆk+ϕ(sˆk−1), (5)\ni i i\nSˆk =Φ (sˆk :={sˆk}), (6)\ndec i\nwherei∈{xy,xz,yz}andQk isthelearnablequeryattimestepkinthei-thplane.\ni\nSincethetriplaneoccupancyrepresentationsarepretrained,theground-truth(GT)futuretriplanescanbedirectlyused\ntosuperviseDTT.Inthissetting,wefreezetheencoderandfine-tuneonlythedecoderΦ . Thisensuresastableand\ndec\ngeometry-consistenttriplaneinitialization,whileallowingthedecodertoadaptspecificallytofuturedynamics. Such\ndecouplingalsomitigatesrepresentationdriftandreducesmisalignmentacrossindependentlypredictedplanes,leading\ntomorecoherentmulti-planeaggregation.\nSincethetriplaneoccupancyrepresentationsarepretrained,theground-truth(GT)futuretriplanescanbedirectlyused\ntosuperviseDTT.Inthissetup,wefreezetheencoderandfine-tuneonlythedecoderΦ . Thisprovidesastableand\ndec\ngeometry-consistenttriplaneinitialization,whileallowingthedecodertoadaptspecificallytofuturedynamics. Such\ndecouplingalsomitigatesrepresentationdriftandreducesmisalignmentacrossindependentlypredictedplanes,leading\ntomorecoherentmulti-planeaggregation. Thetrainingobjectiveisdefinedas:\nJ =E [L (sˆk,sk)+ξL (Sˆk,Sk)], (7)\nfut k,i fut i i occ\nwhereL =L +L istheweightedsumofL1andL2losses,withξasatrade-offweight.\nfut 1 2\n3.3 MotionplanningwithDTT\nLearnable Last\nfuture triplane\nquery\nTriplane\nchanges\nM ean\nTransformer Transformer\nDecoder Encoder\n...\nGiventhepredictedtriplanechanges∆sˆk ={∆sˆk |i∈{xy,xz,yz}},\ni\nwhichencodebothglobalcontextandlocalmotiondynamics,wedi-\nrectlyusethemassparsequeriestoattentivelygenerateplanningoutputs\nacrosspastandfutureframes,asillustratedinFigure5.\nSpecifically,theprevioustriplanesˆk−1,thechange∆sˆk,andthenext\ntriplanesˆk arefirstmappedintoasharedlatentspacebythreeResNet-\n18 networks [54], θ , θ , and θ , yielding zk−1, ∆zk, and zk. The p ∆ f\nchangefeature∆zk isthenprocessedbytwoparallelfullyconnected\n(FC)layerswithSigmoidactivations, denotedζ andζ , toproduce\np f\nqueryvectorsfk−1andfk. Thesequeriesaremultipliedwithzk−1and\nzk toextractmotion-relatedfeaturesrelativetothepreviousandcurrent\ntriplanes. Theresultingfeaturesareaveragedelement-wisewith∆zk,\npassedthroughanotherFClayerζ q ,andcombinedwiththelearnable Figure5: MotionplanningwithDTT.\nfuturequerytoformthemotion-planningqueryQk ∈Rdact.\na\nNext,weprojecttheactionsfromthepastτ framesintothesamedimensionasQk,andemployaTransformerencoder\np a\ntocapturemotiondependencies. ThequeryQk isthenfedintoaTransformerdecoderviacross-attentiontopredictthe\na\n5\nTable1: TestingperformancecomparisonwithSOTAmethodsonthe4Doccupancyforecastingtask. Bestvaluesin\neachmetricarebolded. 0sreferstoreconstructionaccuracy,while1s,2s,and3sdenotefuturepredictionaccuracy.\nAvg. istheaverageof1s,2s,and3s.\nmIoU(%)↑ IoU(%)↑\nModels Input\n0s 1s 2s 3s Avg. 0s 1s 2s 3s Avg.\nOccWorld-O 3D-Occ 66.38 25.78 15.14 10.51 17.14 62.29 34.63 25.07 20.18 26.63\nOccLLaMA-O 3D-Occ 75.20 25.05 19.49 15.26 19.93 63.76 34.56 28.53 24.41 29.17\nRenderWorld-O 3D-Occ - 28.69 18.89 14.83 20.80 - 37.74 28.41 24.08 30.08\nOccLLM-O 3D-Occ - 24.02 21.65 17.29 20.99 - 36.65 32.14 28.77 32.52\nDOME-O 3D-Occ 83.08 35.11 25.89 20.29 27.10 77.25 43.99 35.36 29.74 36.36\nDTT-O(ours) 3D-Occ 85.50 37.69 29.77 25.10 30.85 92.07 76.60 74.44 72.71 74.58\nOccWorld-F Camera 20.09 8.03 6.91 3.54 6.16 35.61 23.62 18.13 15.22 18.99\nOccLLaMA-F Camera 37.38 10.34 8.66 6.98 8.66 38.92 25.81 23.19 19.97 22.99\nRenderWorld-F Camera - 2.83 2.55 2.37 2.58 - 14.61 13.61 12.98 13.73\nOccLLM-F Camera - 11.28 10.21 9.13 10.21 - 27.11 24.07 20.19 23.79\nDOME-F Camera 75.00 24.12 17.41 13.24 18.25 74.31 35.18 27.90 23.44 28.84\nDTT-F(ours) Camera 43.52 24.87 18.30 15.63 19.60 54.31 38.98 37.45 31.89 36.11\nnextactionaˆk+1:\naˆk+1 =Φ (aˆk−τp:k,sˆk−1,∆sˆk,Qk). (8)\nact a\nUnlikeOccWorld[7],whichintroducesanadditionalegotokentotracktheagent’strajectory,ourapproachlearns\nfuturemotiondirectlyfromscenechangesandhistoricalmotion. Thisdesignsimplifiestheplanningmodulewhilestill\ndeliveringsaferandmoreprecisemotiondecisions. Theoptimizationobjectiveisdefinedasfollows:\nJ =E [L (aˆk,ak)], (9)\nact k act\nwhereL measurestheL2discrepancybetweenthepredictedandGTtrajectories.\nact\n4 Experiments\n4.1 Experimentalsettings\nTargets and evaluation metrics. OWMs aim to jointly modeling occupancy forecasting and motion planning.\nFollowing[7,5],weusethepastfourframes(2seconds)topredicttheoutcomesofthenextsixframes(3seconds).\nWe conduct two sets of experiments: (i) To evaluate 4D occupancy forecasting, we report intersection over union\n(IoU)foroccupiedandunoccupiedvoxelsandmeanIoU(mIoU)across18semanticclasses,basedontheoccupancy\nannotationsintheOcc3Ddataset[4]. (ii)Toassessplanningprecisionandsafety,wemeasuretheL2distancebetween\npredictedandGTtrajectories(inmeters)andthecollisionratewithtrafficparticipants’boundingboxes,usingnuScenes\nannotations[16].\nImplementationdetails. Thedatasetconsistsof1,000scenes,ofwhich700areusedfortrainingand100fortesting.\nEachscenecontainsupto40timesteps,withasamplingfrequencyof2Hz. TheoccupancydataStateachtimestep\nhasdimensionsof16×200×200,whilethepre-trainedtriplaneshapeis16×100×100with8channels. InΦ ,\nfut\npredictionsforeachplaneusefeaturesfromV =5scales,andthetokendimensioninΦ isd =50.Theobjectives,\nact act\nJ ,J ,andJ ,areoptimizedusingAdamW,withaweightregularizationfactorof0.01,aninitiallearning\nenc,dec fut mot\nrateof0.001,andcosinedecaywithaminimumlearningrateof10−6. Wefirstpre-trainΦ andΦ withabatch\nenc dec\nsizeof10,usingrandomflipaugmentationtoobtainthetriplanerepresentations. Then,wetrainΦ andΦ witha\nfut act\nbatchsizeof1,whilefine-tuningΦ . Alltrainingandtestingareperformedon4RTX4090GPUs. Moredetailsare\ndec\ngiveninthesupplementarymaterial.\n4.2 Comparisonswiththestate-of-the-art\n4Doccupancyforecasting. Table1reportsthetestingperformanceofvariousmethods,undertwosettings: (i)using\n3DoccupancyGTsashistoricalinput,markedwith“-O”;(ii)usingpredicted3DoccupancydatafromFB-Occ[55]as\nhistoricalinput,markedwith“-F”.\n6\nAt0s,baselinemethodsclearlyfallshortofours,mainlybecauseourtriplanerepresentationachieveshigher-fidelity\ncompression. TheonlyexceptionisDOME-F,whichperformsbetterthanDTT-Fatthisinitialstep. Thisisprimarily\nduetoadditionalnoiseintheFB-Occoutputsusedinourpipeline,whereasDOME’sVAE-styleencodercombined\nwithitsdiffusionarchitectureprovidesgreaterrobustnesscomparedwithourtriplaneencoder. Beyond0s,bothDTT-O\nandDTT-Fleveragetriplane-deltapredictionsinsteadoffull-statepredictions,yieldingthebestmIoUandIoUaccuracy\nwithreducederroraccumulation. TheIoUimprovementisparticularlysignificant,asoccupancychangesareinherently\nsparseandpredictingbinaryoccupancy(occupiedvs. empty)issimplerthanmulti-classpredictionsmeasuredbymIoU.\nAdditionally,DTT’strategyofpredictingtriplanechangessignificantlyaidsΦ inforecastingthenext3seconds,\nfut\neffectivelyreducingerroraccumulation.\nTable2: TestingperformanceofmotionplanningcomparedwithSOTAmethod. Bestandsecond-bestvaluesineach\nmetricareboldedandunderlined,respectively. Auxiliarysupervisionreferstoadditionalsupervisionsignalsbeyond\ntheGTtrajectories.\nL2(m)↓ Collisionrate(%)↓\nModels Input Auxiliarysupervision\n1s 2s 3s Avg. 1s 2s 3s Avg.\nIL LiDAR None 0.44 1.15 2.47 1.35 0.08 0.27 1.95 0.77\nNMP LiDAR Box+Motion 0.53 1.25 2.67 1.48 0.04 0.12 0.87 0.34\nFF LiDAR Freespace 0.55 1.20 2.54 1.43 0.06 0.17 1.07 0.43\nEO LiDAR Freespace 0.67 1.36 2.78 1.60 0.04 0.09 0.88 0.33\nST-P3 Camera Map+Box+Depth 1.33 2.11 2.90 2.11 0.23 0.62 1.27 0.71\nUniAD Camera Map+Box+Motion+Track+Occ 0.48 0.96 1.65 1.03 0.05 0.17 0.71 0.31\nVAD Camera Map+Box+Motion 0.54 1.15 1.98 1.22 0.04 0.39 1.17 0.53\nOccWorld-F Camera None 0.67 1.69 3.13 1.83 0.19 1.28 4.59 2.02\nRenderWorld-F Camera None 0.48 1.30 2.67 1.48 0.14 0.55 2.23 0.97\nOccLLaMA-F Camera None 0.38 1.07 2.15 1.20 0.06 0.39 1.65 0.70\nDTT-F(ours) Camera None 0.35 1.01 1.89 1.08 0.08 0.33 0.91 0.44\nOccWorld-O 3D-Occ None 0.43 1.08 1.99 1.17 0.07 0.38 1.35 0.60\nRenderWorld-O 3D-Occ None 0.35 0.91 1.84 1.03 0.05 0.40 1.39 0.61\nOccLLaMA-O 3D-Occ None 0.37 1.02 2.03 1.14 0.04 0.24 1.20 0.49\nDTT-O(ours) 3D-Occ None 0.32 0.91 1.76 1.00 0.08 0.32 0.51 0.30\nMotionplanning. WecompareDTTextensivelywithSOTAmethodsforautonomousdriving,includingLiDAR-based\n(IL[56],NMP[57],FF[58],andEO[59]),camera-based(ST-P3[34],UniAD[35],VAD[41]),andoccupancy-based\nmethods(OccWorld[7],RenderWorld[8],andOccLLaMA[5]). TheresultsonthetestingdatasetareshowninTable2.\nSpecifically,(i)LiDAR-andcamera-basedmethodsoftenrequireadditionalauxiliarysupervisions(e.g.,3Dbounding\nboxes,drivablefreespace,HDmaps)toimproveplanningquality. (ii)Whenusingcamerainputonly,DTT-Foperates\nasapurelyvision-based4Doccupancyforecastingmethod,withperformancedependentontheaccuracyofvision-based\npredictions. Inthissetting,DTT-FachievescompetitiveresultscomparedtoUniAD.(iii)Occupancy-basedmethods\nrelysolelyondense3Doccupancyannotations,suggestingthatimprovingthequalityofoccupancyGTcouldfurther\nenhanceplanningperformance. ComparedtoSOTAoccupancy-basedmethods,DTT-Odeliverssuperiorresults,mainly\nduetoitsabilitytoestablishprecise,task-relevantcorrelationsbetweenscenechangesandmotiontrajectoriesinadeep\nlatentspace,effectivelyfilteringoutnoisefromirrelevanttrafficelements. However,forshort-termprediction(1–2\nseconds),DTT-OunderperformsOccLLaMA-O.Thisisprimarilybecauseevenslightinaccuraciesinthepredicted\ndeltascanhavealargerimpactonnear-futureactiondecisions. Forinstance,asmallpredictionbiasmaydelayan\nobstacle-avoidancemaneuver,leadingtoanincreasedcollisionrate.\nVisualcomparisonswithSOTA.Figure6showsthesceneevolutionoverthenext3secondswithmotionpredictions\nfortworepresentativescenarios. SinceDOMEonlyperformsconditionalscenegeneration,weshowitsoccupancy\npredictions only. (i) In the first case, OccWorld-O incorrectly labels part of the truck as a trailer, and this error\naccumulatesovertime. DOME-Oavoidsthismisclassificationthroughitsiterativediffusion-basedrefinement,although\nthepredictedmotionforthemiddlevehicleisslightlyaggressive,causingthemtoleavetheframeprematurely. In\ncontrast,DTT-Otracksallobjectsaccuratelyandpreservesclearboundariesthroughoutthesequence. Nonetheless,\nour method exhibits some residual artifacts in the 2.0–2.5 s frames for the middle cars. This occurs because the\ntriplanechangespreservefine-grained3Ddetails,andaddingtheseresidualstotheprevioustriplanecanintroduce\nslightdecodingnoise. Bycomparison,DOME-OandOccWorld-OrelyonVAE-styleencodersthatproducesmoother\nrepresentationsbutarelesseffectiveatcapturingpreciseobjectmotion. (ii)Inthesecondcase,OccWorld-Ogradually\nloses the road boundary and misidentifies the motorcycle as a truck at 2.5 s and 3 s, due to the limited 3D detail\n7\nTG\nO-dlroWccO\nO-EMOD\nO-TTD\nO-EMOD\n0.5s\nTG\nO-dlroWccO\nO-TTD\nbarrier bicycle bus car const. veh. motorcycle pedestrian traffic cone trailer\ntruck driveable surface other flat sidewalk terrain manmade vegeta�on\n0.5s 1s 1.5s 2s 2.5s 3s\n8\n3s\n7\n6\n5\n4\n3\n2\n1 0.5s\n-0.10.0\nX posi�on\n1s 1.5s 2s 2.5s 3s\n3s\n25\n20\n15\n10\n5\n0.5s\n0.10.2\nX posi�on\nno�isop\nY\nno�isop\nY\nGT\nOccWorld\nDTT\nFigure6: Visualizationof4Doccupancyforecastingandmotionplanningforthenext3secondsontheOcc3Dtest\ndataset(zoominforaclearerview).\npreservedbyitsVAE-basedencoder. DOME-Oalleviatestheseissuesandbetterpreservesglobalgeometry. However,\nbecauseitconditionsfuturescenegenerationprimarilyontheegovehicle’strajectory,itmaybelesssensitivetothe\ndetailedmotionpatternsofotheragents,occasionallyresultingindriftsorhallucinatedobjects. Incontrast,ourmethod\npreservesroadgeometry,roadsidestructures,andsmall-objectsemantics. Theseprecisesceneforecastsarisefrom\naccuratelypredictedlatenttriplanechanges,enablingmoreaccuratemotionplanning.\nFigure7comparesoccupancypredictionsforthethreefurthestframes,focusingondynamicobjectsofvaryingsizes\n(carsandpedestrians)fromaBEVperspective. Tworeferencelinesaredisplayedtoreflecttheerrorsbetweenthe\npredictionsandGT.TheresultsofourmethodmatchtheGTsignificantlybetterthanOccWorld-O,whichexhibits\nsubstantialdrift.Forinstance,thepredictionsforthepedestriansatthetopandthevehicleontheleftclearlydemonstrate\nthisimprovement.\nFigure8showstwofailurecasesoverthreeconsecutiveframes, wherefragmentedorincompleteroadboundaries\nleadtosomedeviationsinmotionplanningcomparedwithGT.Thismainlystemsfromtheoccupancylabels: LiDAR\npointsnearroadedgesareradialandsparse,producingthin,discontinuousboundarysurfaces. Asthetriplaneencoder\n8\ncar pedestrian others\nGT OccWorld-O DTT-O\ns2=t\ns5.2=t\ns3=t\nTable3: Latentrepresentationcomparison.\nLatentspace↓ Total mIoU IoU\nType\nh,w,l,c shape↓ (%)↑ (%)↑\nBEV -,50,50,128 320,000 60.50 59.07\nBEV -,50,50,16 40,000 37.81 46.53\nBEV -,50,50,8 20,000 35.26 42.91\nTriplane 16,50,50,8 32,800 72.45 80.83\nBEV -,100,100,128 1,280,000 78.12 71.63\nBEV -,100,100,16 160,000 57.34 48.19\nBEV -,100,100,8 80,000 54.13 46.78\nTriplane 16,100,100,8 105,600 85.50 92.07\nTable4: AblationstudyofDTT.\nAvg. Avg.\nIdx. Models ↑ ↓ FPS↑\nmIoU L2\nM0 DTT-O 30.85 1.00 26\nM1 w/opretraining 28.45 1.12 26\nM2 w/otriplane 26.71 1.13 21\nM3 w/otriplanechanges 27.97 1.10 27\nM4 w/omulti-scalemot. 29.05 1.08 36\nM5 w/oautoregression 29.41 1.11 34\nFigure7: Predictedlocationsofdynamicobjectsforthe\nthreelastframes.\nmustmodelbothdenseinteriorregionsandthesesparseedgestructures,ittendstoprioritizedenseareasandunderfit\nboundaries. Thislimitationcouldbealleviatedbyboundarydensificationoredge-focusedregularizationduringtraining.\n4.3 Ablationstudy\nLatentrepresentationcomparison. Table3empiricallyfindsthataddingthetwoextraplanes(xyandyz)inBEV\nallowsforfewerchannelsperplanewhilestillachievinghigh-qualityreconstructionat0s. ForBEV,thelatentsize\nisw×l×c;fortriplane,itisthesumacrossthreeorthogonalplanes: (h×w+h×l+w×l)×c. Theseresults\nshowthatBEVrequiressignificantlymorechannelstomaintainreconstructionquality,whiletriplaneachievesstrong\nperformancewithfewerchannels.\nGT\nDTT\n3s\n10\n5\n0.5s\n0.5 1.5\n3s\n0.5s\nno�isop\nY\n15\nX posi�on\n14\n12\n10\n8\n6\n4\n2\nno�isop\nY\n1s 2s 3s\n-0.25 0.00\nX posi�on\nTG\nO-TTD\nTG\nO-TTD\nFigure8: Somefailurecases.\n9\nTable5: Effectoflong-durationpredictions.\nOccWorld-O DOME-O DTT-O\n1s 19.95 25.37 27.61\nmIoU 3s 10.65 14.13 16.22\n(%)↑ 5s 6.44 9.52 11.03\n10s 5.26 8.99 9.17\n1s 0.88 0.64\nL2 3s 4.41 3.26\nN/A\n(m)↓ 5s 5.53 4.43\n10s 5.61 4.59\nTable6: Effectofdifferenthyperparameters.\nAvg. Avg.\nIdx. Setting ↑ ↓ FPS↑\nmIoU L2\nH1.1 8,(8,50,50) 23.18 1.33 37\nH1.2 8,(16,50,50) 24.56 1.23 33\nH1.3 8,(8,100,100) 27.71 1.17 30\nH1.4 8,(16,100,100) 30.85 1.00 26\nH1.5 16,(16,100,100) 31.02 1.09 23\nH1.6 32,(16,100,100) 29.89 1.11 18\nH2.1 V =3,4,16 29.01 1.08 28\nH2.2 V =5,4,16 30.85 1.00 26\nH2.3 V =5,4,32 31.59 1.04 21\nH2.4 V =5,8,16 32.04 1.02 23\nH2.5 V =7,4,16 28.75 0.98 20\nEffectofDTTcomponents. Table4evaluatestheeffectivenessofkeydesignsinDTT.M0denotesthefullmodel,\nwhile ablations are obtained by replacing its components as follows: M1 removes pre-training and learns triplane\nchangesinanend-to-endmanner,causingdownstreamtaskgradientstobiastheencodertowardtask-specificcues\nwhilelosing3Dsceneinformation,whichdegradesbothencoderqualityandoverallperformance. M2useslatent\nBEVfeaturesfromOccWorldasinput,leadingtogeometricinformationloss. M3predictsfullfuturetriplanesinstead\nof ∆ changes, showing that change prediction is more efficient. M4 applies a single-scale Transformer, failing to\ncapturemulti-scalemotionandaccumulatingerrors. M5removestheautoregressivemechanism,whereeachprevious\npredictionisfedintothenextstep.Instead,itpredictsallfutureoutcomessimultaneouslyfromfourhistoricaloccupancy\nframes. Thispreventsstep-wiseadjustmentsbasedonpreviouspredictions,whichcandegradeperformance.\nEffectoflong-durationpredictions. InTable5,weretrainOccWorld,DOME,andDTTfora10-secondprediction\ntask,whichisparticularlychallengingduetothesubstantialchangesthatoccurinthesceneoverlonghorizons. New\nobjectsmayappear,existingobjectscanmoveorleavethefieldofview,andtheoverallgeometryevolvesovertime. As\naresult,themIoUandL2metricsofallmethodsgraduallydeclinewithincreasingpredictionlength. Incontrast,our\napproachaccumulateserrorsmoreslowly,primarilybecauseitsmulti-scalemodelingoftriplanedeltasallowsitto\ncapturefine-grainedchangesinthescenemoreeffectivelyacrossextendeddurations.\nEffectofdifferenthyperparameters. Table6showstheimpactofdifferenthyperparameters,with indicatingour\nfinaltrade-off. TheH1seriesvariesthelatenttriplaneshape,definedbychannelnumberandspatialsize(h,w,l);\nincreasingspatialsizeimprovespredictions,whilemorechannelsofferlittlebenefitandcanhurtperformancedue\ntofeatureredundancyinself-attention. TheH2seriesadjuststhenumberofscales(V)andthedepthandwidthof\ntheTransformer,i.e.,thenumberoflayersandattentionheads. TheresultsshowthatevenalightweightTransformer\ncapturesessentialpatterns,whereaslargermodelsaddcostwithoutnotablegains. Ourfinaldesignusesonly903M\nmemory(vs. 13,000M/13,500MforOccWorld/RenderWorld)andrunsat26FPSonanRTX4090,outperforming\nOccWorld’s18FPS.\n10\n5 Conclusion\nThispaperintroducesDTT,anew4DOWMthatleveragespre-trainedtriplanelatentrepresentationsandpredicts\nplane-wise future changes with multi-scale Transformers. These predictions are recovered into future occupancy\noutcomesandusedassparsequeriesformotionplanning. DTTachieveSOTAperformanceinbothsceneforecasting\nandmotionplanningwithreal-timeefficiency.",
+    "references": "[1] DavidHaandJürgenSchmidhuber. Worldmodels. arXivpreprintarXiv:1803.10122,2018.\n[2] David Ha and Jürgen Schmidhuber. Recurrent world models facilitate policy evolution. Advances in neural\ninformationprocessingsystems,31,2018.\n[3] WenwenTong,ChonghaoSima,TaiWang,LiChen,SileiWu,HanmingDeng,YiGu,LeweiLu,PingLuo,Dahua\nLin,etal. Sceneasoccupancy. InProceedingsoftheIEEE/CVFInternationalConferenceonComputerVision,\npages8406–8415,2023.\n[4] XiaoyuTian,TaoJiang,LongfeiYun,YuchengMao,HuitongYang,YueWang,YilunWang,andHangZhao.\nOcc3d:Alarge-scale3doccupancypredictionbenchmarkforautonomousdriving.AdvancesinNeuralInformation\nProcessingSystems,36:64318–64330,2023.\n[5] Julong Wei, Shanshuai Yuan, Pengfei Li, Qingda Hu, Zhongxue Gan, and Wenchao Ding. Occllama: An\noccupancy-language-actiongenerativeworldmodelforautonomousdriving. arXivpreprintarXiv:2409.03272,\n2024.\n[6] TianshuoXu,HaoLu,XuYan,YingjieCai,BingbingLiu,andYingcongChen. Occ-llm: Enhancingautonomous\ndrivingwithoccupancy-basedlargelanguagemodels. InInternationalConferenceonRoboticsandAutomation,\n2025.\n[7] WenzhaoZheng,WeiliangChen,YuanhuiHuang,BoruiZhang,YueqiDuan,andJiwenLu. Occworld: Learning\na3doccupancyworldmodelforautonomousdriving. InEuropeanconferenceoncomputervision,pages55–72.\nSpringer,2024.\n[8] ZiyangYan, WenzhenDong, YihuaShao, YuhangLu, LiuHaiyang, JingwenLiu, HaozheWang, ZheWang,\nYanWang,FabioRemondino,etal. Renderworld: Worldmodelwithself-supervised3dlabel. InInternational\nConferenceonRoboticsandAutomation,2025.\n[9] AaronVanDenOord,OriolVinyals,etal. Neuraldiscreterepresentationlearning. Advancesinneuralinformation\nprocessingsystems,30,2017.\n[10] YumingJiang,ShuaiYang,TongLiangKoh,WayneWu,ChenChangeLoy,andZiweiLiu. Text2performer:\nText-drivenhumanvideogeneration. InProceedingsoftheIEEE/CVFInternationalConferenceonComputer\nVision,pages22747–22757,2023.\n[11] HangZhang, AntonSavov, andBenjaminDillenburger. Maskplan: Maskedgenerativelayoutplanningfrom\npartialinput. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages\n8964–8973,2024.\n[12] RajaeiKhatibandRajaGiryes. Trinerflet: Awaveletbasedtriplanenerfrepresentation. InEuropeanConference\nonComputerVision,pages358–374.Springer,2024.\n[13] Tao Hu, Xiaogang Xu, Ruihang Chu, and Jiaya Jia. Trivol: Point cloud rendering via triple volumes. In\nProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages20732–20741,\n2023.\n[14] JuminLee,SebinLee,ChanghoJo,WoobinIm,JuhyeongSeon,andSung-EuiYoon. Semcity: Semanticscene\ngenerationwithtriplanediffusion. InProceedingsoftheIEEE/CVFconferenceoncomputervisionandpattern\nrecognition,pages28337–28347,2024.\n[15] SongenGu,WeiYin,BuJin,XiaoyangGuo,JunmingWang,HaodongLi,QianZhang,andXiaoxiaoLong.Dome:\nTamingdiffusionmodelintohigh-fidelitycontrollableoccupancyworldmodel. arXivpreprintarXiv:2410.10429,\n2024.\n[16] Holger Caesar, Varun Bankiti, Alex H Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan,\nYuPan, GiancarloBaldan, andOscarBeijbom. nuscenes: Amultimodaldatasetforautonomousdriving. In\nProceedingsoftheIEEE/CVFconferenceoncomputervisionandpatternrecognition,pages11621–11631,2020.\n11\n[17] YiWei,LinqingZhao,WenzhaoZheng,ZhengZhu,JieZhou,andJiwenLu. Surroundocc: Multi-camera3d\noccupancypredictionforautonomousdriving. InProceedingsoftheIEEE/CVFInternationalConferenceon\nComputerVision,pages21729–21740,2023.\n[18] RuiLiu,WenguanWang,andYiYang. Volumetricenvironmentrepresentationforvision-languagenavigation. In\nProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages16317–16328,\n2024.\n[19] NicolaMarinello,SimenCassiman,JonasHeylen,MarcProesmans,andLucVanGool. Camera-only3dpanoptic\nscenecompletionforautonomousdrivingthroughdifferentiableobjectshapes. InProceedingsoftheComputer\nVisionandPatternRecognitionConference,pages2520–2529,2025.\n[20] ShuranSong,FisherYu,AndyZeng,AngelXChang,ManolisSavva,andThomasFunkhouser. Semanticscene\ncompletionfromasingledepthimage. InProceedingsoftheIEEEconferenceoncomputervisionandpattern\nrecognition,pages1746–1754,2017.\n[21] Anh-QuanCaoandRaoulDeCharette. Monoscene: Monocular3dsemanticscenecompletion. InProceedingsof\ntheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages3991–4001,2022.\n[22] Yiming Li, Zhiding Yu, Christopher Choy, Chaowei Xiao, Jose M Alvarez, Sanja Fidler, Chen Feng, and\nAnimaAnandkumar. Voxformer: Sparsevoxeltransformerforcamera-based3dsemanticscenecompletion. In\nProceedingsoftheIEEE/CVFconferenceoncomputervisionandpatternrecognition,pages9087–9098,2023.\n[23] YuanhuiHuang,WenzhaoZheng,YunpengZhang,JieZhou,andJiwenLu. Tri-perspectiveviewforvision-based\n3dsemanticoccupancyprediction. InProceedingsoftheIEEE/CVFconferenceoncomputervisionandpattern\nrecognition,pages9223–9232,2023.\n[24] Anh-QuanCao,AngelaDai,andRaoulDeCharette. Pasco: Urban3dpanopticscenecompletionwithuncertainty\nawareness. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages\n14554–14564,2024.\n[25] ZhaoyangXia,YouquanLiu,XinLi,XingeZhu,YuexinMa,YikangLi,YuenanHou,andYuQiao. Scpnet:\nSemanticscenecompletiononpointcloud. InProceedingsoftheIEEE/CVFconferenceoncomputervisionand\npatternrecognition,pages17642–17651,2023.\n[26] Jinke Li, Xiao He, Chonghua Zhou, Xiaoqiang Cheng, Yang Wen, and Dan Zhang. Viewformer: Exploring\nspatiotemporalmodelingformulti-view3doccupancyperceptionviaview-guidedtransformers. InEuropean\nConferenceonComputerVision,pages90–106.Springer,2024.\n[27] FanLu,GuangChen,ZhijunLi,LijunZhang,YinlongLiu,SanqingQu,andAloisKnoll. Monet: Motion-based\npointcloudpredictionnetwork. IEEETransactionsonIntelligentTransportationSystems,23(8):13794–13804,\n2021.\n[28] BenediktMersch,XieyuanliChen,JensBehley,andCyrillStachniss. Self-supervisedpointcloudpredictionusing\n3dspatio-temporalconvolutionalnetworks. InConferenceonRobotLearning,pages1444–1454.PMLR,2022.\n[29] TarashaKhurana,PeiyunHu,DavidHeld,andDevaRamanan.Pointcloudforecastingasaproxyfor4doccupancy\nforecasting. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages\n1116–1124,2023.\n[30] JunyiMa,XieyuanliChen,JiaweiHuang,JingyiXu,ZhenLuo,JintaoXu,WeihaoGu,RuiAi,andHesheng\nWang. Cam4docc: Benchmarkforcamera-only4doccupancyforecastinginautonomousdrivingapplications. In\nProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages21486–21495,\n2024.\n[31] JunliangChen,HuaiyuanXu,YiWang,andLap-PuiChau.Occprophet:Pushingefficiencyfrontierofcamera-only\n4doccupancyforecastingwithobserver-forecaster-refinerframework. InICLR,2025.\n[32] Jingyi Xu, Xieyuanli Chen, Junyi Ma, Jiawei Huang, Jintao Xu, Yue Wang, and Ling Pei. Spatiotemporal\ndecouplingforefficientvision-basedoccupancyforecasting. arXivpreprintarXiv:2411.14169,2024.\n[33] Haoran Xu, Peixi Peng, Xinyi Zhang, Guang Tan, Yaokun Li, Shuaixian Wang, and Luntong Li. Exploiting\ncontinuousmotioncluesforvision-basedoccupancyprediction. InAAAI,2025.\n[34] ShengchaoHu,LiChen,PenghaoWu,HongyangLi,JunchiYan,andDachengTao. St-p3: End-to-endvision-\nbasedautonomousdrivingviaspatial-temporalfeaturelearning. InEuropeanConferenceonComputerVision,\npages533–549.Springer,2022.\n[35] YihanHu,JiazhiYang,LiChen,KeyuLi,ChonghaoSima,XizhouZhu,SiqiChai,SenyaoDu,TianweiLin,\nWenhaiWang,etal. Planning-orientedautonomousdriving. InProceedingsoftheIEEE/CVFconferenceon\ncomputervisionandpatternrecognition,pages17853–17862,2023.\n12\n[36] ZhiqiLi,ZhidingYu,ShiyiLan,JiahanLi,JanKautz,TongLu,andJoseMAlvarez. Isegostatusallyouneedfor\nopen-loopend-to-endautonomousdriving? InProceedingsoftheIEEE/CVFConferenceonComputerVisionand\nPatternRecognition,pages14864–14873,2024.\n[37] WenzhaoZheng,RuiqiSong,XiandaGuo,ChenmingZhang,andLongChen. Genad: Generativeend-to-end\nautonomousdriving. InEuropeanConferenceonComputerVision,pages87–104.Springer,2024.\n[38] DiWen,HaoranXu,ZhaochengHe,ZheWu,GuangTan,andPeixiPeng. Density-adaptivemodelbasedonmotif\nmatrixformulti-agenttrajectoryprediction. InProceedingsoftheIEEE/CVFConferenceonComputerVisionand\nPatternRecognition,pages14822–14832,2024.\n[39] ZhiliChen,MaoshengYe,ShuangjieXu,TongyiCao,andQifengChen. Ppad: Iterativeinteractionsofprediction\nandplanningforend-to-endautonomousdriving. InEuropeanConferenceonComputerVision,pages239–256.\nSpringer,2024.\n[40] YupengZheng,PengxuanYang,ZebinXing,QichaoZhang,YuhangZheng,YinfengGao,PengfeiLi,TengZhang,\nZhongpuXia,PengJia,etal. World4drive: End-to-endautonomousdrivingviaintention-awarephysicallatent\nworldmodel. InProceedingsoftheIEEE/CVFInternationalConferenceonComputerVision,pages28632–28642,\n2025.\n[41] BoJiang,ShaoyuChen,QingXu,BenchengLiao,JiajieChen,HelongZhou,QianZhang,WenyuLiu,Chang\nHuang,andXinggangWang. Vad: Vectorizedscenerepresentationforefficientautonomousdriving. InProceed-\ningsoftheIEEE/CVFInternationalConferenceonComputerVision,pages8340–8350,2023.\n[42] YumengZhang,ShiGong,KaixinXiong,XiaoqingYe,XiaoTan,FanWang,JizhouHuang,HuaWu,andHaifeng\nWang. Bevworld: Amultimodalworldmodelforautonomousdrivingviaunifiedbevlatentspace. arXivpreprint\narXiv:2407.05679,2024.\n[43] Zehuan Wu, Jingcheng Ni, Xiaodong Wang, Yuxin Guo, Rui Chen, Lewei Lu, Jifeng Dai, and Yuwen\nXiong. Holodrive: Holistic2d-3dmulti-modalstreetscenegenerationforautonomousdriving. arXivpreprint\narXiv:2412.01407,2024.\n[44] Yuqi Wang, Jiawei He, Lue Fan, Hongxin Li, Yuntao Chen, and Zhaoxiang Zhang. Driving into the future:\nMultiview visual forecasting and planning with world model for autonomous driving. In Proceedings of the\nIEEE/CVFConferenceonComputerVisionandPatternRecognition,pages14749–14759,2024.\n[45] XiaofengWang,ZhengZhu,GuanHuang,XinzeChen,JiagangZhu,andJiwenLu. Drivedreamer: Towards\nreal-world-driveworldmodelsforautonomousdriving. InEuropeanConferenceonComputerVision, pages\n55–72.Springer,2024.\n[46] ShenyuanGao,JiazhiYang,LiChen,KashyapChitta,YihangQiu,AndreasGeiger,JunZhang,andHongyangLi.\nVista: Ageneralizabledrivingworldmodelwithhighfidelityandversatilecontrollability. AdvancesinNeural\nInformationProcessingSystems,37:91560–91596,2025.\n[47] FanJia,WeixinMao,YingfeiLiu,YuchengZhao,YuqingWen,ChiZhang,XiangyuZhang,andTiancaiWang.\nAdriver-i: Ageneralworldmodelforautonomousdriving. arXivpreprintarXiv:2311.13549,2023.\n[48] DiederikPKingma,MaxWelling,etal. Auto-encodingvariationalbayes,2013.\n[49] AshishVaswani,NoamShazeer,NikiParmar,JakobUszkoreit,LlionJones,AidanNGomez,ŁukaszKaiser,and\nIlliaPolosukhin. Attentionisallyouneed. Advancesinneuralinformationprocessingsystems,30,2017.\n[50] JRyanShue, EricRyanChan, RyanPo, ZacharyAnkner, JiajunWu, andGordonWetzstein. 3dneuralfield\ngenerationusingtriplanediffusion. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPattern\nRecognition,pages20875–20886,2023.\n[51] LuchuanSong,PinxinLiu,LeleChen,GuojunYin,andChenliangXu. Tri2-plane: Thinkingheadavatarvia\nfeaturepyramid. InEuropeanConferenceonComputerVision,pages1–20.Springer,2024.\n[52] MaximBerman,AmalRannenTriki,andMatthewBBlaschko. Thelovász-softmaxloss: Atractablesurrogate\nfor the optimization of the intersection-over-union measure in neural networks. In Proceedings of the IEEE\nconferenceoncomputervisionandpatternrecognition,pages4413–4421,2018.\n[53] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net: Convolutional networks for biomedical image\nsegmentation. InMedicalimagecomputingandcomputer-assistedintervention–MICCAI2015:18thinternational\nconference,Munich,Germany,October5-9,2015,proceedings,partIII18,pages234–241.Springer,2015.\n[54] KaimingHe,XiangyuZhang,ShaoqingRen,andJianSun. Deepresiduallearningforimagerecognition. In\nProceedingsoftheIEEEconferenceoncomputervisionandpatternrecognition,pages770–778,2016.\n[55] ZhiqiLi,ZhidingYu,DavidAustin,MingshengFang,ShiyiLan,JanKautz,andJoseMAlvarez. FB-OCC:3D\noccupancypredictionbasedonforward-backwardviewtransformation. arXiv:2307.01492,2023.\n13\n[56] NathanDRatliff,JAndrewBagnell,andMartinAZinkevich. Maximummarginplanning. InProceedingsofthe\n23rdinternationalconferenceonMachinelearning,pages729–736,2006.\n[57] WenyuanZeng,WenjieLuo,SimonSuo,AbbasSadat,BinYang,SergioCasas,andRaquelUrtasun. End-to-end\ninterpretableneuralmotionplanner. InProceedingsoftheIEEE/CVFconferenceoncomputervisionandpattern\nrecognition,pages8660–8669,2019.\n[58] Peiyun Hu, Aaron Huang, John Dolan, David Held, and Deva Ramanan. Safe local motion planning with\nself-supervisedfreespaceforecasting. InProceedingsoftheIEEE/CVFConferenceonComputerVisionand\nPatternRecognition,pages12732–12741,2021.\n[59] TarashaKhurana,PeiyunHu,AchalDave,JasonZiglar,DavidHeld,andDevaRamanan.Differentiableraycasting\nforself-supervisedoccupancyforecasting. InEuropeanConferenceonComputerVision,pages353–369.Springer,\n2022.\n14"
+  }
+}
