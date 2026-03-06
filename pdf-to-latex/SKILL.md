@@ -22,8 +22,8 @@ This skill enables decompilation of PDF academic papers into structured LaTeX so
 ### Simple Document (Single-column, No Complex Formulas)
 Use "Basic extraction workflow" with minimal post-processing
 
-### Conference Paper (CVPR/ICCV/NeurIPS style)
-Use "Full conversion workflow" with all processing steps
+### Conference Paper (CVPR/ICCV/NeurIPS/AAAI style)
+Use "Full conversion workflow" with all processing steps. For **AAAI**-format papers, see [`docs/AAAI-decompilation-notes.md`](docs/AAAI-decompilation-notes.md) for format-specific handling (references parsing, two-column text, template).
 
 ### Formula-Heavy Document
 Use "Formula-enhanced workflow" with visual formula extraction
@@ -307,6 +307,9 @@ pip install -r requirements.txt
 
 Additional LaTeX syntax reference for common academic paper elements:
 - [`references/latex_guide.md`](references/latex_guide.md)
+
+**Format-specific notes:**
+- **AAAI papers**: When decompiling AAAI-format papers (e.g. AAAI 2021), follow the conventions and workarounds in [`docs/AAAI-decompilation-notes.md`](docs/AAAI-decompilation-notes.md). AAAI uses two-column layout and often author–year references without numbered list; references may need to be parsed from `text_by_sections["references"]` and written back into the JSON before running `convert_references.py`. Do not rigidly apply CVPR/IEEE-specific steps when issues are AAAI-specific.
 
 ## Known Issues (discovered during real conversions)
 

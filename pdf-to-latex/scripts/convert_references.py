@@ -8,7 +8,7 @@ import re
 import json
 import argparse
 import os
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, List, Tuple, Optional  # noqa: F401 Optional used in type hint
 from pathlib import Path
 
 
@@ -86,8 +86,68 @@ class ReferenceConverter:
 
         return references
 
+    def _normalize_author_bibtex(self, author_block: str) -> str:
+        """将 'Last, F.; Last2, F.; and Last3, F.' 转为 BibTeX 的 'Last, F. and Last2, F. and Last3, F.'"""
+        s = author_block.strip()
+        s = re.sub(r';\s*and\s+', ' and ', s, flags=re.IGNORECASE)
+        s = re.sub(r';\s*', ' and ', s)
+        s = re.sub(r'\s+', ' ', s)
+        return s.strip()
+
+    def _parse_aaai_style(self, ref_text: str) -> Optional[Dict]:
+        """AAAI/学术格式: Authors. Year. Title. In Proceedings / arXiv / ...
+        作者块到第一个 ' 19XX. ' 或 ' 20XX. ' 为止，其后为 Year. Title. Venue"""
+        # 第一个 “ 年份. ”（空格+四位数年份+点+空格）分隔作者与 (年份+标题+出处)
+        year_match = re.search(r'\s+(19\d{2}|20\d{2})\.\s+', ref_text)
+        if not year_match:
+            return None
+        year = year_match.group(1)
+        author_block = ref_text[:year_match.start()].strip()
+        after_year = ref_text[year_match.end():].strip()
+        # 作者块：去掉双栏混入的 “年份.标题” 片段（如 2017.High-Resolution...），保留 “F. S.” 等缩写
+        author_block = re.sub(r'\s+', ' ', author_block)
+        author_block = re.sub(r'(19|20)\d{2}\.[A-Z][a-zA-Z\-]*(?:\s+[A-Za-z\-]+)*', '', author_block)
+        author_block = re.sub(r'\s+', ' ', author_block).strip()
+        # 去掉末尾残留的 “and ” 或 “; ”（无后续作者时）
+        author_block = re.sub(r'[;\s]+$', '', author_block)
+        if not re.match(r'^[A-Z]', author_block):
+            return None
+        # 标题结束于 Venue 开头，或下一个 “ 年份. ”（双栏时下一条文献）
+        venue_start = re.search(
+            r'\s+In\s+(?:Proc\.|Proceed(?:ings?)?|the\s+)|\.?\s*arXiv\s+|Conference\s+on\s+|International\s+Conference\s+|Springer\s*\.',
+            after_year,
+            re.IGNORECASE
+        )
+        next_ref_year = re.search(r'\s+(19\d{2}|20\d{2})\.\s+', after_year[10:])  # 跳过开头，避免误伤
+        end_pos = len(after_year)
+        if venue_start:
+            end_pos = min(end_pos, venue_start.start())
+        if next_ref_year:
+            end_pos = min(end_pos, 10 + next_ref_year.start())
+        title = after_year[:end_pos].strip()
+        if not title:
+            dot_venue = re.search(r'\.\s+(?:In\s+|Proc\.|Proceedings|arXiv)', after_year, re.IGNORECASE)
+            title = (after_year[:dot_venue.start()].strip() if dot_venue else after_year[:200].strip())
+        title = re.sub(r'\s+', ' ', title).strip()
+        if len(title) < 2:
+            return None
+        return {
+            'type': 'misc',
+            'author': self._normalize_author_bibtex(author_block),
+            'title': title,
+            'year': year,
+            'journal': '',
+            'booktitle': '',
+            'volume': '',
+            'number': '',
+            'pages': '',
+            'doi': '',
+            'url': '',
+            'publisher': ''
+        }
+
     def parse_reference(self, ref_text: str) -> Dict:
-        """解析单条参考文献，提取各个字段"""
+        """解析单条参考文献，提取各个字段。优先使用 AAAI 风格 (Authors. Year. Title. Venue)。"""
         result = {
             'type': 'misc',
             'author': '',
@@ -103,10 +163,43 @@ class ReferenceConverter:
             'publisher': ''
         }
 
-        # 提取年份 (1900-2099)
-        year_match = re.search(r'\b(19|20)\d{2}\b', ref_text)
-        if year_match:
-            result['year'] = year_match.group()
+        # 优先尝试 AAAI 风格：Authors. Year. Title. Venue
+        ref_one_line = re.sub(r'\s+', ' ', ref_text).strip()
+        aaai = self._parse_aaai_style(ref_one_line)
+        if aaai and len(aaai.get('author', '')) > 2 and len(aaai.get('title', '')) > 5:
+            result.update(aaai)
+        else:
+            # 回退到原有逻辑（仅作备用）
+            aaai = self._parse_aaai_style(ref_text)  # 未合并空白再试一次
+            if aaai and len(aaai.get('author', '')) > 2 and len(aaai.get('title', '')) > 5:
+                result.update(aaai)
+            else:
+                result['year'] = ''
+                year_match = re.search(r'\b(19|20)\d{2}\b', ref_text)
+                if year_match:
+                    result['year'] = year_match.group()
+                author_match = re.match(r'^([A-Z][a-zA-Z\s,\-\.]+?)(?:\.|,|\()', ref_text)
+                if author_match:
+                    result['author'] = author_match.group(1).strip()
+                    result['author'] = re.sub(r',\s*$', '', result['author'])
+                if result['author']:
+                    after_author = ref_text[len(result['author']):]
+                    after_author = re.sub(r'^[\s,\.]+', '', after_author)
+                    title_end_match = re.search(
+                        r'\.\s+(?:pp?|pages?|vol(?:ume)?|no\.|number|doi|http)',
+                        after_author,
+                        re.IGNORECASE
+                    )
+                    if title_end_match:
+                        result['title'] = after_author[:title_end_match.start()].strip()
+                    else:
+                        period_match = re.search(r'\.\s+[A-Z]', after_author)
+                        result['title'] = after_author[:period_match.start()].strip() if period_match else after_author[:100].strip()
+
+        if not result['year']:
+            year_match = re.search(r'\b(19|20)\d{2}\b', ref_text)
+            if year_match:
+                result['year'] = year_match.group()
 
         # 检测文献类型
         ref_lower = ref_text.lower()
@@ -116,7 +209,7 @@ class ReferenceConverter:
             result['type'] = 'misc'
             arxiv_match = re.search(r'arXiv:([\d\.]+)', ref_text, re.IGNORECASE)
             if arxiv_match:
-                result['eprint'] = arxiv_match.group(1)
+                result['eprint'] = arxiv_match.group(1).replace('.', '').rstrip()
 
         # 会议论文
         for conf_keyword, conf_name in self.CONFERENCE_ABBREVS.items():
@@ -138,38 +231,6 @@ class ReferenceConverter:
                 result['type'] = 'inproceedings'
             elif 'journal' in ref_lower or 'vol' in ref_lower or 'no.' in ref_lower:
                 result['type'] = 'article'
-
-        # 提取作者
-        # 格式: Author, A. and Author, B.
-        author_match = re.match(r'^([A-Z][a-zA-Z\s,\-\.]+?)(?:\.|,|\()', ref_text)
-        if author_match:
-            result['author'] = author_match.group(1).strip()
-            # 清理作者格式
-            result['author'] = re.sub(r',\s*$', '', result['author'])
-
-        # 提取标题 (在作者之后，下一个句号或逗号之前)
-        if result['author']:
-            after_author = ref_text[len(result['author']):]
-            # 移除常见的开头
-            after_author = re.sub(r'^[\s,\.]+', '', after_author)
-
-            # 找标题结束位置 (句号, pp., vol., 等)
-            title_end_match = re.search(
-                r'\.\s+(?:pp?|pages?|vol(?:ume)?|no\.|number|doi|http)',
-                after_author,
-                re.IGNORECASE
-            )
-
-            if title_end_match:
-                result['title'] = after_author[:title_end_match.start()].strip()
-            else:
-                # 尝试找到第一个句号
-                period_match = re.search(r'\.\s+[A-Z]', after_author)
-                if period_match:
-                    result['title'] = after_author[:period_match.start()].strip()
-                else:
-                    # 取前100个字符作为标题
-                    result['title'] = after_author[:100].strip()
 
         # 提取页码
         pages_match = re.search(r'pp?\.\s*(\d+[-–]\d+)', ref_text, re.IGNORECASE)
