@@ -472,6 +472,10 @@ def main():
         "-b", "--bibtex",
         help="已有的BibTeX文件，用于建立数字->bibkey映射"
     )
+    parser.add_argument(
+        "--output-mapping",
+        help="输出引用映射到JSON文件 (number -> bibkey)"
+    )
 
     args = parser.parse_args()
 
@@ -530,6 +534,12 @@ def main():
             f.write(converted_latex)
 
         print(f"转换后的LaTeX已保存至: {args.output_tex}")
+
+    # 保存引用映射到文件
+    if args.output_mapping:
+        with open(args.output_mapping, 'w', encoding='utf-8') as f:
+            json.dump(citation_map, f, indent=2, ensure_ascii=False)
+        print(f"引用映射已保存至: {args.output_mapping}")
 
     # 打印引用映射
     print("\n引用映射:")

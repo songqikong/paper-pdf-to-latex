@@ -74,9 +74,10 @@ For academic papers with complex layouts, formulas, and references:
 3. Determine `<name>` from the PDF filename (strip the `.pdf` extension). Create output dirs: `mkdir -p extracted_<name> output/<name>`
 4. Extract PDF content: `python pdf-to-latex/scripts/extract_pdf.py paper/<name>.pdf -o extracted_<name>/`
 5. Generate BibTeX from references: `python pdf-to-latex/scripts/convert_references.py extracted_<name>/extracted_content.json -o extracted_<name>/references.bib`
-6. Use LLM to convert main content following chunking strategy in `docs/02-conversion.md`; write output to `output/<name>/main.tex`. **Write \cite{} keys directly** in main.tex using the key mapping printed by step 5 (do NOT use [N] placeholders — see "Citation Mapping" section below).
-7. Assemble and post-process following [`docs/03-post-processing.md`](docs/03-post-processing.md)
-8. Copy figures and bib into output folder: `cp extracted_<name>/references.bib output/<name>/ && cp -r extracted_<name>/figures output/<name>/`
+6. **Correct references.bib format**: Read [`assets/latex_template/template.bib`](assets/latex_template/template.bib) and reformat the generated `references.bib` to match. Ensure each entry has full `title`, `author`, `year`; use proper types (`@article`, `@inproceedings`, `@book`, `@phdthesis`, `@incollection`, `@misc` as needed); include `journal`/`booktitle`, `volume`, `number`, `pages` (use `--` for page ranges), `publisher` where applicable. **Keep existing citation keys unchanged** so that `\cite{key}` in main.tex remain valid. Write the corrected bib to `extracted_<name>/references.bib` (and later it will be copied to `output/<name>/` in step 9).
+7. Use LLM to convert main content following chunking strategy in `docs/02-conversion.md`; write output to `output/<name>/main.tex`. **Write \cite{} keys directly** in main.tex using the key mapping printed by step 5 (do NOT use [N] placeholders — see "Citation Mapping" section below).
+8. Assemble and post-process following [`docs/03-post-processing.md`](docs/03-post-processing.md)
+9. Copy figures and bib into output folder: `cp extracted_<name>/references.bib output/<name>/ && cp -r extracted_<name>/figures output/<name>/`
 
 > **Removed step**: The `-t` tex-conversion flag of `convert_references.py` produces wrong citation mapping for two-column papers (see Known Issues). Write `\cite{key}` directly in main.tex instead.
 
@@ -92,7 +93,7 @@ For documents with complex mathematical formulas requiring visual extraction:
    > **Note**: `--extract-formula-images` and `--dpi` flags are **not implemented** in the current script. Formula images cannot be extracted automatically. Use `text_by_page` content and LLM reasoning to reconstruct formulas manually.
 
 4. **Use LLM reasoning** to reconstruct formulas from the extracted text in `text_by_page`, using surrounding context to infer correct LaTeX syntax.
-5. Continue with steps 5-8 from Full conversion workflow
+5. Continue with steps 5-9 from Full conversion workflow (including BibTeX format correction per template.bib in step 6).
 
 ## Reference mapping workflow
 
@@ -103,7 +104,8 @@ When you have an existing BibTeX file and want to preserve citation keys:
 2. Determine `<name>` and create dirs (step 3 above)
 3. Extract PDF content: `python pdf-to-latex/scripts/extract_pdf.py paper/<name>.pdf -o extracted_<name>/`
 4. Generate BibTeX mapping: `python pdf-to-latex/scripts/convert_references.py extracted_<name>/extracted_content.json -o extracted_<name>/references.bib`
-5. The script prints a reference-number → BibTeX key mapping. Use this mapping to write `\cite{key}` directly in the LaTeX source.
+5. **Correct references.bib format** by referencing [`assets/latex_template/template.bib`](assets/latex_template/template.bib) (see "Principle: BibTeX format correction" below); keep citation keys unchanged.
+6. The script prints a reference-number → BibTeX key mapping. Use this mapping to write `\cite{key}` directly in the LaTeX source.
 
 > **Warning**: The `-b existing.bib -t main.tex` combination of `convert_references.py` remaps citations sequentially (ignoring reference numbers), producing wrong output for two-column papers. Always use the printed mapping and write `\cite{}` directly.
 
@@ -280,6 +282,12 @@ with open('output/<name>/main.tex', 'w') as f:
     f.write(content)
 ```
 
+### Principle: BibTeX format correction
+After generating `references.bib` with `convert_references.py`, **always** correct its format by referencing [`assets/latex_template/template.bib`](assets/latex_template/template.bib):
+- Read the template to see the expected structure: full `title`, `author`, `year`; appropriate entry types (`@article`, `@inproceedings`, `@book`, `@phdthesis`, `@incollection`, `@misc`); `journal` or `booktitle`; `volume`, `number`, `pages` (use `--` for page ranges); `publisher` when applicable.
+- Reformat each generated entry to match. Use the raw reference text in `extracted_content.json` (e.g. `references` array or `text_by_sections["references"]`) to fill missing fields.
+- **Do not change citation keys**: keep the keys printed by `convert_references.py` so that existing `\cite{key}` in main.tex remain valid.
+
 ## Code Style Guidelines
 
 **IMPORTANT**: When generating code for PDF-to-LaTeX operations:
@@ -306,7 +314,7 @@ pip install -r requirements.txt
 ## Reference Material
 
 Additional LaTeX syntax reference for common academic paper elements:
-- [`references/latex_guide.md`](references/latex_guide.md)
+- [`assets/latex_guide.md`](assets/latex_guide.md)
 
 **Format-specific notes:**
 - **AAAI papers**: When decompiling AAAI-format papers (e.g. AAAI 2021), follow the conventions and workarounds in [`docs/AAAI-decompilation-notes.md`](docs/AAAI-decompilation-notes.md). AAAI uses two-column layout and often author–year references without numbered list; references may need to be parsed from `text_by_sections["references"]` and written back into the JSON before running `convert_references.py`. Do not rigidly apply CVPR/IEEE-specific steps when issues are AAAI-specific.
@@ -352,6 +360,40 @@ large_imgs = [im for im in data['images'] if im['width'] > 200 and im['height'] 
 **Cause**: Author extraction is not reliably implemented
 **Fix**: Extract title and authors from `text_by_page[0]['text']` (page 1 content)
 
+### Issue: references.bib from `text_by_sections["references"]` is garbage for two-column papers
+**Symptom**: Generated references.bib has wrong authors (e.g. "TheVoronoidiagram"), body text in `title`, mixed/duplicate content, or meaningless keys (ref0, sentence fragments).
+**Cause**: For two-column layouts (e.g. ACM, IEEE), `text_by_sections["references"]` is the **interleaved** text of both columns: left-column body and right-column reference list are merged in reading order. Any naive split (e.g. by regex on "Author. Year." or newline) produces chunks that mix paragraph text with reference text, so parsed "entries" are wrong. Also, `extracted_content.json` often has `references: []` empty, so scripts fall back to parsing this unreliable string.
+**Fix**: (1) **Do not ship script-generated bib as final** when refs were parsed from `text_by_sections["references"]` for a two-column PDF. (2) **Always reformat/write references.bib by hand** (or from a clean list) following [`assets/latex_template/template.bib`](assets/latex_template/template.bib): proper `author = {Last, First and ...}`, `title`, `journal`/`booktitle`, `pages = {xx--yy}`, `year`, and citation keys like `author+year`. (3) Optionally, extract the reference list from the PDF’s REFERENCES section (e.g. from the last pages’ text) into a clean one-ref-per-line list, then run `convert_references.py` on that; even then, **reformat every entry to match template.bib** before copying to `output/<name>/`.
+
+## Reflection: Lessons from past mistakes
+
+The following lessons come from real decompilation runs (e.g. split-and-fit.pdf, ACM two-column) where the delivered references.bib was unusable. Apply them to avoid repeating the same errors.
+
+### 1. Never treat script output as the final references.bib
+- **Mistake**: Running `convert_references.py` or a custom "refs_from_sections" script and copying the generated file to `output/<name>/references.bib` without reformatting.
+- **Why it fails**: Scripts that parse `text_by_sections["references"]` or heuristics produce wrong author/title, mixed body text, and bad keys. Two-column interleaving makes automatic parsing unreliable.
+- **Rule**: **Always** open [`assets/latex_template/template.bib`](assets/latex_template/template.bib), then rewrite or heavily correct every generated entry to match: correct types (`@article`, `@inproceedings`, `@misc`), full `author`/`title`, `journal`/`booktitle`, `pages` with `--`, and consistent citation keys (e.g. `author+year`). Only then copy to `output/<name>/`.
+
+### 2. Two-column + empty `references[]` ⇒ do not trust auto-parsed refs
+- **Mistake**: When `extracted_content.json` has `"references": []`, falling back to splitting `text_by_sections["references"]` by regex and feeding that to the converter.
+- **Why it fails**: That string is interleaved body + references; splitting produces garbage entries (e.g. "Author. Year. Title." in one chunk with a piece of the previous paragraph).
+- **Rule**: If the PDF is two-column and `references` is empty, treat auto-generated bib as **draft only**. Prefer: (a) manually typing or pasting the reference list from the PDF (REFERENCES section) into a clean format and then converting, or (b) writing `references.bib` from scratch using the PDF’s reference list and template.bib format. In all cases, **reformat to template.bib** before delivery.
+
+### 3. Validate output before delivery
+- **Mistake**: Not opening the generated references.bib and spot-checking a few entries before saying "references.bib has been generated."
+- **Why it fails**: Obvious errors (body text in title, wrong author, single-field entries) go unnoticed and the user receives an unusable file.
+- **Rule**: After any script that writes references.bib, **open the file** and check: first 3–5 entries have plausible author names, full title, venue, and pages. If any entry looks wrong (e.g. "TheVoronoidiagram" as author, or a long paragraph in title), do not ship; fix by reformatting to template.bib or rewriting from the PDF.
+
+### 4. Use consistent, human-readable citation keys
+- **Mistake**: Keeping script-generated keys (e.g. `ref0`, `zhiqinchen2020`, `thevoronoidiagram2022`) because "they match the mapping."
+- **Why it fails**: Such keys are hard to maintain and look unprofessional; they often come from mis-parsed text.
+- **Rule**: Prefer keys like `alliez2007`, `chen2020bsp`, `guo2022complexgen` (first author + year + optional disambiguator). When correcting references.bib to template format, **also** fix keys to this convention and update `main.tex` `\cite{}` accordingly (or add alias entries in the bib if you must keep old keys for compatibility).
+
+### 5. BibTeX format correction is mandatory, not optional
+- **Mistake**: Treating workflow step 6 ("Correct references.bib format") as optional or doing it only superficially.
+- **Why it fails**: Raw converter output often has wrong types, missing fields, single hyphen in pages, or no `publisher`; that leads to bad citations and style issues.
+- **Rule**: Step 6 in the Full conversion workflow is **mandatory**. Read template.bib once, then ensure every entry in `references.bib` has the same structure (author, title, year, journal/booktitle, volume, number, pages with `--`, publisher where applicable). Never skip this step when delivering a decompiled paper.
+
 ## Troubleshooting
 
 ### Issue: Garbled text extraction
@@ -372,7 +414,13 @@ large_imgs = [im for im in data['images'] if im['width'] > 200 and im['height'] 
 
 ## Version History
 
-### v1.3.0 (Current)
+### v1.5.0 (Current)
+- **Reflection / Lessons learned**: Added section "Reflection: Lessons from past mistakes" and new Known Issue "references.bib from text_by_sections is garbage for two-column papers". Documents root causes and mandatory practices: (1) never ship script-generated bib as final without reformatting to template.bib; (2) for two-column PDFs with empty `references[]`, do not trust auto-parsed refs from text_by_sections; (3) validate references.bib (spot-check entries) before delivery; (4) use consistent citation keys (author+year); (5) BibTeX format correction is mandatory. Based on post-mortem of split-and-fit.pdf decompilation where delivered references.bib was unusable.
+
+### v1.4.0
+- **BibTeX format correction**: After generating references.bib, correct its format by referencing `assets/latex_template/template.bib`. Added workflow step 6 (Full conversion) and step 5 (Reference mapping); added "Principle: BibTeX format correction" under Critical Principles. Citation keys must remain unchanged so that main.tex \cite{} stay valid.
+
+### v1.3.0
 - **Fixed script paths**: all commands now use `pdf-to-latex/scripts/` prefix
 - **Removed unsupported flags**: `--extract-formula-images`, `--dpi`, `--ocr-fallback` removed from workflow commands (not implemented in script)
 - **Fixed citation workflow**: replaced broken `-t` tex-flag approach with direct `\cite{key}` writing + manual Python replacement script
